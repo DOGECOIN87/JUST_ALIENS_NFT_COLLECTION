@@ -1,0 +1,23 @@
+{
+  "name": "Just Aliens #50",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "50.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "UFO_Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "AlienMilitia"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Sad"
+    }
+  ]
+}

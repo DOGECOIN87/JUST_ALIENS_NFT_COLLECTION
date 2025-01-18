@@ -1,0 +1,27 @@
+{
+  "name": "Just Aliens #35",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "35.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cubes"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Jacket"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Sour"
+    },
+    {
+      "trait_type": "Text",
+      "value": "Red_Solid"
+    }
+  ]
+}

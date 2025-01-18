@@ -1,0 +1,15 @@
+{
+  "name": "Just Aliens #97",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "97.gif",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Secret Rare"
+    },
+    {
+      "trait_type": "Artwork",
+      "value": "SecretRare_4"
+    }
+  ]
+}

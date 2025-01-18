@@ -1,0 +1,27 @@
+{
+  "name": "Just Aliens #64",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "64.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "UFO_Inverted"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Jacket"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Curious"
+    },
+    {
+      "trait_type": "Text",
+      "value": "Blue_Opaque"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Just Aliens #5",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "5.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "UFO"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "AlienScuba"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Surprised"
+    },
+    {
+      "trait_type": "Text",
+      "value": "Blue_Opaque"
+    }
+  ]
+}

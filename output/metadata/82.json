@@ -1,0 +1,27 @@
+{
+  "name": "Just Aliens #82",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "82.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cove"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "AlienSpacesuit"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Text",
+      "value": "Pink_Opaque"
+    }
+  ]
+}

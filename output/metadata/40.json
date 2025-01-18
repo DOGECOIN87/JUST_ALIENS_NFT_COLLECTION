@@ -1,0 +1,23 @@
+{
+  "name": "Just Aliens #40",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "40.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Spaceship_Corridor_Orange"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "LeatherJacket"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Angry"
+    }
+  ]
+}

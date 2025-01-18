@@ -1,0 +1,23 @@
+{
+  "name": "Just Aliens #86",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "86.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cockpit_Blue"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Hoodie"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Amused"
+    }
+  ]
+}

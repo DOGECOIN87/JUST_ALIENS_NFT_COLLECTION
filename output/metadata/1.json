@@ -1,0 +1,19 @@
+{
+  "name": "Just Aliens #1",
+  "description": "A unique alien NFT from the Just Aliens collection",
+  "image": "1.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cockpit_Red"
+    },
+    {
+      "trait_type": "Rare Type",
+      "value": "Android"
+    }
+  ]
+}
