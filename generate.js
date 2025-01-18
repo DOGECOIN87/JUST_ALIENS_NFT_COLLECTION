@@ -99,12 +99,14 @@ function getCombinationHash(combo) {
     return `${combo.background || ''}-${combo.clothing || ''}-${combo.expression || ''}-${combo.text || ''}-${combo.rare || ''}`;
 }
 
+// Global state
+let usedCombinations = new Set();
+
 // Generate combinations
 async function generateCombinations() {
     const assets = await getAssets();
     const combinations = [];
     let currentId = 1;
-    let usedCombinations = new Set();
     const totalNFTs = 10000; // Final collection size of 10K NFTs
 
     // Try to load previous state
@@ -500,12 +502,22 @@ async function main() {
         console.log('Generating combinations...');
         const combinations = await generateCombinations();
         
-        console.log('Generating images...');
-        await generateImages(combinations);
+        console.log(`Successfully generated ${combinations.length} combinations`);
+        console.log('Starting image generation...');
         
-        console.log('Done! Generated', combinations.length, 'NFTs');
+        // Process combinations in smaller batches to manage memory
+        const batchSize = 100;
+        for (let i = 0; i < combinations.length; i += batchSize) {
+            const batch = combinations.slice(i, i + batchSize);
+            console.log(`Processing batch ${Math.floor(i/batchSize) + 1} of ${Math.ceil(combinations.length/batchSize)}`);
+            await generateImages(batch);
+            console.log(`Completed ${Math.min(i + batchSize, combinations.length)} of ${combinations.length} NFTs`);
+        }
+        
+        console.log('Done! Successfully generated', combinations.length, 'NFTs');
     } catch (error) {
-        console.error('Error:', error);
+        console.error('Fatal error:', error);
+        process.exit(1); // Exit with error code
     }
 }
 
