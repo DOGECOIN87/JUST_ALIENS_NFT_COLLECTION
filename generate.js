@@ -50,7 +50,7 @@ function isSolid(filename) {
 // Read all assets
 async function getAssets() {
     const assets = {
-        backgrounds: fs.readdirSync(path.join(ASSETS_DIR, 'Backgound')),
+        backgrounds: fs.readdirSync(path.join(ASSETS_DIR, 'Background')),
         clothing: fs.readdirSync(path.join(ASSETS_DIR, 'Clothing')),
         expressions: fs.readdirSync(path.join(ASSETS_DIR, 'Expression')),
         rare: fs.readdirSync(path.join(ASSETS_DIR, 'Rare')),
@@ -345,7 +345,7 @@ async function generateImages(combinations) {
                 }
 
                 // Build and verify layer paths for rare NFTs
-                const backgroundPath = path.join(ASSETS_DIR, 'Backgound', combo.background);
+                const backgroundPath = path.join(ASSETS_DIR, 'Background', combo.background);
                 const rarePath = path.join(ASSETS_DIR, 'Rare', combo.rare);
                 const textPath = combo.text ? path.join(ASSETS_DIR, 'Text', combo.text) : null;
 
@@ -407,7 +407,7 @@ async function generateImages(combinations) {
                 }
 
                 // Build and verify layer paths
-                const backgroundPath = path.join(ASSETS_DIR, 'Backgound', combo.background);
+                const backgroundPath = path.join(ASSETS_DIR, 'Background', combo.background);
                 const clothingPath = path.join(ASSETS_DIR, 'Clothing', combo.clothing);
                 const expressionPath = path.join(ASSETS_DIR, 'Expression', combo.expression);
                 const textPath = combo.text ? path.join(ASSETS_DIR, 'Text', combo.text) : null;

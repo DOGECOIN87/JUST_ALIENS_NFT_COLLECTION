@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Read all assets
-const backgrounds = fs.readdirSync(path.join('Assets', 'Backgound'));
+const backgrounds = fs.readdirSync(path.join('Assets', 'Background'));
 const clothing = fs.readdirSync(path.join('Assets', 'Clothing'));
 const expressions = fs.readdirSync(path.join('Assets', 'Expression'));
 const text = fs.readdirSync(path.join('Assets', 'Text'));
