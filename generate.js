@@ -283,6 +283,7 @@ function generateMetadata(combo) {
         description: "Born from the buzz surrounding recent UFO disclosures. In a time when Aliens are dominating headlines, we offer a fun way to engage with the mystery, reminding everyone to chill out and enjoy the ride.",
         image: `${combo.id}.${combo.isSecretRare && combo.file.endsWith('.gif') ? 'gif' : 'png'}`,
         attributes,
+        symbol: "JSTA",
         properties: {
             creators: [
                 {
