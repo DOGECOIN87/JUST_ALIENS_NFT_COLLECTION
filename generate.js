@@ -105,7 +105,7 @@ async function generateCombinations() {
     const combinations = [];
     let currentId = 1;
     let usedCombinations = new Set();
-    const totalNFTs = 100; // Test with 100 NFTs to verify distribution
+    const totalNFTs = 10000; // Final collection size of 10K NFTs
 
     // Try to load previous state
     const previousState = await loadState();

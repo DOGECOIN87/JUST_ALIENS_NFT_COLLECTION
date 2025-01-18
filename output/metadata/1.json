@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "UFO_Pink"
+      "value": "Cockpit_white"
     },
     {
       "trait_type": "Rare Type",
@@ -17,13 +17,14 @@
     }
   ],
   "properties": {
+    "symbol": "JSTA",
     "creators": [
       {
         "address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
         "share": 100
       }
     ],
-    "royalty": 5,
+    "royalty": 500,
     "files": [
       {
         "uri": "1.png",
