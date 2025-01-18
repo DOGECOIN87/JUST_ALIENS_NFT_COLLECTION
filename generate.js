@@ -5,9 +5,36 @@ const sharp = require('sharp');
 // Asset paths
 const ASSETS_DIR = './Assets';
 const OUTPUT_DIR = './output';
+const STATE_FILE = path.join(OUTPUT_DIR, 'generation_state.json');
 
 // Ensure output directory exists
 fs.ensureDirSync(OUTPUT_DIR);
+
+// Load previous state if it exists
+async function loadState() {
+    try {
+        if (fs.existsSync(STATE_FILE)) {
+            const state = await fs.readJson(STATE_FILE);
+            console.log(`Found previous state. Last generated NFT: #${state.lastId}`);
+            return state;
+        }
+    } catch (error) {
+        console.error('Error loading state:', error);
+    }
+    return null;
+}
+
+// Save current state
+async function saveState(lastId, usedCombinations) {
+    try {
+        await fs.writeJson(STATE_FILE, {
+            lastId,
+            usedCombinations: Array.from(usedCombinations)
+        }, { spaces: 2 });
+    } catch (error) {
+        console.error('Error saving state:', error);
+    }
+}
 
 // Helper function to get color from filename
 function getColor(filename) {
@@ -76,9 +103,17 @@ function getCombinationHash(combo) {
 async function generateCombinations() {
     const assets = await getAssets();
     const combinations = [];
-    const usedCombinations = new Set();
-    const totalNFTs = 100; // Test with 100 NFTs to verify distribution
     let currentId = 1;
+    let usedCombinations = new Set();
+    const totalNFTs = 100; // Test with 100 NFTs to verify distribution
+
+    // Try to load previous state
+    const previousState = await loadState();
+    if (previousState) {
+        currentId = previousState.lastId + 1;
+        usedCombinations = new Set(previousState.usedCombinations);
+        console.log(`Resuming from NFT #${currentId}`);
+    }
 
     // Calculate counts for each type
     const rareCount = Math.floor((totalNFTs - 7) * 0.0357); // 3.57% of total minus secret rare (maximum possible)
@@ -247,7 +282,22 @@ function generateMetadata(combo) {
         name: `Just Aliens #${combo.id}`,
         description: "Born from the buzz surrounding recent UFO disclosures. In a time when Aliens are dominating headlines, we offer a fun way to engage with the mystery, reminding everyone to chill out and enjoy the ride.",
         image: `${combo.id}.${combo.isSecretRare && combo.file.endsWith('.gif') ? 'gif' : 'png'}`,
-        attributes
+        attributes,
+        properties: {
+            creators: [
+                {
+                    address: "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+                    share: 100
+                }
+            ],
+            royalty: 5,
+            files: [
+                {
+                    uri: `${combo.id}.${combo.isSecretRare && combo.file.endsWith('.gif') ? 'gif' : 'png'}`,
+                    type: combo.isSecretRare && combo.file.endsWith('.gif') ? 'image/gif' : 'image/png'
+                }
+            ]
+        }
     };
 }
 
@@ -428,6 +478,9 @@ async function generateImages(combinations) {
                 metadata,
                 { spaces: 2 }
             );
+
+            // Save state after each successful NFT generation
+            await saveState(combo.id, usedCombinations);
 
             // Log progress
             if (combo.id % 100 === 0) {
