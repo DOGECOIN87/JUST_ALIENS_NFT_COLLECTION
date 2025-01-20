@@ -1,0 +1,39 @@
+{
+  "name": "Just Aliens #16",
+  "description": "Born from the buzz surrounding recent UFO disclosures. In a time when Aliens are dominating headlines, we offer a fun way to engage with the mystery, reminding everyone to chill out and enjoy the ride.",
+  "image": "16.png",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "UFO_Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "AlienTerrainSuit"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Happy"
+    }
+  ],
+  "properties": {
+    "symbol": "JSTA",
+    "creators": [
+      {
+        "address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+        "share": 100
+      }
+    ],
+    "royalty": 500,
+    "files": [
+      {
+        "uri": "16.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
