@@ -421,6 +421,88 @@ footer {
   font-size: 1.2rem;
 }
 
+/* Token Page Styles */
+.about-content h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #00ff00;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+  text-align: center;
+}
+
+.about-content h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  color: #00ff00;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(0, 255, 0, 0.2);
+}
+
+.about-content h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 1.5rem 0 0.8rem;
+  font-weight: 700;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.about-content ul {
+  list-style: none;
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.about-content ul li {
+  position: relative;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  color: #ccc;
+}
+
+.about-content ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #00ff00;
+  font-size: 1.2em;
+}
+
+.about-content strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.about-content .disclaimer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(0, 255, 0, 0.05);
+  border: 1px solid rgba(0, 255, 0, 0.1);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .about-content h2 {
+    font-size: 2rem;
+  }
+  
+  .about-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .about-content h4 {
+    font-size: 1.2rem;
+  }
+}
+
 .matrix-container {
   position: relative;
   width: 100%;
