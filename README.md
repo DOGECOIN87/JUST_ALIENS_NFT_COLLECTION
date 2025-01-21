@@ -1,10 +1,10 @@
-# JUST ALIENS NFT Collection 👽
+# JUST ALIENS NFT COLLECTION
 
-A unique NFT collection featuring procedurally generated alien characters with diverse traits, expressions, and backgrounds. Each alien is one-of-a-kind, created through a combination of carefully crafted assets and algorithmic generation.
+A unique NFT collection featuring generated alien characters with diverse traits, expressions, and backgrounds. Each alien is a one-of-a-kind, created through a combination of carefully crafted assets and algorithmic generation.
 
 ## Collection Highlights
 
-- 50 Unique Generated Aliens
+- 10K Unique Generated Aliens
 - Multiple Rarity Tiers
 - Procedurally Generated Artwork
 - Custom Web Platform
@@ -25,11 +25,10 @@ A unique NFT collection featuring procedurally generated alien characters with d
   - Earth-inspired fashion (Business Suit, Hoodie, Leather Jacket)
   
 - **Expressions**
-  - Range of emotions (Happy, Angry, Curious, Surprised)
-  - Unique alien personalities (Amused, Chill, Confused)
+  - Range of emotions (Happy, Angry, Curious, Surprised, Amused, Chill,             Confused)
 
 ### Rarity Tiers
-1. **Standard Aliens** - Base collection with unique trait combinations
+1. **Standard** - Base collection with unique trait combinations
 2. **Rare Variants** - Special editions including Android and Infantry types
 3. **Secret Rare** - Ultra-rare animated GIF variants
 
