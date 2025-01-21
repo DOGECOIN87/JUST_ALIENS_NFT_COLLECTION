@@ -42,13 +42,13 @@
     }
 
     .rarity-image {
-      flex: 1;
-      max-width: 300px;
+      flex: none;
+      width: 300px;
+      height: 300px;
       position: relative;
       background: rgba(0, 0, 0, 0.2);
       border-radius: 10px;
       overflow: hidden;
-      aspect-ratio: 1;
     }
 
     .rarity-image img {
@@ -57,6 +57,17 @@
       object-fit: contain;
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+    }
+
+    /* Ensure all rarity images have same dimensions */
+    .rarity-image .rare-carousel-container {
+      position: absolute;
+      inset: 0;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .rare-grid {
@@ -126,6 +137,79 @@
       font-size: 1.2rem;
       line-height: 1.6;
       color: #888;
+    }
+
+    /* Rare carousel specific styles */
+    .rare-carousel {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .rare-slide {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    }
+
+    .rare-slide.active {
+      opacity: 1;
+      visibility: visible;
+      z-index: 1;
+    }
+
+    .rare-slide img {
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+    }
+
+    .rare-nav {
+      position: absolute;
+      width: calc(100% + 40px);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .rare-nav button {
+      background: rgba(0, 255, 0, 0.2);
+      border: 2px solid #00ff00;
+      color: #00ff00;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      pointer-events: auto;
+      margin: 0 -20px;
+      box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+    }
+
+    .rare-nav button:hover {
+      background: rgba(0, 255, 0, 0.4);
+      transform: scale(1.1);
     }
 
     @media (max-width: 768px) {
@@ -227,17 +311,30 @@
               <ul>
                 <li>Background</li>
                 <li>Rare Asset</li>
-              </ul>
               <h3>Optional Traits:</h3>
               <ul>
                 <li>Text (50% chance)</li>
               </ul>
             </div>
           </div>
-          <div class="rarity-image rare-grid">
-            <img src="Assets/Rare/Android.png" alt="Android Rare Asset">
-            <img src="Assets/Rare/Infantry.png" alt="Infantry Rare Asset">
-            <img src="Assets/Rare/OG.png" alt="OG Rare Asset">
+          <div class="rarity-image">
+            <div class="rare-carousel-container">
+              <div class="rare-carousel">
+                <div class="rare-slide active">
+                  <img src="Assets/Rare/Android.png" alt="Android Rare Asset">
+                </div>
+                <div class="rare-slide">
+                  <img src="Assets/Rare/Infantry.png" alt="Infantry Rare Asset">
+                </div>
+                <div class="rare-slide">
+                  <img src="Assets/Rare/OG.png" alt="OG Rare Asset">
+                </div>
+              </div>
+              <div class="rare-nav">
+                <button class="rare-prev" aria-label="Previous">&lt;</button>
+                <button class="rare-next" aria-label="Next">&gt;</button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -290,27 +387,6 @@
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // Hamburger menu functionality
-      const hamburgerMenu = document.querySelector('.hamburger-menu');
-      const sidebar = document.querySelector('.sidebar');
-      
-      if (hamburgerMenu && sidebar) {
-        hamburgerMenu.addEventListener('click', (e) => {
-          e.stopPropagation();
-          hamburgerMenu.classList.toggle('active');
-          sidebar.classList.toggle('active');
-        });
-
-        document.addEventListener('click', (e) => {
-          if (!sidebar.contains(e.target) && !hamburgerMenu.contains(e.target) && sidebar.classList.contains('active')) {
-            hamburgerMenu.classList.remove('active');
-            sidebar.classList.remove('active');
-          }
-        });
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

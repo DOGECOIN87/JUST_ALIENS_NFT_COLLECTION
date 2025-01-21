@@ -110,24 +110,74 @@ nav a:hover::after {
 
 .hero {
   width: 100%;
-  padding: 2rem 0;
-  overflow: hidden;
-  position: relative;
+  padding: 2rem;
   flex: 1;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
-.carousel {
+.carousel-container {
+  position: relative;
   width: min(100%, calc(100vh - 300px));
   aspect-ratio: 1/1;
   margin: 0 auto;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Rare carousel specific styles */
+.rare-carousel {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.rare-carousel .carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.rare-carousel .carousel-item.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+.rare-carousel .carousel-item img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+.carousel-container .carousel-nav {
+  z-index: 20;
+}
+
+.main-carousel {
+  padding: 20px;
 }
 
 .carousel-item {
@@ -135,18 +185,45 @@ nav a:hover::after {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-item.active {
   opacity: 1;
+  visibility: visible;
+  z-index: 1;
 }
 
-.carousel-item img {
+/* Main carousel specific styles */
+.carousel.main-carousel .carousel-item img {
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel.main-carousel .carousel-item.active img {
+  transform: scale(1);
+}
+
+.carousel.main-carousel .carousel-item:not(.active) img {
+  transform: scale(0.9);
+}
+
+/* Expressions carousel specific styles */
+.carousel.expressions-carousel .carousel-item img {
   width: 100%;
-  height: calc(100% - 40px); /* Leave space for caption */
+  height: calc(100% - 40px);
   object-fit: cover;
-  border-radius: 10px 10px 0 0; /* Rounded corners only on top */
+  border-radius: 10px 10px 0 0;
 }
 
 .expression-caption {
@@ -171,14 +248,15 @@ nav a:hover::after {
 
 .carousel-nav {
   position: absolute;
-  width: 100%;
+  width: calc(100% + 40px);
   top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0;
   pointer-events: none;
+  z-index: 10;
 }
 
 .carousel-nav button {
@@ -195,6 +273,8 @@ nav a:hover::after {
   justify-content: center;
   transition: all 0.3s ease;
   pointer-events: auto;
+  margin: 0 -20px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
 }
 
 .carousel-nav button:hover {
