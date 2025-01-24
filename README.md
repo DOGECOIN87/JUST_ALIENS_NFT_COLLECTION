@@ -31,7 +31,8 @@ A unique NFT collection featuring generated alien characters with diverse traits
 1. **Standard** - Base collection with unique trait combinations
 2. **Rare Variants** - Special editions including Android and Infantry types
 3. **Secret Rare** - Ultra-rare animated GIF variants
-
+4. **MAGA
+ 
 ## Technical Details
 
 ### Generation Process
@@ -62,12 +63,8 @@ Each NFT includes detailed metadata with:
 
 ## Website Features
 The collection includes a custom website featuring:
-- Gallery view of all NFTs
+- Gallery view of NFTs
 - Detailed information about the project
 - Rarity guide
 - Token information
-- Collection background and purpose
-
----
-
-*JUST ALIENS NFT Collection - Where extraterrestrial art meets blockchain technology* 🚀
+- Mint Portal via LaunchMyNFT.io
