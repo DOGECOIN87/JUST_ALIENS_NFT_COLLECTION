@@ -1,10 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JUST ALIENS NFT COLLECTION</title>
+  <title>Space Aliens Crossing - JUST ALIENS NFT COLLECTION</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="game.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://unpkg.com/three@0.148.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4/dist/tween.umd.min.js"></script>
 </head>
 <body>
   <button class="hamburger-menu" aria-label="Toggle Menu">
@@ -44,7 +48,7 @@
           <i class="fas fa-coins"></i>
           Token
         </a>
-        <a href="game.html">
+        <a href="game.html" class="active">
           <i class="fas fa-gamepad"></i>
           Game
         </a>
@@ -54,18 +58,51 @@
 
   <header>
     <h1>
-      <div class="main-title">JUST ALIENS</div>
-      <div class="subtitle">NFT COLLECTION</div>
+      <div class="main-title">SPACE ALIENS CROSSING</div>
+      <div class="subtitle">A JUST ALIENS MINI GAME</div>
     </h1>
   </header>
 
-  <div class="hero">
-    <div class="carousel-container">
-      <div class="carousel main-carousel"></div>
-      <div class="carousel-nav">
-        <button class="prev" aria-label="Previous">&lt;</button>
-        <button class="next" aria-label="Next">&gt;</button>
+  <div class="game-container">
+    <div class="game-info">
+      <div class="score-container">
+        <span>Score: </span>
+        <span id="score">0</span>
       </div>
+      <div class="lives-container">
+        <span>Lives: </span>
+        <span id="lives">3</span>
+      </div>
+      <div class="level-container">
+        <span>Level: </span>
+        <span id="level">1</span>
+      </div>
+    </div>
+    
+    <div id="game-canvas-container">
+      <canvas id="game-canvas"></canvas>
+      <div id="game-overlay">
+        <div id="start-screen" class="game-screen">
+          <h2>SPACE ALIENS CROSSING</h2>
+          <p>Help your alien cross dangerous space lanes!</p>
+          <div class="controls-info">
+            <p>Use arrow keys or WASD to move</p>
+            <p>Press SPACE to jump</p>
+          </div>
+          <button id="start-button">START GAME</button>
+        </div>
+        <div id="pause-screen" class="game-screen">
+          <h2>GAME PAUSED</h2>
+          <button id="resume-button">RESUME</button>
+          <button id="restart-button">RESTART</button>
+        </div>
+        <div id="game-over-screen" class="game-screen">
+          <h2>GAME OVER</h2>
+          <p>Final Score: <span id="final-score">0</span></p>
+          <button id="play-again-button">PLAY AGAIN</button>
+        </div>
+      </div>
+      <div id="expression-display"></div>
     </div>
   </div>
 
@@ -96,5 +133,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="game.js"></script>
 </body>
 </html>
