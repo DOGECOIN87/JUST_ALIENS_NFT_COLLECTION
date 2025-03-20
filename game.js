@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Check for WebGL support first
+  const canvas = document.createElement('canvas');
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  
+  if (!gl) {
+    // WebGL not supported, show error message
+    const gameContainer = document.querySelector('.game-container');
+    gameContainer.innerHTML = `
+      <div style="color: #00ff00; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 10px; text-align: center;">
+        <h2>WebGL Not Supported</h2>
+        <p>Your browser or device doesn't support WebGL, which is required to play this game.</p>
+        <p>Please try a different browser or device.</p>
+      </div>
+    `;
+    return;
+  }
+  
   // DOM Elements
   const gameCanvas = document.getElementById('game-canvas');
   const scoreElement = document.getElementById('score');
@@ -164,36 +181,73 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Setup Three.js
   function setupThreeJS() {
-    // Create scene
-    scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x000020);
-    
-    // Create camera
-    camera = new THREE.PerspectiveCamera(
-      75, 
-      gameCanvas.clientWidth / gameCanvas.clientHeight, 
-      0.1, 
-      1000
-    );
-    camera.position.set(0, cameraHeight, 10);
-    camera.lookAt(0, 0, 0);
-    
-    // Create renderer
-    renderer = new THREE.WebGLRenderer({ canvas: gameCanvas, antialias: true });
-    renderer.setSize(gameCanvas.clientWidth, gameCanvas.clientHeight);
-    renderer.shadowMap.enabled = true;
-    
-    // Add lights
-    const ambientLight = new THREE.AmbientLight(0x404040, 1);
-    scene.add(ambientLight);
-    
-    globalLight = new THREE.DirectionalLight(0xffffff, 1);
-    globalLight.position.set(10, 20, 10);
-    globalLight.castShadow = true;
-    scene.add(globalLight);
-    
-    // Handle window resize
-    window.addEventListener('resize', onWindowResize);
+    try {
+      // Create scene
+      scene = new THREE.Scene();
+      scene.background = new THREE.Color(0x000020);
+      
+      // Create camera
+      camera = new THREE.PerspectiveCamera(
+        75, 
+        gameCanvas.clientWidth / gameCanvas.clientHeight, 
+        0.1, 
+        1000
+      );
+      camera.position.set(0, cameraHeight, 10);
+      camera.lookAt(0, 0, 0);
+      
+      // Create renderer with error handling
+      renderer = new THREE.WebGLRenderer({ 
+        canvas: gameCanvas, 
+        antialias: true,
+        powerPreference: 'default',
+        failIfMajorPerformanceCaveat: false
+      });
+      
+      renderer.setSize(gameCanvas.clientWidth, gameCanvas.clientHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)); // Limit pixel ratio for performance
+      renderer.shadowMap.enabled = true;
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap; // Better shadows
+      
+      // Add lights
+      const ambientLight = new THREE.AmbientLight(0x404040, 1);
+      scene.add(ambientLight);
+      
+      globalLight = new THREE.DirectionalLight(0xffffff, 1);
+      globalLight.position.set(10, 20, 10);
+      globalLight.castShadow = true;
+      
+      // Optimize shadow settings
+      globalLight.shadow.mapSize.width = 512;
+      globalLight.shadow.mapSize.height = 512;
+      globalLight.shadow.camera.near = 0.5;
+      globalLight.shadow.camera.far = 50;
+      scene.add(globalLight);
+      
+      // Handle window resize
+      window.addEventListener('resize', onWindowResize);
+      
+      console.log("Three.js setup completed successfully");
+      return true;
+    } catch (error) {
+      console.error("Error setting up Three.js:", error);
+      
+      // Show fallback message
+      gameOverlay.innerHTML = `
+        <div style="background: rgba(0,0,0,0.8); padding: 20px; border-radius: 10px; text-align: center;">
+          <h2 style="color: #00ff00;">Graphics Error</h2>
+          <p style="color: white;">There was a problem initializing the game graphics.</p>
+          <p style="color: white;">Error: ${error.message}</p>
+          <button id="retry-button" style="background: rgba(0, 255, 0, 0.2); color: #00ff00; border: 2px solid #00ff00; padding: 12px 30px; margin-top: 20px; cursor: pointer;">Retry</button>
+        </div>
+      `;
+      
+      document.getElementById('retry-button')?.addEventListener('click', () => {
+        window.location.reload();
+      });
+      
+      return false;
+    }
   }
   
   // Handle window resize
@@ -829,7 +883,7 @@ document.addEventListener('DOMContentLoaded', () => {
     requestAnimationFrame(animate);
     
     if (gameState === 'playing') {
-      deltaTime = clock.getDelta();
+      deltaTime = Math.min(clock.getDelta(), 0.1); // Cap delta time to prevent large jumps
       
       // Update obstacles
       updateObstacles(deltaTime);
@@ -837,18 +891,46 @@ document.addEventListener('DOMContentLoaded', () => {
       // Check collisions
       checkCollisions();
       
-      // Update any animations
-      TWEEN.update();
+      // Update TWEEN animations
+      if (typeof TWEEN !== 'undefined' && TWEEN.update) {
+        TWEEN.update();
+      }
     }
     
-    // Render scene
-    renderer.render(scene, camera);
+    // Render scene if renderer is available
+    if (renderer) {
+      try {
+        renderer.render(scene, camera);
+      } catch (e) {
+        console.error("Render error:", e);
+        // Don't crash the game on render errors
+      }
+    }
   }
   
-  // Now using the imported TWEEN.js library
-  
   // Initialize the game when the page loads
-  init();
+  function initWithErrorHandling() {
+    try {
+      init();
+      console.log("Game initialized successfully");
+    } catch (error) {
+      console.error("Error initializing game:", error);
+      
+      // Show error message to user
+      gameOverlay.style.display = 'flex';
+      gameOverlay.innerHTML = `
+        <div style="background: rgba(0,0,0,0.8); padding: 20px; border-radius: 10px; text-align: center;">
+          <h2 style="color: #00ff00;">Game Error</h2>
+          <p style="color: white;">There was a problem starting the game:</p>
+          <p style="color: white;">${error.message}</p>
+          <button onclick="window.location.reload()" style="background: rgba(0, 255, 0, 0.2); color: #00ff00; border: 2px solid #00ff00; padding: 12px 30px; margin-top: 20px; cursor: pointer;">Reload Game</button>
+        </div>
+      `;
+    }
+  }
+  
+  // Start the game with error handling
+  initWithErrorHandling();
 });
 
 // Listen for hamburger menu clicks
