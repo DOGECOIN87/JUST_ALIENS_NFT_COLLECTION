@@ -67,6 +67,15 @@ h1 {
   100% { text-shadow: 0 0 20px rgba(0, 255, 0, 0.3); }
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.6), 0 0 60px rgba(0, 255, 0, 0.4);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(0, 255, 0, 1), 0 0 60px rgba(0, 255, 0, 0.8), 0 0 90px rgba(0, 255, 0, 0.6);
+  }
+}
+
 nav {
   display: flex;
   justify-content: center;
