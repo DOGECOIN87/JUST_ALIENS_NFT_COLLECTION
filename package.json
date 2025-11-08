@@ -1,16 +1,20 @@
 {
   "name": "just_aliens_nft_collection",
   "version": "1.0.0",
-  "description": "",
+  "description": "JUST ALIENS NFT Collection on Gorbagana Blockchain",
   "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare-assets": "node prepare_assets.js",
+    "dev": "python -m http.server 8080"
   },
-  "keywords": [],
+  "keywords": ["nft", "solana", "gorbagana", "candy-machine"],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^11.3.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "@metaplex-foundation/js": "^0.19.4",
+    "@solana/web3.js": "^1.87.6"
   }
 }

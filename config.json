@@ -1,0 +1,23 @@
+{
+  "price": 0,
+  "number": 50,
+  "symbol": "JALIEN",
+  "sellerFeeBasisPoints": 500,
+  "gatekeeper": null,
+  "solTreasuryAccount": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+  "splTokenAccount": null,
+  "splToken": null,
+  "goLiveDate": "2025-11-08T00:00:00Z",
+  "endSettings": null,
+  "whitelistMintSettings": null,
+  "hiddenSettings": null,
+  "uploadMethod": "bundlr",
+  "retainAuthority": true,
+  "isMutable": true,
+  "creators": [
+    {
+      "address": "REPLACE_WITH_YOUR_DEPLOYER_WALLET_ADDRESS",
+      "share": 100
+    }
+  ]
+}
