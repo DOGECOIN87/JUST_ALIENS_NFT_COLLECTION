@@ -1,0 +1,43 @@
+ Context:
+You’re working on the Gorbagana NFT Deployment project. We have a ZIP archive (just_aliens_gorbagana.zip) that contains modifications and new files needed to adapt the existing JUST ALIENS NFT COLLECTION (originally built for Solana) to the Gorbagana Devnet.
+
+Your tasks:
+
+1. Download and extract the ZIP file: Use the provided file 0 and unpack its contents. The root directory inside is named just_aliens_gorbagana.
+
+
+2. Merge new and updated files into the repository:
+
+Copy all HTML files (index.html, about.html, when.html, artwork.html, rarity.html, why.html, and the new mint.html) from the extracted folder into the corresponding locations of the existing project, ensuring the navigation includes a new “Mint” link.
+
+Copy styles.css into the project root, then append the mint-specific CSS classes (.mint-container, .mint-btn, .wallet-address) contained in the provided file to your existing stylesheet (or replace it entirely if you prefer the updated one).
+
+Copy script.js and matrix.js from the extracted folder to replace the existing versions in the project.
+
+Add the new mint.js file to handle the wallet connection and minting logic.
+
+
+
+3. Set up the mint functionality:
+
+Ensure mint.html imports the Solana Web3 library via CDN, the site’s script.js, and the new mint.js script.
+
+In mint.js, confirm the mint price is set to 100 GOR (100 × 10⁹ lamports) and that it enforces a maximum of 10 mints per wallet. It should connect to the Gorbagana Devnet RPC endpoint at https://rpc.gorbagana.wtf.
+
+Replace the placeholder treasury public key (Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkgipsjhAHzvd) in mint.js with the actual Gorbagana wallet address that will receive the GOR proceeds.
+
+
+
+4. Test the integration:
+
+Use a local development server or open the HTML files directly to confirm the navigation sidebar shows the new “Mint” page, the mint page displays properly styled buttons and instructions, and the connection/mint logic does not produce any console errors.
+
+Check that connecting with a Backpack wallet set to the Gorbagana Devnet triggers the expected connection flow.
+
+
+
+5. Commit the changes: After verifying that everything works, commit all updated and new files to the repository with a clear commit message, e.g., “Add Gorbagana Devnet minting page and wallet integration.”
+
+
+
+Follow these steps carefully to ensure the NFT collection is fully configured for users to mint on the Gorbagana Devnet using their Backpack wallets.
