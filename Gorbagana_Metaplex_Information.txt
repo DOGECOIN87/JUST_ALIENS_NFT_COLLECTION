@@ -1,0 +1,71 @@
+Gorbagana: A Solana Fork Overview and Metaplex NFT Support
+
+Overview of the Gorbagana Blockchain (Solana Fork)
+
+Gorbagana is a high-performance blockchain network forked from Solana’s codebase, blending meme culture with serious infrastructure. In essence, Gorbagana took Solana’s core technology and launched a new chain often humorously branded as a “trash chain” (embracing the meme of being built from “trash”) while still retaining Solana’s advanced features. This means that under the playful branding, Gorbagana operates very much like Solana at a technical level.
+
+Some key characteristics of Gorbagana include:
+
+Inherited Solana Technology – It uses the same fundamental architecture as Solana, including Proof of History (PoH) for timestamping and ordering, Tower BFT consensus, the Turbine protocol for fast block propagation, Gulf Stream (a mempool-less transaction forwarding mechanism), the Sealevel parallel smart contract runtime, and pipelined transaction processing optimizations. This gives Gorbagana comparable speed and throughput to Solana. For example, transactions achieve sub-second finality and high throughput, with very low fees, just like on Solana.
+
+Native Token $GOR – Gorbagana’s native currency is $GOR, which is used for transaction fees and gas on the network. Just as Solana requires SOL to pay for transactions, interacting with Gorbagana’s network requires GOR tokens. (On the current testnet, GOR has no real monetary value; it’s just for testing.) A faucet is available to get testnet GOR tokens for development purposes.
+
+Network Status – As of now, Gorbagana is running on a public test network (Testnet/Devnet) while the team prepares for a future mainnet launch. It’s a community-driven project, meaning features may evolve rapidly. The ethos is “builder-first” and experimental, openly acknowledging some centralization during development but aiming to put control in the community’s hands for fun dApps, games, and experiments.
+
+
+Importantly, Gorbagana maintains compatibility with Solana’s developer ecosystem. The chain supports Solana Program Library (SPL) smart contracts and tokens natively. (The docs even joke about calling it the “Trash Program Library (TPL)” instead of SPL, keeping with the trash theme.) In practice, this means most Solana-based programs and standards can be deployed or used on Gorbagana with little or no modification.
+
+Solana’s Metaplex Protocol and NFTs
+
+On Solana, the Metaplex protocol is the de facto standard for creating and managing NFTs (non-fungible tokens) and other digital assets. In fact, Metaplex’s programs and standards have been used to create virtually all tokens and NFTs on Solana. Much like ERC-721 (for NFTs) and ERC-20 (for fungible tokens) on Ethereum, the Metaplex Digital Asset Standard defines how NFTs work on Solana.
+
+Key components of Metaplex on Solana include:
+
+Token Metadata Program – This is an on-chain program (part of the Metaplex Program Library) that attaches metadata to tokens (especially NFTs). It allows each NFT to have a name, symbol, description, image URI, attributes, etc., stored in a standardized way off-chain and referenced on-chain. This metadata ensures that wallets and explorers can display the token with its proper name, image, and attributes, rather than just showing a raw token address. In other words, thanks to Metaplex metadata, your Solana NFT shows up as “Cool NFT #1 🎨” with an image, instead of an obscure token mint ID.
+
+Candy Machine – This is a popular Metaplex smart contract used for launching NFT collections on Solana. The Candy Machine program manages fair minting of a collection (often used to handle random distribution of minting, cap the supply, enforce mint dates, etc.). It has been the leading minting/distribution program for NFT drops on Solana. Many Solana NFT creators prepare their art and metadata, then use the Candy Machine CLI/tool to upload assets and handle the minting process for thousands of NFTs in a collection.
+
+
+In simpler terms, Metaplex provides the infrastructure that makes Solana NFTs possible and easy to use – it’s the reason Solana NFTs have standardized metadata and tooling. If you already have a collection ready for Solana, you likely have JSON metadata files for each NFT and perhaps planned to use a tool like Metaplex’s Candy Machine (or a derivative like Sugar CLI) to deploy the collection.
+
+Metaplex Fork on Gorbagana (NFT Support on Gorbagana)
+
+When you hear that “Metaplex was also forked for Gorbagana,” it means that the Gorbagana developers have ported or re-deployed the same NFT programs and standards from Solana’s Metaplex onto the Gorbagana blockchain. Gorbagana supports Metaplex-compatible NFTs, which includes having the Token Metadata program running on Gorbagana, and support for Candy Machine workflows to create NFT collections. In effect, Gorbagana’s NFTs work just like Solana NFTs from a technical standpoint.
+
+In fact, members of the Gorbagana team have reported that they successfully forked the Metaplex token metadata program and got it working on Gorbagana’s testnet. This was a crucial step because without a metadata program, tokens on Gorbagana would just appear as anonymous mints. With the Metaplex metadata in place, Gorbagana NFTs can have names, images, and attributes, and will display properly in any wallet or explorer that is configured for the Gorbagana network. (One Gorbagana update explained that *“Metadata ensures tokens display properly in wallets and explorers (name, symbol, image). Without it, tokens just show as raw mint addresses.”* – underscoring why bringing over the Metaplex standard was important.)
+
+Additionally, the mention of Candy Machine being supported means that the same style of NFT collection minting can be done on Gorbagana. The Gorbagana chain is capable of running the Candy Machine program (or a variant of it nicknamed the “Trash Compactor” in Gorbagana’s meme terminology, analogous to a candy machine) to facilitate NFT drops. In other words, you can set up an NFT mint on Gorbagana in a similar fashion as on Solana, with randomized minting, etc., using the familiar Metaplex workflow.
+
+Bottom line: Gorbagana’s NFT ecosystem is intended to mirror Solana’s. If you deploy NFTs on Gorbagana, they will follow the same format and standards as Solana NFTs. This even opens the door for cross-chain NFT projects. For example, the Gorbagana team’s own “Gorbagio” NFT collection was created as a sort of crossover/bridge collection – it’s an NFT series that exists on Solana now but is “expected to be the first bridgeable collection from Solana to Gorbagana”, allowing those NFTs to move to the Gorbagana chain in the future. This is only possible because Gorbagana and Solana share the same NFT standard (Metaplex), so an asset can be locked on one chain and re-issued on the other with the same metadata.
+
+Deploying Your NFT Collection to Gorbagana
+
+Since Gorbagana is a fork of Solana with added support for Metaplex, deploying an NFT collection to Gorbagana will be very similar to deploying on Solana, with a few configuration changes:
+
+1. Configure to use Gorbagana’s Network: You will need to point your tools (Solana CLI, Metaplex candy machine tool, or SDK scripts) to the Gorbagana network instead of Solana. Gorbagana provides a public RPC endpoint (https://rpc.gorbagana.wtf/) for its testnet that you can use in place of Solana’s RPC. For example, you can set your Solana CLI config to use that URL as the --url, or in code use that RPC URL. The Gorbagana docs note that while a custom Gorbagana CLI is in development, developers can use the standard Solana CLI with the Gorbagana RPC to interact with the chain.
+
+
+2. Obtain $GOR for Transaction Fees: Just as you’d need SOL to pay for transactions on Solana, you’ll need some GOR tokens to pay for transactions on Gorbagana. On the testnet, these are freely available from the Gorbagana faucet. Make sure your wallet on Gorbagana (likely a test wallet) has enough GOR to cover the cost of minting your NFTs and setting up a candy machine (fees are minimal, but each NFT mint and metadata upload will consume a small amount of GOR).
+
+
+3. Use Metaplex Tools (Candy Machine or SDK): You can then use the same procedure you would on Solana to deploy your NFT collection. If you were planning to use the Metaplex Candy Machine CLI (or a tool like sugar CLI) on Solana, you can use it for Gorbagana by configuring it to connect to the Gorbagana RPC or adding Gorbagana as a custom network. The programs on Gorbagana responsible for NFTs are compatible, so the upload and mint commands should work similarly. Essentially, you will be creating the candy machine (or whatever minting mechanism you use) on the Gorbagana chain instead of Solana. All your NFT assets (image files, JSON metadata) can remain the same – the only difference is the target network. The metadata JSON structure doesn’t change at all, since it’s the Metaplex standard on both chains.
+
+
+4. Mint and Verify NFTs: Once you deploy (mint) the NFTs on Gorbagana, you’ll want to verify everything. Since mainstream Solana block explorers or wallets won’t recognize the Gorbagana chain, you’ll use Gorbagana-specific tools. For instance, you can use Trashscan (the Gorbagana block explorer) to look up your minted NFTs and accounts. For wallet support, currently Backpack wallet is the primary option to directly view and manage Gorbagana assets. You can add the Gorbagana RPC in Backpack’s network settings (as a custom Solana network) and then you'll be able to see your Gorbagana NFTs in that wallet interface. (Popular Solana wallets like Phantom or Solflare do not yet support custom networks like Gorbagana, so Backpack is recommended for now.)
+
+
+5. Future Considerations: Keep in mind that Gorbagana’s mainnet is still under development. If your goal is to launch on Gorbagana’s eventual mainnet, you might be deploying on testnet now and later migrating or redeploying on mainnet when it goes live. Also, if bridging between Solana and Gorbagana becomes available for NFTs (as planned), your collection could potentially take advantage of that – for example, allowing users to swap their NFT from one chain to the other. This would rely on both chains having the same metadata standard (which they do, via the Metaplex fork).
+
+
+
+In summary, Metaplex being forked for Gorbagana means you don’t have to fundamentally rework your NFT collection to use this new chain. Gorbagana was built to be as Solana-compatible as possible, so NFTs on Gorbagana use the same metadata format and smart contract logic as Solana NFTs. To deploy on Gorbagana, you’ll mainly adjust network endpoints and use GOR tokens, but your overall workflow (preparing metadata, using candy machine or other minting scripts) remains largely the same as it would on Solana. With the Gorbagana network and Metaplex NFT support in place, you can confidently launch your NFT collection on Gorbagana, tapping into this Solana fork’s ecosystem while retaining the familiar Solana NFT standards.
+
+Sources:
+
+Gorbagana Documentation – What is Gorbagana?, FAQ, Connecting to Testnet, etc.
+
+Metaplex Official Site – Overview of the Digital Asset Standard on Solana
+
+Metaplex Developer Docs – Candy Machine description
+
+Gorbagana community updates (Twitter/X posts) confirming NFT support
