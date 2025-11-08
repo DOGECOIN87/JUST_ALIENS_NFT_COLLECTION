@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - JUST ALIENS NFT COLLECTION</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mint - JUST ALIENS NFT COLLECTION</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include FontAwesome icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
   <body>
+    <!-- Hamburger menu for small screens -->
     <button class="hamburger-menu" aria-label="Toggle Menu">
       <span></span>
       <span></span>
       <span></span>
     </button>
 
+    <!-- Sidebar navigation -->
     <div class="sidebar">
       <nav>
         <div class="page-links">
@@ -44,7 +47,7 @@
             <i class="fas fa-question-circle"></i>
             Why
           </a>
-          <!-- Mint link -->
+          <!-- Current page: Mint -->
           <a href="mint.html">
             <i class="fas fa-wallet"></i>
             Mint
@@ -53,40 +56,34 @@
       </nav>
     </div>
 
+    <!-- Page header -->
     <header>
       <h1>
-        <div class="main-title">ABOUT</div>
+        <div class="main-title">MINT</div>
         <div class="subtitle">JUST ALIENS NFT</div>
       </h1>
     </header>
 
     <main class="content">
-      <div
-        class="about-content"
-        style="
-          text-align: center;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          min-height: 60vh;
-        "
-      >
-        <h1
-          style="
-            font-size: 3rem;
-            font-family: 'Orbitron', sans-serif;
-            color: #00ff00;
-            text-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.6),
-              0 0 60px rgba(0, 255, 0, 0.4);
-            animation: glow 2s ease-in-out infinite alternate;
-            margin: 0;
-          "
-        >
-          The 1st NFT Collection on Gorbagana
-        </h1>
+      <div class="mint-container">
+        <h2>Mint Your JUST ALIENS NFT</h2>
+        <p>
+          Price: <strong>100 GOR</strong> per NFT. Max 10 NFTs per wallet.
+        </p>
+        <p>
+          Use a <strong>Backpack Wallet</strong> connected to the
+          <em>Gorbagana Devnet</em> (RPC:
+          <a href="https://rpc.gorbagana.wtf" target="_blank">https://rpc.gorbagana.wtf</a>)
+          to mint.
+        </p>
+        <div class="wallet-address" id="wallet-address">Not connected</div>
+        <button class="mint-btn" id="connect-button">Connect Wallet</button>
+        <button class="mint-btn" id="mint-button" disabled>Mint NFT</button>
+        <p id="status"></p>
       </div>
     </main>
 
+    <!-- Footer with social links -->
     <footer>
       <div class="footer-content">
         <div class="social-links">
@@ -133,6 +130,17 @@
       </div>
     </footer>
 
+    <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
+    <!-- Buffer polyfill for browser compatibility -->
+    <script src="https://cdn.jsdelivr.net/npm/buffer@6.0.3/index.js"></script>
+    <script>
+      // Make Buffer globally available for Solana Web3.js
+      window.Buffer = buffer.Buffer;
+    </script>
+    <!-- Solana Web3 library: this must be loaded after Buffer polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.93.0/lib/index.iife.js"></script>
+    <!-- Mint page logic -->
+    <script src="mint.js"></script>
   </body>
 </html>

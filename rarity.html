@@ -1,389 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rarity Info - JUST ALIENS NFT COLLECTION</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <style>
-    .rarity-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rarity Info - JUST ALIENS NFT COLLECTION</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      .rarity-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
 
-    .rarity-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      gap: 3rem;
-      margin-top: 2rem;
-    }
+      .rarity-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 3rem;
+        margin-top: 2rem;
+      }
 
-    .rarity-card {
-      background: rgba(0, 255, 0, 0.05);
-      border: 2px solid #00ff00;
-      border-radius: 15px;
-      padding: 2rem;
-      text-align: center;
-      transition: all 0.3s ease;
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-    }
-
-    .rarity-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
-    }
-
-    .rarity-info {
-      flex: 1;
-    }
-
-    .rarity-image {
-      flex: none;
-      width: 300px;
-      height: 300px;
-      position: relative;
-      background: rgba(0, 0, 0, 0.2);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-
-    .rarity-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
-    }
-
-    /* Ensure all rarity images have same dimensions */
-    .rarity-image .rare-carousel-container {
-      position: absolute;
-      inset: 0;
-      width: 300px;
-      height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .rare-grid {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.3);
-      padding: 1rem;
-    }
-
-    .rare-grid img {
-      width: 32%;
-      height: auto;
-      object-fit: contain;
-      margin: 0 0.5%;
-    }
-
-    .rarity-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.5rem;
-      color: #00ff00;
-      margin-bottom: 1rem;
-    }
-
-    .rarity-percentage {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin: 1rem 0;
-      background: linear-gradient(to right, #fff, #00ff00);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-
-    .trait-list {
-      text-align: left;
-      margin-top: 1.5rem;
-    }
-
-    .trait-list h3 {
-      color: #00ff00;
-      margin-bottom: 0.5rem;
-      font-size: 1.2rem;
-    }
-
-    .trait-list ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .trait-list li {
-      margin: 0.5rem 0;
-      display: flex;
-      align-items: center;
-    }
-
-    .trait-list li::before {
-      content: '•';
-      color: #00ff00;
-      margin-right: 0.5rem;
-    }
-
-    .rarity-intro {
-      text-align: center;
-      margin-bottom: 3rem;
-      font-size: 1.2rem;
-      line-height: 1.6;
-      color: #888;
-    }
-
-    /* Rare carousel specific styles */
-    .rare-carousel {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .rare-slide {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 300px;
-      height: 300px;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    }
-
-    .rare-slide.active {
-      opacity: 1;
-      visibility: visible;
-      z-index: 1;
-    }
-
-    .rare-slide img {
-      width: 300px;
-      height: 300px;
-      object-fit: contain;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
-    }
-
-    .rare-nav {
-      position: absolute;
-      width: calc(100% + 40px);
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      justify-content: space-between;
-      padding: 0;
-      pointer-events: none;
-      z-index: 10;
-    }
-
-    .rare-nav button {
-      background: rgba(0, 255, 0, 0.2);
-      border: 2px solid #00ff00;
-      color: #00ff00;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s ease;
-      pointer-events: auto;
-      margin: 0 -20px;
-      box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
-    }
-
-    .rare-nav button:hover {
-      background: rgba(0, 255, 0, 0.4);
-      transform: scale(1.1);
-    }
-
-    @media (max-width: 768px) {
       .rarity-card {
-        flex-direction: column;
+        background: rgba(0, 255, 0, 0.05);
+        border: 2px solid #00ff00;
+        border-radius: 15px;
+        padding: 2rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+      }
+
+      .rarity-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
+      }
+
+      .rarity-info {
+        flex: 1;
       }
 
       .rarity-image {
-        order: -1;
-        max-width: 100%;
+        flex: none;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
       }
-    }
-  </style>
-</head>
-<body>
-  <button class="hamburger-menu" aria-label="Toggle Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
 
-  <div class="sidebar">
-    <nav>
-      <div class="page-links">
-        <a href="index.html">
-          <i class="fas fa-home"></i>
-          Home
-        </a>
-        <a href="about.html">
-          <i class="fas fa-info-circle"></i>
-          About
-        </a>
-        <a href="when.html">
-          <i class="fas fa-clock"></i>
-          When
-        </a>
-        <a href="artwork.html">
-          <i class="fas fa-paint-brush"></i>
-          Artwork
-        </a>
-        <a href="rarity.html">
-          <i class="fas fa-gem"></i>
-          Rarity Info
-        </a>
-        <a href="why.html">
-          <i class="fas fa-question-circle"></i>
-          Why
-        </a>
-      </div>
-    </nav>
-  </div>
+      .rarity-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+      }
 
-  <header>
-    <h1>
-      <div class="main-title">RARITY INFO</div>
-      <div class="subtitle">JUST ALIENS NFT</div>
-    </h1>
-  </header>
+      /* Ensure all rarity images have same dimensions */
+      .rarity-image .rare-carousel-container {
+        position: absolute;
+        inset: 0;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-  <main class="content">
-    <div class="rarity-content">
-      <div class="rarity-intro">
-        <p>Each Just Aliens NFT is uniquely generated from a carefully curated collection of traits. Understanding the rarity system helps collectors appreciate the uniqueness of their NFTs.</p>
-      </div>
+      .rare-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+      }
 
-      <div class="rarity-grid">
-        <div class="rarity-card">
-          <div class="rarity-info">
-            <div class="rarity-title">NORMAL</div>
-            <div class="rarity-percentage">96.43%</div>
-            <div class="trait-list">
-              <h3>Required Traits:</h3>
-              <ul>
-                <li>Background</li>
-                <li>Clothing</li>
-                <li>Expression</li>
-              </ul>
-              <h3>Optional Traits:</h3>
-              <ul>
-                <li>Text (50% chance)</li>
-              </ul>
-            </div>
-          </div>
-          <div class="rarity-image">
-            <img src="Artwork/2.png" alt="Normal Just Aliens NFT Example">
-          </div>
+      .rare-grid img {
+        width: 32%;
+        height: auto;
+        object-fit: contain;
+        margin: 0 0.5%;
+      }
+
+      .rarity-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.5rem;
+        color: #00ff00;
+        margin-bottom: 1rem;
+      }
+
+      .rarity-percentage {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+        background: linear-gradient(to right, #fff, #00ff00);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .trait-list {
+        text-align: left;
+        margin-top: 1.5rem;
+      }
+
+      .trait-list h3 {
+        color: #00ff00;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+      }
+
+      .trait-list ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .trait-list li {
+        margin: 0.5rem 0;
+        display: flex;
+        align-items: center;
+      }
+
+      .trait-list li::before {
+        content: '•';
+        color: #00ff00;
+        margin-right: 0.5rem;
+      }
+
+      .rarity-intro {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #888;
+      }
+
+      /* Rare carousel specific styles */
+      .rare-carousel {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .rare-slide {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+      }
+
+      .rare-slide.active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+      }
+
+      .rare-slide img {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+      }
+
+      .rare-nav {
+        position: absolute;
+        width: calc(100% + 40px);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        pointer-events: none;
+        z-index: 10;
+      }
+
+      .rare-nav button {
+        background: rgba(0, 255, 0, 0.2);
+        border: 2px solid #00ff00;
+        color: #00ff00;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        pointer-events: auto;
+        margin: 0 -20px;
+        box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+      }
+
+      .rare-nav button:hover {
+        background: rgba(0, 255, 0, 0.4);
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 768px) {
+        .rarity-card {
+          flex-direction: column;
+        }
+
+        .rarity-image {
+          order: -1;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button class="hamburger-menu" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="sidebar">
+      <nav>
+        <div class="page-links">
+          <a href="index.html">
+            <i class="fas fa-home"></i>
+            Home
+          </a>
+          <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+            About
+          </a>
+          <a href="when.html">
+            <i class="fas fa-clock"></i>
+            When
+          </a>
+          <a href="artwork.html">
+            <i class="fas fa-paint-brush"></i>
+            Artwork
+          </a>
+          <a href="rarity.html">
+            <i class="fas fa-gem"></i>
+            Rarity Info
+          </a>
+          <a href="why.html">
+            <i class="fas fa-question-circle"></i>
+            Why
+          </a>
+          <!-- Mint link -->
+          <a href="mint.html">
+            <i class="fas fa-wallet"></i>
+            Mint
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <header>
+      <h1>
+        <div class="main-title">RARITY INFO</div>
+        <div class="subtitle">JUST ALIENS NFT</div>
+      </h1>
+    </header>
+
+    <main class="content">
+      <div class="rarity-content">
+        <div class="rarity-intro">
+          <p>
+            Each Just Aliens NFT is uniquely generated from a carefully curated
+            collection of traits. Understanding the rarity system helps
+            collectors appreciate the uniqueness of their NFTs.
+          </p>
         </div>
 
-        <div class="rarity-card">
-          <div class="rarity-info">
-            <div class="rarity-title">RARE</div>
-            <div class="rarity-percentage">3.57%</div>
-            <div class="trait-list">
-              <h3>Required Traits:</h3>
-              <ul>
-                <li>Background</li>
-                <li>Rare Asset</li>
-              <h3>Optional Traits:</h3>
-              <ul>
-                <li>Text (50% chance)</li>
-              </ul>
+        <div class="rarity-grid">
+          <!-- Normal rarity card -->
+          <div class="rarity-card">
+            <div class="rarity-info">
+              <div class="rarity-title">NORMAL</div>
+              <div class="rarity-percentage">96.43%</div>
+              <div class="trait-list">
+                <h3>Required Traits:</h3>
+                <ul>
+                  <li>Background</li>
+                  <li>Clothing</li>
+                  <li>Expression</li>
+                </ul>
+                <h3>Optional Traits:</h3>
+                <ul>
+                  <li>Text (50% chance)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="rarity-image">
+              <img src="Artwork/2.png" alt="Normal Just Aliens NFT Example" />
             </div>
           </div>
-          <div class="rarity-image">
-            <div class="rare-carousel-container">
-              <div class="rare-carousel">
-                <div class="rare-slide active">
-                  <img src="Assets/Rare/Android.png" alt="Android Rare Asset">
+
+          <!-- Rare rarity card -->
+          <div class="rarity-card">
+            <div class="rarity-info">
+              <div class="rarity-title">RARE</div>
+              <div class="rarity-percentage">3.57%</div>
+              <div class="trait-list">
+                <h3>Required Traits:</h3>
+                <ul>
+                  <li>Background</li>
+                  <li>Rare Asset</li>
+                </ul>
+                <h3>Optional Traits:</h3>
+                <ul>
+                  <li>Text (50% chance)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="rarity-image">
+              <div class="rare-carousel-container">
+                <div class="rare-carousel">
+                  <div class="rare-slide active">
+                    <img src="Assets/Rare/Android.png" alt="Android Rare Asset" />
+                  </div>
+                  <div class="rare-slide">
+                    <img src="Assets/Rare/Infantry.png" alt="Infantry Rare Asset" />
+                  </div>
+                  <div class="rare-slide">
+                    <img src="Assets/Rare/OG.png" alt="OG Rare Asset" />
+                  </div>
                 </div>
-                <div class="rare-slide">
-                  <img src="Assets/Rare/Infantry.png" alt="Infantry Rare Asset">
-                </div>
-                <div class="rare-slide">
-                  <img src="Assets/Rare/OG.png" alt="OG Rare Asset">
+                <div class="rare-nav">
+                  <button class="rare-prev" aria-label="Previous">&lt;</button>
+                  <button class="rare-next" aria-label="Next">&gt;</button>
                 </div>
               </div>
-              <div class="rare-nav">
-                <button class="rare-prev" aria-label="Previous">&lt;</button>
-                <button class="rare-next" aria-label="Next">&gt;</button>
+            </div>
+          </div>
+
+          <!-- Secret rare card -->
+          <div class="rarity-card">
+            <div class="rarity-info">
+              <div class="rarity-title">SECRET RARE</div>
+              <div class="rarity-percentage">0.07%</div>
+              <div class="trait-list">
+                <h3>Unique Traits:</h3>
+                <ul>
+                  <li>Custom Artwork</li>
+                  <li>Exclusive Design</li>
+                </ul>
+                <h3>Special Features:</h3>
+                <ul>
+                  <li>One-of-a-kind</li>
+                </ul>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="rarity-card">
-          <div class="rarity-info">
-            <div class="rarity-title">SECRET RARE</div>
-            <div class="rarity-percentage">0.07%</div>
-            <div class="trait-list">
-              <h3>Unique Traits:</h3>
-              <ul>
-                <li>Custom Artwork</li>
-                <li>Exclusive Design</li>
-              </ul>
-              <h3>Special Features:</h3>
-              <ul>
-                <li>One-of-a-kind</li>
-              </ul>
+            <div class="rarity-image">
+              <img
+                src="Assets/SecretRare/SecretRare_1.png"
+                alt="Secret Rare Just Aliens NFT Example"
+              />
             </div>
           </div>
-          <div class="rarity-image">
-            <img src="Assets/SecretRare/SecretRare_1.png" alt="Secret Rare Just Aliens NFT Example">
-          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    <div class="footer-content">
-      <div class="social-links">
-        <a href="https://discord.gg/xEeTyrTb" target="_blank" aria-label="Discord">
-          <i class="fab fa-discord"></i>
-        </a>
-        <a href="https://zealy.io/cw/justaliens/invite/IjtATzkltv2s6N5Dl4_ue" target="_blank" aria-label="Zealy">
-          <img src="Assets/Icons/zealy_logo.png" alt="Zealy" class="zealy-icon">
-        </a>
-        <a href="https://pump.fun/board" target="_blank" aria-label="Pump.fun">
-          <img src="Assets/Icons/pump_fun_logo.png" alt="Pump.fun" class="pump-fun-icon">
-        </a>
-        <a href="https://x.com/just_aliens?t=53Hknm57wIZGaxOa4xy8fQ&s=09" target="_blank" aria-label="X">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        <a href="https://t.me/JustAliensNFT" target="_blank" aria-label="Telegram">
-          <i class="fab fa-telegram"></i>
-        </a>
-        <a href="https://github.com/DOGECOIN87/JUST_ALIENS_NFT_COLLECTION" target="_blank" aria-label="GitHub">
-          <i class="fab fa-github"></i>
-        </a>
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://discord.gg/xEeTyrTb" target="_blank" aria-label="Discord">
+            <i class="fab fa-discord"></i>
+          </a>
+          <a
+            href="https://zealy.io/cw/justaliens/invite/IjtATzkltv2s6N5Dl4_ue"
+            target="_blank"
+            aria-label="Zealy"
+          >
+            <img
+              src="Assets/Icons/zealy_logo.png"
+              alt="Zealy"
+              class="zealy-icon"
+            />
+          </a>
+          <a href="https://pump.fun/board" target="_blank" aria-label="Pump.fun">
+            <img
+              src="Assets/Icons/pump_fun_logo.png"
+              alt="Pump.fun"
+              class="pump-fun-icon"
+            />
+          </a>
+          <a
+            href="https://x.com/just_aliens?t=53Hknm57wIZGaxOa4xy8fQ&s=09"
+            target="_blank"
+            aria-label="X"
+          >
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://t.me/JustAliensNFT" target="_blank" aria-label="Telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a
+            href="https://github.com/DOGECOIN87/JUST_ALIENS_NFT_COLLECTION"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 JUST ALIENS NFT. All rights reserved.</p>
       </div>
-      <p>&copy; 2025 JUST ALIENS NFT. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

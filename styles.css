@@ -512,6 +512,74 @@ footer {
   }
 }
 
+/*
+ * Mint page specific styles
+ *
+ * These classes style the mint page added for the Gorbagana Devnet. The
+ * container has a glassy appearance with a neon border reminiscent of
+ * the existing theme. Buttons and wallet display are designed to stand
+ * out while still fitting into the dark neon aesthetic. Feel free to
+ * tweak margins and colours as needed.
+ */
+
+.mint-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.mint-container h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00ff00;
+  text-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+.mint-container p {
+  margin-bottom: 1rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.wallet-address {
+  margin: 1rem 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  color: #00ff00;
+  word-break: break-all;
+}
+
+.mint-btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  background: #00ff00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+}
+
+.mint-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.mint-btn:hover:not(:disabled) {
+  background: #00cc00;
+  color: #fff;
+}
+
 .matrix-container {
   position: relative;
   width: 100%;
