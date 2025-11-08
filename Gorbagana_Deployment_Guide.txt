@@ -1,0 +1,313 @@
+JUST ALIENS NFT COLLECTION - GORBAGANA DEPLOYMENT GUIDE
+========================================================
+
+This guide outlines the exact steps needed to deploy your JUST ALIENS NFT collection 
+on the Gorbagana blockchain (Devnet/Testnet).
+
+CURRENT STATUS
+--------------
+✓ Website with mint page is ready
+✓ Wallet connection configured for Gorbagana Devnet
+✓ Payment mechanism set to 100 GOR per mint
+✓ Treasury wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
+
+✗ NFT collection NOT yet deployed on Gorbagana blockchain
+✗ Actual NFT minting NOT yet functional (only payment works)
+
+PREREQUISITES
+-------------
+1. NFT Assets Ready:
+   - 50 PNG images in Artwork/ folder ✓
+   - 50 metadata JSON files in Artwork/metadata/ folder ✓
+   
+2. Required Software:
+   - Node.js and npm installed
+   - Solana CLI tools
+   - Sugar CLI (Metaplex Candy Machine tool)
+   - Backpack wallet browser extension
+
+3. Required Resources:
+   - Gorbagana testnet GOR tokens (from faucet)
+   - IPFS/Arweave account for metadata storage (Pinata, NFT.Storage, or bundlr)
+
+DEPLOYMENT STEPS
+================
+
+STEP 1: INSTALL SOLANA CLI
+---------------------------
+1. Install Solana CLI if not already installed:
+   ```
+   sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+   ```
+
+2. Configure Solana CLI for Gorbagana Devnet:
+   ```
+   solana config set --url https://rpc.gorbagana.wtf
+   ```
+
+3. Create or import your deployment wallet:
+   ```
+   solana-keygen new --outfile ~/.config/solana/gorbagana-deployer.json
+   ```
+   OR import existing:
+   ```
+   solana-keygen recover 'prompt://my-seed-phrase' --outfile ~/.config/solana/gorbagana-deployer.json
+   ```
+
+4. Set as default keypair:
+   ```
+   solana config set --keypair ~/.config/solana/gorbagana-deployer.json
+   ```
+
+5. Get your wallet address:
+   ```
+   solana address
+   ```
+
+STEP 2: GET GOR TOKENS FROM FAUCET
+-----------------------------------
+1. Visit Gorbagana faucet (check Gorbagana documentation for current faucet URL)
+   
+2. Request testnet GOR tokens for your deployment wallet address
+
+3. Verify balance:
+   ```
+   solana balance
+   ```
+   You'll need approximately 5-10 GOR for deploying a 50 NFT collection
+
+STEP 3: PREPARE METADATA FOR UPLOAD
+------------------------------------
+Your metadata structure should follow Metaplex standard:
+
+Each JSON file (1.json through 50.json) should have:
+```json
+{
+  "name": "JUST ALIENS #1",
+  "symbol": "JALIEN",
+  "description": "A unique alien from the JUST ALIENS collection",
+  "seller_fee_basis_points": 500,
+  "image": "1.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "UFO"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Happy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
+```
+
+Verify all 50 metadata files are properly formatted.
+
+STEP 4: INSTALL AND CONFIGURE SUGAR CLI
+----------------------------------------
+1. Install Sugar (Metaplex Candy Machine CLI):
+   ```
+   bash <(curl -sSf https://sugar.metaplex.com/install.sh)
+   ```
+
+2. Create a new Sugar config in your project:
+   ```
+   sugar create-config
+   ```
+
+3. Edit the generated config.json file with your collection details:
+   ```json
+   {
+     "price": 0,
+     "number": 50,
+     "symbol": "JALIEN",
+     "sellerFeeBasisPoints": 500,
+     "gatekeeper": null,
+     "solTreasuryAccount": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+     "splTokenAccount": null,
+     "splToken": null,
+     "goLiveDate": "2025-11-08T00:00:00Z",
+     "endSettings": null,
+     "whitelistMintSettings": null,
+     "hiddenSettings": null,
+     "uploadMethod": "bundlr",
+     "retainAuthority": true,
+     "isMutable": true,
+     "creators": [
+       {
+         "address": "YOUR_CREATOR_WALLET_ADDRESS",
+         "share": 100
+       }
+     ]
+   }
+   ```
+
+   Important notes:
+   - Set price to 0 (minting payment handled by website)
+   - solTreasuryAccount should be your treasury wallet
+   - uploadMethod: choose "bundlr" for Arweave or "nft-storage" for IPFS
+   - Replace YOUR_CREATOR_WALLET_ADDRESS with your deployer wallet address
+
+STEP 5: UPLOAD ASSETS TO DECENTRALIZED STORAGE
+-----------------------------------------------
+1. Organize your assets folder:
+   ```
+   assets/
+   ├── 0.png
+   ├── 0.json
+   ├── 1.png
+   ├── 1.json
+   ├── ...
+   ├── 49.png
+   └── 49.json
+   ```
+   Note: Sugar uses 0-based indexing, so rename your files from 1-50 to 0-49
+
+2. Upload assets using Sugar:
+   ```
+   sugar upload
+   ```
+   
+   This will:
+   - Upload all images to IPFS/Arweave
+   - Upload metadata with updated image URIs
+   - Create a cache file tracking the upload
+
+3. Verify upload:
+   ```
+   sugar verify
+   ```
+
+STEP 6: DEPLOY CANDY MACHINE
+-----------------------------
+1. Deploy the candy machine program:
+   ```
+   sugar deploy
+   ```
+   
+   This creates your candy machine on Gorbagana and costs GOR for transaction fees.
+
+2. Save the candy machine ID that gets generated (you'll need this!)
+
+3. Verify deployment:
+   ```
+   sugar verify
+   ```
+
+STEP 7: UPDATE WEBSITE MINT.JS
+-------------------------------
+After deployment, you need to update mint.js to interact with the actual candy machine:
+
+1. Install @metaplex-foundation/js in your project:
+   ```
+   npm install @metaplex-foundation/js
+   ```
+
+2. Modify mint.js to use Metaplex SDK instead of just sending payment:
+   - Import Metaplex SDK
+   - Add candy machine ID from deployment
+   - Call mint() function instead of just transfer
+   - Handle NFT metadata return after mint
+
+Example code structure needed:
+```javascript
+const candyMachineId = new solanaWeb3.PublicKey('YOUR_CANDY_MACHINE_ID');
+
+// In mint button handler:
+const metaplex = Metaplex.make(connection);
+const nft = await metaplex.candyMachines().mint({
+  candyMachine: candyMachineId,
+});
+```
+
+STEP 8: CONFIGURE BACKPACK WALLET
+----------------------------------
+1. Install Backpack wallet browser extension
+
+2. Add Gorbagana network:
+   - Open Backpack settings
+   - Add custom network
+   - Name: Gorbagana Devnet
+   - RPC URL: https://rpc.gorbagana.wtf
+   - Chain ID: (check Gorbagana docs)
+
+3. Get GOR tokens from faucet for testing
+
+STEP 9: TEST MINTING
+---------------------
+1. Start local development server:
+   ```
+   python -m http.server 8080
+   ```
+
+2. Open http://localhost:8080/mint.html in browser
+
+3. Connect Backpack wallet (ensure it's on Gorbagana Devnet)
+
+4. Try minting an NFT
+
+5. Verify:
+   - Transaction appears in wallet
+   - NFT appears in wallet's collectibles
+   - Can view on Trashscan (Gorbagana block explorer)
+
+STEP 10: MONITOR AND MAINTAIN
+------------------------------
+1. Check candy machine status:
+   ```
+   sugar show
+   ```
+
+2. Monitor mints and remaining supply
+
+3. If needed, update candy machine settings:
+   ```
+   sugar update
+   ```
+
+TROUBLESHOOTING
+===============
+
+Common Issues:
+1. "Insufficient funds" - Get more GOR from faucet
+2. "Network timeout" - Gorbagana RPC might be down, check status
+3. "Invalid metadata" - Verify JSON format matches Metaplex standard
+4. "Candy machine full" - All NFTs minted, collection complete
+
+IMPORTANT NOTES
+===============
+- This is TESTNET deployment - no real monetary value
+- Before mainnet: thoroughly test all functionality
+- Keep your deployer wallet private key secure
+- Back up candy machine ID and cache files
+- Monitor GOR costs during deployment
+
+ADDITIONAL RESOURCES
+====================
+- Gorbagana Docs: (check Gorbagana official website)
+- Solana CLI Docs: https://docs.solana.com/cli
+- Metaplex Docs: https://docs.metaplex.com
+- Sugar CLI Docs: https://docs.metaplex.com/tools/sugar
+
+COST ESTIMATES (TESTNET GOR)
+=============================
+- Deploy candy machine: ~1-2 GOR
+- Upload 50 NFTs to Arweave/IPFS: ~3-5 GOR (via bundlr)
+- Update operations: ~0.1-0.5 GOR each
+- Total estimate: 5-10 GOR for full deployment
+
+Once deployment is complete, users can mint NFTs through your website by:
+1. Connecting Backpack wallet to Gorbagana Devnet
+2. Having at least 100 GOR in their wallet
+3. Clicking "Mint NFT" which triggers both payment and minting
+
+END OF GUIDE
