@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Max mints per wallet
     MAX_MINT: 10,
     // Total collection size
-    TOTAL_SUPPLY: 50,
+    TOTAL_SUPPLY: 10000,
     // Block explorer
     EXPLORER_URL: 'https://trashscan.xyz',
   };

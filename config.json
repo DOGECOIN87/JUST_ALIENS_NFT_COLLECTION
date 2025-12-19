@@ -1,6 +1,6 @@
 {
   "price": 0,
-  "number": 50,
+  "number": 10000,
   "symbol": "JALIEN",
   "sellerFeeBasisPoints": 500,
   "gatekeeper": null,
