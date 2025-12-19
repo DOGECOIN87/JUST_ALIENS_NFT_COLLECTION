@@ -8,7 +8,8 @@
  * Verified Creator: DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+// Wait for both DOM and Solana to be ready
+function initMint() {
   // DOM Elements
   const connectButton = document.getElementById('connect-button');
   const mintButton = document.getElementById('mint-button');
@@ -380,4 +381,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize on page load
   initialize();
-});
+}
+
+// Initialize when both DOM and Solana are ready
+let domReady = false;
+let solanaReady = false;
+
+function tryInit() {
+  if (domReady && solanaReady && window.solanaWeb3) {
+    initMint();
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    domReady = true;
+    tryInit();
+  });
+} else {
+  domReady = true;
+}
+
+// Check if solana is already loaded
+if (window.solanaWeb3) {
+  solanaReady = true;
+  tryInit();
+} else {
+  window.addEventListener('solanaReady', () => {
+    solanaReady = true;
+    tryInit();
+  });
+}

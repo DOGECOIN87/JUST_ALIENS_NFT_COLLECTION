@@ -142,8 +142,21 @@
 
     <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
-    <!-- Solana Web3 v1.50.1 (older version with built-in browser support) -->
-    <script src="https://unpkg.com/@solana/web3.js@1.50.1/lib/index.iife.min.js"></script>
+    <!-- Buffer and process polyfills -->
+    <script>
+      window.global = window;
+      window.process = { env: {}, version: '' };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/buffer@6.0.3/index.min.js"></script>
+    <script>
+      window.Buffer = buffer.Buffer;
+    </script>
+    <!-- Solana Web3 from skypack (properly bundled for browsers) -->
+    <script type="module">
+      import * as solanaWeb3 from 'https://cdn.skypack.dev/@solana/web3.js@1.78.0';
+      window.solanaWeb3 = solanaWeb3;
+      window.dispatchEvent(new Event('solanaReady'));
+    </script>
     <!-- Mint page logic -->
     <script src="mint.js"></script>
   </body>
