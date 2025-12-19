@@ -142,14 +142,8 @@
 
     <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
-    <!-- Buffer polyfill must come first -->
-    <script src="https://cdn.jsdelivr.net/npm/buffer@5.7.1/index.min.js"></script>
-    <script>
-      window.Buffer = window.Buffer || window.buffer.Buffer;
-      window.global = window.global || window;
-    </script>
-    <!-- Solana Web3 -->
-    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.66.2/lib/index.iife.min.js"></script>
+    <!-- Solana Web3 v1.50.1 (older version with built-in browser support) -->
+    <script src="https://unpkg.com/@solana/web3.js@1.50.1/lib/index.iife.min.js"></script>
     <!-- Mint page logic -->
     <script src="mint.js"></script>
   </body>
