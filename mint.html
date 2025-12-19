@@ -142,17 +142,8 @@
 
     <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
-    <!-- Polyfills for Solana Web3 -->
-    <script>
-      window.global = window;
-      window.process = { env: {} };
-    </script>
-    <script src="https://unpkg.com/buffer@6.0.3/index.js"></script>
-    <script>
-      window.Buffer = window.Buffer || buffer.Buffer;
-    </script>
-    <!-- Solana Web3 library (standalone bundle with polyfills) -->
-    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <!-- Solana Web3 with all polyfills bundled -->
+    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.66.2/lib/index.iife.min.js"></script>
     <!-- Mint page logic -->
     <script src="mint.js"></script>
   </body>
