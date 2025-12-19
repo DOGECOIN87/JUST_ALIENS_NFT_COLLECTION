@@ -1,7 +1,7 @@
 /*
  * mint.js
  *
- * NFT Minting script for Just Aliens collection on Gorbagana Devnet.
+ * NFT Minting script for Just Aliens collection on Gorbagana Mainnet.
  * This script integrates with the LaunchMyNFT deployed collection.
  *
  * Collection ID: 87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     CREATOR_ID: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
     // Treasury wallet for payments
     TREASURY_WALLET: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
-    // Gorbagana Devnet RPC
+    // Gorbagana Mainnet RPC
     RPC_ENDPOINT: 'https://rpc.gorbagana.wtf',
     // Price: 100 GOR (100 * 1e9 lamports)
     PRICE_LAMPORTS: 100 * 1e9,
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     provider = getProvider();
     if (!provider) {
       setStatus(
-        'Wallet not detected. Please install <a href="https://www.backpack.app/" target="_blank" style="color: #00ff00;">Backpack</a> or <a href="https://phantom.app/" target="_blank" style="color: #00ff00;">Phantom</a> wallet and ensure it is connected to Gorbagana Devnet.',
+        'Wallet not detected. Please install <a href="https://www.backpack.app/" target="_blank" style="color: #00ff00;">Backpack</a> or <a href="https://phantom.app/" target="_blank" style="color: #00ff00;">Phantom</a> wallet and ensure it is connected to Gorbagana Mainnet.',
         true
       );
       return;
