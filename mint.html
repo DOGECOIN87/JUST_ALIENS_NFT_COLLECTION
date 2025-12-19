@@ -143,10 +143,25 @@
     <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
     <!-- Buffer polyfill for browser compatibility -->
-    <script src="https://bundle.run/buffer@6.0.3"></script>
     <script>
-      // Make Buffer globally available for Solana Web3.js
-      window.Buffer = window.buffer.Buffer;
+      // Create Buffer polyfill for browser
+      window.Buffer = window.Buffer || {
+        from: function(data, encoding) {
+          if (typeof data === 'string') {
+            return new Uint8Array([...new TextEncoder().encode(data)]);
+          }
+          if (Array.isArray(data) || data instanceof Uint8Array) {
+            return new Uint8Array(data);
+          }
+          return new Uint8Array(0);
+        },
+        alloc: function(size) {
+          return new Uint8Array(size);
+        },
+        isBuffer: function(obj) {
+          return obj instanceof Uint8Array;
+        }
+      };
     </script>
     <!-- Solana Web3 library: this must be loaded after Buffer polyfill -->
     <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.93.0/lib/index.iife.js"></script>
