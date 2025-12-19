@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
       connectButton.disabled = true;
       mintButton.disabled = false;
 
-      // Establish connection to Gorbagana devnet
-      connection = new Connection('https://rpc.gorbagana.wtf', 'confirmed');
+      // Establish connection to Gorbagana mainnet (Trashscan RPC)
+      connection = new Connection('https://rpc.trashscan.io/', 'confirmed');
 
       // Initialize Metaplex SDK
       metaplex = Metaplex.make(connection)

@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     CREATOR_ID: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
     // Treasury wallet for payments
     TREASURY_WALLET: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
-    // Gorbagana Mainnet RPC
-    RPC_ENDPOINT: 'https://rpc.gorbagana.wtf',
+    // Gorbagana Mainnet RPC (Trashscan)
+    RPC_ENDPOINT: 'https://rpc.trashscan.io/',
     // Price: 100 GOR (100 * 1e9 lamports)
     PRICE_LAMPORTS: 100 * 1e9,
     // Max mints per wallet
