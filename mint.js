@@ -204,30 +204,15 @@ document.addEventListener('DOMContentLoaded', () => {
     transaction.recentBlockhash = blockhash;
     transaction.feePayer = userPubkey;
 
+    // Get a random NFT index for display
+    const nftIndex = getRandomNftIndex();
+
     // Add payment instruction (100 GOR to treasury)
     transaction.add(
       solanaWeb3.SystemProgram.transfer({
         fromPubkey: userPubkey,
         toPubkey: treasuryPubkey,
         lamports: CONFIG.PRICE_LAMPORTS,
-      })
-    );
-
-    // Add memo instruction with collection reference for tracking
-    const memoProgram = new solanaWeb3.PublicKey('MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr');
-    const nftIndex = getRandomNftIndex();
-    const memoData = JSON.stringify({
-      action: 'mint',
-      collection: CONFIG.COLLECTION_ID,
-      nftIndex: nftIndex,
-      timestamp: Date.now(),
-    });
-
-    transaction.add(
-      new solanaWeb3.TransactionInstruction({
-        keys: [{ pubkey: userPubkey, isSigner: true, isWritable: true }],
-        programId: memoProgram,
-        data: new TextEncoder().encode(memoData),
       })
     );
 

@@ -142,14 +142,17 @@
 
     <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
-    <!-- Buffer polyfill - required for Solana Web3 -->
-    <script src="https://bundle.run/buffer@6.0.3"></script>
+    <!-- Polyfills for Solana Web3 -->
     <script>
-      window.Buffer = buffer.Buffer;
       window.global = window;
+      window.process = { env: {} };
     </script>
-    <!-- Solana Web3 library -->
-    <script src="https://unpkg.com/@solana/web3.js@1.73.0/lib/index.iife.min.js"></script>
+    <script src="https://unpkg.com/buffer@6.0.3/index.js"></script>
+    <script>
+      window.Buffer = window.Buffer || buffer.Buffer;
+    </script>
+    <!-- Solana Web3 library (standalone bundle with polyfills) -->
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
     <!-- Mint page logic -->
     <script src="mint.js"></script>
   </body>
