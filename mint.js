@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
     TREASURY_WALLET: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
     // Gorbagana Mainnet RPC
     RPC_ENDPOINT: 'https://rpc.gorbagana.wtf',
-    // Price: 100 GOR (100 * 1e9 lamports)
-    PRICE_LAMPORTS: 100 * 1e9,
+    // Price: 100 GOR (use LAMPORTS_PER_SOL for proper integer)
+    PRICE_GOR: 100,
     // Max mints per wallet
     MAX_MINT: 10,
     // Total collection size
-    TOTAL_SUPPLY: 50,
+    TOTAL_SUPPLY: 10000,
     // Block explorer
     EXPLORER_URL: 'https://trashscan.xyz',
   };
@@ -208,11 +208,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const nftIndex = getRandomNftIndex();
 
     // Add payment instruction (100 GOR to treasury)
+    // Use LAMPORTS_PER_SOL for proper integer handling
+    const lamports = CONFIG.PRICE_GOR * solanaWeb3.LAMPORTS_PER_SOL;
     transaction.add(
       solanaWeb3.SystemProgram.transfer({
         fromPubkey: userPubkey,
         toPubkey: treasuryPubkey,
-        lamports: CONFIG.PRICE_LAMPORTS,
+        lamports: lamports,
       })
     );
 
