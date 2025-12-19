@@ -580,6 +580,62 @@ footer {
   color: #fff;
 }
 
+/* Collection info display on mint page */
+.collection-info {
+  background: rgba(0, 255, 0, 0.05);
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.collection-info p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.collection-info p:last-child {
+  margin-bottom: 0;
+}
+
+.collection-info strong {
+  color: #00ff00;
+}
+
+.collection-info span {
+  color: #fff;
+  font-weight: 600;
+}
+
+#status {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  min-height: 2rem;
+  color: #00ff00;
+  font-size: 0.95rem;
+}
+
+#minted-nft {
+  margin-top: 1rem;
+}
+
+#minted-nft img {
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+#minted-nft a {
+  color: #00ff00;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#minted-nft a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
 .matrix-container {
   position: relative;
   width: 100%;

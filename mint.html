@@ -67,6 +67,15 @@
     <main class="content">
       <div class="mint-container">
         <h2>Mint Your JUST ALIENS NFT</h2>
+
+        <!-- Collection Info Display -->
+        <div class="collection-info" id="collection-info">
+          <p><strong>Collection:</strong> Just Aliens</p>
+          <p><strong>Network:</strong> Gorbagana Devnet</p>
+          <p><strong>Items Available:</strong> <span id="items-available">Loading...</span></p>
+          <p><strong>Items Minted:</strong> <span id="items-minted">Loading...</span></p>
+        </div>
+
         <p>
           Price: <strong>100 GOR</strong> per NFT. Max 10 NFTs per wallet.
         </p>
@@ -79,7 +88,8 @@
         <div class="wallet-address" id="wallet-address">Not connected</div>
         <button class="mint-btn" id="connect-button">Connect Wallet</button>
         <button class="mint-btn" id="mint-button" disabled>Mint NFT</button>
-        <p id="status"></p>
+        <div id="status"></div>
+        <div id="minted-nft" style="display: none;"></div>
       </div>
     </main>
 
@@ -140,6 +150,8 @@
     </script>
     <!-- Solana Web3 library: this must be loaded after Buffer polyfill -->
     <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.93.0/lib/index.iife.js"></script>
+    <!-- Base58 encoding for Metaplex -->
+    <script src="https://cdn.jsdelivr.net/npm/bs58@5.0.0/dist/index.umd.min.js"></script>
     <!-- Mint page logic -->
     <script src="mint.js"></script>
   </body>
