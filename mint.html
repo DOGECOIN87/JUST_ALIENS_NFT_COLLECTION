@@ -143,10 +143,10 @@
     <!-- Include the existing site JavaScript for navigation and carousels -->
     <script src="script.js"></script>
     <!-- Buffer polyfill for browser compatibility -->
-    <script src="https://cdn.jsdelivr.net/npm/buffer@6.0.3/index.js"></script>
+    <script src="https://bundle.run/buffer@6.0.3"></script>
     <script>
       // Make Buffer globally available for Solana Web3.js
-      window.Buffer = buffer.Buffer;
+      window.Buffer = window.buffer.Buffer;
     </script>
     <!-- Solana Web3 library: this must be loaded after Buffer polyfill -->
     <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.93.0/lib/index.iife.js"></script>

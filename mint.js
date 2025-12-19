@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const metadataProgramId = new solanaWeb3.PublicKey(TOKEN_METADATA_PROGRAM_ID);
     const [pda] = solanaWeb3.PublicKey.findProgramAddressSync(
       [
-        Buffer.from('metadata'),
+        new TextEncoder().encode('metadata'),
         metadataProgramId.toBytes(),
         mint.toBytes(),
       ],
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
       new solanaWeb3.TransactionInstruction({
         keys: [{ pubkey: userPubkey, isSigner: true, isWritable: true }],
         programId: memoProgram,
-        data: Buffer.from(memoData),
+        data: new TextEncoder().encode(memoData),
       })
     );
 
