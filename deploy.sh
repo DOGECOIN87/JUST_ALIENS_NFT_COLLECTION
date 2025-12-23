@@ -7,7 +7,7 @@ set -e  # Exit on any error
 
 echo "=========================================="
 echo "JUST ALIENS NFT Collection Deployment"
-echo "Gorbagana Devnet"
+echo "Gorbagana Mainnet"
 echo "=========================================="
 echo ""
 
@@ -50,9 +50,9 @@ fi
 echo ""
 
 # Step 2: Configure Solana for Gorbagana
-echo -e "${YELLOW}Step 2: Configuring Solana for Gorbagana Devnet...${NC}"
+echo -e "${YELLOW}Step 2: Configuring Solana for Gorbagana Mainnet...${NC}"
 solana config set --url https://rpc.gorbagana.wtf
-echo -e "${GREEN}✓ RPC URL set to Gorbagana Devnet${NC}"
+echo -e "${GREEN}✓ RPC URL set to Gorbagana Mainnet${NC}"
 echo ""
 
 # Step 3: Setup wallet
@@ -158,7 +158,7 @@ cat > deployment_info.txt << EOF
 JUST ALIENS NFT Collection - Deployment Information
 ====================================================
 Deployment Date: $(date)
-Network: Gorbagana Devnet
+Network: Gorbagana Mainnet
 RPC URL: https://rpc.gorbagana.wtf
 
 Deployer Wallet: $WALLET_ADDRESS
