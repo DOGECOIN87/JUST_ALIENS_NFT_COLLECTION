@@ -5,7 +5,7 @@
  * This script integrates with the LaunchMyNFT deployed collection.
  *
  * Collection ID: 87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6
- * Verified Creator: DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt
+ * Creator Wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const CONFIG = {
     // Collection address from LaunchMyNFT
     COLLECTION_ID: '87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6',
-    // Verified creator address
-    CREATOR_ID: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
+    // Creator address
+    CREATOR_ID: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Treasury wallet for payments
-    TREASURY_WALLET: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
+    TREASURY_WALLET: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Gorbagana Mainnet RPC
     RPC_ENDPOINT: 'https://rpc.trashscan.io',
     // Price: 100 GOR (100 * 1e9 lamports)
