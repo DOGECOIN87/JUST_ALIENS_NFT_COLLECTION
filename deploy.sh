@@ -163,7 +163,7 @@ RPC URL: https://rpc.trashscan.io
 
 Deployer Wallet: $WALLET_ADDRESS
 Candy Machine ID: $CANDY_MACHINE_ID
-Collection Size: 50 NFTs
+Collection Size: 10000 NFTs
 Symbol: JALIEN
 
 Next Steps:
