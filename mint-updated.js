@@ -2,7 +2,7 @@
  * mint-updated.js
  *
  * This is the updated version of mint.js that integrates with the Metaplex
- * Candy Machine deployed on Gorbagana Devnet. This file should replace mint.js
+ * Candy Machine deployed on Gorbagana Mainnet. This file should replace mint.js
  * after you have successfully deployed your candy machine using Sugar CLI.
  * 
  * IMPORTANT: Before using this file:
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     provider = getProvider();
     if (!provider) {
       statusEl.textContent =
-        'Backpack wallet not detected. Please install the Backpack extension and ensure it is set to the Gorbagana Devnet.';
+        'Backpack wallet not detected. Please install the Backpack extension and ensure it is set to the Gorbagana Mainnet.';
       return;
     }
     
@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
       connectButton.disabled = true;
       mintButton.disabled = false;
 
-      // Establish connection to Gorbagana devnet
-      connection = new Connection('https://rpc.gorbagana.wtf', 'confirmed');
+      // Establish connection to Gorbagana Mainnet
+      connection = new Connection('https://rpc.trashscan.io', 'confirmed');
 
       // Initialize Metaplex SDK
       metaplex = Metaplex.make(connection)
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Name: ${nft.name}<br>
         Mint Address: ${nft.address.toString()}<br>
         Signature: ${response.signature}<br>
-        <a href="https://trashscan.xyz/tx/${response.signature}" target="_blank">View on Trashscan</a>
+        <a href="https://trashscan.io/tx/${response.signature}" target="_blank">View on Trashscan</a>
       `;
       statusEl.appendChild(successMessage);
 

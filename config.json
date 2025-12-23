@@ -1,7 +1,7 @@
 {
   "price": 0,
-  "number": 50,
-  "symbol": "JALIEN",
+  "number": 10000,
+  "symbol": "JSTA",
   "sellerFeeBasisPoints": 500,
   "gatekeeper": null,
   "solTreasuryAccount": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
@@ -16,7 +16,7 @@
   "isMutable": true,
   "creators": [
     {
-      "address": "REPLACE_WITH_YOUR_DEPLOYER_WALLET_ADDRESS",
+      "address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
       "share": 100
     }
   ]

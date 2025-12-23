@@ -2,13 +2,13 @@
 
 ## Overview
 
-This document provides step-by-step instructions for deploying your JUST ALIENS NFT collection on the Gorbagana blockchain (Devnet/Testnet). All necessary files have been prepared for you.
+This document provides step-by-step instructions for deploying your JUST ALIENS NFT collection on the Gorbagana blockchain (Mainnet). All necessary files have been prepared for you.
 
 ## Current Status
 
 ✅ **Ready for Deployment:**
 - Website with mint page
-- Wallet connection configured for Gorbagana Devnet
+- Wallet connection configured for Gorbagana Mainnet
 - 50 NFT artworks and metadata files
 - Sugar configuration file
 - Asset preparation script
@@ -51,7 +51,7 @@ chmod +x deploy.sh
 
 The script will automatically:
 1. Check and install prerequisites (Solana CLI, Sugar CLI)
-2. Configure Solana for Gorbagana Devnet
+2. Configure Solana for Gorbagana Mainnet
 3. Create or use existing deployment wallet
 4. Check your GOR balance
 5. Prepare NFT assets (rename from 1-50 to 0-49)
@@ -113,7 +113,7 @@ export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 ### Step 2: Configure Solana for Gorbagana
 
 ```bash
-solana config set --url https://rpc.gorbagana.wtf
+solana config set --url https://rpc.trashscan.io
 ```
 
 ### Step 3: Create deployment wallet
@@ -209,9 +209,9 @@ Instead of:
 1. Open Backpack extension
 2. Go to Settings → Networks
 3. Add custom network:
-   - **Name:** Gorbagana Devnet
-   - **RPC URL:** https://rpc.gorbagana.wtf
-4. Switch to Gorbagana Devnet
+   - **Name:** Gorbagana Mainnet
+   - **RPC URL:** https://rpc.trashscan.io
+4. Switch to Gorbagana Mainnet
 5. Get GOR tokens from faucet for testing
 
 ---
@@ -220,7 +220,7 @@ Instead of:
 
 ### Test Checklist
 
-- [ ] Connect Backpack wallet to Gorbagana Devnet
+- [ ] Connect Backpack wallet to Gorbagana Mainnet
 - [ ] Ensure wallet has at least 100 GOR
 - [ ] Click "Connect Wallet" button
 - [ ] Click "Mint NFT" button
@@ -317,8 +317,8 @@ export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 **Solution:** Run `sugar verify` to check candy machine state.
 
 ### Issue: Wallet won't connect
-**Solution:** 
-- Ensure Backpack is on Gorbagana Devnet
+**Solution:**
+- Ensure Backpack is on Gorbagana Mainnet
 - Refresh page
 - Check console for errors
 
@@ -357,8 +357,8 @@ Before deploying to mainnet:
    - Set actual price (currently 0 for testing)
    - Update creator addresses
 
-2. **Update RPC URL:**
-   - Change from `https://rpc.gorbagana.wtf` to mainnet RPC
+2. **RPC URL:**
+   - Already configured: `https://rpc.trashscan.io`
 
 3. **Get real GOR:**
    - Purchase from exchange

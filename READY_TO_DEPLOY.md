@@ -47,10 +47,10 @@ solana --version
 
 ---
 
-### Step 2: Configure Solana for Gorbagana Devnet
+### Step 2: Configure Solana for Gorbagana Mainnet
 
 ```bash
-solana config set --url https://rpc.gorbagana.wtf
+solana config set --url https://rpc.trashscan.io
 ```
 
 ---

@@ -1,13 +1,13 @@
 JUST ALIENS NFT COLLECTION - GORBAGANA DEPLOYMENT GUIDE
 ========================================================
 
-This guide outlines the exact steps needed to deploy your JUST ALIENS NFT collection 
-on the Gorbagana blockchain (Devnet/Testnet).
+This guide outlines the exact steps needed to deploy your JUST ALIENS NFT collection
+on the Gorbagana blockchain (Mainnet).
 
 CURRENT STATUS
 --------------
 ✓ Website with mint page is ready
-✓ Wallet connection configured for Gorbagana Devnet
+✓ Wallet connection configured for Gorbagana Mainnet
 ✓ Payment mechanism set to 100 GOR per mint
 ✓ Treasury wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
 
@@ -40,9 +40,9 @@ STEP 1: INSTALL SOLANA CLI
    sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
    ```
 
-2. Configure Solana CLI for Gorbagana Devnet:
+2. Configure Solana CLI for Gorbagana Mainnet:
    ```
-   solana config set --url https://rpc.gorbagana.wtf
+   solana config set --url https://rpc.trashscan.io
    ```
 
 3. Create or import your deployment wallet:
@@ -236,8 +236,8 @@ STEP 8: CONFIGURE BACKPACK WALLET
 2. Add Gorbagana network:
    - Open Backpack settings
    - Add custom network
-   - Name: Gorbagana Devnet
-   - RPC URL: https://rpc.gorbagana.wtf
+   - Name: Gorbagana Mainnet
+   - RPC URL: https://rpc.trashscan.io
    - Chain ID: (check Gorbagana docs)
 
 3. Get GOR tokens from faucet for testing
@@ -251,7 +251,7 @@ STEP 9: TEST MINTING
 
 2. Open http://localhost:8080/mint.html in browser
 
-3. Connect Backpack wallet (ensure it's on Gorbagana Devnet)
+3. Connect Backpack wallet (ensure it's on Gorbagana Mainnet)
 
 4. Try minting an NFT
 

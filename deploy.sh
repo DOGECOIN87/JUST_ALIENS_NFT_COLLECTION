@@ -7,7 +7,7 @@ set -e  # Exit on any error
 
 echo "=========================================="
 echo "JUST ALIENS NFT Collection Deployment"
-echo "Gorbagana Devnet"
+echo "Gorbagana Mainnet"
 echo "=========================================="
 echo ""
 
@@ -50,9 +50,9 @@ fi
 echo ""
 
 # Step 2: Configure Solana for Gorbagana
-echo -e "${YELLOW}Step 2: Configuring Solana for Gorbagana Devnet...${NC}"
-solana config set --url https://rpc.gorbagana.wtf
-echo -e "${GREEN}✓ RPC URL set to Gorbagana Devnet${NC}"
+echo -e "${YELLOW}Step 2: Configuring Solana for Gorbagana Mainnet...${NC}"
+solana config set --url https://rpc.trashscan.io
+echo -e "${GREEN}✓ RPC URL set to Gorbagana Mainnet${NC}"
 echo ""
 
 # Step 3: Setup wallet
@@ -158,12 +158,12 @@ cat > deployment_info.txt << EOF
 JUST ALIENS NFT Collection - Deployment Information
 ====================================================
 Deployment Date: $(date)
-Network: Gorbagana Devnet
-RPC URL: https://rpc.gorbagana.wtf
+Network: Gorbagana Mainnet
+RPC URL: https://rpc.trashscan.io
 
 Deployer Wallet: $WALLET_ADDRESS
 Candy Machine ID: $CANDY_MACHINE_ID
-Collection Size: 50 NFTs
+Collection Size: 10000 NFTs
 Symbol: JALIEN
 
 Next Steps:

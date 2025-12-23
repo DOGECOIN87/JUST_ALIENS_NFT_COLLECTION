@@ -6,6 +6,7 @@
  *
  * Collection ID: 87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6
  * Verified Creator: DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt
+ * Treasury Wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,20 +23,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const CONFIG = {
     // Collection address from LaunchMyNFT
     COLLECTION_ID: '87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6',
-    // Verified creator address
+    // Verified creator address (from LaunchMyNFT)
     CREATOR_ID: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
     // Treasury wallet for payments
-    TREASURY_WALLET: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
+    TREASURY_WALLET: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Gorbagana Mainnet RPC
-    RPC_ENDPOINT: 'https://rpc.gorbagana.wtf',
+    RPC_ENDPOINT: 'https://rpc.trashscan.io',
     // Price: 100 GOR (100 * 1e9 lamports)
     PRICE_LAMPORTS: 100 * 1e9,
     // Max mints per wallet
     MAX_MINT: 10,
     // Total collection size
-    TOTAL_SUPPLY: 50,
+    TOTAL_SUPPLY: 10000,
     // Block explorer
-    EXPLORER_URL: 'https://trashscan.xyz',
+    EXPLORER_URL: 'https://trashscan.io',
   };
 
   // Metaplex Token Metadata Program ID
