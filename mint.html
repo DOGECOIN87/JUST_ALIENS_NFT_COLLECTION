@@ -164,7 +164,10 @@
       };
     </script>
     <!-- Solana Web3 library: this must be loaded after Buffer polyfill -->
-    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.93.0/lib/index.iife.js"></script>
+    <!-- Using older stable version that handles large numbers better in browser -->
+    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.78.0/lib/index.iife.min.js"></script>
+    <!-- BN.js for proper big number handling -->
+    <script src="https://cdn.jsdelivr.net/npm/bn.js@5.2.1/bn.min.js"></script>
     <!-- Base58 encoding for Metaplex -->
     <script src="https://cdn.jsdelivr.net/npm/bs58@5.0.0/dist/index.umd.min.js"></script>
     <!-- Mint page logic -->

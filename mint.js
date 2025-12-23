@@ -42,9 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
     TREASURY_WALLET: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Gorbagana Mainnet RPC (trashscan.io is the official Gorbagana endpoint)
     RPC_ENDPOINT: 'https://rpc.trashscan.io',
-    // Price: 1000 GOR = 1,000,000,000,000 lamports (direct integer, no multiplication)
-    // This is within JavaScript's safe integer range (MAX_SAFE_INTEGER = 9,007,199,254,740,991)
-    PRICE_LAMPORTS: 1000000000000,
+    // Price in GOR (human readable)
+    PRICE_GOR: 1000,
+    // Lamports per GOR (1 GOR = 1 billion lamports, same as SOL)
+    LAMPORTS_PER_GOR: 1000000000,
     // Max mints per wallet
     MAX_MINT: 50,
     // Total collection size
@@ -52,6 +53,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Block explorer (Gorbagana Explorer at trashscan.io)
     EXPLORER_URL: 'https://trashscan.io',
   };
+
+  /**
+   * Get the mint price in lamports using BN.js for proper big number handling
+   * This avoids JavaScript number precision issues with large values
+   */
+  function getPriceLamports() {
+    // Use BN.js if available (loaded via script tag), otherwise use native BigInt
+    if (typeof BN !== 'undefined') {
+      const priceGor = new BN(CONFIG.PRICE_GOR);
+      const lamportsPerGor = new BN(CONFIG.LAMPORTS_PER_GOR);
+      return priceGor.mul(lamportsPerGor);
+    }
+    // Fallback to BigInt
+    return BigInt(CONFIG.PRICE_GOR) * BigInt(CONFIG.LAMPORTS_PER_GOR);
+  }
 
   // Metaplex Token Metadata Program ID
   const TOKEN_METADATA_PROGRAM_ID = 'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s';
@@ -220,11 +236,13 @@ document.addEventListener('DOMContentLoaded', () => {
     transaction.feePayer = userPubkey;
 
     // Add payment instruction (1000 GOR to treasury)
+    // Use BN.js or BigInt for proper large number handling
+    const priceLamports = getPriceLamports();
     transaction.add(
       solanaWeb3.SystemProgram.transfer({
         fromPubkey: userPubkey,
         toPubkey: treasuryPubkey,
-        lamports: CONFIG.PRICE_LAMPORTS,
+        lamports: priceLamports,
       })
     );
 
