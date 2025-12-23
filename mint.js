@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Treasury wallet for payments
     TREASURY_WALLET: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
     // Gorbagana Mainnet RPC
-    RPC_ENDPOINT: 'https://rpc.gorbagana.wtf',
+    RPC_ENDPOINT: 'https://rpc.trashscan.io',
     // Price: 100 GOR (100 * 1e9 lamports)
     PRICE_LAMPORTS: 100 * 1e9,
     // Max mints per wallet
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Total collection size
     TOTAL_SUPPLY: 50,
     // Block explorer
-    EXPLORER_URL: 'https://trashscan.xyz',
+    EXPLORER_URL: 'https://trashscan.io',
   };
 
   // Metaplex Token Metadata Program ID

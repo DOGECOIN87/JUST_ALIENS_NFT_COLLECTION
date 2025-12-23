@@ -1,5 +1,5 @@
  Context:
-You’re working on the Gorbagana NFT Deployment project. We have a ZIP archive (just_aliens_gorbagana.zip) that contains modifications and new files needed to adapt the existing JUST ALIENS NFT COLLECTION (originally built for Solana) to the Gorbagana Devnet.
+You're working on the Gorbagana NFT Deployment project. We have a ZIP archive (just_aliens_gorbagana.zip) that contains modifications and new files needed to adapt the existing JUST ALIENS NFT COLLECTION (originally built for Solana) to the Gorbagana Mainnet.
 
 Your tasks:
 
@@ -22,7 +22,7 @@ Add the new mint.js file to handle the wallet connection and minting logic.
 
 Ensure mint.html imports the Solana Web3 library via CDN, the site’s script.js, and the new mint.js script.
 
-In mint.js, confirm the mint price is set to 100 GOR (100 × 10⁹ lamports) and that it enforces a maximum of 10 mints per wallet. It should connect to the Gorbagana Devnet RPC endpoint at https://rpc.gorbagana.wtf.
+In mint.js, confirm the mint price is set to 100 GOR (100 × 10⁹ lamports) and that it enforces a maximum of 10 mints per wallet. It should connect to the Gorbagana Mainnet RPC endpoint at https://rpc.trashscan.io.
 
 Replace the placeholder treasury public key (Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkgipsjhAHzvd) in mint.js with the actual Gorbagana wallet address that will receive the GOR proceeds.
 
@@ -32,7 +32,7 @@ Replace the placeholder treasury public key (Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkgi
 
 Use a local development server or open the HTML files directly to confirm the navigation sidebar shows the new “Mint” page, the mint page displays properly styled buttons and instructions, and the connection/mint logic does not produce any console errors.
 
-Check that connecting with a Backpack wallet set to the Gorbagana Devnet triggers the expected connection flow.
+Check that connecting with a Backpack wallet set to the Gorbagana Mainnet triggers the expected connection flow.
 
 
 
@@ -40,4 +40,4 @@ Check that connecting with a Backpack wallet set to the Gorbagana Devnet trigger
 
 
 
-Follow these steps carefully to ensure the NFT collection is fully configured for users to mint on the Gorbagana Devnet using their Backpack wallets.
+Follow these steps carefully to ensure the NFT collection is fully configured for users to mint on the Gorbagana Mainnet using their Backpack wallets.

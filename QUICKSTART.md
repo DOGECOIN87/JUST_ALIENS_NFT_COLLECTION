@@ -34,7 +34,7 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 
 # 2. Configure for Gorbagana
-solana config set --url https://rpc.gorbagana.wtf
+solana config set --url https://rpc.trashscan.io
 
 # 3. Create wallet
 solana-keygen new --outfile ~/.config/solana/gorbagana-deployer.json

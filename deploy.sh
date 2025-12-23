@@ -51,7 +51,7 @@ echo ""
 
 # Step 2: Configure Solana for Gorbagana
 echo -e "${YELLOW}Step 2: Configuring Solana for Gorbagana Mainnet...${NC}"
-solana config set --url https://rpc.gorbagana.wtf
+solana config set --url https://rpc.trashscan.io
 echo -e "${GREEN}✓ RPC URL set to Gorbagana Mainnet${NC}"
 echo ""
 
@@ -159,7 +159,7 @@ JUST ALIENS NFT Collection - Deployment Information
 ====================================================
 Deployment Date: $(date)
 Network: Gorbagana Mainnet
-RPC URL: https://rpc.gorbagana.wtf
+RPC URL: https://rpc.trashscan.io
 
 Deployer Wallet: $WALLET_ADDRESS
 Candy Machine ID: $CANDY_MACHINE_ID
