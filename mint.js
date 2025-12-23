@@ -5,7 +5,8 @@
  * This script integrates with the LaunchMyNFT deployed collection.
  *
  * Collection ID: 87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6
- * Creator Wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
+ * Verified Creator: DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt
+ * Treasury Wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const CONFIG = {
     // Collection address from LaunchMyNFT
     COLLECTION_ID: '87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6',
-    // Creator address
-    CREATOR_ID: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
+    // Verified creator address (from LaunchMyNFT)
+    CREATOR_ID: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
     // Treasury wallet for payments
     TREASURY_WALLET: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Gorbagana Mainnet RPC
