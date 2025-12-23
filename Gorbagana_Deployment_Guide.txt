@@ -44,6 +44,9 @@ STEP 1: INSTALL SOLANA CLI
    ```
    solana config set --url https://rpc.trashscan.io
    ```
+   
+   Note: https://rpc.trashscan.io is the official Gorbagana RPC endpoint.
+   The Gorbagana Explorer is available at: https://trashscan.io
 
 3. Create or import your deployment wallet:
    ```

@@ -18,9 +18,9 @@ import { Connection, PublicKey, clusterApiUrl } from '@solana/web3.js';
 // ⚠️ REPLACE THIS WITH YOUR DEPLOYED CANDY MACHINE ID
 const CANDY_MACHINE_ID = 'YOUR_CANDY_MACHINE_ID_HERE';
 
-// Price in GOR (100 GOR = 100 * 1e9 lamports)
-const PRICE_LAMPORTS = 100 * 1e9;
-const MAX_MINT = 10;
+// Price in GOR (1000 GOR = 1000 * 1e9 lamports)
+const PRICE_LAMPORTS = 1000 * 1e9;
+const MAX_MINT = 50;
 
 document.addEventListener('DOMContentLoaded', () => {
   const connectButton = document.getElementById('connect-button');
@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
       connectButton.disabled = true;
       mintButton.disabled = false;
 
-      // Establish connection to Gorbagana Mainnet
-      connection = new Connection('https://rpc.gorbagana.wtf', 'confirmed');
+      // Establish connection to Gorbagana Mainnet (trashscan.io is the official RPC)
+      connection = new Connection('https://rpc.trashscan.io', 'confirmed');
 
       // Initialize Metaplex SDK
       metaplex = Metaplex.make(connection)
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Provide helpful error messages
       let errorMessage = 'Minting failed: ';
       if (err.message?.includes('insufficient')) {
-        errorMessage += 'Insufficient GOR balance. You need at least 100 GOR to mint.';
+        errorMessage += 'Insufficient GOR balance. You need at least 1000 GOR to mint.';
       } else if (err.message?.includes('sold out')) {
         errorMessage += 'All NFTs have been minted!';
       } else {

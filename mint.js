@@ -2,11 +2,24 @@
  * mint.js
  *
  * NFT Minting script for Just Aliens collection on Gorbagana Mainnet.
- * This script integrates with the LaunchMyNFT deployed collection.
- *
- * Collection ID: 87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6
- * Verified Creator: DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt
+ * 
+ * Network Configuration:
+ * - Chain: Gorbagana (Solana Fork)
+ * - RPC Endpoint: https://rpc.trashscan.io
+ * - Explorer: https://trashscan.io
+ * 
+ * Collection Details:
+ * - Name: Just Aliens
+ * - Symbol: JSTA
+ * - Total Supply: 10,000 NFTs
+ * - Mint Price: 1,000 GOR
+ * - Max Per Wallet: 50
+ * 
  * Treasury Wallet: Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo
+ * 
+ * Metaplex Program IDs (Gorbagana):
+ * - Token Metadata: metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s
+ * - Token Entangler: p1exdMJcjVao65QdewkaZRUnU6VPSXhus9n2GzWfh98
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -21,23 +34,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Configuration
   const CONFIG = {
-    // Collection address from LaunchMyNFT
+    // Collection address (will be updated after Candy Machine deployment)
     COLLECTION_ID: '87wkqFwhwTnDvJZ3kJ4iCk1KLj1b8K7c17wBNaNu8Fx6',
-    // Verified creator address (from LaunchMyNFT)
-    CREATOR_ID: 'DcDRBfWYXeJ5Nh8HNJoCzmFT6QCGUq72NyPJ9kWvJFkt',
+    // Creator/Deployer wallet address
+    CREATOR_ID: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Treasury wallet for payments
     TREASURY_WALLET: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
-    // Gorbagana Mainnet RPC
-    RPC_ENDPOINT: 'https://rpc.gorbagana.wtf',
-    // Price: 100 GOR (100 * 1e9 lamports)
-    PRICE_LAMPORTS: 100 * 1e9,
+    // Gorbagana Mainnet RPC (trashscan.io is the official Gorbagana endpoint)
+    RPC_ENDPOINT: 'https://rpc.trashscan.io',
+    // Price in GOR (will be converted to lamports with proper BigInt handling)
+    PRICE_GOR: 1000,
+    // Lamports per GOR (same as SOL: 1 GOR = 1,000,000,000 lamports)
+    LAMPORTS_PER_GOR: 1000000000,
     // Max mints per wallet
-    MAX_MINT: 10,
+    MAX_MINT: 50,
     // Total collection size
     TOTAL_SUPPLY: 10000,
-    // Block explorer
+    // Block explorer (Gorbagana Explorer at trashscan.io)
     EXPLORER_URL: 'https://trashscan.io',
   };
+
+  /**
+   * Get price in lamports as a number safe for Solana web3.js
+   * Uses integer multiplication to avoid floating point issues
+   */
+  function getPriceLamports() {
+    // For amounts over Number.MAX_SAFE_INTEGER, we need BigInt
+    // 1000 GOR = 1,000,000,000,000 lamports (1 trillion)
+    // This exceeds safe integer, so use BigInt
+    return BigInt(CONFIG.PRICE_GOR) * BigInt(CONFIG.LAMPORTS_PER_GOR);
+  }
 
   // Metaplex Token Metadata Program ID
   const TOKEN_METADATA_PROGRAM_ID = 'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s';
@@ -205,12 +231,14 @@ document.addEventListener('DOMContentLoaded', () => {
     transaction.recentBlockhash = blockhash;
     transaction.feePayer = userPubkey;
 
-    // Add payment instruction (100 GOR to treasury)
+    // Add payment instruction (1000 GOR to treasury)
+    // Use BigInt for large lamport values to avoid encoding errors
+    const priceLamports = getPriceLamports();
     transaction.add(
       solanaWeb3.SystemProgram.transfer({
         fromPubkey: userPubkey,
         toPubkey: treasuryPubkey,
-        lamports: CONFIG.PRICE_LAMPORTS,
+        lamports: priceLamports,
       })
     );
 
@@ -379,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let errorMessage = 'Minting failed: ';
       if (err.message?.includes('insufficient') || err.message?.includes('0x1')) {
-        errorMessage += 'Insufficient GOR balance. You need at least 100 GOR plus fees.';
+        errorMessage += 'Insufficient GOR balance. You need at least 1000 GOR plus fees.';
       } else if (err.message?.includes('User rejected')) {
         errorMessage += 'Transaction was rejected by user.';
       } else {

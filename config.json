@@ -19,5 +19,24 @@
       "address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
       "share": 100
     }
-  ]
+  ],
+  "network": {
+    "cluster": "mainnet",
+    "rpcUrl": "https://rpc.trashscan.io",
+    "chainName": "Gorbagana",
+    "explorer": "https://trashscan.io"
+  },
+  "metaplex": {
+    "tokenMetadataProgram": "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",
+    "tokenEntanglerProgram": "p1exdMJcjVao65QdewkaZRUnU6VPSXhus9n2GzWfh98"
+  },
+  "collection": {
+    "name": "Just Aliens",
+    "symbol": "JSTA",
+    "description": "Born from the buzz surrounding recent UFO disclosures. In a time when Aliens are dominating headlines, we offer a fun way to engage with the mystery.",
+    "totalSupply": 10000,
+    "mintPrice": 1000,
+    "maxPerWallet": 50,
+    "currency": "GOR"
+  }
 }

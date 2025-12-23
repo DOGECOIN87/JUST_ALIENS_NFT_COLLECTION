@@ -211,6 +211,7 @@ Instead of:
 3. Add custom network:
    - **Name:** Gorbagana Mainnet
    - **RPC URL:** https://rpc.trashscan.io
+   - **Explorer:** https://trashscan.io
 4. Switch to Gorbagana Mainnet
 5. Get GOR tokens from faucet for testing
 

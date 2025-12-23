@@ -51,8 +51,8 @@ echo ""
 
 # Step 2: Configure Solana for Gorbagana
 echo -e "${YELLOW}Step 2: Configuring Solana for Gorbagana Mainnet...${NC}"
-solana config set --url https://rpc.gorbagana.wtf
-echo -e "${GREEN}✓ RPC URL set to Gorbagana Mainnet${NC}"
+solana config set --url https://rpc.trashscan.io
+echo -e "${GREEN}✓ RPC URL set to Gorbagana Mainnet (trashscan.io)${NC}"
 echo ""
 
 # Step 3: Setup wallet
@@ -159,12 +159,17 @@ JUST ALIENS NFT Collection - Deployment Information
 ====================================================
 Deployment Date: $(date)
 Network: Gorbagana Mainnet
-RPC URL: https://rpc.gorbagana.wtf
+RPC URL: https://rpc.trashscan.io
+Explorer: https://trashscan.io
 
 Deployer Wallet: $WALLET_ADDRESS
 Candy Machine ID: $CANDY_MACHINE_ID
 Collection Size: 10000 NFTs
-Symbol: JALIEN
+Symbol: JSTA
+
+Metaplex Program IDs (Gorbagana):
+- Token Metadata: metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s
+- Token Entangler: p1exdMJcjVao65QdewkaZRUnU6VPSXhus9n2GzWfh98
 
 Next Steps:
 1. Update mint-updated.js with your Candy Machine ID: $CANDY_MACHINE_ID
