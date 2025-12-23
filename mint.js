@@ -42,10 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
     TREASURY_WALLET: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo',
     // Gorbagana Mainnet RPC (trashscan.io is the official Gorbagana endpoint)
     RPC_ENDPOINT: 'https://rpc.trashscan.io',
-    // Price in GOR (will be converted to lamports with proper BigInt handling)
-    PRICE_GOR: 1000,
-    // Lamports per GOR (same as SOL: 1 GOR = 1,000,000,000 lamports)
-    LAMPORTS_PER_GOR: 1000000000,
+    // Price: 1000 GOR = 1,000,000,000,000 lamports (direct integer, no multiplication)
+    // This is within JavaScript's safe integer range (MAX_SAFE_INTEGER = 9,007,199,254,740,991)
+    PRICE_LAMPORTS: 1000000000000,
     // Max mints per wallet
     MAX_MINT: 50,
     // Total collection size
@@ -53,17 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Block explorer (Gorbagana Explorer at trashscan.io)
     EXPLORER_URL: 'https://trashscan.io',
   };
-
-  /**
-   * Get price in lamports as a number safe for Solana web3.js
-   * Uses integer multiplication to avoid floating point issues
-   */
-  function getPriceLamports() {
-    // For amounts over Number.MAX_SAFE_INTEGER, we need BigInt
-    // 1000 GOR = 1,000,000,000,000 lamports (1 trillion)
-    // This exceeds safe integer, so use BigInt
-    return BigInt(CONFIG.PRICE_GOR) * BigInt(CONFIG.LAMPORTS_PER_GOR);
-  }
 
   // Metaplex Token Metadata Program ID
   const TOKEN_METADATA_PROGRAM_ID = 'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s';
@@ -232,13 +220,11 @@ document.addEventListener('DOMContentLoaded', () => {
     transaction.feePayer = userPubkey;
 
     // Add payment instruction (1000 GOR to treasury)
-    // Use BigInt for large lamport values to avoid encoding errors
-    const priceLamports = getPriceLamports();
     transaction.add(
       solanaWeb3.SystemProgram.transfer({
         fromPubkey: userPubkey,
         toPubkey: treasuryPubkey,
-        lamports: priceLamports,
+        lamports: CONFIG.PRICE_LAMPORTS,
       })
     );
 
