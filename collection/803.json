@@ -1,0 +1,44 @@
+{
+  "name": "Just Aliens #803",
+  "symbol": "JSTA",
+  "description": "Born from the buzz surrounding recent UFO disclosures. In a time when Aliens are dominating headlines, we offer a fun way to engage with the mystery, reminding everyone to chill out and enjoy the ride.",
+  "seller_fee_basis_points": 500,
+  "image": "803.webp",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Spaceship Corridor Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Alien Terrain Suit"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Amused"
+    },
+    {
+      "trait_type": "Text",
+      "value": "Green Opaque"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "803.webp",
+        "type": "image/webp"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+        "share": 100
+      }
+    ]
+  }
+}
