@@ -225,7 +225,10 @@ async function contactSheet(pieces, file) {
     .toFile(file);
 }
 
-(async () => {
+// The pairing rules are shared with scripts/best-pairings.cjs.
+module.exports = { LAYERS, ACCENTS, bodyFits, captionsFor };
+
+if (require.main === module) (async () => {
   const pieces = plan();
   const selected = pieces.slice(0, LIMIT);
   fs.mkdirSync(OUT, { recursive: true });
