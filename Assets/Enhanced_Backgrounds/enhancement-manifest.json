@@ -1,0 +1,271 @@
+{
+  "source_directory": "Assets/Background",
+  "texture": "Assets/halftone_grayscale.png",
+  "texture_sha256": "9233925ff015b0da0077c12c06416d2c27731eaf3ad128a4e518eecf7019d1f9",
+  "settings": {
+    "blend_mode": "normal",
+    "overlay_opacity": 0.3,
+    "vignette_max_black_opacity": 0.45,
+    "vignette_start_radius": 0.28,
+    "vignette_profile": "smoothstep, elliptical radius normalized to the corners",
+    "texture_resize": "Lanczos3 to source dimensions",
+    "output": "lossless RGBA PNG; source dimensions and alpha preserved"
+  },
+  "backgrounds": [
+    {
+      "source": "Abyss.png",
+      "source_sha256": "0923442e3cfa485c7b08e7aa514880cb031790a82d6ea3abbb798c3061ae198b",
+      "output": "Abyss.png",
+      "output_sha256": "8fadb3a707769ddfde084d6fa7f53c58face1a90622d2dd5e89927b8fbcc15ab",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Celestial.png",
+      "source_sha256": "df5708c0e0b4cef38dc346cbfe9af426c73789a04be1000c48160aa603b0f86d",
+      "output": "Celestial.png",
+      "output_sha256": "6e33ce49766451cc545d9be76ec7f5abb559079bc491042e4b85916e1f04fdc9",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cockpit_Blue.png",
+      "source_sha256": "b283426c2fa8c22817da6084b21e6814cab863044cfd758f7faa69d6f4caafd5",
+      "output": "Cockpit_Blue.png",
+      "output_sha256": "a7b36fe1fb6e0deafb353bcb8b5c98a1f604e3c7ac34093f5b1f31e6c42b5cbf",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cockpit_Green.png",
+      "source_sha256": "d7862576eb27b242b6b5a7260c6ea2281938e3ddcef1c1ffb0cf4458c0013492",
+      "output": "Cockpit_Green.png",
+      "output_sha256": "8e991942f1fffcd2fd1e1566f407f254ce73006d3616b69f8283c1aa899c3425",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cockpit_Light-Blue.png",
+      "source_sha256": "0065b4e42b207a78cc69d9b9bd64b67bc6fcc66a69e6bc5eb3bc80e6f55916f2",
+      "output": "Cockpit_Light-Blue.png",
+      "output_sha256": "20f7567738f7f7dbce19592d2252dd6490160ef0a9f14c5148a1ebb1b4b60d7c",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cockpit_Pink.png",
+      "source_sha256": "28d76272f35ecaa8d74645389760dfdbc2552eebf8dd7bbcb63c29af02b9ddce",
+      "output": "Cockpit_Pink.png",
+      "output_sha256": "a86244b0943e638eb313ec3a9888186a26bcb96229570b44bb44308450881240",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cockpit_Red.png",
+      "source_sha256": "6fe9b6f890575c6ee6073d2ac1559fa58411166ad020a557d394d15aa14e7940",
+      "output": "Cockpit_Red.png",
+      "output_sha256": "460f95dc036141a901654a61d3e38ddb28dacb01f5f500e5cb42253cd6a5c85f",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cockpit_white.png",
+      "source_sha256": "42061e9e89e49f08cdf9cac7e6c78ff16cc7ade12ab729eca0f8f964a3f87b71",
+      "output": "Cockpit_white.png",
+      "output_sha256": "1cfd97a7cb3ba6fc26d604e5c162104c659a3d3b00ed72da9e3f36035b94bfdf",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cove.png",
+      "source_sha256": "ee46aa47fae2fe8f51463b187dc6e58b62dd7812ee8498499da8b3deaa6e4b0c",
+      "output": "Cove.png",
+      "output_sha256": "424746c524cf0a0dfaeccb200a5882dcf603dd8607d983dac0f467db4529f4e9",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Cubes.png",
+      "source_sha256": "51c2c2e83705b01db6038b47f5f9fd79d704dacc15c360a9e420df3b35a7ae99",
+      "output": "goats_contest_mattrick (18).png",
+      "output_sha256": "c651bd8f4212d51d7af25090f5ed4cc3b1adcf4c2095291fa8aa3a76a5d83d11",
+      "status": "preserved_existing"
+    },
+    {
+      "source": "Neon_Orange.png",
+      "source_sha256": "238d3b22c976970389369b265ce965ca1367e3ca494accd6f214abdea5dab6e4",
+      "output": "Neon_Orange.png",
+      "output_sha256": "b84ca76f394b707ca930c1e8409e8cba62d052c8c5c42187b718d50ab8a31e34",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Portal.png",
+      "source_sha256": "7a5f1b1d380ff59d727347657f8125e21cde8f06b6dd09e8d23f45809b1102f9",
+      "output": "Portal.png",
+      "output_sha256": "88f5b1dacbdaba4fc866d74da5e67aa44990d91029064af6d9cdcdf7c52a0704",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Pyramids.png",
+      "source_sha256": "fb4ea6ccc4cfbc902e6a4b5214c28c873bdd0e2f3f3ba86665514a5a1580c96a",
+      "output": "goats_contest_mattrick (19).png",
+      "output_sha256": "6fedffae48a0e07bf23918936ee932db35bb6dd12d34e57aa6df1c9270447950",
+      "status": "preserved_existing"
+    },
+    {
+      "source": "Spaceship_Corridor_Blue.png",
+      "source_sha256": "c98d4e108fd7e11070874399cce1f6306ef68463c373dee13c494439c42fd98b",
+      "output": "Spaceship_Corridor_Blue.png",
+      "output_sha256": "67111e0fac8ce0481005dd4367d7f7bbb32814fbd81ea54afb1cb9669213c42e",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Spaceship_Corridor_Green.png",
+      "source_sha256": "38f83d14f20daaca8f3f61b3690cf06eab845a1a95cbafb47e204037007981ec",
+      "output": "Spaceship_Corridor_Green.png",
+      "output_sha256": "07d4f947b4a5f2a899bb7d2c33d529bb6ff1fd410b667156fa620602c450d955",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Spaceship_Corridor_Orange.png",
+      "source_sha256": "55af814be2a89fa81c7e574c76f351bc6961479a2f47ceaef2e13dd8936c7ad9",
+      "output": "Spaceship_Corridor_Orange.png",
+      "output_sha256": "f95b02a1784ff90f4bde003f7dc4e35283bc39840a3875b61f92d85d4a98d629",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Spaceship_Corridor_Pink.png",
+      "source_sha256": "c5b40998afa041b11005cd73b23cc3bb6b347ccc02fe44e88eb0fb12be71f45c",
+      "output": "Spaceship_Corridor_Pink.png",
+      "output_sha256": "6230922098eb03882e92ae508edfa821c5d28034d9016334b518ee366234d679",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Spaceship_Corridor_Red.png",
+      "source_sha256": "e95c45da1ca3da4ee34eab887f9e55e55084107ea4a639ca79edcff2858118cf",
+      "output": "Spaceship_Corridor_Red.png",
+      "output_sha256": "cfa5b1c73b22641e9690afa9ff3d111bb8fb85bf3e9f2e631e84d12845da2535",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Spaceship_Corridor_White.png",
+      "source_sha256": "92918fac4f1dcdbc25ca37eb727889f1554486125c94a1cfd77ee7fc83e538d6",
+      "output": "Spaceship_Corridor_White.png",
+      "output_sha256": "71ff5744eb15b7e972ccd178376c0eff259294015a40892edbe080c7208d8f75",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Spheres.png",
+      "source_sha256": "2349ef5fca707c17864c0a63895574873015ecae701e6aa0d2de30cfe38f1f34",
+      "output": "goats_contest_mattrick (17).png",
+      "output_sha256": "bf2da03cdfe7e822ea13b717e4f8d0541f7e1ce2688cd2c21d4665f58234f8a1",
+      "status": "preserved_existing"
+    },
+    {
+      "source": "Terra.png",
+      "source_sha256": "0526fc2aa1569c69c9252b574a673284786dec832b2c090e018e67b9b8b81e6b",
+      "output": "Terra.png",
+      "output_sha256": "e6702acbef69aaa7b54eb15e71ca1943e46868972b9daafed15c33c42f72a1ff",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO.png",
+      "source_sha256": "2bcb2f1540fb015de3026db19e286f112603a264aa1cb5b201d586046aa21112",
+      "output": "UFO.png",
+      "output_sha256": "71651e722db3b1742dc4f72531d0484cfedd05982c078865cdfda64bb1a165b6",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_Blue.png",
+      "source_sha256": "64cc2002dafd4251617125390fb8b90131993b76ab545d9f87976214b6e59ebe",
+      "output": "UFO_Blue.png",
+      "output_sha256": "805744ab6c33e7ba07859a7eff5e7247d731c8eb5b502499c76d0d186f7fab09",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_Green.png",
+      "source_sha256": "62ffbdc3ac8b4f24aa752f911ffa572e62fbb8a514e66f92e244f338925879b2",
+      "output": "UFO_Green.png",
+      "output_sha256": "930a18e591bd64a45ad7c64e9437bca41f85423705d8dcd19cb78c2ff04c75d5",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_Inverted.png",
+      "source_sha256": "6b6bbfc69352ea8b6f9d5e720e713e14373af103a7c32117f0aa23c786b75104",
+      "output": "UFO_Inverted.png",
+      "output_sha256": "c92c4573279e026a3fd64b0a9395a8d8395e05de4faf3ce0d773c7e35666d702",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_Light_Blue.png",
+      "source_sha256": "8466b451a3ac7c44eeb7b780c9feec4cefc985b472ba0dc6e6587ee61e750080",
+      "output": "UFO_Light_Blue.png",
+      "output_sha256": "6c7fc1b710e51a1ca5bdb58748db2014384f90224231eceb54d8f527b2f840e7",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_Pink.png",
+      "source_sha256": "5e0a9ac49fff1e5dff1997c8cdad4a8339c3c80c45f341e020d77f5ebffc8eb2",
+      "output": "UFO_Pink.png",
+      "output_sha256": "5bf9eb4a842859634949eb4419b388d6d7f6d7f680c562644c7b778d3a2b360e",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_Red.png",
+      "source_sha256": "1827de67ec466ae558c4ac1448930313745c0f6ed4db7cbc4a4d6f4af70adfee",
+      "output": "UFO_Red.png",
+      "output_sha256": "ee5589f58f79f60e7dd880039aaffdd322f79aac137845bc287e8dd8127f0d86",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "UFO_White.png",
+      "source_sha256": "b586ad2dbb498044be8d671f2e312ac9424c4a73dd3c36d3cacd5264d68cb89e",
+      "output": "UFO_White.png",
+      "output_sha256": "e2ab6250a9c682ba87c5d7e97d100718b8febbfdda04923457766628573d8a1f",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    }
+  ]
+}
