@@ -226,7 +226,7 @@ async function contactSheet(pieces, file) {
 }
 
 // The pairing rules are shared with scripts/best-pairings.cjs.
-module.exports = { LAYERS, ACCENTS, bodyFits, captionsFor };
+module.exports = { LAYERS, bodyFits, captionsFor };
 
 if (require.main === module) (async () => {
   const pieces = plan();

@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Pick the best-looking trait pairings and lay them out on one contact sheet.
 //
-// Every candidate follows the collection's pairing rules (generate_collection.js),
-// sits on its Enhanced_Backgrounds counterpart, and is scored by:
+// Only the new backgrounds are used (SCENES below); the original 29 scenes and
+// their halftone copies in Enhanced_Backgrounds are left out. Every candidate
+// follows the collection's pairing rules (generate_collection.js) and is scored by:
 //   - separation: how clearly the outfit's outline reads against the scene
 //     (CIE Lab colour difference across the silhouette edge, sampled around it),
 //   - colour echo: a scene accent picked up by the outfit or the caption.
@@ -15,7 +16,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const sharp = require('sharp');
-const { LAYERS, ACCENTS, bodyFits, captionsFor } = require('../generate_collection.js');
+const { LAYERS, bodyFits, captionsFor } = require('../generate_collection.js');
 
 const root = path.resolve(__dirname, '..');
 const args = process.argv.slice(2);
@@ -25,7 +26,7 @@ const OUT = path.resolve(arg('--out', path.join(root, 'best_pairings')));
 // The generator blurs backgrounds; off by default here so the halftone texture shows.
 const BLUR = Number(arg('--blur', 0));
 
-const MAX_PER_BACKGROUND = 2;
+const MAX_PER_BACKGROUND = 9;
 const MAX_PER_OUTFIT = 5;
 const MAX_PER_RARE = 3;
 
@@ -43,20 +44,22 @@ const ECHOES = {
 const ECHO_BONUS = 6;
 const CAPTION_BONUS = 3;
 
-// Expressions that suit each scene; each pick takes the least-used one so far.
-const MOODS = [
-  [/^UFO/, ['Surprised', 'Curious', 'Confused']],
-  [/^Cockpit/, ['Happy', 'Amused', 'Chill']],
-  [/^Spaceship Corridor/, ['Curious', 'Sour', 'Angry', 'Chill']],
-  [/^(Abyss|Celestial|Portal|Cove|Terra)$/, ['Chill', 'Curious', 'Sad']],
-  [/^(Cubes|Spheres|Pyramids)$/, ['Confused', 'Curious', 'Amused']],
-  [/^Neon/, ['Amused', 'Surprised', 'Happy']],
-];
+// The new backgrounds: five generated scenes, named after the designs listed when
+// Enhanced_Backgrounds was set up, and the Earthrise photo. accent is the scene's
+// colour (the rest are monochrome); moods are the expressions that suit it,
+// rotated so neither a scene nor the sheet repeats one.
+const SCENES = [
+  { name: 'Spheres Spotlight', file: 'Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png', moods: ['Curious', 'Confused', 'Amused', 'Sour'] },
+  { name: 'Cubes Cinematic', file: 'Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png', moods: ['Confused', 'Curious', 'Sour', 'Angry'] },
+  { name: 'Pyramids Dunes', file: 'Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png', moods: ['Curious', 'Amused', 'Confused', 'Happy'] },
+  { name: 'Wormhole Vortex', file: 'Assets/4fd01d63-2a0c-40cc-a521-72c432276a0b.png', moods: ['Surprised', 'Curious', 'Angry', 'Amused'] },
+  { name: 'Cavern of Light', file: 'Assets/dd1fca4d-9ede-4449-81d9-68ab41ccc8c3.png', moods: ['Curious', 'Surprised', 'Chill', 'Sad'] },
+  // A landscape photo: cropping from the right puts Earth beside the alien's head, not behind it.
+  { name: 'Earthrise', file: 'Assets/art002e009288orig_20260409_184903.webp', accent: 'Blue', position: 'right', moods: ['Chill', 'Happy', 'Amused', 'Surprised'] },
+].map((scene) => ({ ...scene, file: path.join(root, scene.file) }));
 
-const manifest = JSON.parse(fs.readFileSync(path.join(root, 'Assets/Enhanced_Backgrounds/enhancement-manifest.json'), 'utf8'));
-const enhanced = new Map(manifest.backgrounds.map((b) => [b.source, path.join(root, 'Assets/Enhanced_Backgrounds', b.output)]));
-const sceneFile = (background) => enhanced.get(path.basename(background.file)) || background.file;
-const accentOf = (background) => ACCENTS.find((a) => background.name.endsWith(` ${a}`));
+// The generator's rules read a scene's accent from the end of its name.
+const asRuleBackground = (scene) => ({ name: [scene.name, scene.accent].filter(Boolean).join(' ') });
 const expression = (name) => LAYERS.Expression.find((e) => e.name === name);
 
 function lab(r, g, b) {
@@ -69,7 +72,8 @@ function lab(r, g, b) {
   return [116 * Y - 16, 500 * (X - Y), 200 * (Y - Z)];
 }
 
-const small = (input) => sharp(input).resize(W, W, { fit: 'fill' }).ensureAlpha().raw().toBuffer();
+const crop = (scene, size) => sharp(scene.file).resize(size, size, { fit: 'cover', position: scene.position || 'centre' });
+const small = (input) => sharp(input).resize(W, W).ensureAlpha().raw().toBuffer();
 
 // Distance of each pixel from the mask's outline, counted up to BAND.
 function outlineDistance(mask) {
@@ -133,13 +137,13 @@ async function candidates() {
   const bodies = [...LAYERS.Clothing.map((c) => ({ ...c, kind: 'Clothing' })), ...LAYERS.Rare.map((r) => ({ ...r, kind: 'Rare' }))];
   const figures = new Map(await Promise.all(bodies.map(async (b) => [b.name, await figure(b)])));
   const list = [];
-  for (const background of LAYERS.Background) {
-    const scene = await small(sceneFile(background));
-    const accent = accentOf(background);
-    for (const body of bodies.filter((b) => bodyFits(background, b))) {
-      // Captions only where they echo a scene accent; grey scenes stay clean.
-      const caption = accent ? captionsFor(background, body)[0] : undefined;
-      const echo = (ECHOES[accent] || []).includes(body.name);
+  for (const background of SCENES) {
+    const scene = await crop(background, W).ensureAlpha().raw().toBuffer();
+    const rules = asRuleBackground(background);
+    for (const body of bodies.filter((b) => bodyFits(rules, b))) {
+      // Captions only where they echo a scene accent; monochrome scenes stay clean.
+      const caption = background.accent ? captionsFor(rules, body)[0] : undefined;
+      const echo = (ECHOES[background.accent] || []).includes(body.name);
       const score = separation(figures.get(body.name), scene) + (echo ? ECHO_BONUS : 0) + (caption ? CAPTION_BONUS : 0);
       list.push({ background, body, caption, score });
     }
@@ -163,12 +167,15 @@ function choose(list) {
   for (const c of list) if (fits(c)) take(c);
   picked.sort((a, b) => b.score - a.score);
 
-  const used = new Map(LAYERS.Expression.map((e) => [e.name, 0]));
+  // Least used in this scene first, then least used on the whole sheet.
+  const used = new Map();
+  const uses = (key) => used.get(key) || 0;
+  const rank = (scene, mood) => uses(`${scene}|${mood}`) * 100 + uses(mood);
   for (const c of picked) {
     if (c.body.kind === 'Rare') continue;
-    const moods = MOODS.find(([re]) => re.test(c.background.name))[1];
-    const name = moods.reduce((best, m) => (used.get(m) < used.get(best) ? m : best));
-    used.set(name, used.get(name) + 1);
+    const scene = c.background.name;
+    const name = c.background.moods.reduce((best, m) => (rank(scene, m) < rank(scene, best) ? m : best));
+    for (const key of [`${scene}|${name}`, name]) used.set(key, uses(key) + 1);
     c.expression = expression(name);
   }
   return picked;
@@ -177,7 +184,7 @@ function choose(list) {
 const sceneCache = new Map();
 function sceneBuffer(background) {
   if (!sceneCache.has(background.name)) {
-    let img = sharp(sceneFile(background)).resize(960, 960);
+    let img = crop(background, 960);
     if (BLUR) img = img.blur(BLUR);
     sceneCache.set(background.name, img.png().toBuffer());
   }
@@ -208,7 +215,7 @@ async function sheet(picked, file) {
   }));
   const title = Buffer.from(`<svg width="${width}" height="${header}">
     <text x="${gap + 4}" y="54" font-family="DejaVu Sans" font-weight="bold" font-size="40" fill="#fff">JUST ALIENS — ${picked.length} Best Pairings</text>
-    <text x="${gap + 6}" y="82" font-family="DejaVu Sans" font-size="17" fill="#8a94a3">Enhanced backgrounds · ranked by how clearly the alien reads against the scene, plus colour echoes between scene, outfit and caption</text></svg>`);
+    <text x="${gap + 6}" y="82" font-family="DejaVu Sans" font-size="17" fill="#8a94a3">New backgrounds only · ranked by how clearly the alien reads against the scene, plus colour echoes between scene, outfit and caption</text></svg>`);
   await sharp({ create: { width, height, channels: 3, background: '#0b0d12' } })
     .composite([{ input: title, left: 0, top: 0 }, ...tiles.flat()])
     .jpeg({ quality: 88, mozjpeg: true })
