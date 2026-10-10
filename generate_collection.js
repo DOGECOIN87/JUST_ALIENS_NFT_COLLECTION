@@ -8,8 +8,14 @@
  * matching Metaplex JSON (1.webp + 1.json, 2.webp + 2.json, ...).
  *
  *   #1          Secret Rare still (Assets/SecretRare/SecretRare_1.png)
- *   #2 - #1000  Generated: Normal (Background > Clothing > Expression > Text?)
+ *   #2 - #1000  Generated: Normal (Background > Clothing > Skin > Expression > Text?)
  *               or Rare (Background > Rare > Text?)
+ *
+ * The alien is one of the recoloured heads in Assets/Expression_Colors/:
+ * Skin picks the colour folder, Expression picks the head inside it, and the
+ * new Clothing layer dresses it (headwear like the beanie and goggles goes
+ * over the head, jackets and hoodies go under it). The old grey
+ * Assets/Expression heads are retired and are not used by the generator.
  *
  * Odds follow rarity.html: Rare 3.57%, Text on 50% of pieces. Counts are
  * exact rather than rolled, every trait combination is unique, backgrounds are
@@ -37,12 +43,17 @@ const WEBP = { quality: 90, effort: 6, smartSubsample: true };
 // Pairing rules, so every combination looks intentional (each was checked
 // against renders of the art):
 //
-// Near-black backgrounds swallow dark outfits and leave a floating head, so only
-// bodies that stand out against black go on them.
+// Near-black backgrounds swallow dark aliens and leave floating eyes, so only
+// skins and clothing that stand out against black go on them.
 const DARK_BACKGROUNDS = ['Abyss', 'UFO Inverted'];
-const SHOWS_ON_DARK = ['Leather Jacket', 'Sports Jacket', 'MAGA', 'Android', 'OG'];
-// The red MAGA hoodie clashes with green and pink scenes.
-const BACKGROUNDS_TO_AVOID = { MAGA: /(Green|Pink)$/ };
+const SHOWS_ON_DARK = [
+  'Android', 'OG',
+  'Coral Red', 'Cyan', 'Forest Green', 'Honey Gold', 'Hot Pink', 'Lime', 'Platinum', 'Sky Blue', 'Violet',
+  'Beanie', 'Astronaut Helmet', 'Goggles', 'Hooded Jacket Grey', 'Hooded Jacket White',
+  'Hooded Jacket Gold', 'Hooded Jacket Camo', 'Hooded Jacket Bronze', 'Safari Jacket',
+  'Military Jacket', 'Camo Jacket', 'Spacesuit', 'Hoodie White',
+];
+// (Graphite heads, the Infantry rare, and the dark garments stay off near-black.)
 // Coloured backgrounds get the caption in the same colour family (backgrounds and
 // captions share colour names; the "White" ones glow cyan). Grey backgrounds take any.
 const CAPTIONS_FOR_ACCENT = {
@@ -54,14 +65,6 @@ const CAPTIONS_FOR_ACCENT = {
   Red: ['Red Solid', 'Orange Solid'],
   Orange: ['Orange Solid', 'Red Solid'],
 };
-// The caption sits over the chest. The "Opaque" captions have a see-through backing
-// that washes out on light clothing, so light clothing only takes the "Solid" ones,
-// and the MAGA print is never covered.
-const CAPTIONS_FOR_CLOTHING = {
-  'Leather Jacket': ['Red Solid', 'Orange Solid'],
-  'Sports Jacket': ['Red Solid', 'Orange Solid'],
-  MAGA: [],
-};
 
 const NAME_PREFIX = 'Just Aliens #';
 const SYMBOL = 'JSTA';
@@ -71,6 +74,34 @@ const CREATORS = [{ address: 'Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo', sha
 
 const ASSETS = path.join(__dirname, 'Assets');
 const SECRET_RARE = path.join(ASSETS, 'SecretRare', 'SecretRare_1.png');
+
+// The ten recoloured skin folders, in the order scripts/recolor-expressions.cjs wrote them.
+const SKINS = [
+  ['Platinum', 'Platinum'],
+  ['Lime', 'Lime'],
+  ['Sky_Blue', 'Sky Blue'],
+  ['Coral_Red', 'Coral Red'],
+  ['Violet', 'Violet'],
+  ['Honey_Gold', 'Honey Gold'],
+  ['Graphite', 'Graphite'],
+  ['Forest_Green', 'Forest Green'],
+  ['Hot_Pink', 'Hot Pink'],
+  ['Cyan', 'Cyan'],
+];
+
+// Headwear composites over the alien's head; everything else goes under it.
+const HEADWEAR = new Set(['Beanie', 'Astronaut Helmet', 'Spiky Hair', 'Goggles']);
+
+// Friendly names for the goats_contest_mattrick backgrounds (the halftone
+// copies keep their scene name plus a "Halftone" suffix for uniqueness).
+const BACKGROUND_NAMES = {
+  'goats_contest_mattrick (17).png': 'Spheres Spotlight',
+  'goats_contest_mattrick (18).png': 'Cubes Cinematic',
+  'goats_contest_mattrick (19).png': 'Pyramids Dunes',
+  'goats_contest_mattrick (20).png': 'Whiteboard Briefing',
+  'goats_contest_mattrick (21).png': 'Cap Witness',
+  'goats_contest_mattrick (22).png': 'Suit Hearing',
+};
 
 const args = process.argv.slice(2);
 const arg = (flag, fallback) => {
@@ -114,20 +145,46 @@ function displayName(file) {
     .join(' ');
 }
 
+const IMG_EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
 function layer(dir) {
   return fs.readdirSync(path.join(ASSETS, dir))
-    .filter((f) => f.toLowerCase().endsWith('.png'))
+    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()))
     .sort()
     .map((f) => ({ file: path.join(ASSETS, dir, f), name: displayName(f) }));
 }
 
+// All backgrounds: the original scenes, the halftone copies, and the new
+// scenes and photo backgrounds.
+function backgroundLayers() {
+  const base = layer('Background');
+  const enhanced = fs.readdirSync(path.join(ASSETS, 'Enhanced_Backgrounds'))
+    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()))
+    .sort()
+    .map((f) => {
+      const override = BACKGROUND_NAMES[f];
+      const name = override || displayName(f) + (f.startsWith('goats_contest_mattrick') ? '' : ' Halftone');
+      return { file: path.join(ASSETS, 'Enhanced_Backgrounds', f), name };
+    });
+  return [...base, ...enhanced];
+}
+
 const LAYERS = {
-  Background: layer('Background'),
-  Clothing: layer('Clothing'),
-  Expression: layer('Expression'),
+  Background: backgroundLayers(),
+  Clothing: layer('Clothing').map((c) => ({ ...c, headwear: HEADWEAR.has(c.name) })),
+  Skin: SKINS.map(([dir, name]) => ({ dir, name })),
+  // The expression file names are the same in every skin folder; Platinum is read for the list.
+  Expression: fs.readdirSync(path.join(ASSETS, 'Expression_Colors', 'Platinum'))
+    .filter((f) => f.toLowerCase().endsWith('.png'))
+    .sort()
+    .map((f) => ({ file: f, name: displayName(f) })),
   Text: layer('Text'),
   Rare: layer('Rare'),
 };
+
+// The alien's image file: the expression head recoloured in the skin's folder.
+function headFile(skin, expression) {
+  return path.join(ASSETS, 'Expression_Colors', skin.dir, expression.file);
+}
 
 function plan() {
   const rareCount = Math.round(SUPPLY * RARE_SHARE);
@@ -140,20 +197,40 @@ function plan() {
   const seen = new Set();
   for (const slot of slots) {
     const rare = slot.type === 'Rare' ? rareDeck.pop() : null;
-    const bodies = rare ? [rare] : LAYERS.Clothing;
-    const usable = (background, body) => bodyFits(background, body) && (!slot.text || captionsFor(background, body).length > 0);
-    let traits;
+    const usable = (background, body) => bodyFits(background, body) && (!slot.text || captionsFor(background).length > 0);
+    let traits, files;
     do {
-      const background = pick(LAYERS.Background.filter((bg) => bodies.some((body) => usable(bg, body))));
-      const body = pick(bodies.filter((b) => usable(background, b)));
-      traits = rare ? { Background: background, 'Rare Type': body } : { Background: background, Clothing: body, Expression: pick(LAYERS.Expression) };
-      if (slot.text) traits.Text = pick(captionsFor(background, body));
+      const background = pick(LAYERS.Background.filter((bg) =>
+        (rare ? LAYERS.Rare : LAYERS.Clothing).some((body) => usable(bg, body)) &&
+        (rare || LAYERS.Skin.some((s) => usable(bg, s)))));
+      traits = { Background: background };
+      files = [background.file];
+      if (rare) {
+        const body = pick(LAYERS.Rare.filter((b) => usable(background, b)));
+        traits['Rare Type'] = body;
+        files.push(body.file);
+      } else {
+        const clothing = pick(LAYERS.Clothing.filter((c) => usable(background, c)));
+        const skin = pick(LAYERS.Skin.filter((s) => usable(background, s)));
+        const expression = pick(LAYERS.Expression);
+        const head = headFile(skin, expression);
+        traits.Clothing = clothing;
+        traits.Skin = skin;
+        traits.Expression = expression;
+        // Headwear sits on the head; jackets and hoodies sit behind it.
+        if (clothing.headwear) files.push(head, clothing.file);
+        else files.push(clothing.file, head);
+      }
+      if (slot.text) {
+        traits.Text = pick(captionsFor(background));
+        files.push(traits.Text.file);
+      }
     } while (seen.has(dna(traits)));
     seen.add(dna(traits));
     pieces.push({
       id: pieces.length + 1,
       type: slot.type,
-      layers: Object.values(traits).map((t) => t.file),
+      layers: files,
       attributes: [{ trait_type: 'Type', value: slot.type }, ...Object.entries(traits).map(([k, t]) => ({ trait_type: k, value: t.name }))],
     });
   }
@@ -162,15 +239,14 @@ function plan() {
 
 function bodyFits(background, body) {
   if (DARK_BACKGROUNDS.includes(background.name) && !SHOWS_ON_DARK.includes(body.name)) return false;
-  const avoid = BACKGROUNDS_TO_AVOID[body.name];
-  return !(avoid && avoid.test(background.name));
+  return true;
 }
 
 const ACCENTS = Object.keys(CAPTIONS_FOR_ACCENT).sort((a, b) => b.length - a.length); // "Light Blue" before "Blue"
-function captionsFor(background, body) {
+function captionsFor(background) {
   const accent = ACCENTS.find((a) => background.name.endsWith(` ${a}`));
-  const allowed = [CAPTIONS_FOR_ACCENT[accent], CAPTIONS_FOR_CLOTHING[body.name]].filter(Boolean);
-  return LAYERS.Text.filter((t) => allowed.every((list) => list.includes(t.name)));
+  const allowed = CAPTIONS_FOR_ACCENT[accent];
+  return allowed ? LAYERS.Text.filter((t) => allowed.includes(t.name)) : [];
 }
 
 function dna(traits) {
@@ -226,7 +302,7 @@ async function contactSheet(pieces, file) {
 }
 
 // The pairing rules are shared with scripts/best-pairings.cjs.
-module.exports = { LAYERS, bodyFits, captionsFor };
+module.exports = { LAYERS, bodyFits, captionsFor, headFile };
 
 if (require.main === module) (async () => {
   const pieces = plan();

@@ -18,12 +18,19 @@ A unique NFT collection featuring generated alien characters with diverse traits
   - Spaceship interiors (Cockpits, Corridors)
   - UFO variants in multiple colors
   - Abstract designs (Cubes, Spheres, Pyramids)
+  - New scenes and photo backgrounds (Wormhole Vortex, Cavern of Light,
+    Earthrise, plus portrait and press photos)
 
 ### Character Traits
 - **Clothing**
-  - Alien-specific attire (Militia, Scuba, Spacesuit, Terrain Suit)
-  - Earth-inspired fashion (Business Suit, Hoodie, Leather Jacket)
-  
+  - Twenty outfits and headwear pieces (hooded jackets, hoodies, bomber,
+    leather, military and camo jackets, spacesuit, winter jacket, plus the
+    Beanie, Astronaut Helmet, Spiky Hair and Goggles worn over the head)
+
+- **Skin**
+  - Ten alien skin colours (Platinum, Lime, Sky Blue, Coral Red, Violet,
+    Honey Gold, Graphite, Forest Green, Hot Pink, Cyan)
+
 - **Expressions**
   - Range of emotions (Happy, Angry, Curious, Surprised, Amused, Chill,             Confused)
 
@@ -47,8 +54,7 @@ The collection uses a sophisticated generation system that:
 ├── Artwork/           # Generated NFT images and metadata
 ├── Assets/           # Source assets for generation
 │   ├── Background/   # Background variations
-│   ├── Clothing/     # Clothing options
-│   ├── Expression/   # Facial expressions
+│   ├── Expression_Colors/ # Recoloured alien heads, one folder per skin
 │   ├── Rare/        # Rare variant assets
 │   └── SecretRare/   # Animated rare variants
 └── Website/          # Collection showcase platform
