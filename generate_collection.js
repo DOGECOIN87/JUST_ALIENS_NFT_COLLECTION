@@ -16,9 +16,8 @@
  * (Assets/Clothing) goes under the head; a clothing item with a file in
  * Assets/Clothing/Over (the astronaut helmet) also has a part over the head.
  * Headwear (Assets/Headwear) sits on the head over any clothing without an Over
- * part; a matching file in Assets/Headwear/Under (a crown's back rim) goes behind
- * the head. Every layer is 960x960 and fitted to the full-size heads by
- * scripts/fit-layers.cjs and scripts/draw-headwear.cjs. Each piece casts a soft shadow onto what is under it:
+ * part. Every layer is 960x960 and fitted to the full-size heads by
+ * scripts/fit-layers.cjs. Each piece casts a soft shadow onto what is under it:
  * the head onto the clothing, headwear and the helmet onto the head.
  *
  * Odds follow rarity.html: Rare 3.57%, Text on 50% of pieces, Headwear on 25% of
@@ -180,12 +179,7 @@ const LAYERS = {
     const over = path.join(ASSETS, 'Clothing', 'Over', path.basename(c.file));
     return fs.existsSync(over) ? { ...c, over } : c;
   }),
-  // Headwear goes over the head; a matching file in Headwear/Under (a crown's back rim)
-  // goes between the clothing and the head.
-  Headwear: layer('Headwear').map((h) => {
-    const under = path.join(ASSETS, 'Headwear', 'Under', path.basename(h.file));
-    return fs.existsSync(under) ? { ...h, under } : h;
-  }),
+  Headwear: layer('Headwear'),
   Skin: SKINS.map(([dir, name]) => ({ dir, name })),
   // The expression file names are the same in every skin folder; Platinum is read for the list.
   Expression: fs.readdirSync(path.join(ASSETS, 'Expression_Colors', 'Platinum'))
@@ -254,10 +248,8 @@ function layerStack(traits) {
     layers.push({ file: traits['Rare Type'].file });
   } else {
     const clothing = { file: traits.Clothing.file };
-    layers.push(clothing);
-    if (traits.Headwear && traits.Headwear.under) layers.push({ file: traits.Headwear.under });
     const head = { file: headFile(traits.Skin, traits.Expression), shadow: HEAD_SHADOW, onto: [clothing] };
-    layers.push(head);
+    layers.push(clothing, head);
     if (traits.Clothing.over) layers.push({ file: traits.Clothing.over, shadow: HAT_SHADOW, onto: [head] });
     if (traits.Headwear) layers.push({ file: traits.Headwear.file, shadow: HAT_SHADOW, onto: [head] });
   }
