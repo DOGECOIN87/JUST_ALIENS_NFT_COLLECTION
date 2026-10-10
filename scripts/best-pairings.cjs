@@ -142,7 +142,7 @@ async function candidates() {
   const bodies = [];
   for (const Clothing of LAYERS.Clothing)
     for (const Skin of LAYERS.Skin)
-      for (const Headwear of [null, ...(Clothing.over ? [] : LAYERS.Headwear)])
+      for (const Headwear of [null, ...LAYERS.Headwear])
         bodies.push(Headwear ? { Clothing, Skin, Headwear } : { Clothing, Skin });
   const figures = new Map();
   for (const body of bodies) figures.set(key(body), await figure(body));

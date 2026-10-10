@@ -13,12 +13,10 @@
  *
  * The alien is one of the recoloured heads in Assets/Expression_Colors/:
  * Skin picks the colour folder and Expression picks the head inside it. Clothing
- * (Assets/Clothing) goes under the head; a clothing item with a file in
- * Assets/Clothing/Over (the astronaut helmet) also has a part over the head.
- * Headwear (Assets/Headwear) sits on the head over any clothing without an Over
- * part. Every layer is 960x960 and fitted to the full-size heads by
+ * (Assets/Clothing) goes under the head and Headwear (Assets/Headwear) sits on
+ * it. Every layer is 960x960 and fitted to the full-size heads by
  * scripts/fit-layers.cjs. Each piece casts a soft shadow onto what is under it:
- * the head onto the clothing, headwear and the helmet onto the head.
+ * the head onto the clothing, headwear onto the head.
  *
  * Odds follow rarity.html: Rare 3.57%, Text on 50% of pieces, Headwear on 25% of
  * Normal pieces. Counts are
@@ -54,7 +52,7 @@ const DARK_BACKGROUNDS = ['Abyss', 'UFO Inverted'];
 const SHOWS_ON_DARK = [
   'Android', 'OG',
   'Coral Red', 'Cyan', 'Forest Green', 'Honey Gold', 'Hot Pink', 'Lime', 'Platinum', 'Sky Blue', 'Violet',
-  'Astronaut Helmet', 'Safari Jacket', 'Military Jacket', 'Camo Jacket', 'Spacesuit', 'Hoodie White',
+  'Safari Jacket', 'Military Jacket', 'Camo Jacket', 'Spacesuit', 'Hoodie White',
 ];
 // (Graphite heads, the Infantry rare, and the dark garments stay off near-black.)
 // Coloured backgrounds get the caption in the same colour family (backgrounds and
@@ -94,7 +92,7 @@ const SKINS = [
 
 // Soft shadows: a layer casts this shadow onto the layers directly under it.
 const HEAD_SHADOW = { drop: 26, blur: 18, opacity: 0.75 }; // the head onto the clothing
-const HAT_SHADOW = { drop: 16, blur: 10, opacity: 0.7 };   // headwear and the helmet onto the head
+const HAT_SHADOW = { drop: 16, blur: 10, opacity: 0.7 };   // headwear onto the head
 
 // Friendly names for the goats_contest_mattrick backgrounds (the halftone
 // copies keep their scene name plus a "Halftone" suffix for uniqueness).
@@ -174,11 +172,7 @@ function backgroundLayers() {
 
 const LAYERS = {
   Background: backgroundLayers(),
-  // Clothing goes under the head; a matching file in Clothing/Over goes over it.
-  Clothing: layer('Clothing').map((c) => {
-    const over = path.join(ASSETS, 'Clothing', 'Over', path.basename(c.file));
-    return fs.existsSync(over) ? { ...c, over } : c;
-  }),
+  Clothing: layer('Clothing'),
   Headwear: layer('Headwear'),
   Skin: SKINS.map(([dir, name]) => ({ dir, name })),
   // The expression file names are the same in every skin folder; Platinum is read for the list.
@@ -209,8 +203,7 @@ function plan() {
   for (const slot of slots) {
     const rare = slot.type === 'Rare' ? rareDeck.pop() : null;
     const wearsHeadwear = !rare && headwearDeck.pop();
-    const usable = (background, body) => bodyFits(background, body) && (!slot.text || captionsFor(background).length > 0)
-      && !(wearsHeadwear && body.over); // headwear can't go under the helmet
+    const usable = (background, body) => bodyFits(background, body) && (!slot.text || captionsFor(background).length > 0);
     let traits, stack;
     do {
       const background = pick(LAYERS.Background.filter((bg) =>
@@ -250,7 +243,6 @@ function layerStack(traits) {
     const clothing = { file: traits.Clothing.file };
     const head = { file: headFile(traits.Skin, traits.Expression), shadow: HEAD_SHADOW, onto: [clothing] };
     layers.push(clothing, head);
-    if (traits.Clothing.over) layers.push({ file: traits.Clothing.over, shadow: HAT_SHADOW, onto: [head] });
     if (traits.Headwear) layers.push({ file: traits.Headwear.file, shadow: HAT_SHADOW, onto: [head] });
   }
   if (traits.Text) layers.push({ file: traits.Text.file });
