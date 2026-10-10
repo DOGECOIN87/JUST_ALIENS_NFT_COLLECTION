@@ -97,8 +97,10 @@
       "source": "Cubes.png",
       "source_sha256": "51c2c2e83705b01db6038b47f5f9fd79d704dacc15c360a9e420df3b35a7ae99",
       "output": "goats_contest_mattrick (18).png",
-      "output_sha256": "c651bd8f4212d51d7af25090f5ed4cc3b1adcf4c2095291fa8aa3a76a5d83d11",
-      "status": "preserved_existing"
+      "output_sha256": "b8eb6f2af1656d40b0ab13fe6de09ef10e4f4735f5d4d6b4959f6ddf12743e8a",
+      "status": "preserved_existing",
+      "width": 960,
+      "height": 960
     },
     {
       "source": "Neon_Orange.png",
@@ -122,8 +124,10 @@
       "source": "Pyramids.png",
       "source_sha256": "fb4ea6ccc4cfbc902e6a4b5214c28c873bdd0e2f3f3ba86665514a5a1580c96a",
       "output": "goats_contest_mattrick (19).png",
-      "output_sha256": "6fedffae48a0e07bf23918936ee932db35bb6dd12d34e57aa6df1c9270447950",
-      "status": "preserved_existing"
+      "output_sha256": "e52b592b13776a2dff7a042a19588f62b03ecabccbdf37f57224aadce61b924e",
+      "status": "preserved_existing",
+      "width": 960,
+      "height": 960
     },
     {
       "source": "Spaceship_Corridor_Blue.png",
@@ -183,8 +187,10 @@
       "source": "Spheres.png",
       "source_sha256": "2349ef5fca707c17864c0a63895574873015ecae701e6aa0d2de30cfe38f1f34",
       "output": "goats_contest_mattrick (17).png",
-      "output_sha256": "bf2da03cdfe7e822ea13b717e4f8d0541f7e1ce2688cd2c21d4665f58234f8a1",
-      "status": "preserved_existing"
+      "output_sha256": "eb707019264778883e2198adadb0cddd8e4f60fe316b4e3972d20f3452e34531",
+      "status": "preserved_existing",
+      "width": 960,
+      "height": 960
     },
     {
       "source": "Terra.png",

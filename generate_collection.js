@@ -8,16 +8,20 @@
  * matching Metaplex JSON (1.webp + 1.json, 2.webp + 2.json, ...).
  *
  *   #1          Secret Rare still (Assets/SecretRare/SecretRare_1.png)
- *   #2 - #1000  Generated: Normal (Background > Clothing > Skin > Expression > Text?)
+ *   #2 - #1000  Generated: Normal (Background > Clothing > Skin > Expression > Headwear? > Text?)
  *               or Rare (Background > Rare > Text?)
  *
  * The alien is one of the recoloured heads in Assets/Expression_Colors/:
- * Skin picks the colour folder, Expression picks the head inside it, and the
- * new Clothing layer dresses it (headwear like the beanie and goggles goes
- * over the head, jackets and hoodies go under it). The old grey
- * Assets/Expression heads are retired and are not used by the generator.
+ * Skin picks the colour folder and Expression picks the head inside it. Clothing
+ * (Assets/Clothing) goes under the head; a clothing item with a file in
+ * Assets/Clothing/Over (the astronaut helmet) also has a part over the head.
+ * Headwear (Assets/Headwear) sits on the head over any clothing without an Over
+ * part. Every layer is 960x960 and fitted to the full-size heads by
+ * scripts/fit-layers.cjs. Each piece casts a soft shadow onto what is under it:
+ * the head onto the clothing, headwear and the helmet onto the head.
  *
- * Odds follow rarity.html: Rare 3.57%, Text on 50% of pieces. Counts are
+ * Odds follow rarity.html: Rare 3.57%, Text on 50% of pieces, Headwear on 25% of
+ * Normal pieces. Counts are
  * exact rather than rolled, every trait combination is unique, backgrounds are
  * softly blurred behind the alien, pairings follow the look rules below, and a
  * fixed seed means re-running produces the identical collection.
@@ -37,6 +41,7 @@ const SUPPLY = 1000;
 const SEED = 'just-aliens-1k';
 const RARE_SHARE = 0.0357;
 const TEXT_SHARE = 0.5;
+const HEADWEAR_SHARE = 0.25;
 const BACKGROUND_BLUR_SIGMA = 3;
 const WEBP = { quality: 90, effort: 6, smartSubsample: true };
 
@@ -49,9 +54,7 @@ const DARK_BACKGROUNDS = ['Abyss', 'UFO Inverted'];
 const SHOWS_ON_DARK = [
   'Android', 'OG',
   'Coral Red', 'Cyan', 'Forest Green', 'Honey Gold', 'Hot Pink', 'Lime', 'Platinum', 'Sky Blue', 'Violet',
-  'Beanie', 'Astronaut Helmet', 'Goggles', 'Hooded Jacket Grey', 'Hooded Jacket White',
-  'Hooded Jacket Gold', 'Hooded Jacket Camo', 'Hooded Jacket Bronze', 'Safari Jacket',
-  'Military Jacket', 'Camo Jacket', 'Spacesuit', 'Hoodie White',
+  'Astronaut Helmet', 'Safari Jacket', 'Military Jacket', 'Camo Jacket', 'Spacesuit', 'Hoodie White',
 ];
 // (Graphite heads, the Infantry rare, and the dark garments stay off near-black.)
 // Coloured backgrounds get the caption in the same colour family (backgrounds and
@@ -89,8 +92,9 @@ const SKINS = [
   ['Cyan', 'Cyan'],
 ];
 
-// Headwear composites over the alien's head; everything else goes under it.
-const HEADWEAR = new Set(['Beanie', 'Astronaut Helmet', 'Spiky Hair', 'Goggles']);
+// Soft shadows: a layer casts this shadow onto the layers directly under it.
+const HEAD_SHADOW = { drop: 26, blur: 18, opacity: 0.75 }; // the head onto the clothing
+const HAT_SHADOW = { drop: 16, blur: 10, opacity: 0.7 };   // headwear and the helmet onto the head
 
 // Friendly names for the goats_contest_mattrick backgrounds (the halftone
 // copies keep their scene name plus a "Halftone" suffix for uniqueness).
@@ -148,7 +152,7 @@ function displayName(file) {
 const IMG_EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
 function layer(dir) {
   return fs.readdirSync(path.join(ASSETS, dir))
-    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()))
+    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()) && fs.statSync(path.join(ASSETS, dir, f)).isFile())
     .sort()
     .map((f) => ({ file: path.join(ASSETS, dir, f), name: displayName(f) }));
 }
@@ -170,7 +174,12 @@ function backgroundLayers() {
 
 const LAYERS = {
   Background: backgroundLayers(),
-  Clothing: layer('Clothing').map((c) => ({ ...c, headwear: HEADWEAR.has(c.name) })),
+  // Clothing goes under the head; a matching file in Clothing/Over goes over it.
+  Clothing: layer('Clothing').map((c) => {
+    const over = path.join(ASSETS, 'Clothing', 'Over', path.basename(c.file));
+    return fs.existsSync(over) ? { ...c, over } : c;
+  }),
+  Headwear: layer('Headwear'),
   Skin: SKINS.map(([dir, name]) => ({ dir, name })),
   // The expression file names are the same in every skin folder; Platinum is read for the list.
   Expression: fs.readdirSync(path.join(ASSETS, 'Expression_Colors', 'Platinum'))
@@ -192,59 +201,73 @@ function plan() {
   const withText = (type, count) => Array.from({ length: count }, (_, i) => ({ type, text: i < Math.round(count * TEXT_SHARE) }));
   const slots = shuffle([...withText('Rare', rareCount), ...withText('Normal', normalCount)]);
   const rareDeck = shuffle(Array.from({ length: rareCount }, (_, i) => LAYERS.Rare[i % LAYERS.Rare.length]));
+  // Exactly HEADWEAR_SHARE of the Normal pieces wear headwear, spread independently of Text.
+  const headwearDeck = shuffle(Array.from({ length: normalCount }, (_, i) => i < Math.round(normalCount * HEADWEAR_SHARE)));
 
-  const pieces = [{ id: 1, type: 'Secret Rare', layers: [], attributes: [{ trait_type: 'Type', value: 'Secret Rare' }] }];
+  const pieces = [{ id: 1, type: 'Secret Rare', stack: null, attributes: [{ trait_type: 'Type', value: 'Secret Rare' }] }];
   const seen = new Set();
   for (const slot of slots) {
     const rare = slot.type === 'Rare' ? rareDeck.pop() : null;
-    const usable = (background, body) => bodyFits(background, body) && (!slot.text || captionsFor(background).length > 0);
-    let traits, files;
+    const wearsHeadwear = !rare && headwearDeck.pop();
+    const usable = (background, body) => bodyFits(background, body) && (!slot.text || captionsFor(background).length > 0)
+      && !(wearsHeadwear && body.over); // headwear can't go under the helmet
+    let traits, stack;
     do {
       const background = pick(LAYERS.Background.filter((bg) =>
         (rare ? LAYERS.Rare : LAYERS.Clothing).some((body) => usable(bg, body)) &&
         (rare || LAYERS.Skin.some((s) => usable(bg, s)))));
       traits = { Background: background };
-      files = [background.file];
       if (rare) {
         const body = pick(LAYERS.Rare.filter((b) => usable(background, b)));
         traits['Rare Type'] = body;
-        files.push(body.file);
       } else {
-        const clothing = pick(LAYERS.Clothing.filter((c) => usable(background, c)));
-        const skin = pick(LAYERS.Skin.filter((s) => usable(background, s)));
-        const expression = pick(LAYERS.Expression);
-        const head = headFile(skin, expression);
-        traits.Clothing = clothing;
-        traits.Skin = skin;
-        traits.Expression = expression;
-        // Headwear sits on the head; jackets and hoodies sit behind it.
-        if (clothing.headwear) files.push(head, clothing.file);
-        else files.push(clothing.file, head);
+        traits.Clothing = pick(LAYERS.Clothing.filter((c) => usable(background, c)));
+        traits.Skin = pick(LAYERS.Skin.filter((s) => usable(background, s)));
+        traits.Expression = pick(LAYERS.Expression);
+        if (wearsHeadwear) traits.Headwear = pick(LAYERS.Headwear);
       }
-      if (slot.text) {
-        traits.Text = pick(captionsFor(background));
-        files.push(traits.Text.file);
-      }
+      if (slot.text) traits.Text = pick(captionsFor(background));
+      stack = layerStack(traits);
     } while (seen.has(dna(traits)));
     seen.add(dna(traits));
     pieces.push({
       id: pieces.length + 1,
       type: slot.type,
-      layers: files,
+      stack,
       attributes: [{ trait_type: 'Type', value: slot.type }, ...Object.entries(traits).map(([k, t]) => ({ trait_type: k, value: t.name }))],
     });
   }
   return pieces;
 }
 
+// Bottom-to-top layers for a set of traits. Each entry is a 960x960 file; `shadow`
+// makes it cast a soft shadow onto the entries listed in `onto` (already below it).
+function layerStack(traits) {
+  const layers = [];
+  if (traits['Rare Type']) {
+    layers.push({ file: traits['Rare Type'].file });
+  } else {
+    const clothing = { file: traits.Clothing.file };
+    const head = { file: headFile(traits.Skin, traits.Expression), shadow: HEAD_SHADOW, onto: [clothing] };
+    layers.push(clothing, head);
+    if (traits.Clothing.over) layers.push({ file: traits.Clothing.over, shadow: HAT_SHADOW, onto: [head] });
+    if (traits.Headwear) layers.push({ file: traits.Headwear.file, shadow: HAT_SHADOW, onto: [head] });
+  }
+  if (traits.Text) layers.push({ file: traits.Text.file });
+  return { background: traits.Background.file, layers };
+}
+
+// The halftone copies follow the same look rules as the scene they were made from.
+const sceneName = (background) => background.name.replace(/ Halftone$/, '');
+
 function bodyFits(background, body) {
-  if (DARK_BACKGROUNDS.includes(background.name) && !SHOWS_ON_DARK.includes(body.name)) return false;
+  if (DARK_BACKGROUNDS.includes(sceneName(background)) && !SHOWS_ON_DARK.includes(body.name)) return false;
   return true;
 }
 
 const ACCENTS = Object.keys(CAPTIONS_FOR_ACCENT).sort((a, b) => b.length - a.length); // "Light Blue" before "Blue"
 function captionsFor(background) {
-  const accent = ACCENTS.find((a) => background.name.endsWith(` ${a}`));
+  const accent = ACCENTS.find((a) => sceneName(background).endsWith(` ${a}`));
   const allowed = CAPTIONS_FOR_ACCENT[accent];
   return allowed ? LAYERS.Text.filter((t) => allowed.includes(t.name)) : [];
 }
@@ -261,14 +284,43 @@ function blurredBackground(file) {
   return blurredBackgrounds.get(file);
 }
 
+const SIZE = 960;
+const alphas = new Map();
+function alphaOf(file) {
+  if (!alphas.has(file)) alphas.set(file, sharp(file).ensureAlpha().extractChannel('alpha').raw().toBuffer());
+  return alphas.get(file);
+}
+
+// A black layer whose alpha is `file`'s silhouette dropped down, blurred and faded,
+// kept only where it lands on the `onto` layers (so it never darkens the background).
+async function castShadow(file, onto, { drop, blur, opacity }) {
+  const moved = Buffer.alloc(SIZE * SIZE);
+  (await alphaOf(file)).copy(moved, drop * SIZE, 0, (SIZE - drop) * SIZE);
+  const shifted = await sharp(moved, { raw: { width: SIZE, height: SIZE, channels: 1 } }).blur(blur).raw().toBuffer();
+  const below = await Promise.all(onto.map((l) => alphaOf(l.file)));
+  const out = Buffer.alloc(SIZE * SIZE * 4);
+  for (let i = 0; i < SIZE * SIZE; i++) {
+    let cover = 0;
+    for (const a of below) if (a[i] > cover) cover = a[i];
+    out[i * 4 + 3] = Math.round((shifted[i] * cover * opacity) / 255);
+  }
+  return { input: out, raw: { width: SIZE, height: SIZE, channels: 4 } };
+}
+
+// Flatten a layer stack onto its (optionally blurred) background.
+async function renderStack({ background, layers }, blur = BACKGROUND_BLUR_SIGMA) {
+  const base = blur ? await blurredBackground(background) : await sharp(background).png().toBuffer();
+  const composites = [];
+  for (const layer of layers) {
+    if (layer.shadow) composites.push(await castShadow(layer.file, layer.onto, layer.shadow));
+    composites.push({ input: layer.file });
+  }
+  return sharp(await sharp(base).composite(composites).png().toBuffer()).removeAlpha();
+}
+
 async function render(piece) {
   if (piece.type === 'Secret Rare') return sharp(SECRET_RARE).removeAlpha().webp(WEBP).toBuffer();
-  const [background, ...overlays] = piece.layers;
-  const flat = await sharp(await blurredBackground(background))
-    .composite(overlays.map((input) => ({ input })))
-    .png()
-    .toBuffer();
-  return sharp(flat).removeAlpha().webp(WEBP).toBuffer();
+  return (await renderStack(piece.stack)).webp(WEBP).toBuffer();
 }
 
 function metadata(piece) {
@@ -302,7 +354,7 @@ async function contactSheet(pieces, file) {
 }
 
 // The pairing rules are shared with scripts/best-pairings.cjs.
-module.exports = { LAYERS, bodyFits, captionsFor, headFile };
+module.exports = { LAYERS, ACCENTS, bodyFits, captionsFor, sceneName, layerStack, renderStack };
 
 if (require.main === module) (async () => {
   const pieces = plan();
