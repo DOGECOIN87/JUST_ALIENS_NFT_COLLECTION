@@ -173,7 +173,14 @@ function backgroundLayers() {
 const LAYERS = {
   Background: backgroundLayers(),
   Clothing: layer('Clothing'),
-  Headwear: layer('Headwear'),
+  // A headwear item is one file, or a folder with one file per expression (named like
+  // the expression heads) when the eyes or the crown it sits on move between heads.
+  Headwear: [
+    ...layer('Headwear'),
+    ...fs.readdirSync(path.join(ASSETS, 'Headwear'))
+      .filter((f) => fs.statSync(path.join(ASSETS, 'Headwear', f)).isDirectory())
+      .map((f) => ({ dir: path.join(ASSETS, 'Headwear', f), name: displayName(f) })),
+  ].sort((a, b) => a.name.localeCompare(b.name)),
   Skin: SKINS.map(([dir, name]) => ({ dir, name })),
   // The expression file names are the same in every skin folder; Platinum is read for the list.
   Expression: fs.readdirSync(path.join(ASSETS, 'Expression_Colors', 'Platinum'))
@@ -243,7 +250,10 @@ function layerStack(traits) {
     const clothing = { file: traits.Clothing.file };
     const head = { file: headFile(traits.Skin, traits.Expression), shadow: HEAD_SHADOW, onto: [clothing] };
     layers.push(clothing, head);
-    if (traits.Headwear) layers.push({ file: traits.Headwear.file, shadow: HAT_SHADOW, onto: [head] });
+    if (traits.Headwear) {
+      const hw = traits.Headwear;
+      layers.push({ file: hw.dir ? path.join(hw.dir, traits.Expression.file) : hw.file, shadow: HAT_SHADOW, onto: [head] });
+    }
   }
   if (traits.Text) layers.push({ file: traits.Text.file });
   return { background: traits.Background.file, layers };
