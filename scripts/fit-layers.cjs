@@ -21,7 +21,6 @@ const JACKET = SIZE / 1254; // the originals are 1254 squares drawn on the same 
 const JACKETS = ['Bomber_Jacket', 'Camo_Jacket', 'Hoodie_Black', 'Hoodie_White', 'Leather_Jacket',
   'Military_Jacket', 'Safari_Jacket', 'Spacesuit', 'Tech_Jacket', 'Winter_Jacket'];
 const HEADWEAR = {
-  Beanie: { scale: 0.635, left: 78, top: -119 },
   'Spiky_Hair': { scale: 0.30, left: 302, top: -15 },
   // Pushed up on the forehead: over the eyes the lenses are smaller than the alien's eyes.
   Goggles: { scale: 0.34, left: 274, top: 30 },
