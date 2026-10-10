@@ -4,19 +4,19 @@
 // Only the new backgrounds are used (SCENES below); the original 29 scenes and
 // their halftone copies in Enhanced_Backgrounds are left out. Every candidate
 // follows the collection's pairing rules (generate_collection.js) and is scored by:
-//   - separation: how clearly the outfit's outline reads against the scene
+//   - separation: how clearly the dressed alien's outline reads against the scene
 //     (CIE Lab colour difference across the silhouette edge, sampled around it),
-//   - colour echo: a scene accent picked up by the outfit or the caption.
-// The pick then spreads across scenes and outfits so the sheet is not 50
-// variations of one look: every outfit appears at its best, and caps limit how
-// often any one background or outfit repeats.
+//   - colour echo: a scene accent picked up by the clothing, the skin or the caption.
+// The pick then spreads across scenes, clothing and skins so the sheet is not 50
+// variations of one look: every clothing item appears at its best, and caps limit
+// how often any one background, clothing item or skin repeats.
 //
 //   node scripts/best-pairings.cjs                 # 50 pairings into ./best_pairings
 //   node scripts/best-pairings.cjs --count 30 --out dir --blur 3
 const fs = require('node:fs');
 const path = require('node:path');
 const sharp = require('sharp');
-const { LAYERS, bodyFits, captionsFor } = require('../generate_collection.js');
+const { LAYERS, bodyFits, captionsFor, headFile } = require('../generate_collection.js');
 
 const root = path.resolve(__dirname, '..');
 const args = process.argv.slice(2);
@@ -27,19 +27,20 @@ const OUT = path.resolve(arg('--out', path.join(root, 'best_pairings')));
 const BLUR = Number(arg('--blur', 0));
 
 const MAX_PER_BACKGROUND = 9;
-const MAX_PER_OUTFIT = 5;
+const MAX_PER_CLOTHING = 5;
+const MAX_PER_SKIN = 5;
 const MAX_PER_RARE = 3;
 
 // Scoring works on a downscaled copy; the band is the strip either side of the outline.
 const W = 240, BAND = 6, BINS = 32;
-const CHIN_Y = 148; // only the outline below the chin is scored; above it every normal has the same head
-const MAX_DELTA_E = 25; // "clearly separate" is enough; past this MAGA red would win on colour alone
+const CHIN_Y = 0; // the whole figure is scored now
+const MAX_DELTA_E = 25; // "clearly separate" is enough; past this a bright skin would win on colour alone
 
-// Scene accent -> outfits whose own colour echoes it.
+// Scene accent -> clothing/skins whose own colour echoes it.
 const ECHOES = {
-  Red: ['MAGA'], Orange: ['MAGA'],
-  Green: ['OG'],
-  Blue: ['Android'], 'Light Blue': ['Android'], White: ['Android'],
+  Blue: ['Spacesuit', 'Sky Blue', 'Cyan'],
+  'Light Blue': ['Sky Blue', 'Cyan'],
+  White: ['Platinum'],
 };
 const ECHO_BONUS = 6;
 const CAPTION_BONUS = 3;
@@ -52,10 +53,10 @@ const SCENES = [
   { name: 'Spheres Spotlight', file: 'Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png', moods: ['Curious', 'Confused', 'Amused', 'Sour'] },
   { name: 'Cubes Cinematic', file: 'Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png', moods: ['Confused', 'Curious', 'Sour', 'Angry'] },
   { name: 'Pyramids Dunes', file: 'Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png', moods: ['Curious', 'Amused', 'Confused', 'Happy'] },
-  { name: 'Wormhole Vortex', file: 'Assets/4fd01d63-2a0c-40cc-a521-72c432276a0b.png', moods: ['Surprised', 'Curious', 'Angry', 'Amused'] },
-  { name: 'Cavern of Light', file: 'Assets/dd1fca4d-9ede-4449-81d9-68ab41ccc8c3.png', moods: ['Curious', 'Surprised', 'Chill', 'Sad'] },
+  { name: 'Wormhole Vortex', file: 'Assets/Background/Wormhole_Vortex.png', moods: ['Surprised', 'Curious', 'Angry', 'Amused'] },
+  { name: 'Cavern of Light', file: 'Assets/Background/Cavern_of_Light.png', moods: ['Curious', 'Surprised', 'Chill', 'Sad'] },
   // A landscape photo: cropping from the right puts Earth beside the alien's head, not behind it.
-  { name: 'Earthrise', file: 'Assets/art002e009288orig_20260409_184903.webp', accent: 'Blue', position: 'right', moods: ['Chill', 'Happy', 'Amused', 'Surprised'] },
+  { name: 'Earthrise', file: 'Assets/Background/Earthrise.webp', accent: 'Blue', position: 'right', moods: ['Chill', 'Happy', 'Amused', 'Surprised'] },
 ].map((scene) => ({ ...scene, file: path.join(root, scene.file) }));
 
 // The generator's rules read a scene's accent from the end of its name.
@@ -100,17 +101,27 @@ function outlineDistance(mask) {
   return dist;
 }
 
-async function figure(body) {
-  const layers = body.kind === 'Rare' ? [body.file] : [body.file, LAYERS.Expression[0].file];
-  const flat = await sharp({ create: { width: 960, height: 960, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
-    .composite(layers.map((input) => ({ input }))).png().toBuffer();
-  const px = await small(flat);
-  const mask = new Uint8Array(W * W);
-  let cx = 0, cy = 0, n = 0;
-  for (let i = 0; i < W * W; i++) {
-    if (px[i * 4 + 3] > 128) { mask[i] = 1; cx += i % W; cy += (i / W) | 0; n++; }
+// The scoring figure: a rare's full image, or the clothing plus a head
+// (headwear over it, jackets under it; any expression — they share the outline).
+function figure(body) {
+  let layers;
+  if (body.kind === 'Rare') {
+    layers = [body.rare.file];
+  } else {
+    const head = headFile(body.skin, LAYERS.Expression[0]);
+    layers = body.clothing.headwear ? [head, body.clothing.file] : [body.clothing.file, head];
   }
-  return { px, mask, dist: outlineDistance(mask), cx: cx / n, cy: cy / n };
+  return (async () => {
+    const flat = await sharp({ create: { width: 960, height: 960, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+      .composite(layers.map((input) => ({ input }))).png().toBuffer();
+    const px = await small(flat);
+    const mask = new Uint8Array(W * W);
+    let cx = 0, cy = 0, n = 0;
+    for (let i = 0; i < W * W; i++) {
+      if (px[i * 4 + 3] > 128) { mask[i] = 1; cx += i % W; cy += (i / W) | 0; n++; }
+    }
+    return { px, mask, dist: outlineDistance(mask), cx: cx / n, cy: cy / n };
+  })();
 }
 
 // Mean colour difference across the outline, averaged by direction from the
@@ -134,16 +145,25 @@ function separation(fig, scene) {
 }
 
 async function candidates() {
-  const bodies = [...LAYERS.Clothing.map((c) => ({ ...c, kind: 'Clothing' })), ...LAYERS.Rare.map((r) => ({ ...r, kind: 'Rare' }))];
-  const figures = new Map(await Promise.all(bodies.map(async (b) => [b.name, await figure(b)])));
+  const combos = [];
+  for (const clothing of LAYERS.Clothing)
+    for (const skin of LAYERS.Skin)
+      combos.push({ kind: 'Clothing', clothing, skin, name: `${clothing.name}|${skin.name}` });
+  for (const rare of LAYERS.Rare) combos.push({ kind: 'Rare', rare, name: rare.name });
+  const figures = new Map(await Promise.all(combos.map(async (b) => [b.name, await figure(b)])));
   const list = [];
   for (const background of SCENES) {
     const scene = await crop(background, W).ensureAlpha().raw().toBuffer();
     const rules = asRuleBackground(background);
-    for (const body of bodies.filter((b) => bodyFits(rules, b))) {
+    for (const body of combos) {
+      const fits = body.kind === 'Rare'
+        ? bodyFits(rules, body.rare)
+        : bodyFits(rules, body.clothing) && bodyFits(rules, body.skin);
+      if (!fits) continue;
       // Captions only where they echo a scene accent; monochrome scenes stay clean.
-      const caption = background.accent ? captionsFor(rules, body)[0] : undefined;
-      const echo = (ECHOES[background.accent] || []).includes(body.name);
+      const caption = background.accent ? captionsFor(rules)[0] : undefined;
+      const names = body.kind === 'Rare' ? [body.rare.name] : [body.clothing.name, body.skin.name];
+      const echo = (ECHOES[background.accent] || []).some((n) => names.includes(n));
       const score = separation(figures.get(body.name), scene) + (echo ? ECHO_BONUS : 0) + (caption ? CAPTION_BONUS : 0);
       list.push({ background, body, caption, score });
     }
@@ -152,18 +172,31 @@ async function candidates() {
 }
 
 function choose(list) {
-  const perBackground = new Map(), perBody = new Map(), picked = [];
+  const perBackground = new Map(), perClothing = new Map(), perSkin = new Map(), perRare = new Map(), picked = [];
   const count = (map, key) => map.get(key) || 0;
-  const fits = (c) => picked.length < COUNT && !picked.includes(c)
-    && count(perBackground, c.background.name) < MAX_PER_BACKGROUND
-    && count(perBody, c.body.name) < (c.body.kind === 'Rare' ? MAX_PER_RARE : MAX_PER_OUTFIT);
+  const fits = (c) => {
+    if (picked.length >= COUNT || picked.includes(c)) return false;
+    if (count(perBackground, c.background.name) >= MAX_PER_BACKGROUND) return false;
+    if (c.body.kind === 'Rare') return count(perRare, c.body.rare.name) < MAX_PER_RARE;
+    return count(perClothing, c.body.clothing.name) < MAX_PER_CLOTHING
+      && count(perSkin, c.body.skin.name) < MAX_PER_SKIN;
+  };
   const take = (c) => {
     picked.push(c);
     perBackground.set(c.background.name, count(perBackground, c.background.name) + 1);
-    perBody.set(c.body.name, count(perBody, c.body.name) + 1);
+    if (c.body.kind === 'Rare') {
+      perRare.set(c.body.rare.name, count(perRare, c.body.rare.name) + 1);
+    } else {
+      perClothing.set(c.body.clothing.name, count(perClothing, c.body.clothing.name) + 1);
+      perSkin.set(c.body.skin.name, count(perSkin, c.body.skin.name) + 1);
+    }
   };
-  // First the best pairing for every outfit (each on its own scene), then the next best overall.
-  for (const c of list) if (!perBody.has(c.body.name) && !perBackground.has(c.background.name) && fits(c)) take(c);
+  // First the best pairing for every clothing item and every skin (each on its
+  // own scene), then the next best overall.
+  for (const c of list) {
+    if (c.body.kind === 'Rare') { if (!perRare.has(c.body.rare.name) && !perBackground.has(c.background.name) && fits(c)) take(c); }
+    else if (!perClothing.has(c.body.clothing.name) && !perSkin.has(c.body.skin.name) && !perBackground.has(c.background.name) && fits(c)) take(c);
+  }
   for (const c of list) if (fits(c)) take(c);
   picked.sort((a, b) => b.score - a.score);
 
@@ -192,13 +225,23 @@ function sceneBuffer(background) {
 }
 
 async function render(c) {
-  const layers = [c.body.file, c.expression && c.expression.file, c.caption && c.caption.file].filter(Boolean);
+  let layers;
+  if (c.body.kind === 'Rare') {
+    layers = [c.body.rare.file];
+  } else {
+    const head = headFile(c.body.skin, c.expression);
+    layers = c.body.clothing.headwear ? [head, c.body.clothing.file] : [c.body.clothing.file, head];
+  }
+  if (c.caption) layers.push(c.caption.file);
   const flat = await sharp(await sceneBuffer(c.background)).composite(layers.map((input) => ({ input }))).png().toBuffer();
   return sharp(flat).removeAlpha();
 }
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const describe = (c) => [c.body.kind === 'Rare' ? `${c.body.name} (Rare)` : c.body.name, c.expression && c.expression.name, c.caption && c.caption.name].filter(Boolean).join(' · ');
+const describe = (c) => (c.body.kind === 'Rare'
+  ? [`${c.body.rare.name} (Rare)`]
+  : [c.body.clothing.name, c.body.skin.name]
+).concat([c.expression && c.expression.name, c.caption && c.caption.name]).filter(Boolean).join(' · ');
 
 async function sheet(picked, file) {
   const tile = 288, label = 52, cols = 10, header = 96, gap = 6;
@@ -215,7 +258,7 @@ async function sheet(picked, file) {
   }));
   const title = Buffer.from(`<svg width="${width}" height="${header}">
     <text x="${gap + 4}" y="54" font-family="DejaVu Sans" font-weight="bold" font-size="40" fill="#fff">JUST ALIENS — ${picked.length} Best Pairings</text>
-    <text x="${gap + 6}" y="82" font-family="DejaVu Sans" font-size="17" fill="#8a94a3">New backgrounds only · ranked by how clearly the alien reads against the scene, plus colour echoes between scene, outfit and caption</text></svg>`);
+    <text x="${gap + 6}" y="82" font-family="DejaVu Sans" font-size="17" fill="#8a94a3">New backgrounds only · ranked by how clearly the alien reads against the scene, plus colour echoes between scene, clothing, skin and caption</text></svg>`);
   await sharp({ create: { width, height, channels: 3, background: '#0b0d12' } })
     .composite([{ input: title, left: 0, top: 0 }, ...tiles.flat()])
     .jpeg({ quality: 88, mozjpeg: true })
@@ -229,7 +272,8 @@ async function sheet(picked, file) {
     Rank: i + 1,
     Background: c.background.name,
     Type: c.body.kind === 'Rare' ? 'Rare' : 'Normal',
-    Outfit: c.body.name,
+    Clothing: c.body.kind === 'Rare' ? '' : c.body.clothing.name,
+    Skin: c.body.kind === 'Rare' ? c.body.rare.name : c.body.skin.name,
     Expression: c.expression ? c.expression.name : '',
     Text: c.caption ? c.caption.name : '',
     Score: c.score.toFixed(1),
