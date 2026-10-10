@@ -26,6 +26,8 @@ const HEADWEAR = {
   'Spiky_Hair': { scale: 0.318, left: 290, top: -21 },
   // Pushed up on the forehead: over the eyes the lenses are smaller than the alien's eyes.
   Goggles: { scale: 0.34, left: 274, top: 30 },
+  // Cups against the sides of the head at eye height, band resting on the crown.
+  Headphones: { scale: 0.70, left: 47, top: -66 },
 };
 // The helmet is sized so its visor shows the whole full-size face (eyes to mouth), and the
 // spacesuit under it is enlarged and lowered so the helmet's neck ring rests on the suit's.
