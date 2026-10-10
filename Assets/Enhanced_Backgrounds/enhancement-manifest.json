@@ -22,6 +22,24 @@
       "status": "composited"
     },
     {
+      "source": "Beanie_Portrait.png",
+      "source_sha256": "e035b14b8b5747f0556108bb61fe66d4db80e6bae24db1a532823b1386b40120",
+      "output": "Beanie_Portrait.png",
+      "output_sha256": "3a69294952823941153c5e6280916799d99ccc33fabed42d694984fc2f3c5a45",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Black_Shirt_Portrait.png",
+      "source_sha256": "ab64caaa23c398394698af8c4de643b9d66295272786f295aa16a829de638464",
+      "output": "Black_Shirt_Portrait.png",
+      "output_sha256": "52af37b400c7b7c6a58c31980d79e57ca43336b5e80aca0d5f202b78102d4695",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
       "source": "Celestial.png",
       "source_sha256": "df5708c0e0b4cef38dc346cbfe9af426c73789a04be1000c48160aa603b0f86d",
       "output": "Celestial.png",
@@ -97,8 +115,19 @@
       "source": "Cubes.png",
       "source_sha256": "51c2c2e83705b01db6038b47f5f9fd79d704dacc15c360a9e420df3b35a7ae99",
       "output": "goats_contest_mattrick (18).png",
-      "output_sha256": "c651bd8f4212d51d7af25090f5ed4cc3b1adcf4c2095291fa8aa3a76a5d83d11",
-      "status": "preserved_existing"
+      "output_sha256": "b8eb6f2af1656d40b0ab13fe6de09ef10e4f4735f5d4d6b4959f6ddf12743e8a",
+      "status": "preserved_existing",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "source": "Man_At_Desk.png",
+      "source_sha256": "f992e3ee5e15640063b527bc8181efa01c90dd56fb4c77baababc4d5fb7d7474",
+      "output": "Man_At_Desk.png",
+      "output_sha256": "f0194f213221b713c8c27bd07240785966d2ae8bff23f405854497db11e1f112",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
     },
     {
       "source": "Neon_Orange.png",
@@ -119,11 +148,22 @@
       "status": "composited"
     },
     {
+      "source": "Press_Conference.jpg",
+      "source_sha256": "20e7bb55e1751f940ff756d14f3bc5b17267fbb73e3415956d00107a18e5cd59",
+      "output": "Press_Conference.png",
+      "output_sha256": "fbb5888d0f323a1092726d7fc1a840efb737237f5c44689bab5e053ac21d37a7",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
       "source": "Pyramids.png",
       "source_sha256": "fb4ea6ccc4cfbc902e6a4b5214c28c873bdd0e2f3f3ba86665514a5a1580c96a",
       "output": "goats_contest_mattrick (19).png",
-      "output_sha256": "6fedffae48a0e07bf23918936ee932db35bb6dd12d34e57aa6df1c9270447950",
-      "status": "preserved_existing"
+      "output_sha256": "e52b592b13776a2dff7a042a19588f62b03ecabccbdf37f57224aadce61b924e",
+      "status": "preserved_existing",
+      "width": 960,
+      "height": 960
     },
     {
       "source": "Spaceship_Corridor_Blue.png",
@@ -183,8 +223,19 @@
       "source": "Spheres.png",
       "source_sha256": "2349ef5fca707c17864c0a63895574873015ecae701e6aa0d2de30cfe38f1f34",
       "output": "goats_contest_mattrick (17).png",
-      "output_sha256": "bf2da03cdfe7e822ea13b717e4f8d0541f7e1ce2688cd2c21d4665f58234f8a1",
-      "status": "preserved_existing"
+      "output_sha256": "eb707019264778883e2198adadb0cddd8e4f60fe316b4e3972d20f3452e34531",
+      "status": "preserved_existing",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "source": "TV_Interview.png",
+      "source_sha256": "60bd1a6e89818d50a71e3a3dd6dd686535962ef8455b3057067183c8c3e26fb8",
+      "output": "TV_Interview.png",
+      "output_sha256": "e15e2efa18be1efe20012d2cdb51f29d4c88b59cfe9e83992e952d55c4be563a",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
     },
     {
       "source": "Terra.png",
