@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 // Apply the supplied texture without regenerating the source artwork.
+// Pass file names (e.g. Beanie_Portrait.png) to create only those; without
+// arguments every source background without an enhanced counterpart is created.
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const crypto = require('node:crypto');
@@ -25,6 +27,8 @@ const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 async function main() {
   await fs.mkdir(outputDir, {recursive: true});
   const sources = (await fs.readdir(sourceDir)).filter(isImage).sort();
+  const only = process.argv.slice(2);
+  for (const name of only) if (!sources.includes(name)) throw new Error(`Not in Assets/Background: ${name}`);
   const existing = (await fs.readdir(outputDir)).filter(isImage).sort();
   const byName = new Map(existing.map(name => [key(name), name]));
   const before = new Map();
@@ -43,6 +47,7 @@ async function main() {
     const sourceSha256 = hash(sourceBytes);
     const counterpart = preservedCounterparts[source];
     const match = (counterpart && existing.includes(counterpart) && counterpart) || byName.get(key(source));
+    if (!match && only.length && !only.includes(source)) continue;
     if (match) {
       const old = oldRecords.get(source);
       backgrounds.push(old && old.output === match && old.source_sha256 === sourceSha256 && old.output_sha256 === before.get(match)

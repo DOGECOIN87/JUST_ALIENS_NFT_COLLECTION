@@ -22,6 +22,24 @@
       "status": "composited"
     },
     {
+      "source": "Beanie_Portrait.png",
+      "source_sha256": "e035b14b8b5747f0556108bb61fe66d4db80e6bae24db1a532823b1386b40120",
+      "output": "Beanie_Portrait.png",
+      "output_sha256": "3a69294952823941153c5e6280916799d99ccc33fabed42d694984fc2f3c5a45",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Black_Shirt_Portrait.png",
+      "source_sha256": "ab64caaa23c398394698af8c4de643b9d66295272786f295aa16a829de638464",
+      "output": "Black_Shirt_Portrait.png",
+      "output_sha256": "52af37b400c7b7c6a58c31980d79e57ca43336b5e80aca0d5f202b78102d4695",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
       "source": "Celestial.png",
       "source_sha256": "df5708c0e0b4cef38dc346cbfe9af426c73789a04be1000c48160aa603b0f86d",
       "output": "Celestial.png",
@@ -103,6 +121,15 @@
       "height": 960
     },
     {
+      "source": "Man_At_Desk.png",
+      "source_sha256": "f992e3ee5e15640063b527bc8181efa01c90dd56fb4c77baababc4d5fb7d7474",
+      "output": "Man_At_Desk.png",
+      "output_sha256": "f0194f213221b713c8c27bd07240785966d2ae8bff23f405854497db11e1f112",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
       "source": "Neon_Orange.png",
       "source_sha256": "238d3b22c976970389369b265ce965ca1367e3ca494accd6f214abdea5dab6e4",
       "output": "Neon_Orange.png",
@@ -116,6 +143,15 @@
       "source_sha256": "7a5f1b1d380ff59d727347657f8125e21cde8f06b6dd09e8d23f45809b1102f9",
       "output": "Portal.png",
       "output_sha256": "88f5b1dacbdaba4fc866d74da5e67aa44990d91029064af6d9cdcdf7c52a0704",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
+    },
+    {
+      "source": "Press_Conference.jpg",
+      "source_sha256": "20e7bb55e1751f940ff756d14f3bc5b17267fbb73e3415956d00107a18e5cd59",
+      "output": "Press_Conference.png",
+      "output_sha256": "fbb5888d0f323a1092726d7fc1a840efb737237f5c44689bab5e053ac21d37a7",
       "width": 960,
       "height": 960,
       "status": "composited"
@@ -191,6 +227,15 @@
       "status": "preserved_existing",
       "width": 960,
       "height": 960
+    },
+    {
+      "source": "TV_Interview.png",
+      "source_sha256": "60bd1a6e89818d50a71e3a3dd6dd686535962ef8455b3057067183c8c3e26fb8",
+      "output": "TV_Interview.png",
+      "output_sha256": "e15e2efa18be1efe20012d2cdb51f29d4c88b59cfe9e83992e952d55c4be563a",
+      "width": 960,
+      "height": 960,
+      "status": "composited"
     },
     {
       "source": "Terra.png",
