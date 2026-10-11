@@ -16,17 +16,12 @@ const scenes = ['Celestial.png','Cockpit_Blue.png','Cockpit_Green.png','Cavern_o
   const id = s*5+h+1;
   const bg = await sharp(path.join(root,'Assets/Background',scenes[(s+h)%5])).resize(1254,1254).png().toBuffer();
   const head = await sharp(path.join(root,'Assets/Expression_Colors',skins[s],moods[(s+h)%5]+'.png')).resize(1254,1254).png().toBuffer();
-  const scale = h === 4 ? 1.05 : 1.10;
-  const enlarged = Math.round(1254 * scale);
-  const cropX = Math.round((enlarged - 1254) / 2);
-  const cropY = Math.round(400 * (scale - 1));
-  const hat = await sharp(path.join(root,'headwear-sized',hats[h]+'.png'))
-    .resize(enlarged, enlarged).extract({left:cropX,top:cropY,width:1254,height:1254}).png().toBuffer();
+  const hat = path.join(root,'headwear-fitted',moods[(s+h)%5],'supplied','supplied-'+hats[h]+'.png');
   const file = String(id).padStart(2,'0')+'.png';
   await sharp(bg).composite([{input:head},{input:hat}]).png().toFile(path.join(out,file));
   const input = await sharp(path.join(out,file)).resize(300,300).png().toBuffer();
   tiles.push({input,left:(id-1)%10*300,top:Math.floor((id-1)/10)*300});
-  manifest.push({id,file,headwear:hats[h],headwearScale:scale,skin:skins[s],expression:moods[(s+h)%5],background:scenes[(s+h)%5]});
+  manifest.push({id,file,headwear:hats[h],headwearFit:moods[(s+h)%5],skin:skins[s],expression:moods[(s+h)%5],background:scenes[(s+h)%5]});
  }
  await sharp({create:{width:3000,height:1500,channels:3,background:'#000'}}).composite(tiles).jpeg({quality:94}).toFile(path.join(out,'sheet-50.jpg'));
  fs.writeFileSync(path.join(out,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');

@@ -26,6 +26,7 @@
  *   node generate_collection.js                 # all 1,000 into ./collection
  *   node generate_collection.js --limit 50      # first 50 only
  *   node generate_collection.js --sheet out.jpg # also write a contact sheet
+ *   node generate_collection.js --headwear-fitted # expression-specific headwear
  *   node generate_collection.js --out dir       # different output folder
  */
 
@@ -111,6 +112,14 @@ const arg = (flag, fallback) => {
 const OUT = path.resolve(arg('--out', path.join(__dirname, 'collection')));
 const LIMIT = Number(arg('--limit', SUPPLY));
 const SHEET = arg('--sheet', null);
+const USE_FITTED_HEADWEAR = args.includes('--headwear-fitted');
+const FITTED_HEADWEAR_DIR = path.join(__dirname, 'headwear-fitted');
+const FITTED_HEADWEAR = USE_FITTED_HEADWEAR
+  ? JSON.parse(fs.readFileSync(path.join(FITTED_HEADWEAR_DIR, 'manifest.json'))).assets
+  : [];
+function fittedHeadwearFile(asset, expression) {
+  return path.join(FITTED_HEADWEAR_DIR, path.parse(expression.file).name, asset.set, asset.id + '.png');
+}
 
 // Seeded PRNG (mulberry32) so the collection is reproducible.
 function rng(seed) {
@@ -170,7 +179,7 @@ function backgroundLayers() {
 
 const LAYERS = {
   Background: backgroundLayers(),
-  Clothing: layer('Clothing').map((c) => ({ ...c, headwear: HEADWEAR.has(c.name) })),
+  Clothing: layer('Clothing').filter(c => !USE_FITTED_HEADWEAR || !HEADWEAR.has(c.name)).map((c) => ({ ...c, headwear: HEADWEAR.has(c.name) })),
   Skin: SKINS.map(([dir, name]) => ({ dir, name })),
   // The expression file names are the same in every skin folder; Platinum is read for the list.
   Expression: fs.readdirSync(path.join(ASSETS, 'Expression_Colors', 'Platinum'))
@@ -220,6 +229,11 @@ function plan() {
         // Headwear sits on the head; jackets and hoodies sit behind it.
         if (clothing.headwear) files.push(head, clothing.file);
         else files.push(clothing.file, head);
+        if (USE_FITTED_HEADWEAR) {
+          const asset = pick(FITTED_HEADWEAR);
+          traits.Headwear = { name: asset.id };
+          files.push(fittedHeadwearFile(asset, expression));
+        }
       }
       if (slot.text) {
         traits.Text = pick(captionsFor(background));
@@ -264,8 +278,14 @@ function blurredBackground(file) {
 async function render(piece) {
   if (piece.type === 'Secret Rare') return sharp(SECRET_RARE).removeAlpha().webp(WEBP).toBuffer();
   const [background, ...overlays] = piece.layers;
-  const flat = await sharp(await blurredBackground(background))
-    .composite(overlays.map((input) => ({ input })))
+  const backgroundBuffer = USE_FITTED_HEADWEAR
+    ? await sharp(await blurredBackground(background)).resize(1254, 1254).png().toBuffer()
+    : await blurredBackground(background);
+  const overlayLayers = USE_FITTED_HEADWEAR
+    ? await Promise.all(overlays.map(async (input) => ({ input: await sharp(input).resize(1254, 1254).png().toBuffer() })))
+    : overlays.map((input) => ({ input }));
+  const flat = await sharp(backgroundBuffer)
+    .composite(overlayLayers)
     .png()
     .toBuffer();
   return sharp(flat).removeAlpha().webp(WEBP).toBuffer();
@@ -302,7 +322,7 @@ async function contactSheet(pieces, file) {
 }
 
 // The pairing rules are shared with scripts/best-pairings.cjs.
-module.exports = { LAYERS, bodyFits, captionsFor, headFile };
+module.exports = { LAYERS, bodyFits, captionsFor, headFile, fittedHeadwearFile };
 
 if (require.main === module) (async () => {
   const pieces = plan();
