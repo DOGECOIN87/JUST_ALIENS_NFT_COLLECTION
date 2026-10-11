@@ -8,9 +8,16 @@
     "prepare-assets": "node prepare_assets.js",
     "generate": "node generate_collection.js",
     "best-pairings": "node scripts/best-pairings.cjs",
-    "dev": "python -m http.server 8080"
+    "dev": "python -m http.server 8080",
+    "align-headwear": "node scripts/align-headwear.cjs",
+    "headwear-sheets": "node scripts/headwear-alignment-sheets.cjs"
   },
-  "keywords": ["nft", "solana", "gorbagana", "candy-machine"],
+  "keywords": [
+    "nft",
+    "solana",
+    "gorbagana",
+    "candy-machine"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

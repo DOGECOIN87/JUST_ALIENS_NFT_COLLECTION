@@ -105,7 +105,7 @@
     {
       "id": "american-01",
       "set": "american",
-      "file": "headwaters/american/01_r1c1_brown_cowboy_hat_silver_sheriff.png",
+      "file": "Headwear-notprocessedyet/american/01_r1c1_brown_cowboy_hat_silver_sheriff.png",
       "description": "brown cowboy hat silver sheriff star",
       "category": "brim",
       "sourceBounds": {
@@ -119,7 +119,7 @@
     {
       "id": "american-02",
       "set": "american",
-      "file": "headwaters/american/02_r1c2_navy_baseball_cap_with_cream.png",
+      "file": "Headwear-notprocessedyet/american/02_r1c2_navy_baseball_cap_with_cream.png",
       "description": "navy baseball cap with cream front panel bearing a small United States flag, red side accents",
       "category": "cap",
       "sourceBounds": {
@@ -133,7 +133,7 @@
     {
       "id": "american-03",
       "set": "american",
-      "file": "headwaters/american/03_r1c3_brown_leather_aviator_flight_cap.png",
+      "file": "Headwear-notprocessedyet/american/03_r1c3_brown_leather_aviator_flight_cap.png",
       "description": "brown leather aviator flight cap with brass-rimmed dark goggles resting above forehead",
       "category": "aviator",
       "sourceBounds": {
@@ -147,7 +147,7 @@
     {
       "id": "american-04",
       "set": "american",
-      "file": "headwaters/american/04_r1c4_red_white_and_blue_American.png",
+      "file": "Headwear-notprocessedyet/american/04_r1c4_red_white_and_blue_American.png",
       "description": "red white and blue American flag bandana tied around crown, knot and short tails at left temple",
       "category": "band",
       "sourceBounds": {
@@ -161,7 +161,7 @@
     {
       "id": "american-05",
       "set": "american",
-      "file": "headwaters/american/05_r1c5_black_baseball_cap_plain_front.png",
+      "file": "Headwear-notprocessedyet/american/05_r1c5_black_baseball_cap_plain_front.png",
       "description": "black baseball cap, plain front without lettering",
       "category": "cap",
       "sourceBounds": {
@@ -175,7 +175,7 @@
     {
       "id": "american-06",
       "set": "american",
-      "file": "headwaters/american/06_r2c1_dark_brown_leather_aviator_cap.png",
+      "file": "Headwear-notprocessedyet/american/06_r2c1_dark_brown_leather_aviator_cap.png",
       "description": "dark brown leather aviator cap with bronze goggles on forehead",
       "category": "aviator",
       "sourceBounds": {
@@ -189,7 +189,7 @@
     {
       "id": "american-07",
       "set": "american",
-      "file": "headwaters/american/07_r2c2_Uncle_Sam_tall_top_hat.png",
+      "file": "Headwear-notprocessedyet/american/07_r2c2_Uncle_Sam_tall_top_hat.png",
       "description": "Uncle Sam tall top hat, red white vertical striped crown, navy band with white stars and red brim",
       "category": "brim",
       "sourceBounds": {
@@ -203,7 +203,7 @@
     {
       "id": "american-08",
       "set": "american",
-      "file": "headwaters/american/08_r2c3_red_baseball_cap_worn_backwards.png",
+      "file": "Headwear-notprocessedyet/american/08_r2c3_red_baseball_cap_worn_backwards.png",
       "description": "red baseball cap worn backwards, adjustable strap visible at front, symmetrical front view",
       "category": "cap",
       "sourceBounds": {
@@ -217,7 +217,7 @@
     {
       "id": "american-09",
       "set": "american",
-      "file": "headwaters/american/09_r2c4_dark_olive_cowboy_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/09_r2c4_dark_olive_cowboy_hat_with.png",
       "description": "dark olive cowboy hat with gold sheriff star",
       "category": "brim",
       "sourceBounds": {
@@ -231,7 +231,7 @@
     {
       "id": "american-10",
       "set": "american",
-      "file": "headwaters/american/10_r2c5_cream_ivory_cowboy_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/10_r2c5_cream_ivory_cowboy_hat_with.png",
       "description": "cream ivory cowboy hat with dark five point sheriff star",
       "category": "brim",
       "sourceBounds": {
@@ -245,7 +245,7 @@
     {
       "id": "american-11",
       "set": "american",
-      "file": "headwaters/american/11_r3c1_olive_camouflage_bucket_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/11_r3c1_olive_camouflage_bucket_hat_with.png",
       "description": "olive camouflage bucket hat with plain tan rectangular front patch, no lettering",
       "category": "cap",
       "sourceBounds": {
@@ -259,7 +259,7 @@
     {
       "id": "american-12",
       "set": "american",
-      "file": "headwaters/american/12_r3c2_dark_blue_denim_hood_only.png",
+      "file": "Headwear-notprocessedyet/american/12_r3c2_dark_blue_denim_hood_only.png",
       "description": "dark blue denim hood only, open face opening fully transparent, no face mask or clothing below hood",
       "category": "open",
       "sourceBounds": {
@@ -273,7 +273,7 @@
     {
       "id": "american-13",
       "set": "american",
-      "file": "headwaters/american/13_r3c4_navy_red_white_knitted_American.png",
+      "file": "Headwear-notprocessedyet/american/13_r3c4_navy_red_white_knitted_American.png",
       "description": "navy red white knitted American flag beanie with star crown and striped folded cuff",
       "category": "band",
       "sourceBounds": {
@@ -287,7 +287,7 @@
     {
       "id": "american-14",
       "set": "american",
-      "file": "headwaters/american/14_r3c5_navy_trucker_baseball_cap_with.png",
+      "file": "Headwear-notprocessedyet/american/14_r3c5_navy_trucker_baseball_cap_with.png",
       "description": "navy trucker baseball cap with cream front panel, no lettering",
       "category": "cap",
       "sourceBounds": {
@@ -301,7 +301,7 @@
     {
       "id": "american-15",
       "set": "american",
-      "file": "headwaters/american/15_r4c1_navy_American_football_helmet_with.png",
+      "file": "Headwear-notprocessedyet/american/15_r4c1_navy_American_football_helmet_with.png",
       "description": "navy American football helmet with red white central racing stripes, silver metal faceguard, all interior transparent",
       "category": "helmet",
       "sourceBounds": {
@@ -315,7 +315,7 @@
     {
       "id": "american-16",
       "set": "american",
-      "file": "headwaters/american/16_r4c2_navy_baseball_cap_with_plain.png",
+      "file": "Headwear-notprocessedyet/american/16_r4c2_navy_baseball_cap_with_plain.png",
       "description": "navy baseball cap with plain front without lettering or logo",
       "category": "cap",
       "sourceBounds": {
@@ -329,7 +329,7 @@
     {
       "id": "american-17",
       "set": "american",
-      "file": "headwaters/american/17_r4c3_red_bandana_with_small_white.png",
+      "file": "Headwear-notprocessedyet/american/17_r4c3_red_bandana_with_small_white.png",
       "description": "red bandana with small white stars tied at left temple",
       "category": "bandana",
       "sourceBounds": {
@@ -343,7 +343,7 @@
     {
       "id": "american-18",
       "set": "american",
-      "file": "headwaters/american/18_r4c4_brown_leather_cowboy_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/18_r4c4_brown_leather_cowboy_hat_with.png",
       "description": "brown leather cowboy hat with round silver medallion front band",
       "category": "brim",
       "sourceBounds": {
@@ -357,7 +357,7 @@
     {
       "id": "american-19",
       "set": "american",
-      "file": "headwaters/american/19_r4c5_navy_trucker_cap_with_white.png",
+      "file": "Headwear-notprocessedyet/american/19_r4c5_navy_trucker_cap_with_white.png",
       "description": "navy trucker cap with white front panel, no lettering",
       "category": "cap",
       "sourceBounds": {
@@ -371,7 +371,7 @@
     {
       "id": "american-20",
       "set": "american",
-      "file": "headwaters/american/20_r5c1_navy_hood_with_red_white.png",
+      "file": "Headwear-notprocessedyet/american/20_r5c1_navy_hood_with_red_white.png",
       "description": "navy hood with red white trim and white stars, open face area transparent, only hood no face scarf or torso",
       "category": "open",
       "sourceBounds": {
@@ -385,7 +385,7 @@
     {
       "id": "american-21",
       "set": "american",
-      "file": "headwaters/american/21_r5c2_brown_aviator_cap_with_black.png",
+      "file": "Headwear-notprocessedyet/american/21_r5c2_brown_aviator_cap_with_black.png",
       "description": "brown aviator cap with black lenses in silver-rimmed goggles and cream fleece ear flaps",
       "category": "aviator",
       "sourceBounds": {
@@ -399,7 +399,7 @@
     {
       "id": "american-22",
       "set": "american",
-      "file": "headwaters/american/22_r5c3_olive_camouflage_bucket_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/22_r5c3_olive_camouflage_bucket_hat_with.png",
       "description": "olive camouflage bucket hat with tan blank rectangular front patch, no lettering",
       "category": "cap",
       "sourceBounds": {
@@ -413,7 +413,7 @@
     {
       "id": "american-23",
       "set": "american",
-      "file": "headwaters/american/23_r5c4_cream_cowboy_hat_with_navy.png",
+      "file": "Headwear-notprocessedyet/american/23_r5c4_cream_cowboy_hat_with_navy.png",
       "description": "cream cowboy hat with navy band of white stars",
       "category": "brim",
       "sourceBounds": {
@@ -427,7 +427,7 @@
     {
       "id": "american-24",
       "set": "american",
-      "file": "headwaters/american/24_r5c5_black_ribbed_knit_beanie_with.png",
+      "file": "Headwear-notprocessedyet/american/24_r5c5_black_ribbed_knit_beanie_with.png",
       "description": "black ribbed knit beanie with small United States flag patch",
       "category": "cap",
       "sourceBounds": {
@@ -441,7 +441,7 @@
     {
       "id": "american-25",
       "set": "american",
-      "file": "headwaters/american/25_r6c1_red_brim_trucker_cap_with.png",
+      "file": "Headwear-notprocessedyet/american/25_r6c1_red_brim_trucker_cap_with.png",
       "description": "red brim trucker cap with off-white front panel, no lettering",
       "category": "cap",
       "sourceBounds": {
@@ -455,7 +455,7 @@
     {
       "id": "american-26",
       "set": "american",
-      "file": "headwaters/american/26_r6c2_blue_baseball_cap_backwards_with.png",
+      "file": "Headwear-notprocessedyet/american/26_r6c2_blue_baseball_cap_backwards_with.png",
       "description": "blue baseball cap backwards with green adjustable strap and rear opening visible at front",
       "category": "cap",
       "sourceBounds": {
@@ -469,7 +469,7 @@
     {
       "id": "american-27",
       "set": "american",
-      "file": "headwaters/american/27_r6c3_navy_bandana_covered_with_small.png",
+      "file": "Headwear-notprocessedyet/american/27_r6c3_navy_bandana_covered_with_small.png",
       "description": "navy bandana covered with small cream stars tied around crown, no lower face covering",
       "category": "band",
       "sourceBounds": {
@@ -483,7 +483,7 @@
     {
       "id": "american-28",
       "set": "american",
-      "file": "headwaters/american/28_r6c4_navy_blue_space_flight_helmet.png",
+      "file": "Headwear-notprocessedyet/american/28_r6c4_navy_blue_space_flight_helmet.png",
       "description": "navy blue space flight helmet with cream five point star centered on forehead and metallic rim, visor opening transparent no head no suit",
       "category": "helmet",
       "sourceBounds": {
@@ -497,7 +497,7 @@
     {
       "id": "american-29",
       "set": "american",
-      "file": "headwaters/american/29_r6c5_red_ribbed_knit_beanie_with.png",
+      "file": "Headwear-notprocessedyet/american/29_r6c5_red_ribbed_knit_beanie_with.png",
       "description": "red ribbed knit beanie with small United States flag patch",
       "category": "cap",
       "sourceBounds": {
@@ -511,7 +511,7 @@
     {
       "id": "american-30",
       "set": "american",
-      "file": "headwaters/american/30_r7c1_brown_leather_cowboy_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/30_r7c1_brown_leather_cowboy_hat_with.png",
       "description": "brown leather cowboy hat with small engraved oval brass emblem on front band",
       "category": "brim",
       "sourceBounds": {
@@ -525,7 +525,7 @@
     {
       "id": "american-31",
       "set": "american",
-      "file": "headwaters/american/31_r7c2_dark_navy_baseball_cap_plain.png",
+      "file": "Headwear-notprocessedyet/american/31_r7c2_dark_navy_baseball_cap_plain.png",
       "description": "dark navy baseball cap plain without lettering",
       "category": "cap",
       "sourceBounds": {
@@ -539,7 +539,7 @@
     {
       "id": "american-32",
       "set": "american",
-      "file": "headwaters/american/32_r7c3_closefitting_red_cream_and_navy.png",
+      "file": "Headwear-notprocessedyet/american/32_r7c3_closefitting_red_cream_and_navy.png",
       "description": "close-fitting red cream and navy striped knit skullcap",
       "category": "cap",
       "sourceBounds": {
@@ -553,7 +553,7 @@
     {
       "id": "american-33",
       "set": "american",
-      "file": "headwaters/american/33_r7c4_green_camouflage_bucket_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/33_r7c4_green_camouflage_bucket_hat_with.png",
       "description": "green camouflage bucket hat with small United States flag patch",
       "category": "cap",
       "sourceBounds": {
@@ -567,7 +567,7 @@
     {
       "id": "american-34",
       "set": "american",
-      "file": "headwaters/american/34_r8c2_tan_woven_straw_cowboy_hat.png",
+      "file": "Headwear-notprocessedyet/american/34_r8c2_tan_woven_straw_cowboy_hat.png",
       "description": "tan woven straw cowboy hat with navy band and small white stars",
       "category": "brim",
       "sourceBounds": {
@@ -581,7 +581,7 @@
     {
       "id": "american-35",
       "set": "american",
-      "file": "headwaters/american/35_r8c3_charcoal_gray_hood_only_with.png",
+      "file": "Headwear-notprocessedyet/american/35_r8c3_charcoal_gray_hood_only_with.png",
       "description": "charcoal gray hood only with open transparent face hole, no face covering no clothing below hood",
       "category": "open",
       "sourceBounds": {
@@ -595,7 +595,7 @@
     {
       "id": "american-36",
       "set": "american",
-      "file": "headwaters/american/36_r8c4_navy_baseball_cap_with_small.png",
+      "file": "Headwear-notprocessedyet/american/36_r8c4_navy_baseball_cap_with_small.png",
       "description": "navy baseball cap with small blank cream shield-shaped patch, no lettering or numerals",
       "category": "cap",
       "sourceBounds": {
@@ -609,7 +609,7 @@
     {
       "id": "american-37",
       "set": "american",
-      "file": "headwaters/american/37_r8c5_brown_cavalry_cowboy_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/37_r8c5_brown_cavalry_cowboy_hat_with.png",
       "description": "brown cavalry cowboy hat with gold crossed sabers insignia",
       "category": "brim",
       "sourceBounds": {
@@ -623,7 +623,7 @@
     {
       "id": "american-38",
       "set": "american",
-      "file": "headwaters/american/38_r9c1_red_brim_trucker_baseball_cap.png",
+      "file": "Headwear-notprocessedyet/american/38_r9c1_red_brim_trucker_baseball_cap.png",
       "description": "red brim trucker baseball cap with cream blank front panel, no lettering",
       "category": "cap",
       "sourceBounds": {
@@ -637,7 +637,7 @@
     {
       "id": "american-39",
       "set": "american",
-      "file": "headwaters/american/39_r9c2_gray_ribbed_knit_beanie_with.png",
+      "file": "Headwear-notprocessedyet/american/39_r9c2_gray_ribbed_knit_beanie_with.png",
       "description": "gray ribbed knit beanie with small United States flag patch",
       "category": "cap",
       "sourceBounds": {
@@ -651,7 +651,7 @@
     {
       "id": "american-40",
       "set": "american",
-      "file": "headwaters/american/40_r9c3_navy_military_baseball_cap_with.png",
+      "file": "Headwear-notprocessedyet/american/40_r9c3_navy_military_baseball_cap_with.png",
       "description": "navy military baseball cap with gold and silver spread eagle emblem above small gold star",
       "category": "cap",
       "sourceBounds": {
@@ -665,7 +665,7 @@
     {
       "id": "american-41",
       "set": "american",
-      "file": "headwaters/american/41_r9c4_brown_leather_aviator_cap_with.png",
+      "file": "Headwear-notprocessedyet/american/41_r9c4_brown_leather_aviator_cap_with.png",
       "description": "brown leather aviator cap with bronze-framed goggles with glossy black lenses resting above forehead",
       "category": "aviator",
       "sourceBounds": {
@@ -679,7 +679,7 @@
     {
       "id": "american-42",
       "set": "american",
-      "file": "headwaters/american/42_r9c5_dark_brown_cowboy_hat_with.png",
+      "file": "Headwear-notprocessedyet/american/42_r9c5_dark_brown_cowboy_hat_with.png",
       "description": "dark brown cowboy hat with gold sheriff star",
       "category": "brim",
       "sourceBounds": {
@@ -693,7 +693,7 @@
     {
       "id": "cultural-01",
       "set": "cultural",
-      "file": "headwaters/cultural/01_r1c1.png",
+      "file": "Headwear-notprocessedyet/cultural/01_r1c1.png",
       "description": "black cylindrical ceremonial cap with ornate gold geometric embroidery and narrow red accents",
       "category": "cylinder",
       "sourceBounds": {
@@ -707,7 +707,7 @@
     {
       "id": "cultural-02",
       "set": "cultural",
-      "file": "headwaters/cultural/02_r1c2.png",
+      "file": "Headwear-notprocessedyet/cultural/02_r1c2.png",
       "description": "large gathered headwrap in vivid green red yellow orange and navy woven geometric cloth",
       "category": "wrap",
       "sourceBounds": {
@@ -721,7 +721,7 @@
     {
       "id": "cultural-03",
       "set": "cultural",
-      "file": "headwaters/cultural/03_r1c3.png",
+      "file": "Headwear-notprocessedyet/cultural/03_r1c3.png",
       "description": "white and dark navy layered turban with crossed white folds",
       "category": "wrap",
       "sourceBounds": {
@@ -735,7 +735,7 @@
     {
       "id": "cultural-04",
       "set": "cultural",
-      "file": "headwaters/cultural/04_r1c4.png",
+      "file": "Headwear-notprocessedyet/cultural/04_r1c4.png",
       "description": "red and gold beaded crown headband with delicate draped chains and central dangling forehead pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -749,7 +749,7 @@
     {
       "id": "cultural-05",
       "set": "cultural",
-      "file": "headwaters/cultural/05_r1c5.png",
+      "file": "Headwear-notprocessedyet/cultural/05_r1c5.png",
       "description": "black draped head veil with ornate gold patterned border, open face transparent, only head veil no shoulders or torso",
       "category": "open",
       "sourceBounds": {
@@ -763,7 +763,7 @@
     {
       "id": "cultural-06",
       "set": "cultural",
-      "file": "headwaters/cultural/06_r2c1.png",
+      "file": "Headwear-notprocessedyet/cultural/06_r2c1.png",
       "description": "dark purple hooded head veil with multicolor purple gold geometric embroidered trim, only head covering",
       "category": "open",
       "sourceBounds": {
@@ -777,7 +777,7 @@
     {
       "id": "cultural-07",
       "set": "cultural",
-      "file": "headwaters/cultural/07_r2c2.png",
+      "file": "Headwear-notprocessedyet/cultural/07_r2c2.png",
       "description": "red fez with centered ornate gold diamond shaped front medallion",
       "category": "cylinder",
       "sourceBounds": {
@@ -791,7 +791,7 @@
     {
       "id": "cultural-08",
       "set": "cultural",
-      "file": "headwaters/cultural/08_r2c3.png",
+      "file": "Headwear-notprocessedyet/cultural/08_r2c3.png",
       "description": "multicolored red green gold beaded crown with beaded side strands beside temples, central gold forehead pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -805,7 +805,7 @@
     {
       "id": "cultural-09",
       "set": "cultural",
-      "file": "headwaters/cultural/09_r2c4.png",
+      "file": "Headwear-notprocessedyet/cultural/09_r2c4.png",
       "description": "close fitted olive green and gold striped turban",
       "category": "wrap",
       "sourceBounds": {
@@ -819,7 +819,7 @@
     {
       "id": "cultural-10",
       "set": "cultural",
-      "file": "headwaters/cultural/10_r2c5.png",
+      "file": "Headwear-notprocessedyet/cultural/10_r2c5.png",
       "description": "cylindrical vivid blue orange yellow green geometric woven kufi cap",
       "category": "cylinder",
       "sourceBounds": {
@@ -833,7 +833,7 @@
     {
       "id": "cultural-11",
       "set": "cultural",
-      "file": "headwaters/cultural/11_r3c1.png",
+      "file": "Headwear-notprocessedyet/cultural/11_r3c1.png",
       "description": "thin multistrand turquoise blue red and gold beaded forehead headband with central gold dangling pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -847,7 +847,7 @@
     {
       "id": "cultural-12",
       "set": "cultural",
-      "file": "headwaters/cultural/12_r3c2.png",
+      "file": "Headwear-notprocessedyet/cultural/12_r3c2.png",
       "description": "bulky black and white African patterned cloth turban with bold abstract geometric marks",
       "category": "wrap",
       "sourceBounds": {
@@ -861,7 +861,7 @@
     {
       "id": "cultural-13",
       "set": "cultural",
-      "file": "headwaters/cultural/13_r3c3.png",
+      "file": "Headwear-notprocessedyet/cultural/13_r3c3.png",
       "description": "black crown band lined with upright ivory cowrie shells, central gold forehead pendant and slim black side drapes, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -875,7 +875,7 @@
     {
       "id": "cultural-14",
       "set": "cultural",
-      "file": "headwaters/cultural/14_r3c4.png",
+      "file": "Headwear-notprocessedyet/cultural/14_r3c4.png",
       "description": "gathered navy blue gold green and red geometric patterned headwrap",
       "category": "wrap",
       "sourceBounds": {
@@ -889,7 +889,7 @@
     {
       "id": "cultural-15",
       "set": "cultural",
-      "file": "headwaters/cultural/15_r3c5.png",
+      "file": "Headwear-notprocessedyet/cultural/15_r3c5.png",
       "description": "short tan cylindrical woven cap with fine dark brown geometric embroidery",
       "category": "cylinder",
       "sourceBounds": {
@@ -903,7 +903,7 @@
     {
       "id": "cultural-16",
       "set": "cultural",
-      "file": "headwaters/cultural/16_r4c1.png",
+      "file": "Headwear-notprocessedyet/cultural/16_r4c1.png",
       "description": "red gold green striped draped head hood with central slim gold forehead chain, face opening transparent, no torso cloth",
       "category": "open",
       "sourceBounds": {
@@ -917,7 +917,7 @@
     {
       "id": "cultural-17",
       "set": "cultural",
-      "file": "headwaters/cultural/17_r4c2.png",
+      "file": "Headwear-notprocessedyet/cultural/17_r4c2.png",
       "description": "deep dark blue layered wrapped turban",
       "category": "wrap",
       "sourceBounds": {
@@ -931,7 +931,7 @@
     {
       "id": "cultural-18",
       "set": "cultural",
-      "file": "headwaters/cultural/18_r4c3.png",
+      "file": "Headwear-notprocessedyet/cultural/18_r4c3.png",
       "description": "deep red draped hood with ornate gold triangular border and central gold forehead chain, transparent face opening, no torso",
       "category": "open",
       "sourceBounds": {
@@ -945,7 +945,7 @@
     {
       "id": "cultural-19",
       "set": "cultural",
-      "file": "headwaters/cultural/19_r4c4.png",
+      "file": "Headwear-notprocessedyet/cultural/19_r4c4.png",
       "description": "orange yellow blue and red bulky geometric patterned turban",
       "category": "wrap",
       "sourceBounds": {
@@ -959,7 +959,7 @@
     {
       "id": "cultural-20",
       "set": "cultural",
-      "file": "headwaters/cultural/20_r4c5.png",
+      "file": "Headwear-notprocessedyet/cultural/20_r4c5.png",
       "description": "purple magenta crown headband with rows of white pearl-like beads gold central jewel and forehead pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -973,7 +973,7 @@
     {
       "id": "cultural-21",
       "set": "cultural",
-      "file": "headwaters/cultural/21_r5c1.png",
+      "file": "Headwear-notprocessedyet/cultural/21_r5c1.png",
       "description": "navy cylindrical cap with crisp white grid and geometric woven embroidery",
       "category": "cylinder",
       "sourceBounds": {
@@ -987,7 +987,7 @@
     {
       "id": "cultural-22",
       "set": "cultural",
-      "file": "headwaters/cultural/22_r5c2.png",
+      "file": "Headwear-notprocessedyet/cultural/22_r5c2.png",
       "description": "tall gathered orange green yellow blue geometric woven headwrap",
       "category": "wrap",
       "sourceBounds": {
@@ -1001,7 +1001,7 @@
     {
       "id": "cultural-23",
       "set": "cultural",
-      "file": "headwaters/cultural/23_r5c3.png",
+      "file": "Headwear-notprocessedyet/cultural/23_r5c3.png",
       "description": "thin crown headband with three rows of small white beads red accents and gold central forehead pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -1015,7 +1015,7 @@
     {
       "id": "cultural-24",
       "set": "cultural",
-      "file": "headwaters/cultural/24_r5c4.png",
+      "file": "Headwear-notprocessedyet/cultural/24_r5c4.png",
       "description": "wide tan woven conical straw hat with dark outlined rim",
       "category": "brim",
       "sourceBounds": {
@@ -1029,7 +1029,7 @@
     {
       "id": "cultural-25",
       "set": "cultural",
-      "file": "headwaters/cultural/25_r5c5.png",
+      "file": "Headwear-notprocessedyet/cultural/25_r5c5.png",
       "description": "dark navy short cylindrical kufi cap with gold turquoise circular motifs and fine gold patterned band",
       "category": "cylinder",
       "sourceBounds": {
@@ -1043,7 +1043,7 @@
     {
       "id": "cultural-26",
       "set": "cultural",
-      "file": "headwaters/cultural/26_r6c1.png",
+      "file": "Headwear-notprocessedyet/cultural/26_r6c1.png",
       "description": "open black and gold royal crown with upright ivory cowrie shell ornaments and central gold hanging forehead pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -1057,7 +1057,7 @@
     {
       "id": "cultural-27",
       "set": "cultural",
-      "file": "headwaters/cultural/27_r6c2.png",
+      "file": "Headwear-notprocessedyet/cultural/27_r6c2.png",
       "description": "black tightly wrapped turban with broad diagonal layered folds",
       "category": "wrap",
       "sourceBounds": {
@@ -1071,7 +1071,7 @@
     {
       "id": "cultural-28",
       "set": "cultural",
-      "file": "headwaters/cultural/28_r6c3.png",
+      "file": "Headwear-notprocessedyet/cultural/28_r6c3.png",
       "description": "green red gold beaded headband with multicolor bead rows and central gold oval dangling forehead jewel, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -1085,7 +1085,7 @@
     {
       "id": "cultural-29",
       "set": "cultural",
-      "file": "headwaters/cultural/29_r6c4.png",
+      "file": "Headwear-notprocessedyet/cultural/29_r6c4.png",
       "description": "black draped head hood with red green gold geometric embroidered border and central dangling white and gold forehead ornaments, no torso",
       "category": "open",
       "sourceBounds": {
@@ -1099,7 +1099,7 @@
     {
       "id": "cultural-30",
       "set": "cultural",
-      "file": "headwaters/cultural/30_r6c5.png",
+      "file": "Headwear-notprocessedyet/cultural/30_r6c5.png",
       "description": "bright royal blue turban with layered diagonal woven folds",
       "category": "wrap",
       "sourceBounds": {
@@ -1113,7 +1113,7 @@
     {
       "id": "cultural-31",
       "set": "cultural",
-      "file": "headwaters/cultural/31_r7c1.png",
+      "file": "Headwear-notprocessedyet/cultural/31_r7c1.png",
       "description": "ornate red and gold pointed royal crown with small green jewels central round gold medallion and pendant, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -1127,7 +1127,7 @@
     {
       "id": "cultural-32",
       "set": "cultural",
-      "file": "headwaters/cultural/32_r7c2.png",
+      "file": "Headwear-notprocessedyet/cultural/32_r7c2.png",
       "description": "draped orange yellow green navy geometric patterned head veil with transparent face opening, no scarf around mouth no torso",
       "category": "open",
       "sourceBounds": {
@@ -1141,7 +1141,7 @@
     {
       "id": "cultural-33",
       "set": "cultural",
-      "file": "headwaters/cultural/33_r7c3.png",
+      "file": "Headwear-notprocessedyet/cultural/33_r7c3.png",
       "description": "black and red crown band covered with large ivory cowrie shells, small dangling forehead shell accents, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -1155,7 +1155,7 @@
     {
       "id": "cultural-34",
       "set": "cultural",
-      "file": "headwaters/cultural/34_r7c4.png",
+      "file": "Headwear-notprocessedyet/cultural/34_r7c4.png",
       "description": "green red orange yellow patterned tall wrapped turban",
       "category": "wrap",
       "sourceBounds": {
@@ -1169,7 +1169,7 @@
     {
       "id": "cultural-35",
       "set": "cultural",
-      "file": "headwaters/cultural/35_r7c5.png",
+      "file": "Headwear-notprocessedyet/cultural/35_r7c5.png",
       "description": "navy blue gathered patterned headwrap with gold traditional geometric motifs",
       "category": "wrap",
       "sourceBounds": {
@@ -1183,7 +1183,7 @@
     {
       "id": "cultural-36",
       "set": "cultural",
-      "file": "headwaters/cultural/36_r8c1.png",
+      "file": "Headwear-notprocessedyet/cultural/36_r8c1.png",
       "description": "white cream and navy turban with broad crossed layered folds",
       "category": "wrap",
       "sourceBounds": {
@@ -1197,7 +1197,7 @@
     {
       "id": "cultural-37",
       "set": "cultural",
-      "file": "headwaters/cultural/37_r8c2.png",
+      "file": "Headwear-notprocessedyet/cultural/37_r8c2.png",
       "description": "black over-ear headphones with shiny gold ear cups and thin gold trims, transparent open interior, no head",
       "category": "headphones",
       "sourceBounds": {
@@ -1211,7 +1211,7 @@
     {
       "id": "cultural-38",
       "set": "cultural",
-      "file": "headwaters/cultural/38_r8c3.png",
+      "file": "Headwear-notprocessedyet/cultural/38_r8c3.png",
       "description": "black draped head hood with ornate gold chevron patterned border, face opening transparent, no torso",
       "category": "open",
       "sourceBounds": {
@@ -1225,7 +1225,7 @@
     {
       "id": "cultural-39",
       "set": "cultural",
-      "file": "headwaters/cultural/39_r8c4.png",
+      "file": "Headwear-notprocessedyet/cultural/39_r8c4.png",
       "description": "bulky vivid purple blue orange green and yellow patterned turban",
       "category": "wrap",
       "sourceBounds": {
@@ -1239,7 +1239,7 @@
     {
       "id": "cultural-40",
       "set": "cultural",
-      "file": "headwaters/cultural/40_r8c5.png",
+      "file": "Headwear-notprocessedyet/cultural/40_r8c5.png",
       "description": "dark crimson red fez with circular gold front ornament",
       "category": "cylinder",
       "sourceBounds": {
@@ -1253,7 +1253,7 @@
     {
       "id": "cultural-41",
       "set": "cultural",
-      "file": "headwaters/cultural/41_r9c1.png",
+      "file": "Headwear-notprocessedyet/cultural/41_r9c1.png",
       "description": "bulky red orange green yellow patterned gathered headwrap",
       "category": "wrap",
       "sourceBounds": {
@@ -1267,7 +1267,7 @@
     {
       "id": "cultural-42",
       "set": "cultural",
-      "file": "headwaters/cultural/42_r9c2.png",
+      "file": "Headwear-notprocessedyet/cultural/42_r9c2.png",
       "description": "dark navy blue and cream geometric patterned head hood with transparent open face, no mouth scarf no shoulders",
       "category": "open",
       "sourceBounds": {
@@ -1281,7 +1281,7 @@
     {
       "id": "cultural-43",
       "set": "cultural",
-      "file": "headwaters/cultural/43_r9c3.png",
+      "file": "Headwear-notprocessedyet/cultural/43_r9c3.png",
       "description": "broad tan woven conical straw hat with gently curved rim, variant from last row",
       "category": "brim",
       "sourceBounds": {
@@ -1295,7 +1295,7 @@
     {
       "id": "cultural-44",
       "set": "cultural",
-      "file": "headwaters/cultural/44_r9c4.png",
+      "file": "Headwear-notprocessedyet/cultural/44_r9c4.png",
       "description": "green red gold beaded crown headband with oval gold forehead centerpiece and short dangling forehead ornament, no earrings",
       "category": "band",
       "sourceBounds": {
@@ -1309,7 +1309,7 @@
     {
       "id": "cultural-45",
       "set": "cultural",
-      "file": "headwaters/cultural/45_r9c5.png",
+      "file": "Headwear-notprocessedyet/cultural/45_r9c5.png",
       "description": "black draped head veil with ornate gold patterned border and three small white forehead ornament dots, transparent open face, no torso",
       "category": "open",
       "sourceBounds": {

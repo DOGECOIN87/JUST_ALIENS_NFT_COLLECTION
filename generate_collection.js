@@ -26,7 +26,8 @@
  *   node generate_collection.js                 # all 1,000 into ./collection
  *   node generate_collection.js --limit 50      # first 50 only
  *   node generate_collection.js --sheet out.jpg # also write a contact sheet
- *   node generate_collection.js --headwear-fitted # expression-specific headwear
+ *   node generate_collection.js --headwear-fitted # legacy expression-specific headwear
+ *   node generate_collection.js --headwear-aligned # reviewed Assets/Headwear set
  *   node generate_collection.js --out dir       # different output folder
  */
 
@@ -113,6 +114,13 @@ const OUT = path.resolve(arg('--out', path.join(__dirname, 'collection')));
 const LIMIT = Number(arg('--limit', SUPPLY));
 const SHEET = arg('--sheet', null);
 const USE_FITTED_HEADWEAR = args.includes('--headwear-fitted');
+const USE_ALIGNED_HEADWEAR = args.includes('--headwear-aligned');
+if (USE_FITTED_HEADWEAR && USE_ALIGNED_HEADWEAR) throw new Error('Choose only one headwear mode.');
+const USE_HEADWEAR = USE_FITTED_HEADWEAR || USE_ALIGNED_HEADWEAR;
+const ALIGNED_HEADWEAR = USE_ALIGNED_HEADWEAR
+  ? JSON.parse(fs.readFileSync(path.join(ASSETS, 'Headwear/alignment-manifest.json'))).assets : [];
+const ALIGNED_FILES = new Map(ALIGNED_HEADWEAR.map(a => [path.join(__dirname, a.file), a]));
+const alignedHeadwear = USE_ALIGNED_HEADWEAR ? require('./scripts/render-aligned-headwear.cjs').alignedHeadwear : null;
 const FITTED_HEADWEAR_DIR = path.join(__dirname, 'headwear-fitted');
 const FITTED_HEADWEAR = USE_FITTED_HEADWEAR
   ? JSON.parse(fs.readFileSync(path.join(FITTED_HEADWEAR_DIR, 'manifest.json'))).assets
@@ -179,7 +187,8 @@ function backgroundLayers() {
 
 const LAYERS = {
   Background: backgroundLayers(),
-  Clothing: layer('Clothing').filter(c => !USE_FITTED_HEADWEAR || !HEADWEAR.has(c.name)).map((c) => ({ ...c, headwear: HEADWEAR.has(c.name) })),
+  Clothing: layer('Clothing').filter(c => !USE_HEADWEAR || !HEADWEAR.has(c.name))
+    .filter(c => !USE_ALIGNED_HEADWEAR || !c.name.startsWith('Hooded Jacket')).map((c) => ({ ...c, headwear: HEADWEAR.has(c.name) })),
   Skin: SKINS.map(([dir, name]) => ({ dir, name })),
   // The expression file names are the same in every skin folder; Platinum is read for the list.
   Expression: fs.readdirSync(path.join(ASSETS, 'Expression_Colors', 'Platinum'))
@@ -234,6 +243,11 @@ function plan() {
           traits.Headwear = { name: asset.id };
           files.push(fittedHeadwearFile(asset, expression));
         }
+        if (USE_ALIGNED_HEADWEAR) {
+          const asset = pick(ALIGNED_HEADWEAR);
+          traits.Headwear = { name: asset.id };
+          files.push(path.join(__dirname, asset.file));
+        }
       }
       if (slot.text) {
         traits.Text = pick(captionsFor(background));
@@ -278,11 +292,14 @@ function blurredBackground(file) {
 async function render(piece) {
   if (piece.type === 'Secret Rare') return sharp(SECRET_RARE).removeAlpha().webp(WEBP).toBuffer();
   const [background, ...overlays] = piece.layers;
-  const backgroundBuffer = USE_FITTED_HEADWEAR
+  const backgroundBuffer = USE_HEADWEAR
     ? await sharp(await blurredBackground(background)).resize(1254, 1254).png().toBuffer()
     : await blurredBackground(background);
-  const overlayLayers = USE_FITTED_HEADWEAR
-    ? await Promise.all(overlays.map(async (input) => ({ input: await sharp(input).resize(1254, 1254).png().toBuffer() })))
+  const expression = piece.attributes.find(a => a.trait_type === 'Expression')?.value;
+  const overlayLayers = USE_HEADWEAR
+    ? await Promise.all(overlays.map(async (input) => ({ input: ALIGNED_FILES.has(input)
+      ? await alignedHeadwear(ALIGNED_FILES.get(input), expression)
+      : await sharp(input).resize(1254, 1254).png().toBuffer() })))
     : overlays.map((input) => ({ input }));
   const flat = await sharp(backgroundBuffer)
     .composite(overlayLayers)

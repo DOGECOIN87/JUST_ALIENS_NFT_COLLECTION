@@ -1,0 +1,1261 @@
+{
+  "count": 50,
+  "artworkCanvas": 1254,
+  "comparison": "Identical base layers; only the headwear overlay changes. Excluded traits render without headwear.",
+  "samples": [
+    {
+      "sample": 1,
+      "asset": "american-01",
+      "description": "brown cowboy hat silver sheriff star",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "skin": "Platinum",
+      "expression": "Amused",
+      "clothing": "Leather_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Leather_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Platinum/Amused.png",
+      "baseSha256": "4f2105476d33420599b091d1a67e5ff89c74193c7448bef13a5d344540a0e2d7",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/01_r1c1_brown_cowboy_hat_silver_sheriff.png",
+          "renderedSha256": "463baf808f50dc40bc8866cae0031e71945dcffca548596d178cb41d3d11227d"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-01_r1c1_brown_cowboy_hat_silver_sheriff.png",
+          "renderedSha256": "2c17adaaaf8490f0f06e8491cafb4b2a626e01fd75f7934c83652b8f30b7769e"
+        }
+      ]
+    },
+    {
+      "sample": 2,
+      "asset": "american-02",
+      "description": "navy baseball cap with cream front panel bearing a small United States flag, red side accents",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "skin": "Honey_Gold",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Hoodie_Black.png",
+      "headFile": "Assets/Expression_Colors/Honey_Gold/Happy.png",
+      "baseSha256": "ad65153b255c62a0b98cd0afa5038cd3c2e1283a825410d2b162475d5d2e6e6a",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/02_r1c2_navy_baseball_cap_with_cream.png",
+          "renderedSha256": "8bf0043e7048073187f894572ae4fe817b755c4c94d8dfb0476ecfc58c5a14e6"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-02_r1c2_navy_baseball_cap_with_cream.png",
+          "renderedSha256": "1684299d7d451bb34a71e1c3148833f39776118a84df145bebffdc79ee0a24ae"
+        }
+      ]
+    },
+    {
+      "sample": 3,
+      "asset": "american-03",
+      "description": "brown leather aviator flight cap with brass-rimmed dark goggles resting above forehead",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "skin": "Cyan",
+      "expression": "Curious",
+      "clothing": "Safari_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Safari_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Cyan/Curious.png",
+      "baseSha256": "90200f4a429a550d152ba794ca8424763b84fa1ef25dabacba0968b3c395667a",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/03_r1c3_brown_leather_aviator_flight_cap.png",
+          "renderedSha256": "5acb141a0b7929a5d449a5495deb0712becd4680f732531519ee5e499cf02561"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-03_r1c3_brown_leather_aviator_flight_cap.png",
+          "renderedSha256": "ba28840d92a48f3dde7a123919ec52a83e0155796c1623a2f7cc491378fee810"
+        }
+      ]
+    },
+    {
+      "sample": 4,
+      "asset": "american-04",
+      "description": "red white and blue American flag bandana tied around crown, knot and short tails at left temple",
+      "reference": "Assets/Headwear/art-by-mattrick (9).png",
+      "skin": "Coral_Red",
+      "expression": "Chill",
+      "clothing": "Spacesuit",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Coral_Red/Chill.png",
+      "baseSha256": "02cb83e8bfc38097533ecc9280fabf0e3db1ef62179fc16c86fc0743f0d9d7e9",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/04_r1c4_red_white_and_blue_American.png",
+          "renderedSha256": "8963927a590e22805d54519f0e28a3083b118a91e25deee3f8bdddf36cc1d105"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-04_r1c4_red_white_and_blue_American.png",
+          "renderedSha256": "a255811a8f2389ef2693f2d4fb061aa17fe0e2ca8821b0d2b423deabfdd05661"
+        }
+      ]
+    },
+    {
+      "sample": 5,
+      "asset": "american-05",
+      "description": "black baseball cap, plain front without lettering",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "skin": "Lime",
+      "expression": "Surprised",
+      "clothing": "Tech_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Tech_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Lime/Surprised.png",
+      "baseSha256": "9471f587af4f2e346061372fcf84df3af48a5cafcd2d123e16b9c50969a2031e",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/05_r1c5_black_baseball_cap_plain_front.png",
+          "renderedSha256": "41f9cf1eb4b22bcb50a8cbefda7f9042234d420906c4efcdd921442378caa23f"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-05_r1c5_black_baseball_cap_plain_front.png",
+          "renderedSha256": "b9e2f2052fa853333cf5346aab17861742b66cb9c95565c0ee09324228cb53a8"
+        }
+      ]
+    },
+    {
+      "sample": 6,
+      "asset": "american-06",
+      "description": "dark brown leather aviator cap with bronze goggles on forehead",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "skin": "Sky_Blue",
+      "expression": "Angry",
+      "clothing": "Winter_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Winter_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Sky_Blue/Angry.png",
+      "baseSha256": "96cfa7a4bc93ce8ff0e5537bbe7f8e049db8e12ecd1dbb2ef9934d4e5c93613b",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/06_r2c1_dark_brown_leather_aviator_cap.png",
+          "renderedSha256": "f8855583b78951d2e99dd5f19345e7b66b9f7ba0770bc8b9ea9ec2cfa8db56fe"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-06_r2c1_dark_brown_leather_aviator_cap.png",
+          "renderedSha256": "0ba2fc59f723b5eebd2dbf2279333a36e954476a7a4e8231d0ef0d97c628d434"
+        }
+      ]
+    },
+    {
+      "sample": 7,
+      "asset": "american-07",
+      "description": "Uncle Sam tall top hat, red white vertical striped crown, navy band with white stars and red brim",
+      "reference": "Assets/Headwear/art-by-mattrick (14).png",
+      "skin": "Violet",
+      "expression": "Confused",
+      "clothing": "Camo_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Camo_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Violet/Confused.png",
+      "baseSha256": "fcd3d4c9f631ed45039fd81762d59fcdc0dff7c28da8dc15c19c66daddbba26c",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/07_r2c2_Uncle_Sam_tall_top_hat.png",
+          "renderedSha256": "5a1269112c698c2c05118ded1d719e266a36c1716a9ff8d1debea36ee756bab2"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-07_r2c2_Uncle_Sam_tall_top_hat.png",
+          "renderedSha256": "b35154623f7977007fd011ae806a96de0a8cbed0f219c29cf91852668fa12d98"
+        }
+      ]
+    },
+    {
+      "sample": 8,
+      "asset": "american-08",
+      "description": "red baseball cap worn backwards, adjustable strap visible at front, symmetrical front view",
+      "reference": "Assets/Headwear/art-by-mattrick (16).png",
+      "skin": "Forest_Green",
+      "expression": "Sad",
+      "clothing": "Bomber_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Bomber_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Forest_Green/Sad.png",
+      "baseSha256": "4e326a58e3f3fced8ec915a6d807a7ddb6991550b8738f8b7b2a7d241ad17bf8",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/08_r2c3_red_baseball_cap_worn_backwards.png",
+          "renderedSha256": "d427d216b06219833a099e980a0df437604f333a6d0deaed49a558801ac10810"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-08_r2c3_red_baseball_cap_worn_backwards.png",
+          "renderedSha256": "aa5f76e1508af46d6a75ec34e3d9b9b32b2c9d3e8c102c397b36a58e88c4a669"
+        }
+      ]
+    },
+    {
+      "sample": 9,
+      "asset": "american-09",
+      "description": "dark olive cowboy hat with gold sheriff star",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "skin": "Hot_Pink",
+      "expression": "Sour",
+      "clothing": "Hoodie_White",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Hoodie_White.png",
+      "headFile": "Assets/Expression_Colors/Hot_Pink/Sour.png",
+      "baseSha256": "eb62c3acf7802941b9b05a75edc8d9340126edc8d8a186493659b9d5fc8949e7",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/09_r2c4_dark_olive_cowboy_hat_with.png",
+          "renderedSha256": "d615191f27454ab35e7673019de045a6eda0ba3fc612a891ccce1274627940cc"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-09_r2c4_dark_olive_cowboy_hat_with.png",
+          "renderedSha256": "b733f89d983db7fd58a45cdacfc93368927fbc61e22eb3b24a183722c8d8a397"
+        }
+      ]
+    },
+    {
+      "sample": 10,
+      "asset": "american-10",
+      "description": "cream ivory cowboy hat with dark five point sheriff star",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "skin": "Graphite",
+      "expression": "Amused",
+      "clothing": "Military_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Military_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Graphite/Amused.png",
+      "baseSha256": "5bc267c4a79ca061ef8fd0791c6084fdfc0e65f4b138533d92ae0767feca23eb",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/10_r2c5_cream_ivory_cowboy_hat_with.png",
+          "renderedSha256": "3ad78f0ddb9b55268c39c383c847ac28bb48a3e9e0b2ca1f87a0ae7016a9c55f"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-10_r2c5_cream_ivory_cowboy_hat_with.png",
+          "renderedSha256": "e9ae7dbedd85365023cc9f6ab6d7b9f64fa5c19580ef8073270dd12aae806dd4"
+        }
+      ]
+    },
+    {
+      "sample": 11,
+      "asset": "american-11",
+      "description": "olive camouflage bucket hat with plain tan rectangular front patch, no lettering",
+      "reference": "Assets/Headwear/art-by-mattrick (13).png",
+      "skin": "Platinum",
+      "expression": "Happy",
+      "clothing": "Leather_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Leather_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Platinum/Happy.png",
+      "baseSha256": "ad864c2e253b678d93e8936b1ac2706f183142796260249c680f4c395d97122b",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/11_r3c1_olive_camouflage_bucket_hat_with.png",
+          "renderedSha256": "6547f717f04469cada13fee1bc5aeed83642ab19b8b666f6d12448ce19a0bfdc"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-11_r3c1_olive_camouflage_bucket_hat_with.png",
+          "renderedSha256": "3a004f03e67465f4d6ab55433c5ceba017d608cd59428826dac4dcc875c75f80"
+        }
+      ]
+    },
+    {
+      "sample": 12,
+      "asset": "american-12",
+      "description": "dark blue denim hood only, open face opening fully transparent, no face mask or clothing below hood",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Honey_Gold",
+      "expression": "Curious",
+      "clothing": "Hoodie_Black",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Hoodie_Black.png",
+      "headFile": "Assets/Expression_Colors/Honey_Gold/Curious.png",
+      "baseSha256": "b42ce79db4bfa4181c00eaf67abd21fd2ad5df4e8dbd61d713230dffd3447d92",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/12_r3c2_dark_blue_denim_hood_only.png",
+          "renderedSha256": "00059ae409ef86d65f1772a1176f205a87b0389db5f28ff66dcea06bce2e93fb"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-12_r3c2_dark_blue_denim_hood_only.png",
+          "renderedSha256": "e94a3a209b9245587a354a3a51230d81de42807b86f3ae9bcdfdab8e6e15dd9d"
+        }
+      ]
+    },
+    {
+      "sample": 13,
+      "asset": "american-13",
+      "description": "navy red white knitted American flag beanie with star crown and striped folded cuff",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "skin": "Cyan",
+      "expression": "Chill",
+      "clothing": "Safari_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Safari_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Cyan/Chill.png",
+      "baseSha256": "91eb471182d1333a06b85dc0ec86e6dfe7af94cc20605d3fba7cf593ba54f89b",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/13_r3c4_navy_red_white_knitted_American.png",
+          "renderedSha256": "9fe6c456e0f52cfd600d344fbae4b8953ed79d29c45e191af02d6d0d49afe378"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-13_r3c4_navy_red_white_knitted_American.png",
+          "renderedSha256": "f7d3f70280c96fddd494d4eec8892457b44b5c105adfb914e105e799a634e606"
+        }
+      ]
+    },
+    {
+      "sample": 14,
+      "asset": "american-14",
+      "description": "navy trucker baseball cap with cream front panel, no lettering",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "skin": "Coral_Red",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Coral_Red/Surprised.png",
+      "baseSha256": "17f375c7071629c20043a718940510aa58e8aabb3e1936aa38550d9a675e12f7",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/14_r3c5_navy_trucker_baseball_cap_with.png",
+          "renderedSha256": "123f6f0b7e0446b3c0498f974485dc87641f1bf126f4b2ebf9861b232086dac2"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-14_r3c5_navy_trucker_baseball_cap_with.png",
+          "renderedSha256": "fefc843bf19499913d529ac9cf67be837c05bebc3bc18a677ed8dc26b7a73ae4"
+        }
+      ]
+    },
+    {
+      "sample": 15,
+      "asset": "american-15",
+      "description": "navy American football helmet with red white central racing stripes, silver metal faceguard, all interior transparent",
+      "reference": "Assets/Headwear/art-by-mattrick (21).png",
+      "skin": "Lime",
+      "expression": "Angry",
+      "clothing": "Spacesuit",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Lime/Angry.png",
+      "baseSha256": "488cfd7c9c47c46485e2de5670acbc8984a60a229b83eb9843e33670a2292c44",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/15_r4c1_navy_American_football_helmet_with.png",
+          "renderedSha256": "5c6d28041a6130fbe8db25f5cd04e54ae664b075186d6fda1b659b32eade0011"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-15_r4c1_navy_American_football_helmet_with.png",
+          "renderedSha256": "63642310ad9118367dd4b4c67d345f9982bf5787e7c351cdd64f361647c5ba0a"
+        }
+      ]
+    },
+    {
+      "sample": 16,
+      "asset": "american-17",
+      "description": "red bandana with small white stars tied at left temple",
+      "reference": "Assets/Headwear/art-by-mattrick (9).png",
+      "skin": "Sky_Blue",
+      "expression": "Confused",
+      "clothing": "Winter_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Winter_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Sky_Blue/Confused.png",
+      "baseSha256": "93342bcd91c627e29196935f0ea53fea7eee29da9af35fd61040e809eb2a45bd",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/17_r4c3_red_bandana_with_small_white.png",
+          "renderedSha256": "f710206e2039712b25ba5a6f1a4e2f6e26661031ffe59296e0871774c292d41f"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-17_r4c3_red_bandana_with_small_white.png",
+          "renderedSha256": "55e9e6177b512f081991c04391cfd6cb548690425e3b7d505e66d5af2a751224"
+        }
+      ]
+    },
+    {
+      "sample": 17,
+      "asset": "american-20",
+      "description": "navy hood with red white trim and white stars, open face area transparent, only hood no face scarf or torso",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Violet",
+      "expression": "Sad",
+      "clothing": "Camo_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Camo_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Violet/Sad.png",
+      "baseSha256": "17112abd6a9ae0dcfda5e1ac56d2f224d1bf748a47916d5d0691f9bcdf498876",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/20_r5c1_navy_hood_with_red_white.png",
+          "renderedSha256": "b3be14aa1bf40685946398aa4d363cdc18f721b78528c392e88c15965ebefa9d"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-20_r5c1_navy_hood_with_red_white.png",
+          "renderedSha256": "9b1b2e7585c458ebeaebed2952dfbf216eb8f3c59752df89a64ce2656347911d"
+        }
+      ]
+    },
+    {
+      "sample": 18,
+      "asset": "american-21",
+      "description": "brown aviator cap with black lenses in silver-rimmed goggles and cream fleece ear flaps",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "skin": "Forest_Green",
+      "expression": "Sour",
+      "clothing": "Bomber_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Bomber_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Forest_Green/Sour.png",
+      "baseSha256": "686025dccbf2447c80b7987c849400662d332520c34e5504dca750c6b0dadc47",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/21_r5c2_brown_aviator_cap_with_black.png",
+          "renderedSha256": "59c852a0f43d8a865a9ea364cfbb200d830c2485c7230b28560c103fb78aad4d"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-21_r5c2_brown_aviator_cap_with_black.png",
+          "renderedSha256": "f8bb515fdb6fef308c9766b7e3a2067803daad18d7518c05d1bda549a3deb5d0"
+        }
+      ]
+    },
+    {
+      "sample": 19,
+      "asset": "american-24",
+      "description": "black ribbed knit beanie with small United States flag patch",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "skin": "Hot_Pink",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Hoodie_White.png",
+      "headFile": "Assets/Expression_Colors/Hot_Pink/Amused.png",
+      "baseSha256": "7a6ec09ef5575f1b9ec75bd0dac67908fbb60ed4fd61654be4ee74d58d45d9f9",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/24_r5c5_black_ribbed_knit_beanie_with.png",
+          "renderedSha256": "76d4ca4df99c15af909af9b002a9c49440e4269d9889ed821c247c7ee9f50012"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-24_r5c5_black_ribbed_knit_beanie_with.png",
+          "renderedSha256": "2d9032fe18bbe1a4216eaeae18c61bea5f2f3815673fbe5d75bda94ce16186f6"
+        }
+      ]
+    },
+    {
+      "sample": 20,
+      "asset": "american-26",
+      "description": "blue baseball cap backwards with green adjustable strap and rear opening visible at front",
+      "reference": "Assets/Headwear/art-by-mattrick (16).png",
+      "skin": "Graphite",
+      "expression": "Happy",
+      "clothing": "Military_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Military_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Graphite/Happy.png",
+      "baseSha256": "6f4d1a74a0d786c5734d94ce36339c1d149e1fefdd9b87f14e733e9394c3a230",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/26_r6c2_blue_baseball_cap_backwards_with.png",
+          "renderedSha256": "4d250b632e838fbaf146c6717a80cd952078ef9d721e1f5030b74154bd5eb38c"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-26_r6c2_blue_baseball_cap_backwards_with.png",
+          "renderedSha256": "6cd9406fa7262f3ce7e4ba5b83b6fe47c8fcd72986c864dea6ccf9d4c708b6ad"
+        }
+      ]
+    },
+    {
+      "sample": 21,
+      "asset": "american-28",
+      "description": "navy blue space flight helmet with cream five point star centered on forehead and metallic rim, visor opening transparent no head no suit",
+      "reference": "Assets/Headwear/art-by-mattrick (21).png",
+      "skin": "Platinum",
+      "expression": "Curious",
+      "clothing": "Spacesuit",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Platinum/Curious.png",
+      "baseSha256": "d7bf0cf46b2371c2e746beb9b72128efa570b6b0fbca8760a645698051f01162",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/28_r6c4_navy_blue_space_flight_helmet.png",
+          "renderedSha256": "8c3dee6e105adbef299d3bc6997343b5575ce3b3cf1297af6d4dd45fb6909386"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-28_r6c4_navy_blue_space_flight_helmet.png",
+          "renderedSha256": "d15e93377d45f250d2b48f94fbcb8e61b07588eb32ae6d4fb60c2ed4160d331c"
+        }
+      ]
+    },
+    {
+      "sample": 22,
+      "asset": "american-33",
+      "description": "green camouflage bucket hat with small United States flag patch",
+      "reference": "Assets/Headwear/art-by-mattrick (13).png",
+      "skin": "Honey_Gold",
+      "expression": "Chill",
+      "clothing": "Hoodie_Black",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Hoodie_Black.png",
+      "headFile": "Assets/Expression_Colors/Honey_Gold/Chill.png",
+      "baseSha256": "4817f0b598a878e3551d8c13f7b57a5b7fc67abd287dc1f73bbfdf746f691976",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/33_r7c4_green_camouflage_bucket_hat_with.png",
+          "renderedSha256": "de24dccedbb5c76b1e3066eef71499170a5ba4c3e7b60c0fa43509b14b6eceaf"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-33_r7c4_green_camouflage_bucket_hat_with.png",
+          "renderedSha256": "2af2c37c74324ab31e3e5bdbe96920046088b0b8f8de61bb1f53520ea3308300"
+        }
+      ]
+    },
+    {
+      "sample": 23,
+      "asset": "american-35",
+      "description": "charcoal gray hood only with open transparent face hole, no face covering no clothing below hood",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Cyan",
+      "expression": "Surprised",
+      "clothing": "Safari_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Safari_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Cyan/Surprised.png",
+      "baseSha256": "2bd95a5cfdacc8aa0e660accaa66701d7483d4158d4e70340d4e4ab3dd14f019",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/35_r8c3_charcoal_gray_hood_only_with.png",
+          "renderedSha256": "37145155cd6b5a9c5818550f07b25345ec3c6d8c3027282b6a37f0be4e9556e9"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-35_r8c3_charcoal_gray_hood_only_with.png",
+          "renderedSha256": "1aa8286718412ce0d37a3f0c58a755a51b7e8c2097cd93b4ca102a2db9011d45"
+        }
+      ]
+    },
+    {
+      "sample": 24,
+      "asset": "american-39",
+      "description": "gray ribbed knit beanie with small United States flag patch",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "skin": "Coral_Red",
+      "expression": "Angry",
+      "clothing": "Spacesuit",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Coral_Red/Angry.png",
+      "baseSha256": "58298b086b00e7617d09e05c9bafdbc1a8983cadf4015fda5a17b26fa1f131fe",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/39_r9c2_gray_ribbed_knit_beanie_with.png",
+          "renderedSha256": "abd4a08147a18275715ded15353972a8ac365cef4973ff9174bee105a421120b"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-39_r9c2_gray_ribbed_knit_beanie_with.png",
+          "renderedSha256": "c3121eb39aa066d4e31d6bf10f4fe6d02906227ad76bf32166441f9059d55fca"
+        }
+      ]
+    },
+    {
+      "sample": 25,
+      "asset": "american-42",
+      "description": "dark brown cowboy hat with gold sheriff star",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "skin": "Lime",
+      "expression": "Confused",
+      "clothing": "Tech_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Tech_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Lime/Confused.png",
+      "baseSha256": "1163582e0f9be84a72d4948d68987af59f36934aacf22b1e925f27cdf9e07e39",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/american/42_r9c5_dark_brown_cowboy_hat_with.png",
+          "renderedSha256": "43e8fe9adde1c58db0edb11a949f5307b16000d4fffd718cecee3bf01ed1f776"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/american-42_r9c5_dark_brown_cowboy_hat_with.png",
+          "renderedSha256": "c677b42fbdea8ebaab0b7394ceb5ef14ae50289b4cf87dff30649ad1f6be28ae"
+        }
+      ]
+    },
+    {
+      "sample": 26,
+      "asset": "cultural-01",
+      "description": "black cylindrical ceremonial cap with ornate gold geometric embroidery and narrow red accents",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "skin": "Sky_Blue",
+      "expression": "Sad",
+      "clothing": "Winter_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Winter_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Sky_Blue/Sad.png",
+      "baseSha256": "1c00dcbeedd00666c1d9a7357dd9334ba46faa87e87a9b58ff24aac81499ab98",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/01_r1c1.png",
+          "renderedSha256": "e2e1622cb876ae572e28c641e8650e95e2e1b03187f7b47bbe14b8472f9f63de"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-01_r1c1.png",
+          "renderedSha256": "a1d28f0ce04921ba4f3c40efabb5d101816915f0afdd6277b3ef5a26a35c606c"
+        }
+      ]
+    },
+    {
+      "sample": 27,
+      "asset": "cultural-02",
+      "description": "large gathered headwrap in vivid green red yellow orange and navy woven geometric cloth",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "skin": "Violet",
+      "expression": "Sour",
+      "clothing": "Camo_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Camo_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Violet/Sour.png",
+      "baseSha256": "7d01c12894c3eb718c15c4c970cce701cb2ec2595b98a50f17a5ab9b242ab9b3",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/02_r1c2.png",
+          "renderedSha256": "e2569e3074cceb2646da25107686d61e0f86c466fab1e17aa86c79d435bb5233"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-02_r1c2.png",
+          "renderedSha256": "9cbee761d026dbf0021402b19bbae279fe167f558b5ff8fcfab2b8ca0dc0fecf"
+        }
+      ]
+    },
+    {
+      "sample": 28,
+      "asset": "cultural-03",
+      "description": "white and dark navy layered turban with crossed white folds",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "skin": "Forest_Green",
+      "expression": "Amused",
+      "clothing": "Bomber_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Bomber_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Forest_Green/Amused.png",
+      "baseSha256": "7fde829829ae320eb1904a7c3b6053162207b92a4aca01ce91f8f27b25240a9e",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/03_r1c3.png",
+          "renderedSha256": "3dfb366092a3a3087e46109dee91c44821cd0770fee43a3d0aaf1e5ad81b6cb0"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-03_r1c3.png",
+          "renderedSha256": "e95b1f8ba8a288640c41e82767fc6f800999c9e2b0cbf359763bb31ccdf3ab64"
+        }
+      ]
+    },
+    {
+      "sample": 29,
+      "asset": "cultural-04",
+      "description": "red and gold beaded crown headband with delicate draped chains and central dangling forehead pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Hot_Pink",
+      "expression": "Happy",
+      "clothing": "Hoodie_White",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Hoodie_White.png",
+      "headFile": "Assets/Expression_Colors/Hot_Pink/Happy.png",
+      "baseSha256": "fe596f0428254cd69adb0700597c9ab70fde0bb23318abcca85e73cc8fb7576c",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/04_r1c4.png",
+          "renderedSha256": "cb3f2d4377035bab1ae79e45bfccb66ca2b6d0513d0a14062a4b28fa402ad618"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-04_r1c4.png",
+          "renderedSha256": "495e7eeeb0aece0516d6c6579a0f4b844c2ada2cb5aba0d90b9424b976947ed1"
+        }
+      ]
+    },
+    {
+      "sample": 30,
+      "asset": "cultural-05",
+      "description": "black draped head veil with ornate gold patterned border, open face transparent, only head veil no shoulders or torso",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Graphite",
+      "expression": "Curious",
+      "clothing": "Military_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Military_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Graphite/Curious.png",
+      "baseSha256": "7634de66827e7d9b073e5e3bc05fe08fbb32a96f89c002acbbc084dcdec12101",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/05_r1c5.png",
+          "renderedSha256": "a1c065486a91fb1c33db7da87da5d8b6fe0013291d3c8491b2489a928cb7204b"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-05_r1c5.png",
+          "renderedSha256": "2d305cc693e51b7d10f9eca4563c0824a4001decfa11f4ad99c0790a442d63c6"
+        }
+      ]
+    },
+    {
+      "sample": 31,
+      "asset": "cultural-06",
+      "description": "dark purple hooded head veil with multicolor purple gold geometric embroidered trim, only head covering",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Platinum",
+      "expression": "Chill",
+      "clothing": "Leather_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Leather_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Platinum/Chill.png",
+      "baseSha256": "08e63c01fff9697c4c0af83b384f6e1e41d287de7f3088ccbe061ac31626e01b",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/06_r2c1.png",
+          "renderedSha256": "a93155df5541ebda4e83bf3c680d5d236b3df4f40f90f8a6fa2bd458f6aac6fa"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-06_r2c1.png",
+          "renderedSha256": "584217e753a84b3017b7b2bf3829214e0e8d880de2eba08c6f7893b0a0db4e5a"
+        }
+      ]
+    },
+    {
+      "sample": 32,
+      "asset": "cultural-07",
+      "description": "red fez with centered ornate gold diamond shaped front medallion",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "skin": "Honey_Gold",
+      "expression": "Surprised",
+      "clothing": "Hoodie_Black",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Hoodie_Black.png",
+      "headFile": "Assets/Expression_Colors/Honey_Gold/Surprised.png",
+      "baseSha256": "807b2ccd1d2f311726c8f37c6cf942277f78c65a086af2181138e64a9ce3e40a",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/07_r2c2.png",
+          "renderedSha256": "42d62f750fea33416ae56bc9e040328ece96e17361e8806c742db766ca789bcc"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-07_r2c2.png",
+          "renderedSha256": "0284a21622ee15492ca34fb7e65df758045aa725ed7bf54954d4cb4f8ecafb6d"
+        }
+      ]
+    },
+    {
+      "sample": 33,
+      "asset": "cultural-08",
+      "description": "multicolored red green gold beaded crown with beaded side strands beside temples, central gold forehead pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Cyan",
+      "expression": "Angry",
+      "clothing": "Safari_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Safari_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Cyan/Angry.png",
+      "baseSha256": "74c530f2885ae617c11db9cf2123c313776019df97e723273620f5c0d72d994e",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/08_r2c3.png",
+          "renderedSha256": "b3854f4e91875583b5cca76408585d3d6df7e78f3df4cac9c6b3faebc87f0b05"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-08_r2c3.png",
+          "renderedSha256": "d0e6a415b6ef0ba131f20c1e3a3d32ea267e361e23e1f9c23fd7ab7e4086e498"
+        }
+      ]
+    },
+    {
+      "sample": 34,
+      "asset": "cultural-11",
+      "description": "thin multistrand turquoise blue red and gold beaded forehead headband with central gold dangling pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Coral_Red",
+      "expression": "Confused",
+      "clothing": "Spacesuit",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Coral_Red/Confused.png",
+      "baseSha256": "7084e5f75fd4883e5c1863beadbb5b0c2973e2cf3cb49e1c49da4c72b1409bb4",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/11_r3c1.png",
+          "renderedSha256": "c91aca7d3ab2cf5c97a55a976d4e76045f4b44266e31bb38d087af3e32f88517"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-11_r3c1.png",
+          "renderedSha256": "7c5ac6c72bf897779d310b5b39f9de41c12eb73babfdc6994573e5d214262031"
+        }
+      ]
+    },
+    {
+      "sample": 35,
+      "asset": "cultural-12",
+      "description": "bulky black and white African patterned cloth turban with bold abstract geometric marks",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "skin": "Lime",
+      "expression": "Sad",
+      "clothing": "Tech_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Tech_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Lime/Sad.png",
+      "baseSha256": "4d113d4b383cf7a7746cc719d0462eef4ec8631720d25807aa4c6c70251a7f5f",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/12_r3c2.png",
+          "renderedSha256": "491349f4209584b72d9ab7a513d71f1f97310f2da28da3a3a42407bee6d2f9ea"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-12_r3c2.png",
+          "renderedSha256": "525b2eb76f657f1ec9d94243207980c450919f725e7d0661b728e546f51b325f"
+        }
+      ]
+    },
+    {
+      "sample": 36,
+      "asset": "cultural-13",
+      "description": "black crown band lined with upright ivory cowrie shells, central gold forehead pendant and slim black side drapes, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Sky_Blue",
+      "expression": "Sour",
+      "clothing": "Winter_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Winter_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Sky_Blue/Sour.png",
+      "baseSha256": "9a5e4d49200edf25842c382803bd20f2adfbb5ebf7ae4f14e35341b4be6ea8e3",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/13_r3c3.png",
+          "renderedSha256": "91d675c0234b56b563cdbaf08bf1690e86701d7671cf908977265081a62d1476"
+        },
+        {
+          "state": "after",
+          "headwear": null,
+          "renderedSha256": "9a5e4d49200edf25842c382803bd20f2adfbb5ebf7ae4f14e35341b4be6ea8e3",
+          "status": "excluded; source retained for rework"
+        }
+      ]
+    },
+    {
+      "sample": 37,
+      "asset": "cultural-16",
+      "description": "red gold green striped draped head hood with central slim gold forehead chain, face opening transparent, no torso cloth",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Violet",
+      "expression": "Amused",
+      "clothing": "Camo_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Camo_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Violet/Amused.png",
+      "baseSha256": "a6a86ff71ef5a544ae6cf627453c56009ca71dc07977f67968b2f193856db9b3",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/16_r4c1.png",
+          "renderedSha256": "b519319fc71b4c412df0606625e319c4160d1b365dc898c1f577816c6bacb76b"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-16_r4c1.png",
+          "renderedSha256": "af2d4bf346703c487773ac1531a7709e79a1e719d4a26bd6cf597f65d8bc023a"
+        }
+      ]
+    },
+    {
+      "sample": 38,
+      "asset": "cultural-18",
+      "description": "deep red draped hood with ornate gold triangular border and central gold forehead chain, transparent face opening, no torso",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Forest_Green",
+      "expression": "Happy",
+      "clothing": "Bomber_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Bomber_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Forest_Green/Happy.png",
+      "baseSha256": "8bf1bf29a07cb47094f765dac6a28bfb7d40d5a8ee876af067e841f34938ca1a",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/18_r4c3.png",
+          "renderedSha256": "465ffa1c2c8c8a2a00503463fd2f0cc722cbd070bec5f71012613e617c38f50d"
+        },
+        {
+          "state": "after",
+          "headwear": null,
+          "renderedSha256": "8bf1bf29a07cb47094f765dac6a28bfb7d40d5a8ee876af067e841f34938ca1a",
+          "status": "excluded; source retained for rework"
+        }
+      ]
+    },
+    {
+      "sample": 39,
+      "asset": "cultural-20",
+      "description": "purple magenta crown headband with rows of white pearl-like beads gold central jewel and forehead pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Hot_Pink",
+      "expression": "Curious",
+      "clothing": "Hoodie_White",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Hoodie_White.png",
+      "headFile": "Assets/Expression_Colors/Hot_Pink/Curious.png",
+      "baseSha256": "51678694d151d6d68356697901f4c9cf04baa0083503195a5d88f75fe32eb9c9",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/20_r4c5.png",
+          "renderedSha256": "33516b58c03604a7eafe0d0e631c363c34f31e9d1f3ea5fc9b4d02db2ae645a9"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-20_r4c5.png",
+          "renderedSha256": "70b22a898e6178b234a5738234de2834ba48405e31cc4d8b2040908211c04aaf"
+        }
+      ]
+    },
+    {
+      "sample": 40,
+      "asset": "cultural-23",
+      "description": "thin crown headband with three rows of small white beads red accents and gold central forehead pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Graphite",
+      "expression": "Chill",
+      "clothing": "Military_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Military_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Graphite/Chill.png",
+      "baseSha256": "eff7a57c1206dcf5120c8be2fe7a83b8275581b16efc52b0b1260c429cf98cfd",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/23_r5c3.png",
+          "renderedSha256": "a9a6b1c4338c66d0db49e2d45b2f4c6821840e84cf44e62ed201c109e7c3cdac"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-23_r5c3.png",
+          "renderedSha256": "5d9e36671f2b3179233c0313271d96a464066a952b0de6233e5272c6ce2fbc19"
+        }
+      ]
+    },
+    {
+      "sample": 41,
+      "asset": "cultural-24",
+      "description": "wide tan woven conical straw hat with dark outlined rim",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "skin": "Platinum",
+      "expression": "Surprised",
+      "clothing": "Leather_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Leather_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Platinum/Surprised.png",
+      "baseSha256": "a5f1ae24889649857400a877b63f1e7f84ef3ba7b36672ea1f8fb9cad0feec7d",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/24_r5c4.png",
+          "renderedSha256": "79fed44391819138244b71a913a83f268e764284df5ed202150681d0ac2a0112"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-24_r5c4.png",
+          "renderedSha256": "4ed4f22acae3a6729a7f086894dc89d0dba40e31686fcf69ac6456a01d64790c"
+        }
+      ]
+    },
+    {
+      "sample": 42,
+      "asset": "cultural-26",
+      "description": "open black and gold royal crown with upright ivory cowrie shell ornaments and central gold hanging forehead pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (19).png",
+      "skin": "Honey_Gold",
+      "expression": "Angry",
+      "clothing": "Hoodie_Black",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Hoodie_Black.png",
+      "headFile": "Assets/Expression_Colors/Honey_Gold/Angry.png",
+      "baseSha256": "b215b493ddd98cf2ddaccc617f4c45bb60a8145d392a67f414f0bac1ff8413a1",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/26_r6c1.png",
+          "renderedSha256": "235508e75f0a4efb34c344ffdacd0b63733fc210507bbf14279beb3b57e47fe8"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-26_r6c1.png",
+          "renderedSha256": "a5cc825817141e5dbefaa42dfd30eb69b1471b02d197626a1b96f71a4269aa99"
+        }
+      ]
+    },
+    {
+      "sample": 43,
+      "asset": "cultural-29",
+      "description": "black draped head hood with red green gold geometric embroidered border and central dangling white and gold forehead ornaments, no torso",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Cyan",
+      "expression": "Confused",
+      "clothing": "Safari_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Safari_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Cyan/Confused.png",
+      "baseSha256": "e27e508c0c5bd9afc797e955603668d323078bea1bd7d5e79db0aabe003a0eb8",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/29_r6c4.png",
+          "renderedSha256": "9048837255210ff1a314fab716cd0c8ca150c42d4d6c0c2964bd7b72bdeaf916"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-29_r6c4.png",
+          "renderedSha256": "604f156a83bbe62c6f3de8f5cb0cdebfc76862838e0f23c8b28268be92b37aef"
+        }
+      ]
+    },
+    {
+      "sample": 44,
+      "asset": "cultural-31",
+      "description": "ornate red and gold pointed royal crown with small green jewels central round gold medallion and pendant, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (19).png",
+      "skin": "Coral_Red",
+      "expression": "Sad",
+      "clothing": "Spacesuit",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Spacesuit.png",
+      "headFile": "Assets/Expression_Colors/Coral_Red/Sad.png",
+      "baseSha256": "45ce31fd9246a42bd750a24ceae938e94726e2aff254e20b111c7f4280ec2481",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/31_r7c1.png",
+          "renderedSha256": "c466dba0d37910f4cbfed87b9aa6e9b3319b3c5a109a73f24f89855d30b02193"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-31_r7c1.png",
+          "renderedSha256": "310c1cb31bf8a456ae12dbb32f314ecb9df4511cf5ec978c369cbada095cbfc2"
+        }
+      ]
+    },
+    {
+      "sample": 45,
+      "asset": "cultural-32",
+      "description": "draped orange yellow green navy geometric patterned head veil with transparent face opening, no scarf around mouth no torso",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Lime",
+      "expression": "Sour",
+      "clothing": "Tech_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Tech_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Lime/Sour.png",
+      "baseSha256": "860d4905c8fb39f50ab764cb221d11f16274390d93233b2b047ab1cc1dc4c3ca",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/32_r7c2.png",
+          "renderedSha256": "a3d69dfd7f74c776f9354c7f167f18aee7a3c72b23209473acb98f044b51836a"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-32_r7c2.png",
+          "renderedSha256": "78631ad83d3f53dd0a8b8c4f2a593e72209322df7d48b71e02a1d94f0549663f"
+        }
+      ]
+    },
+    {
+      "sample": 46,
+      "asset": "cultural-33",
+      "description": "black and red crown band covered with large ivory cowrie shells, small dangling forehead shell accents, no earrings",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "skin": "Sky_Blue",
+      "expression": "Amused",
+      "clothing": "Winter_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "clothingFile": "Assets/Clothing/Winter_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Sky_Blue/Amused.png",
+      "baseSha256": "25d57e163b161b7b5f139b5f53b842018c1561a742b085c66a65a16d8c0b0f36",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/33_r7c3.png",
+          "renderedSha256": "ac395b7c0a1b85e56483d68445fb43076910dcf7a0b2c0c765a22452ee1befb2"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-33_r7c3.png",
+          "renderedSha256": "f415ae45ef996db4c4673be2776b290aeaf4791de50bdb87ad0c27b20c1b9624"
+        }
+      ]
+    },
+    {
+      "sample": 47,
+      "asset": "cultural-35",
+      "description": "navy blue gathered patterned headwrap with gold traditional geometric motifs",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "skin": "Violet",
+      "expression": "Happy",
+      "clothing": "Camo_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "clothingFile": "Assets/Clothing/Camo_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Violet/Happy.png",
+      "baseSha256": "3d4600e10498e22213c1fb9d17b960542991a3def5013b39fba5ceac75e77beb",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/35_r7c5.png",
+          "renderedSha256": "25b0cad57e1541ee064a6651b47efd6da180c6536ef3d20a83762bba9e95039f"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-35_r7c5.png",
+          "renderedSha256": "f89ad1449535ee9df4c442c6a253d9d0f3c9b9155e6632427043479cd45fa1f1"
+        }
+      ]
+    },
+    {
+      "sample": 48,
+      "asset": "cultural-37",
+      "description": "black over-ear headphones with shiny gold ear cups and thin gold trims, transparent open interior, no head",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "skin": "Forest_Green",
+      "expression": "Curious",
+      "clothing": "Bomber_Jacket",
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "clothingFile": "Assets/Clothing/Bomber_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Forest_Green/Curious.png",
+      "baseSha256": "b3001f9f9cce06c3baeb0186a31413c00d5e4e35e118a4d68bb75916fbef25b6",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/37_r8c2.png",
+          "renderedSha256": "418a046b11d1a04ca3ace65daf2cdd68f6efea569eb2db1126d8ae1a5f5111b1"
+        },
+        {
+          "state": "after",
+          "headwear": null,
+          "renderedSha256": "b3001f9f9cce06c3baeb0186a31413c00d5e4e35e118a4d68bb75916fbef25b6",
+          "status": "excluded; source retained for rework"
+        }
+      ]
+    },
+    {
+      "sample": 49,
+      "asset": "cultural-42",
+      "description": "dark navy blue and cream geometric patterned head hood with transparent open face, no mouth scarf no shoulders",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Hot_Pink",
+      "expression": "Chill",
+      "clothing": "Hoodie_White",
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "clothingFile": "Assets/Clothing/Hoodie_White.png",
+      "headFile": "Assets/Expression_Colors/Hot_Pink/Chill.png",
+      "baseSha256": "fb34316cce5ef9b203212c7832226ca235a2a12bed880b0c2f25bb571b645fbc",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/42_r9c2.png",
+          "renderedSha256": "44956c67f8036ab3746dcb3f1586c41a75c2272b23e2b39c777f18f279a15ce7"
+        },
+        {
+          "state": "after",
+          "headwear": "Assets/Headwear/cultural-42_r9c2.png",
+          "renderedSha256": "aec6c0693bfd89034fa5c3c0a6c9360903f87fd91e6254fb145dfed9fbe142b6"
+        }
+      ]
+    },
+    {
+      "sample": 50,
+      "asset": "cultural-45",
+      "description": "black draped head veil with ornate gold patterned border and three small white forehead ornament dots, transparent open face, no torso",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "skin": "Graphite",
+      "expression": "Surprised",
+      "clothing": "Military_Jacket",
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "clothingFile": "Assets/Clothing/Military_Jacket.png",
+      "headFile": "Assets/Expression_Colors/Graphite/Surprised.png",
+      "baseSha256": "edb3ec8435ae108fdb1a4e743e6620c0f43c4ce62e09db3492e85d0c6c2f3f66",
+      "pair": [
+        {
+          "state": "before",
+          "headwear": "Headwear-notprocessedyet/cultural/45_r9c5.png",
+          "renderedSha256": "5f54852a7d8b8a8839f5c5d6ef05d630f0683a4b182fd06ed4f29f909c9d22a6"
+        },
+        {
+          "state": "after",
+          "headwear": null,
+          "renderedSha256": "edb3ec8435ae108fdb1a4e743e6620c0f43c4ce62e09db3492e85d0c6c2f3f66",
+          "status": "excluded; source retained for rework"
+        }
+      ]
+    }
+  ]
+}

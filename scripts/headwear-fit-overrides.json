@@ -1,0 +1,211 @@
+{
+  "american-12": {
+    "scaleMultiplier": 0.86,
+    "top": 70,
+    "reason": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+  },
+  "american-20": {
+    "scaleMultiplier": 0.86,
+    "top": 70,
+    "reason": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+  },
+  "american-35": {
+    "scaleMultiplier": 0.86,
+    "top": 70,
+    "reason": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+  },
+  "cultural-02": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-03": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-05": {
+    "scaleMultiplier": 0.95,
+    "top": 45,
+    "reason": "Seat the hood above the forehead while keeping its side borders outside the eyes."
+  },
+  "cultural-06": {
+    "scaleMultiplier": 0.95,
+    "top": 45,
+    "reason": "Seat the hood above the forehead while keeping its side borders outside the eyes."
+  },
+  "cultural-09": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-12": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-14": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-16": {
+    "scaleMultiplier": 0.86,
+    "top": 70,
+    "reason": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+  },
+  "cultural-17": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-18": {
+    "hold": true,
+    "reason": "Face opening tapers across the outer eyes; matching the skull leaves unacceptable eye obstruction. Needs artwork or layer separation rework."
+  },
+  "cultural-19": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-22": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-27": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-29": {
+    "scaleMultiplier": 0.86,
+    "top": 70,
+    "reason": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+  },
+  "cultural-30": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-32": {
+    "scaleMultiplier": 0.95,
+    "top": 45,
+    "reason": "Keep the cheek drapes outside the eyes; modestly reduce overall size and raise the hood apex."
+  },
+  "cultural-34": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-35": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-36": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-38": {
+    "hold": true,
+    "reason": "Face opening tapers across the outer eyes; matching the skull leaves unacceptable eye obstruction. Needs artwork or layer separation rework."
+  },
+  "cultural-39": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-41": {
+    "scaleMultiplier": 0.92,
+    "targetY": 330,
+    "reason": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+  },
+  "cultural-42": {
+    "scaleMultiplier": 0.95,
+    "top": 45,
+    "reason": "Keep the cheek drapes outside the eyes; modestly reduce overall size and raise the hood apex."
+  },
+  "cultural-45": {
+    "hold": true,
+    "reason": "Inner black drapes obscure the outer eyes on the Happy head after fit adjustment; requires a separate rear layer."
+  },
+  "cultural-04": {
+    "width": 620,
+    "targetY": 305,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-08": {
+    "width": 630,
+    "targetY": 320,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-11": {
+    "width": 580,
+    "targetY": 320,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-20": {
+    "width": 630,
+    "targetY": 330,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-23": {
+    "width": 600,
+    "targetY": 310,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-26": {
+    "width": 620,
+    "targetY": 360,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-28": {
+    "width": 630,
+    "targetY": 330,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-31": {
+    "width": 620,
+    "targetY": 345,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-33": {
+    "width": 620,
+    "targetY": 320,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-44": {
+    "width": 630,
+    "targetY": 330,
+    "targetX": 638,
+    "reason": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+  },
+  "cultural-21": {
+    "width": 610,
+    "top": 105,
+    "reason": "Cover the skull apex while preserving the cylindrical cap proportions."
+  },
+  "cultural-43": {
+    "dy": -65,
+    "reason": "Raise the conical hat to cover the exposed skull beside its peak."
+  },
+  "cultural-37": {
+    "hold": true,
+    "reason": "Ear cups obscure the eyes at the available head shapes; requires separation into rear and front layers, not just scale/translation."
+  },
+  "cultural-13": {
+    "hold": true,
+    "reason": "Side drapes overlap the eyes when the shell band fits the skull; requires separate rear drapes."
+  }
+}

@@ -14,7 +14,7 @@ function crownContact(m,b){const w=m.info.width,h=m.info.height,ends=[];
  return median(ends);}
 function category(desc){if(/cowboy|top hat|conical/.test(desc))return 'brim';if(/headphones/.test(desc))return 'headphones';if(/helmet/.test(desc))return 'helmet';if(/veil|hood/.test(desc))return 'open';if(/aviator|flight cap/.test(desc))return 'aviator';if(/crown|headband|beaded|cowrie/.test(desc))return 'band';if(/cylindrical|ceremonial cap|fez|embroidered cap|woven.*cap/.test(desc))return 'cylinder';if(/turban|headwrap|head wrap/.test(desc))return 'wrap';if(/bandana/.test(desc))return 'bandana';return 'cap';}
 const assets=[];
-for(const set of ['american','cultural'])for(const a of JSON.parse(fs.readFileSync(path.join(root,'headwaters',set,'manifest.json')))){assets.push({id:set+'-'+a.filename.slice(0,2),set,file:path.join('headwaters',set,a.filename),description:a.description,category:category(a.description)});}
+for(const set of ['american','cultural'])for(const a of JSON.parse(fs.readFileSync(path.join(root,'Headwear-notprocessedyet',set,'manifest.json')))){assets.push({id:set+'-'+a.filename.slice(0,2),set,file:path.join('Headwear-notprocessedyet',set,a.filename),description:a.description,category:category(a.description)});}
 for(const file of fs.readdirSync(path.join(root,'headwear-sized')).filter(f=>f.endsWith('.png')).sort())assets.push({id:'supplied-'+path.parse(file).name,set:'supplied',file:path.join('headwear-sized',file),description:path.parse(file).name.replaceAll('_',' '),category:'supplied'});
 for(const name of ['Astronaut_Helmet','Beanie','Goggles','Spiky_Hair'])assets.push({id:'original-'+name,set:'original',file:'Assets/Clothing/'+name+'.png',description:name.replaceAll('_',' '),category:'original'});
 (async()=>{

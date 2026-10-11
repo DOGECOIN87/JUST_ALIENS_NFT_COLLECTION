@@ -1,0 +1,2940 @@
+{
+  "canvas": {
+    "width": 1254,
+    "height": 1254,
+    "format": "RGBA PNG"
+  },
+  "method": "Uniform scale and translation from visual references in Assets/Headwear; original art preserved.",
+  "sourceFolder": "Headwear-notprocessedyet",
+  "referenceExpression": "Amused",
+  "expressionFits": {
+    "Amused": {
+      "scale": 1,
+      "dx": 0,
+      "dy": 0
+    },
+    "Angry": {
+      "scale": 0.9610091743119265,
+      "dx": 28.900781250000136,
+      "dy": -0.6053390194953749
+    },
+    "Chill": {
+      "scale": 1.0206422018348624,
+      "dx": -15.838281250000023,
+      "dy": -0.5247469896788743
+    },
+    "Confused": {
+      "scale": 0.9288990825688074,
+      "dx": 29.227343749999932,
+      "dy": 23.60732296444951
+    },
+    "Curious": {
+      "scale": 0.9541284403669725,
+      "dx": 10.450000000000045,
+      "dy": -4.588652522935774
+    },
+    "Happy": {
+      "scale": 0.9908256880733944,
+      "dx": -6.531249999999886,
+      "dy": -11.145668004587208
+    },
+    "Sad": {
+      "scale": 0.9724770642201833,
+      "dx": 1.306250000000091,
+      "dy": -1.433879013761441
+    },
+    "Sour": {
+      "scale": 0.9839449541284403,
+      "dx": -4.735156249999932,
+      "dy": 8.252893491972486
+    },
+    "Surprised": {
+      "scale": 0.963302752293578,
+      "dx": 14.368750000000091,
+      "dy": 21.382952981651385
+    }
+  },
+  "references": [
+    {
+      "file": "Assets/Headwear/art-by-mattrick (15).png",
+      "sha256": "cb865afbfc320c15c71dcce0f036ef32f4fe0db5fa91c041c33f00bbba30ee6b",
+      "silhouette": {
+        "left": 182,
+        "top": 65,
+        "width": 914,
+        "height": 383
+      },
+      "crownContact": 425,
+      "opening": {
+        "width": 658.0799999999999,
+        "cx": 638.5,
+        "y": 425
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (26).png",
+      "sha256": "5033905e71d20c1c79acb3d35c489905bd8190ca079e124a30bca9267567953b",
+      "silhouette": {
+        "left": 319,
+        "top": 60,
+        "width": 627,
+        "height": 482
+      },
+      "crownContact": 424,
+      "opening": {
+        "width": 437,
+        "cx": 597.5,
+        "y": 481
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (17).png",
+      "sha256": "d6e9b3d059d6d4dd683fc71e3b80bc250a77b0ddab3e7e15e99dd34e36eea26e",
+      "silhouette": {
+        "left": 299,
+        "top": 107,
+        "width": 677,
+        "height": 587
+      },
+      "crownContact": 380,
+      "opening": {
+        "width": 491,
+        "cx": 636.5,
+        "y": 500
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (9).png",
+      "sha256": "10d9c0f40ad1cf6231d7e4c33d3b1f53c47d1d8ce5b103013dfd0de4007e245f",
+      "silhouette": {
+        "left": 207,
+        "top": 123,
+        "width": 840,
+        "height": 786
+      },
+      "crownContact": 413,
+      "opening": {
+        "width": 624,
+        "cx": 627,
+        "y": 817
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (14).png",
+      "sha256": "515d0368275128ef177b96a349f161261cc1b3bfdb329a7f0537e346d16da15f",
+      "silhouette": {
+        "left": 198,
+        "top": 3,
+        "width": 873,
+        "height": 556
+      },
+      "crownContact": 481,
+      "opening": {
+        "width": 438,
+        "cx": 634,
+        "y": 490
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (16).png",
+      "sha256": "2ce97ffd8d3252d576ef34f72bbda1d4080081f908f9fb3f0d5e980a031b2133",
+      "silhouette": {
+        "left": 278,
+        "top": 126,
+        "width": 716,
+        "height": 396
+      },
+      "crownContact": 319,
+      "opening": {
+        "width": 530,
+        "cx": 636,
+        "y": 469
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (13).png",
+      "sha256": "a8829f99a6d4fc946c7f1e1a0541441f73c6f3e1ecae1e4576e6d61d6554d8ae",
+      "silhouette": {
+        "left": 198,
+        "top": 50,
+        "width": 876,
+        "height": 494
+      },
+      "crownContact": 444,
+      "opening": {
+        "width": 536,
+        "cx": 635,
+        "y": 481
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (12).png",
+      "sha256": "ac45b791e8a51f60b0e60abcbb90dda9dec54cce3834280721b0f46a1080b542",
+      "silhouette": {
+        "left": 72,
+        "top": 92,
+        "width": 1123,
+        "height": 1055
+      },
+      "crownContact": 378,
+      "opening": {
+        "width": 646,
+        "cx": 633,
+        "y": 1029
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (21).png",
+      "sha256": "f92ba98aeeb6220c34cda36ffb550df01b2930190392c1a42f944294e8673d33",
+      "silhouette": {
+        "left": 279,
+        "top": 124,
+        "width": 696,
+        "height": 678
+      },
+      "crownContact": 799,
+      "opening": {
+        "width": 501.12,
+        "cx": 626.5,
+        "y": 799
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (8).png",
+      "sha256": "f2a4f15e8732515ab44efebee58c3ae9bcc223baa7e47845133f2c0008789676",
+      "silhouette": {
+        "left": 340,
+        "top": 136,
+        "width": 584,
+        "height": 312
+      },
+      "crownContact": 375,
+      "opening": {
+        "width": 456,
+        "cx": 631,
+        "y": 404
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (6).png",
+      "sha256": "d6a00260c77b4f96029e2a6855df70b8583a8ddd9697afd3f85f11125b571863",
+      "silhouette": {
+        "left": 228,
+        "top": 30,
+        "width": 813,
+        "height": 563
+      },
+      "crownContact": 345,
+      "opening": {
+        "width": 494,
+        "cx": 633,
+        "y": 502
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (7).png",
+      "sha256": "3245e92ce4ed8d22b278c6c6db02f17e544c4bada147fb39f24fbece4371756e",
+      "silhouette": {
+        "left": 272,
+        "top": 107,
+        "width": 711,
+        "height": 382
+      },
+      "crownContact": 277,
+      "opening": {
+        "width": 561,
+        "cx": 626.5,
+        "y": 434
+      }
+    },
+    {
+      "file": "Assets/Headwear/art-by-mattrick (19).png",
+      "sha256": "c8c1d42a02c081093ec47c08c31a2a2b22bf418cce268340309531ea79dc8a6e",
+      "silhouette": {
+        "left": 248,
+        "top": 24,
+        "width": 633,
+        "height": 400
+      },
+      "crownContact": 316,
+      "opening": {
+        "width": 455.76,
+        "cx": 564,
+        "y": 316
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "american-01",
+      "description": "brown cowboy hat silver sheriff star",
+      "source": "Headwear-notprocessedyet/american/01_r1c1_brown_cowboy_hat_silver_sheriff.png",
+      "sourceSha256": "45f75619fbeaa9bccf3f9f468afff6e1579dfb3583370816b8f51bf977ac1f4e",
+      "file": "Assets/Headwear/american-01_r1c1_brown_cowboy_hat_silver_sheriff.png",
+      "sha256": "8802c918f911ba833cb1e214dcb1f9e003f908d5c967090f5e58b13d8a857670",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        627,
+        704
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 34,
+        "top": 175,
+        "width": 1187,
+        "height": 545
+      },
+      "scale": 0.7739204064352244,
+      "placement": {
+        "left": 180,
+        "top": 16,
+        "width": 919,
+        "height": 422
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-02",
+      "description": "navy baseball cap with cream front panel bearing a small United States flag, red side accents",
+      "source": "Headwear-notprocessedyet/american/02_r1c2_navy_baseball_cap_with_cream.png",
+      "sourceSha256": "e8ad23c0003479f1d4fc230bea4a4ac37be83fe836897bf6430859a1107e2c32",
+      "file": "Assets/Headwear/american-02_r1c2_navy_baseball_cap_with_cream.png",
+      "sha256": "5f0779db62fb3050a9a832853def1a4694766123dda3427d8fc2beb565eeb509",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626,
+        623
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 155,
+        "top": 142,
+        "width": 943,
+        "height": 612
+      },
+      "scale": 0.6691568836712913,
+      "placement": {
+        "left": 317,
+        "top": 102,
+        "width": 631,
+        "height": 410
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-03",
+      "description": "brown leather aviator flight cap with brass-rimmed dark goggles resting above forehead",
+      "source": "Headwear-notprocessedyet/american/03_r1c3_brown_leather_aviator_flight_cap.png",
+      "sourceSha256": "dda90c408fac164935912fcff16020450045064cad9cbc3c551ffacbe8b39450",
+      "file": "Assets/Headwear/american-03_r1c3_brown_leather_aviator_flight_cap.png",
+      "sha256": "969d9c295d96c6c24eb3612e1ba2458c610d61ede489bbc9a378d41bbee8a28b",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "kind": "aviator",
+      "sourceAnchor": [
+        627,
+        404
+      ],
+      "targetAnchor": [
+        636.5,
+        380
+      ],
+      "sourceCrop": {
+        "left": 189,
+        "top": 62,
+        "width": 875,
+        "height": 662
+      },
+      "scale": 0.8799283154121864,
+      "placement": {
+        "left": 251,
+        "top": 79,
+        "width": 770,
+        "height": 583
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-04",
+      "description": "red white and blue American flag bandana tied around crown, knot and short tails at left temple",
+      "source": "Headwear-notprocessedyet/american/04_r1c4_red_white_and_blue_American.png",
+      "sourceSha256": "79852952a0096aeac0dcd245bf3cb0321df3e5b2ca68288f85e96caf0c843f2e",
+      "file": "Assets/Headwear/american-04_r1c4_red_white_and_blue_American.png",
+      "sha256": "7e933b1576aa099614396b1d213655d2c934413c50039a7066daae7ffe5b78ef",
+      "reference": "Assets/Headwear/art-by-mattrick (9).png",
+      "kind": "bandana",
+      "sourceAnchor": [
+        637.5,
+        469
+      ],
+      "targetAnchor": [
+        627,
+        413
+      ],
+      "sourceCrop": {
+        "left": 83,
+        "top": 139,
+        "width": 978,
+        "height": 712
+      },
+      "scale": 0.7472375690607734,
+      "placement": {
+        "left": 213,
+        "top": 166,
+        "width": 731,
+        "height": 532
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-05",
+      "description": "black baseball cap, plain front without lettering",
+      "source": "Headwear-notprocessedyet/american/05_r1c5_black_baseball_cap_plain_front.png",
+      "sourceSha256": "db3724763c0fde1c68f85d0c86c9d4bc7d20c3163358b1d50569a5a33260645e",
+      "file": "Assets/Headwear/american-05_r1c5_black_baseball_cap_plain_front.png",
+      "sha256": "989f742f8cf374390130e72a104dff720f9984dbd2900359cc0a742f5ab1ed3d",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        624.5,
+        502
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 129,
+        "top": 31,
+        "width": 992,
+        "height": 614
+      },
+      "scale": 0.6359026369168357,
+      "placement": {
+        "left": 317,
+        "top": 124,
+        "width": 631,
+        "height": 390
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-06",
+      "description": "dark brown leather aviator cap with bronze goggles on forehead",
+      "source": "Headwear-notprocessedyet/american/06_r2c1_dark_brown_leather_aviator_cap.png",
+      "sourceSha256": "bb5f52109b67eab4964f0472e07f25392437f1d9cace5254e24d9cb83b4a42a0",
+      "file": "Assets/Headwear/american-06_r2c1_dark_brown_leather_aviator_cap.png",
+      "sha256": "8e3cab75a261debfc7719ebb716fadf43b08edd4d074d1f087f61162726fcb63",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "kind": "aviator",
+      "sourceAnchor": [
+        626.5,
+        401
+      ],
+      "targetAnchor": [
+        636.5,
+        380
+      ],
+      "sourceCrop": {
+        "left": 184,
+        "top": 41,
+        "width": 886,
+        "height": 770
+      },
+      "scale": 0.765990639625585,
+      "placement": {
+        "left": 298,
+        "top": 104,
+        "width": 679,
+        "height": 590
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-07",
+      "description": "Uncle Sam tall top hat, red white vertical striped crown, navy band with white stars and red brim",
+      "source": "Headwear-notprocessedyet/american/07_r2c2_Uncle_Sam_tall_top_hat.png",
+      "sourceSha256": "0728d5c6558e9fd84f9c87899e8327affa41f61a241ad5b89c453003fa685994",
+      "file": "Assets/Headwear/american-07_r2c2_Uncle_Sam_tall_top_hat.png",
+      "sha256": "63bdc45b2c3bbe00a7d34e0dc1f46c24ef750a4c446f2b4465d7969fdd3a92d2",
+      "reference": "Assets/Headwear/art-by-mattrick (14).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        629.5,
+        625
+      ],
+      "targetAnchor": [
+        634,
+        481
+      ],
+      "sourceCrop": {
+        "left": 130,
+        "top": 77,
+        "width": 1000,
+        "height": 640
+      },
+      "scale": 0.8722627737226277,
+      "placement": {
+        "left": 198,
+        "top": 3,
+        "width": 872,
+        "height": 558
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-08",
+      "description": "red baseball cap worn backwards, adjustable strap visible at front, symmetrical front view",
+      "source": "Headwear-notprocessedyet/american/08_r2c3_red_baseball_cap_worn_backwards.png",
+      "sourceSha256": "7bac56207f4395e5e7a0bb8326128d813b309bb133329d251068e09b316cae3b",
+      "file": "Assets/Headwear/american-08_r2c3_red_baseball_cap_worn_backwards.png",
+      "sha256": "8ca9fa7beba7ff950c3b1f5e9e8c07febaf3e129d8892ae1ad8a08ad52e4e6d7",
+      "reference": "Assets/Headwear/art-by-mattrick (16).png",
+      "kind": "backwards",
+      "sourceAnchor": [
+        626.5,
+        373
+      ],
+      "targetAnchor": [
+        635.5,
+        319
+      ],
+      "sourceCrop": {
+        "left": 70,
+        "top": 70,
+        "width": 1114,
+        "height": 619
+      },
+      "scale": 0.6462093862815884,
+      "placement": {
+        "left": 276,
+        "top": 123,
+        "width": 720,
+        "height": 400
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-09",
+      "description": "dark olive cowboy hat with gold sheriff star",
+      "source": "Headwear-notprocessedyet/american/09_r2c4_dark_olive_cowboy_hat_with.png",
+      "sourceSha256": "14ba3f69cd8ca84d04fdb62e267f5a7cfe44dce694291c52b930429b616ec55c",
+      "file": "Assets/Headwear/american-09_r2c4_dark_olive_cowboy_hat_with.png",
+      "sha256": "102734aa3e4ddeab860ee3f9e9181d878c91e798470b6513337e247d80839499",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626.5,
+        565
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 17,
+        "top": 83,
+        "width": 1220,
+        "height": 515
+      },
+      "scale": 0.7528830313014827,
+      "placement": {
+        "left": 180,
+        "top": 62,
+        "width": 919,
+        "height": 388
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-10",
+      "description": "cream ivory cowboy hat with dark five point sheriff star",
+      "source": "Headwear-notprocessedyet/american/10_r2c5_cream_ivory_cowboy_hat_with.png",
+      "sourceSha256": "65571efcb554d9d7f967c380c42d213b9ab866bba4675a738b60772f9d685ef4",
+      "file": "Assets/Headwear/american-10_r2c5_cream_ivory_cowboy_hat_with.png",
+      "sha256": "22d9cb87af50a8a1dad7d27a585cfa4ff7b85275b293b4281ae15ea2d68a7e1d",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        627,
+        520
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 31,
+        "top": 72,
+        "width": 1193,
+        "height": 527
+      },
+      "scale": 0.7700084245998315,
+      "placement": {
+        "left": 180,
+        "top": 80,
+        "width": 919,
+        "height": 406
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-11",
+      "description": "olive camouflage bucket hat with plain tan rectangular front patch, no lettering",
+      "source": "Headwear-notprocessedyet/american/11_r3c1_olive_camouflage_bucket_hat_with.png",
+      "sourceSha256": "196694f92574ba2c43b68e6d373f305d7332ea9f351714f49d132aacabb1dac5",
+      "file": "Assets/Headwear/american-11_r3c1_olive_camouflage_bucket_hat_with.png",
+      "sha256": "e924bc79464b87da3e9429ba43041624d9ae31db64073721bc060020fe5787c4",
+      "reference": "Assets/Headwear/art-by-mattrick (13).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        627,
+        585
+      ],
+      "targetAnchor": [
+        635.5,
+        444
+      ],
+      "sourceCrop": {
+        "left": 48,
+        "top": 63,
+        "width": 1159,
+        "height": 656
+      },
+      "scale": 0.7597571552471812,
+      "placement": {
+        "left": 196,
+        "top": 47,
+        "width": 881,
+        "height": 498
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-12",
+      "description": "dark blue denim hood only, open face opening fully transparent, no face mask or clothing below hood",
+      "source": "Headwear-notprocessedyet/american/12_r3c2_dark_blue_denim_hood_only.png",
+      "sourceSha256": "eba597b6927a0ee1c56ee11fdcc66bfa8691376d5fbbd20e8036bd4f0adef9ec",
+      "file": "Assets/Headwear/american-12_r3c2_dark_blue_denim_hood_only.png",
+      "sha256": "d25cfc00963ea5186ed201e7cd88986ccddeeeeb98fcfd7a9145783c25e6343c",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        627.5,
+        369
+      ],
+      "targetAnchor": [
+        633,
+        453.7983795309169
+      ],
+      "sourceCrop": {
+        "left": 203,
+        "top": 45,
+        "width": 846,
+        "height": 765
+      },
+      "scale": 1.1845628997867805,
+      "placement": {
+        "left": 130,
+        "top": 70,
+        "width": 1002,
+        "height": 906
+      },
+      "review": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+    },
+    {
+      "id": "american-13",
+      "description": "navy red white knitted American flag beanie with star crown and striped folded cuff",
+      "source": "Headwear-notprocessedyet/american/13_r3c4_navy_red_white_knitted_American.png",
+      "sourceSha256": "2a50e3489e1ef4e042f1d4c6e2564d33dab61d1b4751fda97596e48c9c36475d",
+      "file": "Assets/Headwear/american-13_r3c4_navy_red_white_knitted_American.png",
+      "sha256": "972d131ef80105339efd91a437909c52a954f8addd78315777419566701facb5",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        627,
+        578
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 225,
+        "top": 115,
+        "width": 805,
+        "height": 614
+      },
+      "scale": 0.7847309136420526,
+      "placement": {
+        "left": 317,
+        "top": 61,
+        "width": 632,
+        "height": 482
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-14",
+      "description": "navy trucker baseball cap with cream front panel, no lettering",
+      "source": "Headwear-notprocessedyet/american/14_r3c5_navy_trucker_baseball_cap_with.png",
+      "sourceSha256": "05892d16cb9348d4f1d243b0cc29327b0c5109093c2cf980128f9e5c719b7036",
+      "file": "Assets/Headwear/american-14_r3c5_navy_trucker_baseball_cap_with.png",
+      "sha256": "67d45efd9a0c0497ffd395bf876fccf19320450d93369f9d9f4ab015f53f3deb",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626,
+        526
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 182,
+        "top": 51,
+        "width": 889,
+        "height": 591
+      },
+      "scale": 0.710079275198188,
+      "placement": {
+        "left": 317,
+        "top": 87,
+        "width": 631,
+        "height": 420
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-15",
+      "description": "navy American football helmet with red white central racing stripes, silver metal faceguard, all interior transparent",
+      "source": "Headwear-notprocessedyet/american/15_r4c1_navy_American_football_helmet_with.png",
+      "sourceSha256": "93b058db189796535859a23b534ca6043a9a0c06c2d1023311a7acef0923ea6e",
+      "file": "Assets/Headwear/american-15_r4c1_navy_American_football_helmet_with.png",
+      "sha256": "b1d9653e7a61a6b335f5fd13d9da4967e01788855873b00741db94d832e57d57",
+      "reference": "Assets/Headwear/art-by-mattrick (21).png",
+      "kind": "helmet",
+      "sourceAnchor": [
+        627,
+        65
+      ],
+      "targetAnchor": [
+        626.5,
+        124
+      ],
+      "sourceCrop": {
+        "left": 239,
+        "top": 62,
+        "width": 777,
+        "height": 781
+      },
+      "scale": 0.9027237354085603,
+      "placement": {
+        "left": 276,
+        "top": 121,
+        "width": 701,
+        "height": 705
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-16",
+      "description": "navy baseball cap with plain front without lettering or logo",
+      "source": "Headwear-notprocessedyet/american/16_r4c2_navy_baseball_cap_with_plain.png",
+      "sourceSha256": "1cb486c0e1791a8c4b82b3148cb31be080935b22d38cc1a7f63030bbeda0c0e6",
+      "file": "Assets/Headwear/american-16_r4c2_navy_baseball_cap_with_plain.png",
+      "sha256": "5d5f554fe69fa34539db219712fb2fffc0fc40dde2b659ad2d509ef03eacd722",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        499
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 194,
+        "top": 46,
+        "width": 866,
+        "height": 581
+      },
+      "scale": 0.7290697674418605,
+      "placement": {
+        "left": 317,
+        "top": 94,
+        "width": 631,
+        "height": 424
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-17",
+      "description": "red bandana with small white stars tied at left temple",
+      "source": "Headwear-notprocessedyet/american/17_r4c3_red_bandana_with_small_white.png",
+      "sourceSha256": "1ebb9b7c5212edede64786f0a94eea10bea72945ba282eadb979e4f60b3556f4",
+      "file": "Assets/Headwear/american-17_r4c3_red_bandana_with_small_white.png",
+      "sha256": "7311ab4c45a06b1677b2ad69b2c3d248944f64020de1dffc536e5c0cc4a4f1a1",
+      "reference": "Assets/Headwear/art-by-mattrick (9).png",
+      "kind": "bandana",
+      "sourceAnchor": [
+        664.5,
+        371
+      ],
+      "targetAnchor": [
+        627,
+        413
+      ],
+      "sourceCrop": {
+        "left": 82,
+        "top": 55,
+        "width": 999,
+        "height": 644
+      },
+      "scale": 0.72911051212938,
+      "placement": {
+        "left": 202,
+        "top": 183,
+        "width": 728,
+        "height": 470
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-18",
+      "description": "brown leather cowboy hat with round silver medallion front band",
+      "source": "Headwear-notprocessedyet/american/18_r4c4_brown_leather_cowboy_hat_with.png",
+      "sourceSha256": "80f748c9ead9637c1f7cec9b6696c67a2d03523f458864e25048164a84b4ca65",
+      "file": "Assets/Headwear/american-18_r4c4_brown_leather_cowboy_hat_with.png",
+      "sha256": "53b26fc0494775e15dae051dcb662922299993cedd7bf153872a017959bc31c1",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626.5,
+        606
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 39,
+        "top": 82,
+        "width": 1176,
+        "height": 532
+      },
+      "scale": 0.7811965811965812,
+      "placement": {
+        "left": 180,
+        "top": 16,
+        "width": 919,
+        "height": 416
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-19",
+      "description": "navy trucker cap with white front panel, no lettering",
+      "source": "Headwear-notprocessedyet/american/19_r4c5_navy_trucker_cap_with_white.png",
+      "sourceSha256": "00b62add947ad8063427c62defe4176b04701eafa0217e6a5e301e876a620c4c",
+      "file": "Assets/Headwear/american-19_r4c5_navy_trucker_cap_with_white.png",
+      "sha256": "c50c08e5315f1dd7fdef2c17374486e3ff877441b2ba9738ea59cf68083ba7ba",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        627,
+        508
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 178,
+        "top": 19,
+        "width": 899,
+        "height": 606
+      },
+      "scale": 0.7021276595744681,
+      "placement": {
+        "left": 317,
+        "top": 81,
+        "width": 631,
+        "height": 425
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-20",
+      "description": "navy hood with red white trim and white stars, open face area transparent, only hood no face scarf or torso",
+      "source": "Headwear-notprocessedyet/american/20_r5c1_navy_hood_with_red_white.png",
+      "sourceSha256": "fa291f8846511772248c3c7586fef46f736f6bb31442dd23ae05113d6fd25c6b",
+      "file": "Assets/Headwear/american-20_r5c1_navy_hood_with_red_white.png",
+      "sha256": "d18b0d1551dabb34f584a4698b144f9a40139bf88525052393b0706f0f719700",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        625.5,
+        392
+      ],
+      "targetAnchor": [
+        633,
+        437.47412915851277
+      ],
+      "sourceCrop": {
+        "left": 239,
+        "top": 54,
+        "width": 776,
+        "height": 771
+      },
+      "scale": 1.08720156555773,
+      "placement": {
+        "left": 213,
+        "top": 70,
+        "width": 844,
+        "height": 838
+      },
+      "review": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+    },
+    {
+      "id": "american-21",
+      "description": "brown aviator cap with black lenses in silver-rimmed goggles and cream fleece ear flaps",
+      "source": "Headwear-notprocessedyet/american/21_r5c2_brown_aviator_cap_with_black.png",
+      "sourceSha256": "4aa62d24bb7366cc3d5a45a29fa94644d890b55d45be1036570a8c841fa2e737",
+      "file": "Assets/Headwear/american-21_r5c2_brown_aviator_cap_with_black.png",
+      "sha256": "061c199925d329bff88a1fc16d305a60d18ff4acfc857b1a70831ce4aadad877",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "kind": "aviator",
+      "sourceAnchor": [
+        626.5,
+        385
+      ],
+      "targetAnchor": [
+        636.5,
+        380
+      ],
+      "sourceCrop": {
+        "left": 190,
+        "top": 47,
+        "width": 873,
+        "height": 737
+      },
+      "scale": 0.8364565587734242,
+      "placement": {
+        "left": 271,
+        "top": 97,
+        "width": 730,
+        "height": 616
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-22",
+      "description": "olive camouflage bucket hat with tan blank rectangular front patch, no lettering",
+      "source": "Headwear-notprocessedyet/american/22_r5c3_olive_camouflage_bucket_hat_with.png",
+      "sourceSha256": "4b54b1bda420e59e47ad5ade33e3c883525f32e20a45a28fb27b53c33c60a147",
+      "file": "Assets/Headwear/american-22_r5c3_olive_camouflage_bucket_hat_with.png",
+      "sha256": "54a5ef2ea40455cdaffea89cb41e56fcfcb3358c71a2a4eb5f7b79c17f66e8b4",
+      "reference": "Assets/Headwear/art-by-mattrick (13).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626.5,
+        654
+      ],
+      "targetAnchor": [
+        635.5,
+        444
+      ],
+      "sourceCrop": {
+        "left": 24,
+        "top": 88,
+        "width": 1206,
+        "height": 606
+      },
+      "scale": 0.73,
+      "placement": {
+        "left": 196,
+        "top": 31,
+        "width": 880,
+        "height": 442
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-23",
+      "description": "cream cowboy hat with navy band of white stars",
+      "source": "Headwear-notprocessedyet/american/23_r5c4_cream_cowboy_hat_with_navy.png",
+      "sourceSha256": "aebba5a34f121986452994a9f2a5f7ea66f3c9a17a2aaf2674bd85d3dde9030e",
+      "file": "Assets/Headwear/american-23_r5c4_cream_cowboy_hat_with_navy.png",
+      "sha256": "9788f8bb51f314b7b6b12d0cd5881b7d89aae419a86180359536aace0b8d60d1",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626,
+        585
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 31,
+        "top": 62,
+        "width": 1191,
+        "height": 573
+      },
+      "scale": 0.7713080168776372,
+      "placement": {
+        "left": 180,
+        "top": 22,
+        "width": 919,
+        "height": 442
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-24",
+      "description": "black ribbed knit beanie with small United States flag patch",
+      "source": "Headwear-notprocessedyet/american/24_r5c5_black_ribbed_knit_beanie_with.png",
+      "sourceSha256": "ed2482ff5dd9ebfb984ec215d1c224376cad99725e24be274a32c0641c174a2a",
+      "file": "Assets/Headwear/american-24_r5c5_black_ribbed_knit_beanie_with.png",
+      "sha256": "2c9f806357bb865e16b67ae7512640d47520b3fc87730d971ebebd96fb6b6d07",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        627,
+        490
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 178,
+        "top": 55,
+        "width": 899,
+        "height": 629
+      },
+      "scale": 0.7021276595744681,
+      "placement": {
+        "left": 317,
+        "top": 119,
+        "width": 631,
+        "height": 442
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-25",
+      "description": "red brim trucker cap with off-white front panel, no lettering",
+      "source": "Headwear-notprocessedyet/american/25_r6c1_red_brim_trucker_cap_with.png",
+      "sourceSha256": "7005733a38a8f9ec24605f901244d5823a3ee007b7152c8200b8d60867adf613",
+      "file": "Assets/Headwear/american-25_r6c1_red_brim_trucker_cap_with.png",
+      "sha256": "418093074568d486849efeef070b49a016ac32eaf0451d035febe131751319d6",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        499
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 182,
+        "top": 61,
+        "width": 890,
+        "height": 571
+      },
+      "scale": 0.7092760180995475,
+      "placement": {
+        "left": 317,
+        "top": 113,
+        "width": 631,
+        "height": 405
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-26",
+      "description": "blue baseball cap backwards with green adjustable strap and rear opening visible at front",
+      "source": "Headwear-notprocessedyet/american/26_r6c2_blue_baseball_cap_backwards_with.png",
+      "sourceSha256": "0ccf70d8ee348c8b584b4e3744c4581843b9c81c49f26bf521ff9108e4b98557",
+      "file": "Assets/Headwear/american-26_r6c2_blue_baseball_cap_backwards_with.png",
+      "sha256": "b812d4117f5f9bd19bb6cc68d8da6d141b0dc44c6c61c7cebe495fe9d0c702e4",
+      "reference": "Assets/Headwear/art-by-mattrick (16).png",
+      "kind": "backwards",
+      "sourceAnchor": [
+        627,
+        342
+      ],
+      "targetAnchor": [
+        635.5,
+        319
+      ],
+      "sourceCrop": {
+        "left": 177,
+        "top": 85,
+        "width": 901,
+        "height": 556
+      },
+      "scale": 0.8,
+      "placement": {
+        "left": 276,
+        "top": 113,
+        "width": 721,
+        "height": 445
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-27",
+      "description": "navy bandana covered with small cream stars tied around crown, no lower face covering",
+      "source": "Headwear-notprocessedyet/american/27_r6c3_navy_bandana_covered_with_small.png",
+      "sourceSha256": "ffc9201fe9bf70521a2117e6d7e11c61a73fe75cfbf6892efb758c0e54984253",
+      "file": "Assets/Headwear/american-27_r6c3_navy_bandana_covered_with_small.png",
+      "sha256": "c4c4e6aaa2fe5010b9edb92749948c369db22f4f970b27a7d6da24e98cdd00a8",
+      "reference": "Assets/Headwear/art-by-mattrick (9).png",
+      "kind": "bandana",
+      "sourceAnchor": [
+        649,
+        467
+      ],
+      "targetAnchor": [
+        627,
+        413
+      ],
+      "sourceCrop": {
+        "left": 55,
+        "top": 72,
+        "width": 1031,
+        "height": 703
+      },
+      "scale": 0.7300944669365722,
+      "placement": {
+        "left": 193,
+        "top": 125,
+        "width": 753,
+        "height": 513
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-28",
+      "description": "navy blue space flight helmet with cream five point star centered on forehead and metallic rim, visor opening transparent no head no suit",
+      "source": "Headwear-notprocessedyet/american/28_r6c4_navy_blue_space_flight_helmet.png",
+      "sourceSha256": "6743bae1634c7695054a8b29b6e0d2ed6eb1e672877c7ec58bdb9b2b3c224a2f",
+      "file": "Assets/Headwear/american-28_r6c4_navy_blue_space_flight_helmet.png",
+      "sha256": "99f04d04f2c3fbff62d0d25234f6350f5671f4adf92c77b5e26d5d675b5528f2",
+      "reference": "Assets/Headwear/art-by-mattrick (21).png",
+      "kind": "helmet",
+      "sourceAnchor": [
+        626,
+        43
+      ],
+      "targetAnchor": [
+        626.5,
+        124
+      ],
+      "sourceCrop": {
+        "left": 200,
+        "top": 40,
+        "width": 853,
+        "height": 796
+      },
+      "scale": 0.8217237308146399,
+      "placement": {
+        "left": 276,
+        "top": 122,
+        "width": 701,
+        "height": 654
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-29",
+      "description": "red ribbed knit beanie with small United States flag patch",
+      "source": "Headwear-notprocessedyet/american/29_r6c5_red_ribbed_knit_beanie_with.png",
+      "sourceSha256": "08a28070ddc1a3ce6f6222ead4429c07f00cffc4db3b6c132ef3b4377590a429",
+      "file": "Assets/Headwear/american-29_r6c5_red_ribbed_knit_beanie_with.png",
+      "sha256": "73bfa936145c0e25f3cd8527d98ab24ab1d08b6d48863decb08c067d52bc6494",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        628,
+        479
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 211,
+        "top": 47,
+        "width": 835,
+        "height": 641
+      },
+      "scale": 0.7563329312424608,
+      "placement": {
+        "left": 317,
+        "top": 97,
+        "width": 632,
+        "height": 485
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-30",
+      "description": "brown leather cowboy hat with small engraved oval brass emblem on front band",
+      "source": "Headwear-notprocessedyet/american/30_r7c1_brown_leather_cowboy_hat_with.png",
+      "sourceSha256": "e8e52ba1fdb4ca37b5e3983bcf9ba8fdfbc26762da90efb9fab37002e457a401",
+      "file": "Assets/Headwear/american-30_r7c1_brown_leather_cowboy_hat_with.png",
+      "sha256": "b55edbd743ae6c595fadfcb13524f2adc2b4ac1abf12620ef6fc910925668b2f",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626.5,
+        557
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 22,
+        "top": 76,
+        "width": 1210,
+        "height": 533
+      },
+      "scale": 0.7591362126245847,
+      "placement": {
+        "left": 180,
+        "top": 60,
+        "width": 919,
+        "height": 405
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-31",
+      "description": "dark navy baseball cap plain without lettering",
+      "source": "Headwear-notprocessedyet/american/31_r7c2_dark_navy_baseball_cap_plain.png",
+      "sourceSha256": "c0c46eb30e9f464f373cfcce9257757192377f3798e77b258a4993e57a441c6b",
+      "file": "Assets/Headwear/american-31_r7c2_dark_navy_baseball_cap_plain.png",
+      "sha256": "fc63b02a6bc39d1b460529d548f2d6b77df5635ab0fce5203ff97d4bd3544fcc",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        571
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 156,
+        "top": 71,
+        "width": 942,
+        "height": 651
+      },
+      "scale": 0.6698717948717948,
+      "placement": {
+        "left": 317,
+        "top": 89,
+        "width": 631,
+        "height": 436
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-32",
+      "description": "close-fitting red cream and navy striped knit skullcap",
+      "source": "Headwear-notprocessedyet/american/32_r7c3_closefitting_red_cream_and_navy.png",
+      "sourceSha256": "e6370fae9ecd98b9128a8a01b6ea6e05ec98c69cf28d745efaf42d2a07354181",
+      "file": "Assets/Headwear/american-32_r7c3_closefitting_red_cream_and_navy.png",
+      "sha256": "1181b52844daf12444d42a5f52814cd61fd0df03a43763bc41dcaf82641b64b0",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        478
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 188,
+        "top": 42,
+        "width": 878,
+        "height": 683
+      },
+      "scale": 0.7190366972477065,
+      "placement": {
+        "left": 317,
+        "top": 111,
+        "width": 631,
+        "height": 491
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-33",
+      "description": "green camouflage bucket hat with small United States flag patch",
+      "source": "Headwear-notprocessedyet/american/33_r7c4_green_camouflage_bucket_hat_with.png",
+      "sourceSha256": "40c1cd7a811b707a7f084561b00174a6f2691772382c7479c8cd877d7c6c3b86",
+      "file": "Assets/Headwear/american-33_r7c4_green_camouflage_bucket_hat_with.png",
+      "sha256": "3d4267beee4a57a32359ccb83fd4a6e683af1d62cf1b47ae38c25c3a303452a5",
+      "reference": "Assets/Headwear/art-by-mattrick (13).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        627,
+        501
+      ],
+      "targetAnchor": [
+        635.5,
+        444
+      ],
+      "sourceCrop": {
+        "left": 64,
+        "top": 76,
+        "width": 1127,
+        "height": 695
+      },
+      "scale": 0.7814451382694023,
+      "placement": {
+        "left": 196,
+        "top": 112,
+        "width": 881,
+        "height": 543
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-34",
+      "description": "tan woven straw cowboy hat with navy band and small white stars",
+      "source": "Headwear-notprocessedyet/american/34_r8c2_tan_woven_straw_cowboy_hat.png",
+      "sourceSha256": "d7a2d882bd84170ab8b57f6e72b0629ed241fbdb8dfcb3b34ae53baa32c4362d",
+      "file": "Assets/Headwear/american-34_r8c2_tan_woven_straw_cowboy_hat.png",
+      "sha256": "cd59726cce402f526f67cd0947c46a93dc5ee13d9cdf8681ac335c03e75040e0",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626.5,
+        600
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 44,
+        "top": 47,
+        "width": 1166,
+        "height": 561
+      },
+      "scale": 0.7631103074141049,
+      "placement": {
+        "left": 194,
+        "top": 3,
+        "width": 890,
+        "height": 428
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-35",
+      "description": "charcoal gray hood only with open transparent face hole, no face covering no clothing below hood",
+      "source": "Headwear-notprocessedyet/american/35_r8c3_charcoal_gray_hood_only_with.png",
+      "sourceSha256": "6234f52a5faf8d85002a9b1c0e50c52a409aa6c710026c2f7b55f9380cd99b68",
+      "file": "Assets/Headwear/american-35_r8c3_charcoal_gray_hood_only_with.png",
+      "sha256": "e7eb45a62bf691915efb40caf1e4d36a777e8c163fc2cda958e5288990e6a65d",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        628,
+        342
+      ],
+      "targetAnchor": [
+        633,
+        445.24666666666667
+      ],
+      "sourceCrop": {
+        "left": 236,
+        "top": 34,
+        "width": 784,
+        "height": 737
+      },
+      "scale": 1.2183333333333333,
+      "placement": {
+        "left": 155,
+        "top": 70,
+        "width": 955,
+        "height": 898
+      },
+      "review": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+    },
+    {
+      "id": "american-36",
+      "description": "navy baseball cap with small blank cream shield-shaped patch, no lettering or numerals",
+      "source": "Headwear-notprocessedyet/american/36_r8c4_navy_baseball_cap_with_small.png",
+      "sourceSha256": "5098e7bc1cfdcead19822eade6be2e2f4aaf65e665c17bd082ce8569adb8a981",
+      "file": "Assets/Headwear/american-36_r8c4_navy_baseball_cap_with_small.png",
+      "sha256": "c5ca7d39156dd0f6b8f8e81c32701cc02ad46b78288bde5313f8b78adcedc963",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        627,
+        535
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 187,
+        "top": 61,
+        "width": 881,
+        "height": 606
+      },
+      "scale": 0.7165714285714285,
+      "placement": {
+        "left": 317,
+        "top": 84,
+        "width": 631,
+        "height": 434
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-37",
+      "description": "brown cavalry cowboy hat with gold crossed sabers insignia",
+      "source": "Headwear-notprocessedyet/american/37_r8c5_brown_cavalry_cowboy_hat_with.png",
+      "sourceSha256": "710340c47ac45dec5a86e9e9d7816e117cc1f87b4dfbf008d05dae5657dc43c7",
+      "file": "Assets/Headwear/american-37_r8c5_brown_cavalry_cowboy_hat_with.png",
+      "sha256": "d6ac5ea1ee9906214fc91f04b85d257b60068b0fdcb8f61407108b075b1adb9f",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        627.5,
+        542
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 24,
+        "top": 71,
+        "width": 1208,
+        "height": 512
+      },
+      "scale": 0.7603993344425957,
+      "placement": {
+        "left": 180,
+        "top": 67,
+        "width": 919,
+        "height": 389
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-38",
+      "description": "red brim trucker baseball cap with cream blank front panel, no lettering",
+      "source": "Headwear-notprocessedyet/american/38_r9c1_red_brim_trucker_baseball_cap.png",
+      "sourceSha256": "d8dc28d3f3e45ba91b7b5690c0800cc6fd037c6d4658d644260617ed00da107d",
+      "file": "Assets/Headwear/american-38_r9c1_red_brim_trucker_baseball_cap.png",
+      "sha256": "da8fd0dbcb704839a707d73199bc3564dda414a11043e1153040fa2b5cc4a4cc",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        518
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 199,
+        "top": 100,
+        "width": 856,
+        "height": 551
+      },
+      "scale": 0.7376470588235294,
+      "placement": {
+        "left": 317,
+        "top": 116,
+        "width": 631,
+        "height": 406
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-39",
+      "description": "gray ribbed knit beanie with small United States flag patch",
+      "source": "Headwear-notprocessedyet/american/39_r9c2_gray_ribbed_knit_beanie_with.png",
+      "sourceSha256": "ec169dbe5a85dc52c9b2bbd7e24849781bf8e35cfc88b57fafe156d46b56874a",
+      "file": "Assets/Headwear/american-39_r9c2_gray_ribbed_knit_beanie_with.png",
+      "sha256": "d7cf9af55cdaa4fe121797895f49050a5dac816cc446de70664c09185a8d7d37",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626,
+        547
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 174,
+        "top": 70,
+        "width": 905,
+        "height": 699
+      },
+      "scale": 0.6974416017797553,
+      "placement": {
+        "left": 317,
+        "top": 91,
+        "width": 631,
+        "height": 488
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-40",
+      "description": "navy military baseball cap with gold and silver spread eagle emblem above small gold star",
+      "source": "Headwear-notprocessedyet/american/40_r9c3_navy_military_baseball_cap_with.png",
+      "sourceSha256": "01762ecadffff59660f858c86c2367b8b0a5d69704766f7db3339c1fff523657",
+      "file": "Assets/Headwear/american-40_r9c3_navy_military_baseball_cap_with.png",
+      "sha256": "f4ae3ee1c1f155500ba05b5564a00e632a6921f25a9b8490170b98367550646a",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        607
+      ],
+      "targetAnchor": [
+        632,
+        424
+      ],
+      "sourceCrop": {
+        "left": 155,
+        "top": 81,
+        "width": 944,
+        "height": 635
+      },
+      "scale": 0.6684434968017058,
+      "placement": {
+        "left": 317,
+        "top": 72,
+        "width": 631,
+        "height": 424
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-41",
+      "description": "brown leather aviator cap with bronze-framed goggles with glossy black lenses resting above forehead",
+      "source": "Headwear-notprocessedyet/american/41_r9c4_brown_leather_aviator_cap_with.png",
+      "sourceSha256": "a9df02922cb81d3c8384dd6b444d4956b1d9d8f3224e398950eebe22f6625826",
+      "file": "Assets/Headwear/american-41_r9c4_brown_leather_aviator_cap_with.png",
+      "sha256": "1277b42b0fe1ccc6796e3610b498c7959871e5261a76fd67b5beb37f72e2d27d",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "kind": "aviator",
+      "sourceAnchor": [
+        626,
+        417
+      ],
+      "targetAnchor": [
+        636.5,
+        380
+      ],
+      "sourceCrop": {
+        "left": 157,
+        "top": 41,
+        "width": 939,
+        "height": 804
+      },
+      "scale": 0.7263313609467456,
+      "placement": {
+        "left": 296,
+        "top": 107,
+        "width": 682,
+        "height": 584
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "american-42",
+      "description": "dark brown cowboy hat with gold sheriff star",
+      "source": "Headwear-notprocessedyet/american/42_r9c5_dark_brown_cowboy_hat_with.png",
+      "sourceSha256": "37968e34f1e841be20fc8928a0a4f594efa7f950947ed4027545b435e2e709e8",
+      "file": "Assets/Headwear/american-42_r9c5_dark_brown_cowboy_hat_with.png",
+      "sha256": "ee80565e423968166c0924eb4092ff520b91503a46e468d6318e967a6282a447",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        626.5,
+        547
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 85,
+        "top": 104,
+        "width": 1084,
+        "height": 478
+      },
+      "scale": 0.8478664192949907,
+      "placement": {
+        "left": 179,
+        "top": 49,
+        "width": 919,
+        "height": 405
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-01",
+      "description": "black cylindrical ceremonial cap with ornate gold geometric embroidery and narrow red accents",
+      "source": "Headwear-notprocessedyet/cultural/01_r1c1.png",
+      "sourceSha256": "26e09be9b28923bd94c2aab3cafd7b68d5396d72a1d40de7064189923caea2a5",
+      "file": "Assets/Headwear/cultural-01_r1c1.png",
+      "sha256": "fd80366cc1852b4e75ead1fb8cfade9216f887c49c2345695debfcc0fbb33344",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626,
+        450
+      ],
+      "targetAnchor": [
+        631.5,
+        375
+      ],
+      "sourceCrop": {
+        "left": 224,
+        "top": 114,
+        "width": 805,
+        "height": 455
+      },
+      "scale": 0.7309136420525657,
+      "placement": {
+        "left": 338,
+        "top": 129,
+        "width": 588,
+        "height": 333
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-02",
+      "description": "large gathered headwrap in vivid green red yellow orange and navy woven geometric cloth",
+      "source": "Headwear-notprocessedyet/cultural/02_r1c2.png",
+      "sourceSha256": "4fef0566f461b85baa659552108af93c3cd2e2c046e4564e047a062c93a9803e",
+      "file": "Assets/Headwear/cultural-02_r1c2.png",
+      "sha256": "cd5f5186f0bae608c8d36970359b2dffd32999c623931d3e3c4c9994add26ada",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        640.5,
+        532
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 204,
+        "top": 130,
+        "width": 874,
+        "height": 685
+      },
+      "scale": 0.8134328358208955,
+      "placement": {
+        "left": 279,
+        "top": 3,
+        "width": 711,
+        "height": 557
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-03",
+      "description": "white and dark navy layered turban with crossed white folds",
+      "source": "Headwear-notprocessedyet/cultural/03_r1c3.png",
+      "sourceSha256": "275338c84885513eb94bd6aed9a5c8c9686f9c2b92dce96593f9019a1b9c22aa",
+      "file": "Assets/Headwear/cultural-03_r1c3.png",
+      "sha256": "9a3985df8a61cc4dd2b9b62c187d906ab4a3e688c5acffb5c9e13d9cfc82dc5a",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        627.5,
+        416
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 189,
+        "top": 107,
+        "width": 878,
+        "height": 602
+      },
+      "scale": 0.8577522935779818,
+      "placement": {
+        "left": 258,
+        "top": 65,
+        "width": 753,
+        "height": 516
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-04",
+      "description": "red and gold beaded crown headband with delicate draped chains and central dangling forehead pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/04_r1c4.png",
+      "sourceSha256": "f16a65b970e483d23d1e1420806af4672d67ab0da63fd26501f4198301b2778c",
+      "file": "Assets/Headwear/cultural-04_r1c4.png",
+      "sha256": "bfaf31fdf8000d59065420e03d205d7be10a738e7aa51b7f5c365bce345ec323",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        633,
+        305
+      ],
+      "targetAnchor": [
+        638,
+        305
+      ],
+      "sourceCrop": {
+        "left": 226,
+        "top": 107,
+        "width": 815,
+        "height": 496
+      },
+      "scale": 0.7663782447466008,
+      "placement": {
+        "left": 326,
+        "top": 153,
+        "width": 625,
+        "height": 380
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-05",
+      "description": "black draped head veil with ornate gold patterned border, open face transparent, only head veil no shoulders or torso",
+      "source": "Headwear-notprocessedyet/cultural/05_r1c5.png",
+      "sourceSha256": "d3add4367734a2eae7e767bd028557b5f57bf6605c0b6a3142d03a7932e4f569",
+      "file": "Assets/Headwear/cultural-05_r1c5.png",
+      "sha256": "a0563e7f8ed967e6f0f61d929c1f6ab6a080601762bba59d29d522c100c25964",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        626.5,
+        288
+      ],
+      "targetAnchor": [
+        633,
+        366.33056179775286
+      ],
+      "sourceCrop": {
+        "left": 150,
+        "top": 55,
+        "width": 954,
+        "height": 734
+      },
+      "scale": 1.294240837696335,
+      "placement": {
+        "left": 16,
+        "top": 65,
+        "width": 1235,
+        "height": 950
+      },
+      "review": "Seat the hood above the forehead while keeping its side borders outside the eyes."
+    },
+    {
+      "id": "cultural-06",
+      "description": "dark purple hooded head veil with multicolor purple gold geometric embroidered trim, only head covering",
+      "source": "Headwear-notprocessedyet/cultural/06_r2c1.png",
+      "sourceSha256": "0e184bd8fc2012e1bff97f4fa6fe34f86c75964fbca50cd85f0c33f30659bd3f",
+      "file": "Assets/Headwear/cultural-06_r2c1.png",
+      "sha256": "00903c0a6bced82c5d9a36e9bd67f8f41eda74fad638981e41d69b64db9bec5b",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        611,
+        291
+      ],
+      "targetAnchor": [
+        633,
+        331.5623966942149
+      ],
+      "sourceCrop": {
+        "left": 188,
+        "top": 65,
+        "width": 881,
+        "height": 785
+      },
+      "scale": 1.2679752066115704,
+      "placement": {
+        "left": 97,
+        "top": 45,
+        "width": 1117,
+        "height": 995
+      },
+      "review": "Seat the hood above the forehead while keeping its side borders outside the eyes."
+    },
+    {
+      "id": "cultural-07",
+      "description": "red fez with centered ornate gold diamond shaped front medallion",
+      "source": "Headwear-notprocessedyet/cultural/07_r2c2.png",
+      "sourceSha256": "d6fde75fc0f0186a50ea9e2ada459d3e619d792e480606eae3abd6e20cca9f8f",
+      "file": "Assets/Headwear/cultural-07_r2c2.png",
+      "sha256": "4cf88ff99d6466a52f3d9f4d93fb8157d6c248b109f17354bf541909fe58b2e8",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        623,
+        456
+      ],
+      "targetAnchor": [
+        631.5,
+        375
+      ],
+      "sourceCrop": {
+        "left": 266,
+        "top": 110,
+        "width": 715,
+        "height": 479
+      },
+      "scale": 0.8236953455571228,
+      "placement": {
+        "left": 337,
+        "top": 90,
+        "width": 589,
+        "height": 395
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-08",
+      "description": "multicolored red green gold beaded crown with beaded side strands beside temples, central gold forehead pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/08_r2c3.png",
+      "sourceSha256": "bf0c6d9e10251239ce804a6cad1b1d8cbf2b4e9fd637b607a583dca80d72d015",
+      "file": "Assets/Headwear/cultural-08_r2c3.png",
+      "sha256": "600d221809c2385304d6b2b0b3875fb51a1f7cc2b8f64574ed438216173fd0b0",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        627,
+        323
+      ],
+      "targetAnchor": [
+        638,
+        320
+      ],
+      "sourceCrop": {
+        "left": 292,
+        "top": 112,
+        "width": 671,
+        "height": 623
+      },
+      "scale": 0.9473684210526315,
+      "placement": {
+        "left": 321,
+        "top": 120,
+        "width": 636,
+        "height": 590
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-09",
+      "description": "close fitted olive green and gold striped turban",
+      "source": "Headwear-notprocessedyet/cultural/09_r2c4.png",
+      "sourceSha256": "1a42411739ea6a81525d68b36e53659342a3abfde3591110015a5f8caff2aaed",
+      "file": "Assets/Headwear/cultural-09_r2c4.png",
+      "sha256": "2a8c21cee71874f2ee9762fa4be020420139bf3fb3ba9cdc6db7e9489320e7ba",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        627.5,
+        496
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 213,
+        "top": 150,
+        "width": 830,
+        "height": 628
+      },
+      "scale": 0.9077184466019418,
+      "placement": {
+        "left": 258,
+        "top": 16,
+        "width": 753,
+        "height": 570
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-10",
+      "description": "cylindrical vivid blue orange yellow green geometric woven kufi cap",
+      "source": "Headwear-notprocessedyet/cultural/10_r2c5.png",
+      "sourceSha256": "ee4e9e5e7a729f0dabc34f91f7bac5ed3fe03bb582d3b6580a8a0589f15d8aca",
+      "file": "Assets/Headwear/cultural-10_r2c5.png",
+      "sha256": "b1afae3dbfc9ae7a87a594b9f5090fe9851861b8cd8b2bd36333aacfe058776e",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626,
+        428
+      ],
+      "targetAnchor": [
+        631.5,
+        375
+      ],
+      "sourceCrop": {
+        "left": 260,
+        "top": 136,
+        "width": 733,
+        "height": 436
+      },
+      "scale": 0.8033012379642366,
+      "placement": {
+        "left": 337,
+        "top": 140,
+        "width": 589,
+        "height": 350
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-11",
+      "description": "thin multistrand turquoise blue red and gold beaded forehead headband with central gold dangling pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/11_r3c1.png",
+      "sourceSha256": "b927c291eff95879620ea1dd9711efe454244db360f159631bc1bca0ca31daec",
+      "file": "Assets/Headwear/cultural-11_r3c1.png",
+      "sha256": "b6878814af547a66bbf589ab3439361bb776220ed4b86dc87e126137344a9cac",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        628.5,
+        288
+      ],
+      "targetAnchor": [
+        638,
+        320
+      ],
+      "sourceCrop": {
+        "left": 217,
+        "top": 206,
+        "width": 824,
+        "height": 348
+      },
+      "scale": 0.7090464547677262,
+      "placement": {
+        "left": 346,
+        "top": 262,
+        "width": 584,
+        "height": 247
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-12",
+      "description": "bulky black and white African patterned cloth turban with bold abstract geometric marks",
+      "source": "Headwear-notprocessedyet/cultural/12_r3c2.png",
+      "sourceSha256": "2681f869a2bdc189295234391d781b8123f21227554871c350f2a3e222e8bf89",
+      "file": "Assets/Headwear/cultural-12_r3c2.png",
+      "sha256": "a0f2175671a1699d20a73b7eb55e9318a3c08849a1498d311cf91e69cf16d738",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        630.5,
+        466
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 236,
+        "top": 116,
+        "width": 790,
+        "height": 630
+      },
+      "scale": 0.9342857142857143,
+      "placement": {
+        "left": 265,
+        "top": 3,
+        "width": 738,
+        "height": 589
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-14",
+      "description": "gathered navy blue gold green and red geometric patterned headwrap",
+      "source": "Headwear-notprocessedyet/cultural/14_r3c4.png",
+      "sourceSha256": "fd3497b8c2f5e88dae9ba0c64ea96f128f3b81ab7ad8faf0b0e8c23ca00b8838",
+      "file": "Assets/Headwear/cultural-14_r3c4.png",
+      "sha256": "2300faf6f1423f1b6839103001bb11bfd02a37f913835fdb9d13a60dddca5a16",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        637,
+        385
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 270,
+        "top": 128,
+        "width": 735,
+        "height": 496
+      },
+      "scale": 1.026008230452675,
+      "placement": {
+        "left": 257,
+        "top": 66,
+        "width": 754,
+        "height": 509
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-15",
+      "description": "short tan cylindrical woven cap with fine dark brown geometric embroidery",
+      "source": "Headwear-notprocessedyet/cultural/15_r3c5.png",
+      "sourceSha256": "0e4d10eb06672a0d6465b91ebb061d845bd323b013d4e7f2eeab2c54f69e2d89",
+      "file": "Assets/Headwear/cultural-15_r3c5.png",
+      "sha256": "afcfc3e1ac5506b3ee5aa50fbb36d0ec50fdbfb22c968de03160bf842dbcf773",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626,
+        465
+      ],
+      "targetAnchor": [
+        631.5,
+        375
+      ],
+      "sourceCrop": {
+        "left": 252,
+        "top": 158,
+        "width": 749,
+        "height": 464
+      },
+      "scale": 0.7860026917900403,
+      "placement": {
+        "left": 338,
+        "top": 134,
+        "width": 589,
+        "height": 365
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-16",
+      "description": "red gold green striped draped head hood with central slim gold forehead chain, face opening transparent, no torso cloth",
+      "source": "Headwear-notprocessedyet/cultural/16_r4c1.png",
+      "sourceSha256": "38bf3dcfce7f5e86d5d1000268efaf3a3bd0b1769efef1f842083c6aa54101cc",
+      "file": "Assets/Headwear/cultural-16_r4c1.png",
+      "sha256": "090bdffc10f4979ed41476d4e5b7281fc6ed8461ce82eb54e03f3e66c34b691b",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        621.5,
+        336
+      ],
+      "targetAnchor": [
+        633,
+        419.8899322799097
+      ],
+      "sourceCrop": {
+        "left": 179,
+        "top": 57,
+        "width": 916,
+        "height": 870
+      },
+      "scale": 1.2540857787810384,
+      "placement": {
+        "left": 78,
+        "top": 70,
+        "width": 1149,
+        "height": 1091
+      },
+      "review": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+    },
+    {
+      "id": "cultural-17",
+      "description": "deep dark blue layered wrapped turban",
+      "source": "Headwear-notprocessedyet/cultural/17_r4c2.png",
+      "sourceSha256": "b75667dd7f07f7df5651469ca2b52264bbc8f4a15a30b5984f804c0a1fccff70",
+      "file": "Assets/Headwear/cultural-17_r4c2.png",
+      "sha256": "d30e46b0b792a69b2d755a8328c03425f19f6e4e6c153c9fbf3e6852bcc586fd",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        633,
+        405
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 265,
+        "top": 109,
+        "width": 737,
+        "height": 547
+      },
+      "scale": 1.023201094391245,
+      "placement": {
+        "left": 257,
+        "top": 27,
+        "width": 754,
+        "height": 560
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-19",
+      "description": "orange yellow blue and red bulky geometric patterned turban",
+      "source": "Headwear-notprocessedyet/cultural/19_r4c4.png",
+      "sourceSha256": "f27a77bdced338f95477c9dd5e050a33d8e01e69a047bcc7595da1915af0c956",
+      "file": "Assets/Headwear/cultural-19_r4c4.png",
+      "sha256": "be4214e83fc4e2fdcded9e4b3ef2dba67284d85ef33e9b2f68c219732c0a7854",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        626.5,
+        446
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 236,
+        "top": 140,
+        "width": 782,
+        "height": 555
+      },
+      "scale": 0.9638659793814434,
+      "placement": {
+        "left": 258,
+        "top": 35,
+        "width": 754,
+        "height": 535
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-20",
+      "description": "purple magenta crown headband with rows of white pearl-like beads gold central jewel and forehead pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/20_r4c5.png",
+      "sourceSha256": "ae62364b9bf6974f4a84916568148bded439d2a15758bc6271041f61f95abce8",
+      "file": "Assets/Headwear/cultural-20_r4c5.png",
+      "sha256": "1559d345fd4b3aa74f0baab81af87f431d2e111211ec770f80b96c1cf6ec2b86",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        628.5,
+        335
+      ],
+      "targetAnchor": [
+        638,
+        330
+      ],
+      "sourceCrop": {
+        "left": 228,
+        "top": 90,
+        "width": 802,
+        "height": 517
+      },
+      "scale": 0.7914572864321608,
+      "placement": {
+        "left": 321,
+        "top": 136,
+        "width": 635,
+        "height": 409
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-21",
+      "description": "navy cylindrical cap with crisp white grid and geometric woven embroidery",
+      "source": "Headwear-notprocessedyet/cultural/21_r5c1.png",
+      "sourceSha256": "85bc2a886958eba610ca4fe3b576cb142ebf2a8f54d4b799c655936543b3a0bb",
+      "file": "Assets/Headwear/cultural-21_r5c1.png",
+      "sha256": "601da72d6980979a10408143a1592ef45e97b53fc4929001c491280081dfed20",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        453
+      ],
+      "targetAnchor": [
+        631.5,
+        316.2760416666667
+      ],
+      "sourceCrop": {
+        "left": 240,
+        "top": 187,
+        "width": 774,
+        "height": 424
+      },
+      "scale": 0.7942708333333334,
+      "placement": {
+        "left": 325,
+        "top": 105,
+        "width": 615,
+        "height": 337
+      },
+      "review": "Cover the skull apex while preserving the cylindrical cap proportions."
+    },
+    {
+      "id": "cultural-22",
+      "description": "tall gathered orange green yellow blue geometric woven headwrap",
+      "source": "Headwear-notprocessedyet/cultural/22_r5c2.png",
+      "sourceSha256": "7d7c91ad6080a7e4e8143b2cd690ca627bc020a21ec1ec0187e9af1466ff1c64",
+      "file": "Assets/Headwear/cultural-22_r5c2.png",
+      "sha256": "94c7629b586af8d8629b5880de014d8fa1afbb4d1e90ab87ae77a0ad7731b98a",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        626.5,
+        439
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 233,
+        "top": 97,
+        "width": 788,
+        "height": 618
+      },
+      "scale": 0.956140350877193,
+      "placement": {
+        "left": 258,
+        "top": 3,
+        "width": 753,
+        "height": 591
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-23",
+      "description": "thin crown headband with three rows of small white beads red accents and gold central forehead pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/23_r5c3.png",
+      "sourceSha256": "87775b208035103be0143a4615b28d86fce2d137dac91db115687da527c98b75",
+      "file": "Assets/Headwear/cultural-23_r5c3.png",
+      "sha256": "7329ff6b13d7c73448bce251128dd41b3229a9eaab8ec8bc96512a111be7a273",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        626.5,
+        355
+      ],
+      "targetAnchor": [
+        638,
+        310
+      ],
+      "sourceCrop": {
+        "left": 209,
+        "top": 188,
+        "width": 836,
+        "height": 390
+      },
+      "scale": 0.7228915662650602,
+      "placement": {
+        "left": 336,
+        "top": 189,
+        "width": 604,
+        "height": 282
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-24",
+      "description": "wide tan woven conical straw hat with dark outlined rim",
+      "source": "Headwear-notprocessedyet/cultural/24_r5c4.png",
+      "sourceSha256": "f54495b53e955c41782b609858a1bad89250e4a902872283dc0e08a02c8cc1ee",
+      "file": "Assets/Headwear/cultural-24_r5c4.png",
+      "sha256": "99c8b887c62cf6276c8b2bc8c384c17db12afaa600df2d45c4704dc8f6d2afc6",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        625.5,
+        441
+      ],
+      "targetAnchor": [
+        638.5,
+        425
+      ],
+      "sourceCrop": {
+        "left": 69,
+        "top": 93,
+        "width": 1114,
+        "height": 557
+      },
+      "scale": 0.8249097472924187,
+      "placement": {
+        "left": 179,
+        "top": 138,
+        "width": 919,
+        "height": 459
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-25",
+      "description": "dark navy short cylindrical kufi cap with gold turquoise circular motifs and fine gold patterned band",
+      "source": "Headwear-notprocessedyet/cultural/25_r5c5.png",
+      "sourceSha256": "a0e852f6805dac3d736f208451abb2283bb488f940132021bdaf65106233a698",
+      "file": "Assets/Headwear/cultural-25_r5c5.png",
+      "sha256": "e8b85f1d62d2649aca8611a9166a0bd9c776809a159335cbefc47583f6671940",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        627,
+        452
+      ],
+      "targetAnchor": [
+        631.5,
+        375
+      ],
+      "sourceCrop": {
+        "left": 240,
+        "top": 89,
+        "width": 775,
+        "height": 466
+      },
+      "scale": 0.7594278283485045,
+      "placement": {
+        "left": 338,
+        "top": 99,
+        "width": 589,
+        "height": 354
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-26",
+      "description": "open black and gold royal crown with upright ivory cowrie shell ornaments and central gold hanging forehead pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/26_r6c1.png",
+      "sourceSha256": "721bb179c92fb93802d51ec2010078abebe46f439caab78f56a2d634b52762f4",
+      "file": "Assets/Headwear/cultural-26_r6c1.png",
+      "sha256": "fde1721fe5a6f16510996ac995e53985ee614d7654833acb0fcd1493b15de8bf",
+      "reference": "Assets/Headwear/art-by-mattrick (19).png",
+      "kind": "crown",
+      "sourceAnchor": [
+        626.5,
+        413
+      ],
+      "targetAnchor": [
+        638,
+        360
+      ],
+      "sourceCrop": {
+        "left": 180,
+        "top": 55,
+        "width": 894,
+        "height": 571
+      },
+      "scale": 0.6981981981981982,
+      "placement": {
+        "left": 326,
+        "top": 110,
+        "width": 624,
+        "height": 399
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-27",
+      "description": "black tightly wrapped turban with broad diagonal layered folds",
+      "source": "Headwear-notprocessedyet/cultural/27_r6c2.png",
+      "sourceSha256": "3b684c50f2e24914224bcea8062b2e66d6a1bef78cb93a3954e7bb3a32b76283",
+      "file": "Assets/Headwear/cultural-27_r6c2.png",
+      "sha256": "d7f00dcf80b6d4cbec8068310fceea9cbd843f6ebca258881e85c8f827b48a5a",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        629.5,
+        481
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 224,
+        "top": 151,
+        "width": 812,
+        "height": 596
+      },
+      "scale": 0.9279900744416875,
+      "placement": {
+        "left": 258,
+        "top": 24,
+        "width": 754,
+        "height": 553
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-28",
+      "description": "green red gold beaded headband with multicolor bead rows and central gold oval dangling forehead jewel, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/28_r6c3.png",
+      "sourceSha256": "128a67bfc08f7c92e58e01471cf67664583083e8ff65b47ecacb83d77c63fb48",
+      "file": "Assets/Headwear/cultural-28_r6c3.png",
+      "sha256": "19e7bf69a2a32a8638504af9e59a3a6558726bc7cf1b5b5f8b56b702769e5b31",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        627,
+        316
+      ],
+      "targetAnchor": [
+        638,
+        330
+      ],
+      "sourceCrop": {
+        "left": 252,
+        "top": 89,
+        "width": 751,
+        "height": 463
+      },
+      "scale": 0.8456375838926175,
+      "placement": {
+        "left": 321,
+        "top": 138,
+        "width": 635,
+        "height": 392
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-29",
+      "description": "black draped head hood with red green gold geometric embroidered border and central dangling white and gold forehead ornaments, no torso",
+      "source": "Headwear-notprocessedyet/cultural/29_r6c4.png",
+      "sourceSha256": "010e7825fa768965dae93d3e6859e0ebe579ff81e83545efa1c2bd12bdc86f01",
+      "file": "Assets/Headwear/cultural-29_r6c4.png",
+      "sha256": "e7e6ecffe9124d0f6e318aa8ab1f84a93222cce6241b60dce4b8cf4b9e350f31",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        626,
+        242
+      ],
+      "targetAnchor": [
+        633,
+        296.61
+      ],
+      "sourceCrop": {
+        "left": 198,
+        "top": 56,
+        "width": 857,
+        "height": 884
+      },
+      "scale": 1.2183333333333333,
+      "placement": {
+        "left": 112,
+        "top": 70,
+        "width": 1044,
+        "height": 1077
+      },
+      "review": "Reduce oversized face opening and drapes; align hood apex and temples to reference."
+    },
+    {
+      "id": "cultural-30",
+      "description": "bright royal blue turban with layered diagonal woven folds",
+      "source": "Headwear-notprocessedyet/cultural/30_r6c5.png",
+      "sourceSha256": "b86d9ef2800768cadec1ccfd7516f42389c375d3353aac5801e4b3b39744d18a",
+      "file": "Assets/Headwear/cultural-30_r6c5.png",
+      "sha256": "bd99cd6cfd86f74581ba51d80549a6039e5b2fbb5b71996dd746083374f1e9da",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        633,
+        421
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 274,
+        "top": 137,
+        "width": 719,
+        "height": 547
+      },
+      "scale": 1.0490322580645162,
+      "placement": {
+        "left": 257,
+        "top": 32,
+        "width": 754,
+        "height": 574
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-31",
+      "description": "ornate red and gold pointed royal crown with small green jewels central round gold medallion and pendant, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/31_r7c1.png",
+      "sourceSha256": "91c106ddeaf42a29e7fce0c971a95a60cd8e8098a41a5eb8ead5a80d337c58be",
+      "file": "Assets/Headwear/cultural-31_r7c1.png",
+      "sha256": "69738a42c313cebbcc21fb860b2b037e4b3919391b331c090881c4a5c9fc0720",
+      "reference": "Assets/Headwear/art-by-mattrick (19).png",
+      "kind": "crown",
+      "sourceAnchor": [
+        626.5,
+        466
+      ],
+      "targetAnchor": [
+        638,
+        345
+      ],
+      "sourceCrop": {
+        "left": 174,
+        "top": 87,
+        "width": 906,
+        "height": 584
+      },
+      "scale": 0.6888888888888889,
+      "placement": {
+        "left": 326,
+        "top": 84,
+        "width": 624,
+        "height": 402
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-32",
+      "description": "draped orange yellow green navy geometric patterned head veil with transparent face opening, no scarf around mouth no torso",
+      "source": "Headwear-notprocessedyet/cultural/32_r7c2.png",
+      "sourceSha256": "52bc127519ff4d2500c699f55d91e98394910205e6cf910b012c11c670d1cb6c",
+      "file": "Assets/Headwear/cultural-32_r7c2.png",
+      "sha256": "b0b4e283867bdb4ad825698982e325c0092445042caf7994aedd4248e0d85f65",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        625.5,
+        353
+      ],
+      "targetAnchor": [
+        633,
+        381.6235643564356
+      ],
+      "sourceCrop": {
+        "left": 185,
+        "top": 76,
+        "width": 886,
+        "height": 884
+      },
+      "scale": 1.2152475247524752,
+      "placement": {
+        "left": 98,
+        "top": 45,
+        "width": 1077,
+        "height": 1074
+      },
+      "review": "Keep the cheek drapes outside the eyes; modestly reduce overall size and raise the hood apex."
+    },
+    {
+      "id": "cultural-33",
+      "description": "black and red crown band covered with large ivory cowrie shells, small dangling forehead shell accents, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/33_r7c3.png",
+      "sourceSha256": "88869dd17af5c351cd8bb12b8640cff8398e474c40f0f1fca4fa7b6623d4bc28",
+      "file": "Assets/Headwear/cultural-33_r7c3.png",
+      "sha256": "ccb3199549f83e81294a3899486c262d1324723b9cc289edd99ec20aa8e9cd04",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        626.5,
+        410
+      ],
+      "targetAnchor": [
+        638,
+        320
+      ],
+      "sourceCrop": {
+        "left": 206,
+        "top": 174,
+        "width": 842,
+        "height": 468
+      },
+      "scale": 0.7416267942583732,
+      "placement": {
+        "left": 326,
+        "top": 145,
+        "width": 624,
+        "height": 347
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "cultural-34",
+      "description": "green red orange yellow patterned tall wrapped turban",
+      "source": "Headwear-notprocessedyet/cultural/34_r7c4.png",
+      "sourceSha256": "7a7e7f81d62f2d558e2afa8bb28ab3d0aa91223ce225d79ba1d58e09a67106ed",
+      "file": "Assets/Headwear/cultural-34_r7c4.png",
+      "sha256": "9f54d85b8176a0ea72a1903a22a5ddc0aad3a15fb1e3062889eca9ea9163987d",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        627.5,
+        412
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 266,
+        "top": 71,
+        "width": 724,
+        "height": 554
+      },
+      "scale": 0.9589442815249267,
+      "placement": {
+        "left": 287,
+        "top": 3,
+        "width": 694,
+        "height": 531
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-35",
+      "description": "navy blue gathered patterned headwrap with gold traditional geometric motifs",
+      "source": "Headwear-notprocessedyet/cultural/35_r7c5.png",
+      "sourceSha256": "56a0f0701d01f1b4610e28b39c1d1bda399317f8bd253cdb88ce4a0c93b73e14",
+      "file": "Assets/Headwear/cultural-35_r7c5.png",
+      "sha256": "69efcf070c6bf265e7d2a6e1d38ff97984517ae503a22108c0f8122aa14a6f55",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        632,
+        423
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 265,
+        "top": 131,
+        "width": 735,
+        "height": 579
+      },
+      "scale": 1.026008230452675,
+      "placement": {
+        "left": 257,
+        "top": 30,
+        "width": 754,
+        "height": 594
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-36",
+      "description": "white cream and navy turban with broad crossed layered folds",
+      "source": "Headwear-notprocessedyet/cultural/36_r8c1.png",
+      "sourceSha256": "eeff8b99b358679419345958b3323cdebfdd6bafcbefc743b1f7fc8a469709d3",
+      "file": "Assets/Headwear/cultural-36_r8c1.png",
+      "sha256": "51cd11e0bc250a30df03d27cd26584cb9d06a4fbf96e6c065b6b1c0b9cdbe409",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        637.5,
+        494
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 232,
+        "top": 152,
+        "width": 812,
+        "height": 572
+      },
+      "scale": 0.9279900744416875,
+      "placement": {
+        "left": 258,
+        "top": 13,
+        "width": 754,
+        "height": 531
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-39",
+      "description": "bulky vivid purple blue orange green and yellow patterned turban",
+      "source": "Headwear-notprocessedyet/cultural/39_r8c4.png",
+      "sourceSha256": "0a5b2f0d511c3db4084a0389a7e1bca53ad6543a39dbbbcf5e2c463a40bf3ba6",
+      "file": "Assets/Headwear/cultural-39_r8c4.png",
+      "sha256": "0dd4bc7da0c2a2ae73d0e1ff871d1ee170373be9669c37ab2cd618bd9404782c",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        635,
+        468
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 170,
+        "top": 100,
+        "width": 931,
+        "height": 641
+      },
+      "scale": 0.8086054054054055,
+      "placement": {
+        "left": 258,
+        "top": 32,
+        "width": 753,
+        "height": 518
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-40",
+      "description": "dark crimson red fez with circular gold front ornament",
+      "source": "Headwear-notprocessedyet/cultural/40_r8c5.png",
+      "sourceSha256": "96d45dd352de369481f89ed7b8c724466840238c14d1abf821ad47ac9e96fcfd",
+      "file": "Assets/Headwear/cultural-40_r8c5.png",
+      "sha256": "ca0c93495ec19ed8524a16db13712df1ec077b9add50dd7a0ebb380001c2a688",
+      "reference": "Assets/Headwear/art-by-mattrick (8).png",
+      "kind": "cap",
+      "sourceAnchor": [
+        626.5,
+        351
+      ],
+      "targetAnchor": [
+        631.5,
+        375
+      ],
+      "sourceCrop": {
+        "left": 292,
+        "top": 69,
+        "width": 670,
+        "height": 426
+      },
+      "scale": 0.8795180722891566,
+      "placement": {
+        "left": 337,
+        "top": 127,
+        "width": 589,
+        "height": 375
+      },
+      "review": "Canonical fit checked against the same-category visual reference."
+    },
+    {
+      "id": "cultural-41",
+      "description": "bulky red orange green yellow patterned gathered headwrap",
+      "source": "Headwear-notprocessedyet/cultural/41_r9c1.png",
+      "sourceSha256": "e8ca0d40d92f72729969b2a93d0467a54c2a342f7bc4fb0f9e75625624e8bf22",
+      "file": "Assets/Headwear/cultural-41_r9c1.png",
+      "sha256": "7dfb10acbbc97d0aead4989000e245f12a29abf3f8de605258c677dd5868c2f7",
+      "reference": "Assets/Headwear/art-by-mattrick (6).png",
+      "kind": "wrap",
+      "sourceAnchor": [
+        628.5,
+        448
+      ],
+      "targetAnchor": [
+        634,
+        330
+      ],
+      "sourceCrop": {
+        "left": 235,
+        "top": 58,
+        "width": 788,
+        "height": 610
+      },
+      "scale": 0.8384615384615385,
+      "placement": {
+        "left": 304,
+        "top": 3,
+        "width": 661,
+        "height": 511
+      },
+      "review": "Reduce bulky crown and temple overlap; seat wrap at the reference forehead."
+    },
+    {
+      "id": "cultural-42",
+      "description": "dark navy blue and cream geometric patterned head hood with transparent open face, no mouth scarf no shoulders",
+      "source": "Headwear-notprocessedyet/cultural/42_r9c2.png",
+      "sourceSha256": "f8db843624b8fa82a570a2bc51880f3052acb21a363ed39d48c9650555d7d5ef",
+      "file": "Assets/Headwear/cultural-42_r9c2.png",
+      "sha256": "4dd12225e3a918599808cf3789a7841344fa661429e450051ac8596a528bb48f",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "sourceAnchor": [
+        627,
+        320
+      ],
+      "targetAnchor": [
+        633,
+        415.6504950495049
+      ],
+      "sourceCrop": {
+        "left": 270,
+        "top": 76,
+        "width": 714,
+        "height": 829
+      },
+      "scale": 1.427947871710248,
+      "placement": {
+        "left": 123,
+        "top": 67,
+        "width": 1020,
+        "height": 1184
+      },
+      "review": "Keep the cheek drapes outside the eyes; modestly reduce overall size and raise the hood apex."
+    },
+    {
+      "id": "cultural-43",
+      "description": "broad tan woven conical straw hat with gently curved rim, variant from last row",
+      "source": "Headwear-notprocessedyet/cultural/43_r9c3.png",
+      "sourceSha256": "a5b373b4edfd12711e082b10f8ab22e794f086eb3439522c92636ee3feb21703",
+      "file": "Assets/Headwear/cultural-43_r9c3.png",
+      "sha256": "d485a8394c62401c461802602d25890cae27452603c66dab99ea65ae39721f72",
+      "reference": "Assets/Headwear/art-by-mattrick (15).png",
+      "kind": "brim",
+      "sourceAnchor": [
+        625.5,
+        420
+      ],
+      "targetAnchor": [
+        638.5,
+        360
+      ],
+      "sourceCrop": {
+        "left": 123,
+        "top": 119,
+        "width": 1006,
+        "height": 544
+      },
+      "scale": 0.914,
+      "placement": {
+        "left": 179,
+        "top": 85,
+        "width": 919,
+        "height": 497
+      },
+      "review": "Raise the conical hat to cover the exposed skull beside its peak."
+    },
+    {
+      "id": "cultural-44",
+      "description": "green red gold beaded crown headband with oval gold forehead centerpiece and short dangling forehead ornament, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/44_r9c4.png",
+      "sourceSha256": "cb0d44a15faccbccaf1938fa53ff353d7ebde9d8a2eb2e6ef5ae3dcdef54d346",
+      "file": "Assets/Headwear/cultural-44_r9c4.png",
+      "sha256": "9fd303c396bd98503647ddecb3c7ee5f5308feabac0b7752b7527f451acc3853",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "sourceAnchor": [
+        626,
+        362
+      ],
+      "targetAnchor": [
+        638,
+        330
+      ],
+      "sourceCrop": {
+        "left": 208,
+        "top": 140,
+        "width": 837,
+        "height": 505
+      },
+      "scale": 0.7581227436823105,
+      "placement": {
+        "left": 321,
+        "top": 162,
+        "width": 635,
+        "height": 383
+      },
+      "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    }
+  ],
+  "held": [
+    {
+      "id": "cultural-13",
+      "description": "black crown band lined with upright ivory cowrie shells, central gold forehead pendant and slim black side drapes, no earrings",
+      "source": "Headwear-notprocessedyet/cultural/13_r3c3.png",
+      "sourceSha256": "5938bebd9d6896920bd22dbc4090e7699dee3deaa3a8da76ac67b69f25df42f1",
+      "reference": "Assets/Headwear/art-by-mattrick (7).png",
+      "kind": "band",
+      "reason": "Side drapes overlap the eyes when the shell band fits the skull; requires separate rear drapes."
+    },
+    {
+      "id": "cultural-18",
+      "description": "deep red draped hood with ornate gold triangular border and central gold forehead chain, transparent face opening, no torso",
+      "source": "Headwear-notprocessedyet/cultural/18_r4c3.png",
+      "sourceSha256": "154e22e9011a8836871e770a1cd99c5d3c137ce677b7df90186b3d8e603ab748",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "reason": "Face opening tapers across the outer eyes; matching the skull leaves unacceptable eye obstruction. Needs artwork or layer separation rework."
+    },
+    {
+      "id": "cultural-37",
+      "description": "black over-ear headphones with shiny gold ear cups and thin gold trims, transparent open interior, no head",
+      "source": "Headwear-notprocessedyet/cultural/37_r8c2.png",
+      "sourceSha256": "9c225d3ab729bcb6bea046eb016767b0c35e4c188fd2f964ed1e6383d0da6523",
+      "reference": "Assets/Headwear/art-by-mattrick (17).png",
+      "kind": "headphones",
+      "reason": "Ear cups obscure the eyes at the available head shapes; requires separation into rear and front layers, not just scale/translation."
+    },
+    {
+      "id": "cultural-38",
+      "description": "black draped head hood with ornate gold chevron patterned border, face opening transparent, no torso",
+      "source": "Headwear-notprocessedyet/cultural/38_r8c3.png",
+      "sourceSha256": "fb9fbd8b5c102b3e2d49fde1ea89e31a717f5af111f56ef8be44db0e93aa8aea",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "reason": "Face opening tapers across the outer eyes; matching the skull leaves unacceptable eye obstruction. Needs artwork or layer separation rework."
+    },
+    {
+      "id": "cultural-45",
+      "description": "black draped head veil with ornate gold patterned border and three small white forehead ornament dots, transparent open face, no torso",
+      "source": "Headwear-notprocessedyet/cultural/45_r9c5.png",
+      "sourceSha256": "96c60a6c9dd790886545abad5a67b1b6063a3f0098410f3300ba7b411f6eab4d",
+      "reference": "Assets/Headwear/art-by-mattrick (12).png",
+      "kind": "hood",
+      "reason": "Inner black drapes obscure the outer eyes on the Happy head after fit adjustment; requires a separate rear layer."
+    }
+  ]
+}

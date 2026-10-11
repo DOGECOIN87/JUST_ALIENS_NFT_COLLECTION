@@ -1,20 +1,54 @@
-# Just Aliens — Headwear Traits
+# Headwear overlays
 
-This folder is reserved for the eight corrected 1254×1254 RGBA PNG headwear overlays.
+This folder contains 21 original visual reference PNGs and 82 aligned additions. All overlays use a transparent 1254 × 1254 RGBA canvas. The original `art-by-mattrick (6).png` through `(26).png` files are unchanged.
 
-**Upload status:** PNG images are not yet uploaded. This manifest describes the prepared local deliverable and does not substitute for the images.
+The 87 source images are preserved byte for byte in [Headwear-notprocessedyet](../../Headwear-notprocessedyet). Five unsuitable traits are excluded from the active additions and remain there for artwork rework.
 
-| Intended filename | SHA-256 prefix |
+## Placement
+
+The existing overlays in this folder are the visual reference. Match the part that sits on the head: forehead band for caps, crown seating line for brimmed hats, and face opening for hoods and aviator caps. Hanging jewels, knots, and drapes are not reliable seating landmarks.
+
+`alignment-manifest.json` records source, reference, scale, position, hashes, and review decision. Artwork is uniformly scaled and translated; colors, proportions, and designs are preserved. Per-trait corrections live in `scripts/headwear-fit-overrides.json`.
+
+| Type | Reference numbers |
 | --- | --- |
-| 01_Pharaoh_Nemes.png | bc92372d8669a67b |
-| 02_Anubis_Guardian.png | ba69839c74d7219d |
-| 03_Royal_Desert_Turban.png | af976e83ccb77a27 |
-| 04_Ankh_High_Crown.png | b5db6d7a85f0eb91 |
-| 05_Sapphire_Royal_Crown.png | 19ce7b006038d837 |
-| 06_Cosmic_Space_Helmet.png | 6f0fbda0b58f8909 |
-| 07_Desert_Nomad_Hood.png | 709fa80fffcd386b |
-| 08_Winged_Scarab_Crown.png | 588b83b0e515a62c |
+| Wraps / turbans | 6 |
+| Bands / crowns | 7, 19 |
+| Cylindrical caps | 8 |
+| Bandanas | 9 |
+| Hoods / veils | 12 |
+| Bucket, top, and cowboy hats | 13, 14, 15 |
+| Backwards caps | 16 |
+| Aviator caps | 17 |
+| Helmets | 21 |
+| Baseball caps / knit caps | 26 |
 
-All eight overlays were checked to have 1254×1254 RGBA dimensions and transparent pixels. Place headwear *above* the selected expression/head layer when compositing. Some designs deliberately have open/cleared facial areas, including the helmet, to retain character visibility.
+The PNGs fit the canonical Amused head. The supplied renderer applies a small uniform scale and translation for each of the other eight expressions, using skull width and a forehead anchor. Use it when mixing expressions; do not trim and independently stretch the head or headwear.
 
-The corrected asset pack was generated separately as `just_aliens_headwear_fit_corrected_8.zip`. Do not treat headwear as production-ready until the actual PNG assets have been uploaded and their alignment has been visually checked against the canonical expression PNG files.
+Composite whole canvases at 1254 × 1254: background → clothing → colored expression head → headwear. Avoid clothing that already includes a raised hood or another hat. The optional aligned generator mode applies those exclusions.
+
+## Traits held for rework
+
+| Trait | Reason |
+| --- | --- |
+| cultural-13 | Shell-band side drapes overlap the eyes; they need a separate rear layer. |
+| cultural-18 | The red hood opening tapers across the outer eyes. |
+| cultural-37 | Headphone ear cups obscure the eyes; rear/front layer separation is needed. |
+| cultural-38 | The black/gold hood opening tapers across the outer eyes. |
+| cultural-45 | Inner black drapes obstruct the outer eyes on the Happy expression. |
+
+These IDs are under `held`, never under `assets`, and are not selected by `--headwear-aligned`. Their source artwork has not been deleted.
+
+## Reproduce and review
+
+```sh
+npm run align-headwear
+npm run headwear-sheets
+node scripts/headwear-alignment-sheets.cjs --review
+QA_EXPRESSION=Happy node scripts/headwear-alignment-sheets.cjs --review
+node generate_collection.js --headwear-aligned --limit 50 --out collection-aligned
+```
+
+The paired sheets in [headwear-alignment-preview](../../headwear-alignment-preview) use the same 50 background, clothing, skin, and expression combinations. Before uses original source placement; after uses the corrected overlay and expression registration. Excluded samples are labeled `EXCLUDED` and shown without that trait. `samples.json` records both sides and their hashes.
+
+JPEG previews are committed; the script also writes full PNG sheets locally. The default generator and legacy `--headwear-fitted` mode remain available. Use `--headwear-aligned` for this reviewed set, and choose only one headwear mode at a time.
