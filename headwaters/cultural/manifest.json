@@ -1,0 +1,272 @@
+[
+  {
+    "row": 1,
+    "column": 1,
+    "description": "black cylindrical ceremonial cap with ornate gold geometric embroidery and narrow red accents",
+    "filename": "01_r1c1.png"
+  },
+  {
+    "row": 1,
+    "column": 2,
+    "description": "large gathered headwrap in vivid green red yellow orange and navy woven geometric cloth",
+    "filename": "02_r1c2.png"
+  },
+  {
+    "row": 1,
+    "column": 3,
+    "description": "white and dark navy layered turban with crossed white folds",
+    "filename": "03_r1c3.png"
+  },
+  {
+    "row": 1,
+    "column": 4,
+    "description": "red and gold beaded crown headband with delicate draped chains and central dangling forehead pendant, no earrings",
+    "filename": "04_r1c4.png"
+  },
+  {
+    "row": 1,
+    "column": 5,
+    "description": "black draped head veil with ornate gold patterned border, open face transparent, only head veil no shoulders or torso",
+    "filename": "05_r1c5.png"
+  },
+  {
+    "row": 2,
+    "column": 1,
+    "description": "dark purple hooded head veil with multicolor purple gold geometric embroidered trim, only head covering",
+    "filename": "06_r2c1.png"
+  },
+  {
+    "row": 2,
+    "column": 2,
+    "description": "red fez with centered ornate gold diamond shaped front medallion",
+    "filename": "07_r2c2.png"
+  },
+  {
+    "row": 2,
+    "column": 3,
+    "description": "multicolored red green gold beaded crown with beaded side strands beside temples, central gold forehead pendant, no earrings",
+    "filename": "08_r2c3.png"
+  },
+  {
+    "row": 2,
+    "column": 4,
+    "description": "close fitted olive green and gold striped turban",
+    "filename": "09_r2c4.png"
+  },
+  {
+    "row": 2,
+    "column": 5,
+    "description": "cylindrical vivid blue orange yellow green geometric woven kufi cap",
+    "filename": "10_r2c5.png"
+  },
+  {
+    "row": 3,
+    "column": 1,
+    "description": "thin multistrand turquoise blue red and gold beaded forehead headband with central gold dangling pendant, no earrings",
+    "filename": "11_r3c1.png"
+  },
+  {
+    "row": 3,
+    "column": 2,
+    "description": "bulky black and white African patterned cloth turban with bold abstract geometric marks",
+    "filename": "12_r3c2.png"
+  },
+  {
+    "row": 3,
+    "column": 3,
+    "description": "black crown band lined with upright ivory cowrie shells, central gold forehead pendant and slim black side drapes, no earrings",
+    "filename": "13_r3c3.png"
+  },
+  {
+    "row": 3,
+    "column": 4,
+    "description": "gathered navy blue gold green and red geometric patterned headwrap",
+    "filename": "14_r3c4.png"
+  },
+  {
+    "row": 3,
+    "column": 5,
+    "description": "short tan cylindrical woven cap with fine dark brown geometric embroidery",
+    "filename": "15_r3c5.png"
+  },
+  {
+    "row": 4,
+    "column": 1,
+    "description": "red gold green striped draped head hood with central slim gold forehead chain, face opening transparent, no torso cloth",
+    "filename": "16_r4c1.png"
+  },
+  {
+    "row": 4,
+    "column": 2,
+    "description": "deep dark blue layered wrapped turban",
+    "filename": "17_r4c2.png"
+  },
+  {
+    "row": 4,
+    "column": 3,
+    "description": "deep red draped hood with ornate gold triangular border and central gold forehead chain, transparent face opening, no torso",
+    "filename": "18_r4c3.png"
+  },
+  {
+    "row": 4,
+    "column": 4,
+    "description": "orange yellow blue and red bulky geometric patterned turban",
+    "filename": "19_r4c4.png"
+  },
+  {
+    "row": 4,
+    "column": 5,
+    "description": "purple magenta crown headband with rows of white pearl-like beads gold central jewel and forehead pendant, no earrings",
+    "filename": "20_r4c5.png"
+  },
+  {
+    "row": 5,
+    "column": 1,
+    "description": "navy cylindrical cap with crisp white grid and geometric woven embroidery",
+    "filename": "21_r5c1.png"
+  },
+  {
+    "row": 5,
+    "column": 2,
+    "description": "tall gathered orange green yellow blue geometric woven headwrap",
+    "filename": "22_r5c2.png"
+  },
+  {
+    "row": 5,
+    "column": 3,
+    "description": "thin crown headband with three rows of small white beads red accents and gold central forehead pendant, no earrings",
+    "filename": "23_r5c3.png"
+  },
+  {
+    "row": 5,
+    "column": 4,
+    "description": "wide tan woven conical straw hat with dark outlined rim",
+    "filename": "24_r5c4.png"
+  },
+  {
+    "row": 5,
+    "column": 5,
+    "description": "dark navy short cylindrical kufi cap with gold turquoise circular motifs and fine gold patterned band",
+    "filename": "25_r5c5.png"
+  },
+  {
+    "row": 6,
+    "column": 1,
+    "description": "open black and gold royal crown with upright ivory cowrie shell ornaments and central gold hanging forehead pendant, no earrings",
+    "filename": "26_r6c1.png"
+  },
+  {
+    "row": 6,
+    "column": 2,
+    "description": "black tightly wrapped turban with broad diagonal layered folds",
+    "filename": "27_r6c2.png"
+  },
+  {
+    "row": 6,
+    "column": 3,
+    "description": "green red gold beaded headband with multicolor bead rows and central gold oval dangling forehead jewel, no earrings",
+    "filename": "28_r6c3.png"
+  },
+  {
+    "row": 6,
+    "column": 4,
+    "description": "black draped head hood with red green gold geometric embroidered border and central dangling white and gold forehead ornaments, no torso",
+    "filename": "29_r6c4.png"
+  },
+  {
+    "row": 6,
+    "column": 5,
+    "description": "bright royal blue turban with layered diagonal woven folds",
+    "filename": "30_r6c5.png"
+  },
+  {
+    "row": 7,
+    "column": 1,
+    "description": "ornate red and gold pointed royal crown with small green jewels central round gold medallion and pendant, no earrings",
+    "filename": "31_r7c1.png"
+  },
+  {
+    "row": 7,
+    "column": 2,
+    "description": "draped orange yellow green navy geometric patterned head veil with transparent face opening, no scarf around mouth no torso",
+    "filename": "32_r7c2.png"
+  },
+  {
+    "row": 7,
+    "column": 3,
+    "description": "black and red crown band covered with large ivory cowrie shells, small dangling forehead shell accents, no earrings",
+    "filename": "33_r7c3.png"
+  },
+  {
+    "row": 7,
+    "column": 4,
+    "description": "green red orange yellow patterned tall wrapped turban",
+    "filename": "34_r7c4.png"
+  },
+  {
+    "row": 7,
+    "column": 5,
+    "description": "navy blue gathered patterned headwrap with gold traditional geometric motifs",
+    "filename": "35_r7c5.png"
+  },
+  {
+    "row": 8,
+    "column": 1,
+    "description": "white cream and navy turban with broad crossed layered folds",
+    "filename": "36_r8c1.png"
+  },
+  {
+    "row": 8,
+    "column": 2,
+    "description": "black over-ear headphones with shiny gold ear cups and thin gold trims, transparent open interior, no head",
+    "filename": "37_r8c2.png"
+  },
+  {
+    "row": 8,
+    "column": 3,
+    "description": "black draped head hood with ornate gold chevron patterned border, face opening transparent, no torso",
+    "filename": "38_r8c3.png"
+  },
+  {
+    "row": 8,
+    "column": 4,
+    "description": "bulky vivid purple blue orange green and yellow patterned turban",
+    "filename": "39_r8c4.png"
+  },
+  {
+    "row": 8,
+    "column": 5,
+    "description": "dark crimson red fez with circular gold front ornament",
+    "filename": "40_r8c5.png"
+  },
+  {
+    "row": 9,
+    "column": 1,
+    "description": "bulky red orange green yellow patterned gathered headwrap",
+    "filename": "41_r9c1.png"
+  },
+  {
+    "row": 9,
+    "column": 2,
+    "description": "dark navy blue and cream geometric patterned head hood with transparent open face, no mouth scarf no shoulders",
+    "filename": "42_r9c2.png"
+  },
+  {
+    "row": 9,
+    "column": 3,
+    "description": "broad tan woven conical straw hat with gently curved rim, variant from last row",
+    "filename": "43_r9c3.png"
+  },
+  {
+    "row": 9,
+    "column": 4,
+    "description": "green red gold beaded crown headband with oval gold forehead centerpiece and short dangling forehead ornament, no earrings",
+    "filename": "44_r9c4.png"
+  },
+  {
+    "row": 9,
+    "column": 5,
+    "description": "black draped head veil with ornate gold patterned border and three small white forehead ornament dots, transparent open face, no torso",
+    "filename": "45_r9c5.png"
+  }
+]

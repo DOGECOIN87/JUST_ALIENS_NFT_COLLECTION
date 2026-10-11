@@ -1,0 +1,296 @@
+[
+  {
+    "row": 1,
+    "column": 1,
+    "description": "brown cowboy hat silver sheriff star",
+    "source": "/workspace/generated_images/exec-acdd01a2-4198-407d-8a25-6f82ad52d8bf.png",
+    "filename": "01_r1c1_brown_cowboy_hat_silver_sheriff.png"
+  },
+  {
+    "row": 1,
+    "column": 2,
+    "description": "navy baseball cap with cream front panel bearing a small United States flag, red side accents",
+    "source": "/workspace/generated_images/exec-10a126f1-18ca-491e-b135-4fb6fadd729f.png",
+    "filename": "02_r1c2_navy_baseball_cap_with_cream.png"
+  },
+  {
+    "row": 1,
+    "column": 3,
+    "description": "brown leather aviator flight cap with brass-rimmed dark goggles resting above forehead",
+    "source": "/workspace/generated_images/exec-b0ef8d46-c7ca-437a-8433-367e296f07bf.png",
+    "filename": "03_r1c3_brown_leather_aviator_flight_cap.png"
+  },
+  {
+    "row": 1,
+    "column": 4,
+    "description": "red white and blue American flag bandana tied around crown, knot and short tails at left temple",
+    "source": "/workspace/generated_images/exec-4c0807a7-9dc2-4252-92db-37125e71859d.png",
+    "filename": "04_r1c4_red_white_and_blue_American.png"
+  },
+  {
+    "row": 1,
+    "column": 5,
+    "description": "black baseball cap, plain front without lettering",
+    "source": "/workspace/generated_images/exec-30b7a3a0-92ba-4a84-baab-9be4f3a92471.png",
+    "filename": "05_r1c5_black_baseball_cap_plain_front.png"
+  },
+  {
+    "row": 2,
+    "column": 1,
+    "description": "dark brown leather aviator cap with bronze goggles on forehead",
+    "source": "/workspace/generated_images/exec-af9f0f40-d640-4d08-b2be-4291d3a70f8a.png",
+    "filename": "06_r2c1_dark_brown_leather_aviator_cap.png"
+  },
+  {
+    "row": 2,
+    "column": 2,
+    "description": "Uncle Sam tall top hat, red white vertical striped crown, navy band with white stars and red brim",
+    "source": "/workspace/generated_images/exec-106f7350-4cf0-4a71-8e4a-44fe9fbb19cb.png",
+    "filename": "07_r2c2_Uncle_Sam_tall_top_hat.png"
+  },
+  {
+    "row": 2,
+    "column": 3,
+    "description": "red baseball cap worn backwards, adjustable strap visible at front, symmetrical front view",
+    "source": "/workspace/generated_images/exec-b769ba2a-566d-484d-bef2-e8f0193ecc29.png",
+    "filename": "08_r2c3_red_baseball_cap_worn_backwards.png"
+  },
+  {
+    "row": 2,
+    "column": 4,
+    "description": "dark olive cowboy hat with gold sheriff star",
+    "source": "/workspace/generated_images/exec-e7f68106-1045-4f20-9e51-9df770674939.png",
+    "filename": "09_r2c4_dark_olive_cowboy_hat_with.png"
+  },
+  {
+    "row": 2,
+    "column": 5,
+    "description": "cream ivory cowboy hat with dark five point sheriff star",
+    "source": "/workspace/generated_images/exec-37d1b8f5-3945-410d-9261-102480c056fa.png",
+    "filename": "10_r2c5_cream_ivory_cowboy_hat_with.png"
+  },
+  {
+    "row": 3,
+    "column": 1,
+    "description": "olive camouflage bucket hat with plain tan rectangular front patch, no lettering",
+    "source": "/workspace/generated_images/exec-f415d714-63a6-43b9-b3e7-c3dea5bdbda8.png",
+    "filename": "11_r3c1_olive_camouflage_bucket_hat_with.png"
+  },
+  {
+    "row": 3,
+    "column": 2,
+    "description": "dark blue denim hood only, open face opening fully transparent, no face mask or clothing below hood",
+    "source": "/workspace/generated_images/exec-1f7d7cfb-9953-4a55-85dd-c525faeda8e4.png",
+    "filename": "12_r3c2_dark_blue_denim_hood_only.png"
+  },
+  {
+    "row": 3,
+    "column": 4,
+    "description": "navy red white knitted American flag beanie with star crown and striped folded cuff",
+    "source": "/workspace/generated_images/exec-6bede862-dcb4-49ef-970c-2aff99c112b7.png",
+    "filename": "13_r3c4_navy_red_white_knitted_American.png"
+  },
+  {
+    "row": 3,
+    "column": 5,
+    "description": "navy trucker baseball cap with cream front panel, no lettering",
+    "source": "/workspace/generated_images/exec-9ef59a4a-5bb9-446a-93b4-f4441b13204f.png",
+    "filename": "14_r3c5_navy_trucker_baseball_cap_with.png"
+  },
+  {
+    "row": 4,
+    "column": 1,
+    "description": "navy American football helmet with red white central racing stripes, silver metal faceguard, all interior transparent",
+    "source": "/workspace/generated_images/exec-e9d2985a-17b7-4766-a0d6-3ee57a76220e.png",
+    "filename": "15_r4c1_navy_American_football_helmet_with.png"
+  },
+  {
+    "row": 4,
+    "column": 2,
+    "description": "navy baseball cap with plain front without lettering or logo",
+    "source": "/workspace/generated_images/exec-e11d255e-8946-40bd-b9e1-a7ad9ec793ee.png",
+    "filename": "16_r4c2_navy_baseball_cap_with_plain.png"
+  },
+  {
+    "row": 4,
+    "column": 3,
+    "description": "red bandana with small white stars tied at left temple",
+    "source": "/workspace/generated_images/exec-95f3096f-1b14-4e83-b146-1452729596b4.png",
+    "filename": "17_r4c3_red_bandana_with_small_white.png"
+  },
+  {
+    "row": 4,
+    "column": 4,
+    "description": "brown leather cowboy hat with round silver medallion front band",
+    "source": "/workspace/generated_images/exec-8dcabe5d-a81b-4174-bf13-951b2efbcddd.png",
+    "filename": "18_r4c4_brown_leather_cowboy_hat_with.png"
+  },
+  {
+    "row": 4,
+    "column": 5,
+    "description": "navy trucker cap with white front panel, no lettering",
+    "source": "/workspace/generated_images/exec-992c8f4c-1830-458b-ba97-e2929db321ee.png",
+    "filename": "19_r4c5_navy_trucker_cap_with_white.png"
+  },
+  {
+    "row": 5,
+    "column": 1,
+    "description": "navy hood with red white trim and white stars, open face area transparent, only hood no face scarf or torso",
+    "source": "/workspace/generated_images/exec-4a6df15f-5e17-4015-8535-d47eb87566cb.png",
+    "filename": "20_r5c1_navy_hood_with_red_white.png"
+  },
+  {
+    "row": 5,
+    "column": 2,
+    "description": "brown aviator cap with black lenses in silver-rimmed goggles and cream fleece ear flaps",
+    "source": "/workspace/generated_images/exec-44f51413-a457-408c-a958-3ff3cb143c7d.png",
+    "filename": "21_r5c2_brown_aviator_cap_with_black.png"
+  },
+  {
+    "row": 5,
+    "column": 3,
+    "description": "olive camouflage bucket hat with tan blank rectangular front patch, no lettering",
+    "source": "/workspace/generated_images/exec-1167d465-f2e1-4745-9db2-57c769d57ea5.png",
+    "filename": "22_r5c3_olive_camouflage_bucket_hat_with.png"
+  },
+  {
+    "row": 5,
+    "column": 4,
+    "description": "cream cowboy hat with navy band of white stars",
+    "source": "/workspace/generated_images/exec-b3b615dc-5255-4a5b-8598-b7c3d0940497.png",
+    "filename": "23_r5c4_cream_cowboy_hat_with_navy.png"
+  },
+  {
+    "row": 5,
+    "column": 5,
+    "description": "black ribbed knit beanie with small United States flag patch",
+    "source": "/workspace/generated_images/exec-6a38da1f-df03-4258-9027-54b55efd3763.png",
+    "filename": "24_r5c5_black_ribbed_knit_beanie_with.png"
+  },
+  {
+    "row": 6,
+    "column": 1,
+    "description": "red brim trucker cap with off-white front panel, no lettering",
+    "source": "/workspace/generated_images/exec-9994ba37-e2e7-4716-a2b8-edab3cf40d2b.png",
+    "filename": "25_r6c1_red_brim_trucker_cap_with.png"
+  },
+  {
+    "row": 6,
+    "column": 2,
+    "description": "blue baseball cap backwards with green adjustable strap and rear opening visible at front",
+    "source": "/workspace/generated_images/exec-09f74e94-3898-47ec-aca3-d8276169bfdf.png",
+    "filename": "26_r6c2_blue_baseball_cap_backwards_with.png"
+  },
+  {
+    "row": 6,
+    "column": 3,
+    "description": "navy bandana covered with small cream stars tied around crown, no lower face covering",
+    "source": "/workspace/generated_images/exec-421689a3-22e2-492f-9276-9c9c4d60e48d.png",
+    "filename": "27_r6c3_navy_bandana_covered_with_small.png"
+  },
+  {
+    "row": 6,
+    "column": 4,
+    "description": "navy blue space flight helmet with cream five point star centered on forehead and metallic rim, visor opening transparent no head no suit",
+    "source": "/workspace/generated_images/exec-41c40b7b-887d-4160-9a9a-d6bd0009c51e.png",
+    "filename": "28_r6c4_navy_blue_space_flight_helmet.png"
+  },
+  {
+    "row": 6,
+    "column": 5,
+    "description": "red ribbed knit beanie with small United States flag patch",
+    "source": "/workspace/generated_images/exec-3548b591-72d1-4d69-b8d8-322214d893ab.png",
+    "filename": "29_r6c5_red_ribbed_knit_beanie_with.png"
+  },
+  {
+    "row": 7,
+    "column": 1,
+    "description": "brown leather cowboy hat with small engraved oval brass emblem on front band",
+    "source": "/workspace/generated_images/exec-940c37b8-c8b0-4c31-8b65-831d2ba9a709.png",
+    "filename": "30_r7c1_brown_leather_cowboy_hat_with.png"
+  },
+  {
+    "row": 7,
+    "column": 2,
+    "description": "dark navy baseball cap plain without lettering",
+    "source": "/workspace/generated_images/exec-306cc322-dc54-4777-805c-ce2c58751239.png",
+    "filename": "31_r7c2_dark_navy_baseball_cap_plain.png"
+  },
+  {
+    "row": 7,
+    "column": 3,
+    "description": "close-fitting red cream and navy striped knit skullcap",
+    "source": "/workspace/generated_images/exec-71d29ef2-07b5-4d6b-8ed2-0054301bf8da.png",
+    "filename": "32_r7c3_closefitting_red_cream_and_navy.png"
+  },
+  {
+    "row": 7,
+    "column": 4,
+    "description": "green camouflage bucket hat with small United States flag patch",
+    "source": "/workspace/generated_images/exec-d4d40d40-f53f-4564-9b25-07e9ea749d5f.png",
+    "filename": "33_r7c4_green_camouflage_bucket_hat_with.png"
+  },
+  {
+    "row": 8,
+    "column": 2,
+    "description": "tan woven straw cowboy hat with navy band and small white stars",
+    "source": "/workspace/generated_images/exec-89db0cdb-16dc-4a23-adcc-3049cddbbe1b.png",
+    "filename": "34_r8c2_tan_woven_straw_cowboy_hat.png"
+  },
+  {
+    "row": 8,
+    "column": 3,
+    "description": "charcoal gray hood only with open transparent face hole, no face covering no clothing below hood",
+    "source": "/workspace/generated_images/exec-9ca10a08-0a69-4aff-a238-278bc1059bb5.png",
+    "filename": "35_r8c3_charcoal_gray_hood_only_with.png"
+  },
+  {
+    "row": 8,
+    "column": 4,
+    "description": "navy baseball cap with small blank cream shield-shaped patch, no lettering or numerals",
+    "source": "/workspace/generated_images/exec-a78c4b16-9a5f-4e11-997a-4639b8f64860.png",
+    "filename": "36_r8c4_navy_baseball_cap_with_small.png"
+  },
+  {
+    "row": 8,
+    "column": 5,
+    "description": "brown cavalry cowboy hat with gold crossed sabers insignia",
+    "source": "/workspace/generated_images/exec-c9582b34-7aa3-4747-b7ac-eafddcbca7a6.png",
+    "filename": "37_r8c5_brown_cavalry_cowboy_hat_with.png"
+  },
+  {
+    "row": 9,
+    "column": 1,
+    "description": "red brim trucker baseball cap with cream blank front panel, no lettering",
+    "source": "/workspace/generated_images/exec-efa5c51d-38bb-4231-9ad4-1739d7cdbe76.png",
+    "filename": "38_r9c1_red_brim_trucker_baseball_cap.png"
+  },
+  {
+    "row": 9,
+    "column": 2,
+    "description": "gray ribbed knit beanie with small United States flag patch",
+    "source": "/workspace/generated_images/exec-3ee091ec-762f-4432-9902-78f8ec88fb10.png",
+    "filename": "39_r9c2_gray_ribbed_knit_beanie_with.png"
+  },
+  {
+    "row": 9,
+    "column": 3,
+    "description": "navy military baseball cap with gold and silver spread eagle emblem above small gold star",
+    "source": "/workspace/generated_images/exec-df3e9530-e8c0-44f7-8f80-0dd49f8150bd.png",
+    "filename": "40_r9c3_navy_military_baseball_cap_with.png"
+  },
+  {
+    "row": 9,
+    "column": 4,
+    "description": "brown leather aviator cap with bronze-framed goggles with glossy black lenses resting above forehead",
+    "source": "/workspace/generated_images/exec-01b98a35-e687-481d-9684-941f3b9e1ca2.png",
+    "filename": "41_r9c4_brown_leather_aviator_cap_with.png"
+  },
+  {
+    "row": 9,
+    "column": 5,
+    "description": "dark brown cowboy hat with gold sheriff star",
+    "source": "/workspace/generated_images/exec-d530f547-b476-4447-bf04-3935c867686d.png",
+    "filename": "42_r9c5_dark_brown_cowboy_hat_with.png"
+  }
+]
