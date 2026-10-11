@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "file": "01.png",
+    "headwear": "Football_Helmet",
+    "skin": "Platinum",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 2,
+    "file": "02.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Platinum",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 3,
+    "file": "03.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Platinum",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 4,
+    "file": "04.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Platinum",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 5,
+    "file": "05.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Platinum",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 6,
+    "file": "06.png",
+    "headwear": "Football_Helmet",
+    "skin": "Lime",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 7,
+    "file": "07.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Lime",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 8,
+    "file": "08.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Lime",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 9,
+    "file": "09.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Lime",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 10,
+    "file": "10.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Lime",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 11,
+    "file": "11.png",
+    "headwear": "Football_Helmet",
+    "skin": "Sky_Blue",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 12,
+    "file": "12.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Sky_Blue",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 13,
+    "file": "13.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Sky_Blue",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 14,
+    "file": "14.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Sky_Blue",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 15,
+    "file": "15.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Sky_Blue",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 16,
+    "file": "16.png",
+    "headwear": "Football_Helmet",
+    "skin": "Coral_Red",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 17,
+    "file": "17.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Coral_Red",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 18,
+    "file": "18.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Coral_Red",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 19,
+    "file": "19.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Coral_Red",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 20,
+    "file": "20.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Coral_Red",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 21,
+    "file": "21.png",
+    "headwear": "Football_Helmet",
+    "skin": "Violet",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 22,
+    "file": "22.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Violet",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 23,
+    "file": "23.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Violet",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 24,
+    "file": "24.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Violet",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 25,
+    "file": "25.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Violet",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 26,
+    "file": "26.png",
+    "headwear": "Football_Helmet",
+    "skin": "Honey_Gold",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 27,
+    "file": "27.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Honey_Gold",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 28,
+    "file": "28.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Honey_Gold",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 29,
+    "file": "29.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Honey_Gold",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 30,
+    "file": "30.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Honey_Gold",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 31,
+    "file": "31.png",
+    "headwear": "Football_Helmet",
+    "skin": "Graphite",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 32,
+    "file": "32.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Graphite",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 33,
+    "file": "33.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Graphite",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 34,
+    "file": "34.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Graphite",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 35,
+    "file": "35.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Graphite",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 36,
+    "file": "36.png",
+    "headwear": "Football_Helmet",
+    "skin": "Forest_Green",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 37,
+    "file": "37.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Forest_Green",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 38,
+    "file": "38.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Forest_Green",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 39,
+    "file": "39.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Forest_Green",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 40,
+    "file": "40.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Forest_Green",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 41,
+    "file": "41.png",
+    "headwear": "Football_Helmet",
+    "skin": "Hot_Pink",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  },
+  {
+    "id": 42,
+    "file": "42.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Hot_Pink",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 43,
+    "file": "43.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Hot_Pink",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 44,
+    "file": "44.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Hot_Pink",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 45,
+    "file": "45.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Hot_Pink",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 46,
+    "file": "46.png",
+    "headwear": "Football_Helmet",
+    "skin": "Cyan",
+    "expression": "Surprised",
+    "background": "Cockpit_Pink.png"
+  },
+  {
+    "id": 47,
+    "file": "47.png",
+    "headwear": "Navy_Baseball_Cap",
+    "skin": "Cyan",
+    "expression": "Happy",
+    "background": "Celestial.png"
+  },
+  {
+    "id": 48,
+    "file": "48.png",
+    "headwear": "Red_Star_Bandana",
+    "skin": "Cyan",
+    "expression": "Curious",
+    "background": "Cockpit_Blue.png"
+  },
+  {
+    "id": 49,
+    "file": "49.png",
+    "headwear": "Navy_White_Trucker_Cap",
+    "skin": "Cyan",
+    "expression": "Amused",
+    "background": "Cockpit_Green.png"
+  },
+  {
+    "id": 50,
+    "file": "50.png",
+    "headwear": "Pharaoh_Headdress",
+    "skin": "Cyan",
+    "expression": "Chill",
+    "background": "Cavern_of_Light.png"
+  }
+]
