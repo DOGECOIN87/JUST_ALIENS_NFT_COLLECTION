@@ -106,6 +106,7 @@ Install the Python dependencies with `pip install -r tools/requirements.txt`.
 |--------|--------------|
 | `tools/extract_outfit.py` | Model render → outfit layer + front layer |
 | `tools/make_preview.py` | One outfit on all five poses, as a strip |
+| `tools/make_sheet.py` | Contact sheet of every outfit × pose → `previews/contact_sheet_outfits.jpg` |
 | `tools/segment_arms.py` | One-time: rebuilds `tools/masks/` and `arms/` from `bases/` |
 | `tools/kit.py` | Shared paths, loaders and the layer compositor |
 
