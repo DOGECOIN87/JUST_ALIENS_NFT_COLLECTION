@@ -71,9 +71,10 @@ fg = reg.copy()
 if key == 'green':
     fg[..., 1] = np.minimum(G, np.maximum(R, B) + 0.02)
 else:
-    cap = G + 0.02
-    fg[..., 0] = np.minimum(R, np.maximum(cap, R - (1 - alpha) * (R - cap)))
-    fg[..., 2] = np.minimum(B, np.maximum(cap, B - (1 - alpha) * (B - cap)))
+    # counterpart of the green despill: red and blue together may not exceed green
+    excess = np.clip(np.minimum(R, B) - G - 0.02, 0, None)
+    fg[..., 0] = R - excess
+    fg[..., 2] = B - excess
 fg = np.clip(fg, 0, 1)
 
 # ---------------- painted-background fallback ----------------

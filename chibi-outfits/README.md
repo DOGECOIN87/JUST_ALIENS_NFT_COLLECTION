@@ -61,8 +61,9 @@ chibi-outfits/
 ## Making a new outfit
 
 1. **Dress the armless base.** Give an image-edit model `tools/masks/armless_base_green.png`
-   (pose 1 with no arms, on #00FF00) plus the 1/1 tile you want to adapt. Used so far:
-   Nano Banana Pro via Weave, 2K, 1:1. Prompt template:
+   (pose 1 with no arms, on #00FF00) plus the 1/1 tile you want to adapt. For outfits that are
+   mostly green, use `tools/masks/armless_base_magenta.png` instead (and say "magenta (#FF00FF)"
+   in the prompt). Used so far: Nano Banana Pro, 2K, 1:1. Prompt template:
 
    > Edit the first image. It shows a chibi paper-doll base character on a flat pure green
    > (#00FF00) background. The figure has no arms on purpose, because arms are added later as
@@ -89,6 +90,7 @@ chibi-outfits/
    ```
    python tools/extract_outfit.py renders/render_<id>_<name>.png outfits/<id>_<name>/outfit_<id>_<name>
    ```
+   Add `magenta` as a third argument for renders made from the magenta base.
    This registers the render to the base by the head, keys out the green (or, if the model
    painted a background anyway, separates the figure along its outline), keeps bare
    neck/legs/shoulders as skin, covers any base clothing the model left exposed, and splits
