@@ -136,22 +136,6 @@
       }
     },
     {
-      "file": "Assets/Headwear/art-by-mattrick (16).png",
-      "sha256": "2ce97ffd8d3252d576ef34f72bbda1d4080081f908f9fb3f0d5e980a031b2133",
-      "silhouette": {
-        "left": 278,
-        "top": 126,
-        "width": 716,
-        "height": 396
-      },
-      "crownContact": 319,
-      "opening": {
-        "width": 530,
-        "cx": 636,
-        "y": 469
-      }
-    },
-    {
       "file": "Assets/Headwear/art-by-mattrick (13).png",
       "sha256": "a8829f99a6d4fc946c7f1e1a0541441f73c6f3e1ecae1e4576e6d61d6554d8ae",
       "silhouette": {
@@ -496,7 +480,7 @@
       "sourceSha256": "7bac56207f4395e5e7a0bb8326128d813b309bb133329d251068e09b316cae3b",
       "file": "Assets/Headwear/american-08_r2c3_red_baseball_cap_worn_backwards.png",
       "sha256": "8ca9fa7beba7ff950c3b1f5e9e8c07febaf3e129d8892ae1ad8a08ad52e4e6d7",
-      "reference": "Assets/Headwear/art-by-mattrick (16).png",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
       "kind": "backwards",
       "sourceAnchor": [
         626.5,
@@ -519,7 +503,9 @@
         "width": 720,
         "height": 400
       },
-      "review": "Canonical fit checked against the same-category visual reference."
+      "review": "Canonical fit checked against the same-category visual reference.",
+      "historicalReference": "Assets/Headwear/art-by-mattrick (16).png",
+      "referenceNote": "Replacement reference for future alignment; existing approved placement retained."
     },
     {
       "id": "american-09",
@@ -1072,7 +1058,7 @@
       "sourceSha256": "0ccf70d8ee348c8b584b4e3744c4581843b9c81c49f26bf521ff9108e4b98557",
       "file": "Assets/Headwear/american-26_r6c2_blue_baseball_cap_backwards_with.png",
       "sha256": "b812d4117f5f9bd19bb6cc68d8da6d141b0dc44c6c61c7cebe495fe9d0c702e4",
-      "reference": "Assets/Headwear/art-by-mattrick (16).png",
+      "reference": "Assets/Headwear/art-by-mattrick (26).png",
       "kind": "backwards",
       "sourceAnchor": [
         627,
@@ -1095,7 +1081,9 @@
         "width": 721,
         "height": 445
       },
-      "review": "Canonical fit checked against the same-category visual reference."
+      "review": "Canonical fit checked against the same-category visual reference.",
+      "historicalReference": "Assets/Headwear/art-by-mattrick (16).png",
+      "referenceNote": "Replacement reference for future alignment; existing approved placement retained."
     },
     {
       "id": "american-27",
@@ -2888,6 +2876,33 @@
         "height": 383
       },
       "review": "Fit the main crown/headband around the skull instead of using the dangling ornament as its seating point."
+    },
+    {
+      "id": "reviewed-original-camo-bucket",
+      "file": "Assets/Headwear/art-by-mattrick (13).png",
+      "description": "Original camouflage bucket hat",
+      "kind": "brim",
+      "placement": {
+        "left": 198,
+        "top": 50,
+        "width": 876,
+        "height": 494
+      },
+      "sha256": "a8829f99a6d4fc946c7f1e1a0541441f73c6f3e1ecae1e4576e6d61d6554d8ae",
+      "allowedSkins": [
+        "Platinum",
+        "Graphite",
+        "Lime",
+        "Forest Green"
+      ],
+      "allowedClothing": [
+        "Camo Jacket",
+        "Military Jacket",
+        "Safari Jacket",
+        "Leather Jacket",
+        "Hoodie Black"
+      ],
+      "review": "Original canonical fit plus reviewed Angry expression override."
     }
   ],
   "held": [
@@ -2936,5 +2951,6 @@
       "kind": "hood",
       "reason": "Inner black drapes obscure the outer eyes on the Happy head after fit adjustment; requires a separate rear layer."
     }
-  ]
+  ],
+  "reviewPolicy": "scripts/headwear-review.json"
 }

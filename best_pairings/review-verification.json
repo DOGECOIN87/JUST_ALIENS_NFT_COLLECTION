@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "unchanged_unmarked_images": 30,
+  "corrected_looks": [
+    4,
+    10,
+    14,
+    20,
+    25,
+    26
+  ],
+  "removed_looks": [
+    8,
+    9,
+    15,
+    18,
+    23,
+    34,
+    37,
+    39,
+    41,
+    43,
+    44,
+    47,
+    48,
+    50
+  ],
+  "changed_images": [
+    4,
+    8,
+    9,
+    10,
+    14,
+    15,
+    18,
+    20,
+    23,
+    25,
+    26,
+    34,
+    37,
+    39,
+    41,
+    43,
+    44,
+    47,
+    48,
+    50
+  ],
+  "deleted_files": 17,
+  "helmets": [
+    {
+      "expression": "Amused",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Angry",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Chill",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Confused",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Curious",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Happy",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Sad",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Sour",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "expression": "Surprised",
+      "transparent_background": true,
+      "transparent_visor": true,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    }
+  ]
+}

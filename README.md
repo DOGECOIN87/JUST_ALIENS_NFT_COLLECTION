@@ -23,9 +23,13 @@ A unique NFT collection featuring generated alien characters with diverse traits
 
 ### Character Traits
 - **Clothing**
-  - Twenty outfits and headwear pieces (hooded jackets, hoodies, bomber,
-    leather, military and camo jackets, spacesuit, winter jacket, plus the
-    Beanie, Astronaut Helmet, Spiky Hair and Goggles worn over the head)
+  - Reviewed hoodies, bomber, leather, military and camo jackets,
+    spacesuit and winter jacket. The astronaut helmet, spiky hair and goggles
+    are separate overlays; helmets are paired with a Spacesuit torso.
+  - The annotated review in `scripts/headwear-review.json` removes rejected
+    items from every generator mode, retains the corrected per-expression
+    helmet fits, and adjusts the camo bucket hat on the Angry expression.
+  - `npm run best-pairings` reproduces the corrected numbered 50-image sheet.
 
 - **Skin**
   - Ten alien skin colours (Platinum, Lime, Sky Blue, Coral Red, Violet,

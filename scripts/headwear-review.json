@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-10-16",
+  "annotation_source": "01-1000709922.png",
+  "corrected_looks": [
+    4,
+    10,
+    14,
+    20,
+    25,
+    26
+  ],
+  "removed_looks": [
+    8,
+    9,
+    15,
+    18,
+    23,
+    34,
+    37,
+    39,
+    41,
+    43,
+    44,
+    47,
+    48,
+    50
+  ],
+  "removed_source_files": [
+    "Assets/Clothing/Beanie.png",
+    "Assets/Clothing/Hooded_Jacket_Grey.png",
+    "Assets/Clothing/Hooded_Jacket_White.png",
+    "Assets/Clothing/Hooded_Jacket_Camo.png",
+    "Assets/Clothing/Hooded_Jacket_Gold.png",
+    "Assets/Clothing/Hooded_Jacket_Black_Red.png",
+    "Assets/Headwear/art-by-mattrick (10).png",
+    "Assets/Headwear/art-by-mattrick (16).png"
+  ],
+  "removed_fitted_asset_ids": [
+    "original-Beanie"
+  ],
+  "held_source_files": [
+    "Assets/Clothing/Hooded_Jacket_Bronze.png"
+  ],
+  "held_reason": "The existing bronze hood opening obscures the face; retain the source but do not generate it until redrawn.",
+  "helmet_files": {
+    "Amused": "headwear-fitted/Amused/original/original-Astronaut_Helmet.png",
+    "Angry": "headwear-fitted/Angry/original/original-Astronaut_Helmet.png",
+    "Chill": "headwear-fitted/Chill/original/original-Astronaut_Helmet.png",
+    "Confused": "headwear-fitted/Confused/original/original-Astronaut_Helmet.png",
+    "Curious": "headwear-fitted/Curious/original/original-Astronaut_Helmet.png",
+    "Happy": "headwear-fitted/Happy/original/original-Astronaut_Helmet.png",
+    "Sad": "headwear-fitted/Sad/original/original-Astronaut_Helmet.png",
+    "Sour": "headwear-fitted/Sour/original/original-Astronaut_Helmet.png",
+    "Surprised": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png"
+  },
+  "expression_overrides": {
+    "Assets/Headwear/art-by-mattrick (13).png": {
+      "Angry": {
+        "file": "Assets/Headwear_By_Expression/Angry/art-by-mattrick (13).png",
+        "canvas": 1254,
+        "placement": {
+          "left": 265,
+          "top": 112,
+          "width": 750,
+          "height": 423
+        },
+        "reason": "Narrower bucket hat and lower forehead seating for the Angry skull. Other expressions retain their existing registration.",
+        "sha256": "0973ac555fa62b25f4004474369c8cd03cb1f41728be5ff03dbc16f62316db72"
+      }
+    }
+  },
+  "notes": "X removes a source item and selectable fitted copies. Circle fixes fit. Unmarked review-sheet images remain unchanged."
+}

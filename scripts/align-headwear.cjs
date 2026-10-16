@@ -46,7 +46,7 @@ function profile(description) {
   if(/helmet/.test(d))return {ref:21,kind:'helmet'};
   if(/aviator|flight cap/.test(d))return {ref:17,kind:'aviator'};
   if(/veil|hood/.test(d))return {ref:12,kind:'hood'};
-  if(/backwards/.test(d))return {ref:16,kind:'backwards'};
+  if(/backwards/.test(d))return {ref:26,kind:'backwards'};
   if(/top hat/.test(d))return {ref:14,kind:'brim'};
   if(/cowboy|cavalry|conical/.test(d))return {ref:15,kind:'brim'};
   if(/bucket/.test(d))return {ref:13,kind:'brim'};
@@ -65,6 +65,8 @@ async function writePng(file,buffer) {
 }
 async function main() {
   const refs=new Map(),assets=[],held=[];
+  const manifestFile=path.join(ROOT,DEST,'alignment-manifest.json');
+  const reviewedOriginals=fs.existsSync(manifestFile)?JSON.parse(fs.readFileSync(manifestFile)).assets.filter(a=>a.id.startsWith('reviewed-original-')):[];
   const corrections=JSON.parse(fs.readFileSync(path.join(ROOT,'scripts/headwear-fit-overrides.json'),'utf8'));
   for(const set of ['american','cultural']) for(const a of JSON.parse(fs.readFileSync(path.join(ROOT,SOURCE,set,'manifest.json')))) {
     const id=set+'-'+a.filename.slice(0,2),source=path.posix.join(SOURCE,set,a.filename),file=path.posix.join(DEST,set+'-'+a.filename);
@@ -100,6 +102,7 @@ async function main() {
     if(override.hold){held.push({id,description:a.description,source,sourceSha256:record.sourceSha256,reference,kind,reason:override.reason});if(fs.existsSync(path.join(ROOT,file)))fs.unlinkSync(path.join(ROOT,file));}
     else {await writePng(path.join(ROOT,file),output);assets.push(record);}
   }
+  assets.push(...reviewedOriginals);
   const references=[...refs].map(([file,r])=>({file,sha256:hash(fs.readFileSync(path.join(ROOT,file))),silhouette:{left:r.left,top:r.top,width:r.width,height:r.height},crownContact:r.contact,opening:r.opening}));
   const heads={};
   for(const name of fs.readdirSync(path.join(ROOT,'Assets/Expression_Colors/Platinum')).filter(f=>f.endsWith('.png')).sort()) {

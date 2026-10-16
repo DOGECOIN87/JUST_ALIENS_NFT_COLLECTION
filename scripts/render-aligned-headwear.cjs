@@ -1,9 +1,13 @@
 // Register a canonical overlay to the chosen expression without distorting art.
 const fs=require('node:fs'),path=require('node:path'),sharp=require('sharp');
+const review=require('./headwear-review.cjs');
 const ROOT=path.resolve(__dirname,'..');
 const manifest=JSON.parse(fs.readFileSync(path.join(ROOT,'Assets/Headwear/alignment-manifest.json')));
 const cache=new Map();
 async function alignedHeadwear(asset,expression='Amused') {
+ if(review.excludedAsset(asset))throw new Error('Rejected headwear: '+asset.file);
+ const corrected=review.expressionOverride(asset.file,expression);
+ if(corrected)return fs.readFileSync(corrected);
  const key=asset.id+'/'+expression;
  if(!cache.has(key))cache.set(key,(async()=>{
   const fit=manifest.expressionFits[expression];

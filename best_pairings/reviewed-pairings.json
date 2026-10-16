@@ -1,0 +1,1718 @@
+{
+  "reviewed_at": "2026-10-16",
+  "based_on_commit": "55de3b9dc068f154ffdfd78f185b4a63806c72c0",
+  "pairings": [
+    {
+      "id": 1,
+      "file": "Images/01.png",
+      "skin": "Platinum",
+      "expression": "Angry",
+      "clothing": "Tech_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 292,
+        "top": 74,
+        "width": 710,
+        "height": 514
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_White.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 32.46698117042334,
+        "chest_clear_fraction": 0.6382978723404256,
+        "chest_mean": 27.56599392097267
+      },
+      "sha256": "7e03636509d0ad1444b141cea7e3cdb568c761097c99e2bccd944295f9f14b84",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 2,
+      "file": "Images/02.png",
+      "skin": "Platinum",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (8).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 339,
+        "top": 136,
+        "width": 585,
+        "height": 312
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Blue.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 51.33409617751173,
+        "chest_clear_fraction": 0.9938080495356038,
+        "chest_mean": 54.53649969040248
+      },
+      "sha256": "01cd05bfd735b8805fa0e2fef5c055e228ca4d20d85adc382638cc1a9759ed9c",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 3,
+      "file": "Images/03.png",
+      "skin": "Platinum",
+      "expression": "Curious",
+      "clothing": "Military_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (6).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 228,
+        "top": 23,
+        "width": 777,
+        "height": 538
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Green.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 34.314434686420185,
+        "chest_clear_fraction": 0.7427597955706985,
+        "chest_mean": 33.915172061328754
+      },
+      "sha256": "475ae609a73fccdfbbfa111a1633f6329d494dff11c6885839f5204d15447f41",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 4,
+      "file": "Images/04.png",
+      "skin": "Platinum",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "underlayer": null,
+      "headwear": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "registered": true
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Blue.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 2,
+      "contrast": {
+        "score": 44.60571130662479,
+        "chest_clear_fraction": 0.8645533141210374,
+        "chest_mean": 41.50910720461093
+      },
+      "sha256": "862148d9f1555cf7f4a9a9628d76d4c486e1b862e55c326bd2b2e989760182c3",
+      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+    },
+    {
+      "id": 5,
+      "file": "Images/05.png",
+      "skin": "Platinum",
+      "expression": "Chill",
+      "clothing": "Bomber_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (9).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 194,
+        "top": 125,
+        "width": 858,
+        "height": 803
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Orange.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 31.382323909549008,
+        "chest_clear_fraction": 0.7533980582524272,
+        "chest_mean": 28.51994349514559
+      },
+      "sha256": "7807bac117739112898182d0ddd2bc2ad05d6dcf7af8e517a0b982a292346f8b",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 6,
+      "file": "Images/06.png",
+      "skin": "Graphite",
+      "expression": "Confused",
+      "clothing": "Bomber_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 326,
+        "top": 78,
+        "width": 583,
+        "height": 450
+      },
+      "background": "Assets/Enhanced_Backgrounds/Neon_Orange.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 29.994557572829585,
+        "chest_clear_fraction": 0.722972972972973,
+        "chest_mean": 28.539145752895795
+      },
+      "sha256": "16cab211109c25d12693952ba6e6f673d24b366ff90b363b550e12b04481ca11",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 7,
+      "file": "Images/07.png",
+      "skin": "Graphite",
+      "expression": "Happy",
+      "clothing": "Safari_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (17).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 290,
+        "top": 95,
+        "width": 671,
+        "height": 583
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Red.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 44.11745970167247,
+        "chest_clear_fraction": 0.8875,
+        "chest_mean": 44.45508800000002
+      },
+      "sha256": "9901e6cfe983706437c34d7e20080687f2ad65375ca482e0c759cf6835d2d7ee",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 8,
+      "file": "Images/08.png",
+      "skin": "Graphite",
+      "expression": "Amused",
+      "clothing": "Hoodie_Black",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Cove.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 36.339608050230055,
+        "chest_clear_fraction": 0.6808905380333952,
+        "chest_mean": 33.058317625231886
+      },
+      "sha256": "35044d7ce612d45f2f25071981852aee070e123bb179e6b9bf8f66d2245f3c87",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 9,
+      "file": "Images/09.png",
+      "skin": "Graphite",
+      "expression": "Angry",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/UFO_Red.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 27.634478355596396,
+        "chest_clear_fraction": 0.49812734082397003,
+        "chest_mean": 20.486875280898865
+      },
+      "sha256": "89f8e70b962477877938d8bdbaf76bc5c55198141b88c3ce910dfef4039c7717",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 10,
+      "file": "Images/10.png",
+      "skin": "Graphite",
+      "expression": "Happy",
+      "clothing": "Spacesuit",
+      "underlayer": null,
+      "headwear": "headwear-fitted/Happy/original/original-Astronaut_Helmet.png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "registered": true
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Light_Blue.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 2,
+      "contrast": {
+        "score": 43.83311676818793,
+        "chest_clear_fraction": 0.8645533141210374,
+        "chest_mean": 41.48214639769451
+      },
+      "sha256": "6787f4f10e82b83403f487c1332ee6da86b88d8283ced2d4aa8b5b1d3227682f",
+      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+    },
+    {
+      "id": 11,
+      "file": "Images/11.png",
+      "skin": "Sky_Blue",
+      "expression": "Sad",
+      "clothing": "Tech_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 268,
+        "top": 74,
+        "width": 719,
+        "height": 520
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Light-Blue.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 30.749738331289134,
+        "chest_clear_fraction": 0.5835866261398176,
+        "chest_mean": 25.315985410334346
+      },
+      "sha256": "aafe034fd9f55eb08a29ac387b87c1248267b570e1c788752bd2b5a3e6645107",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 12,
+      "file": "Images/12.png",
+      "skin": "Sky_Blue",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (8).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 339,
+        "top": 136,
+        "width": 585,
+        "height": 312
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_white.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 51.42055310428184,
+        "chest_clear_fraction": 0.9938080495356038,
+        "chest_mean": 54.52587554179567
+      },
+      "sha256": "0b0b6727fbe1000d8b94fa1538a62e97a2660569fc89fa17e943f9df2499e748",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 13,
+      "file": "Images/13.png",
+      "skin": "Sky_Blue",
+      "expression": "Curious",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 315,
+        "top": 52,
+        "width": 599,
+        "height": 462
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Blue.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 31.651926132572335,
+        "chest_clear_fraction": 0.7340823970037453,
+        "chest_mean": 32.821558801498135
+      },
+      "sha256": "d3ebd136262f25435213b915c425ccb8407240bf438177768c8e855d12f853a2",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 14,
+      "file": "Images/14.png",
+      "skin": "Sky_Blue",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "underlayer": null,
+      "headwear": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "registered": true
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Blue.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 2,
+      "contrast": {
+        "score": 44.647083246800115,
+        "chest_clear_fraction": 0.8645533141210374,
+        "chest_mean": 41.50910720461093
+      },
+      "sha256": "d4796b2496a6d911bd3fbacafef82ed2e51763e8cf76531f535ffe6ab4796cbe",
+      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+    },
+    {
+      "id": 15,
+      "file": "Images/15.png",
+      "skin": "Sky_Blue",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_White.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 33.485708619880505,
+        "chest_clear_fraction": 0.713302752293578,
+        "chest_mean": 32.32797178899078
+      },
+      "sha256": "dad6390137eb4897b707f90135a8ef6f5327a3814114b165377413b9c118fa31",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 16,
+      "file": "Images/16.png",
+      "skin": "Cyan",
+      "expression": "Confused",
+      "clothing": "Tech_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 326,
+        "top": 78,
+        "width": 583,
+        "height": 450
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_White.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 34.741217535832824,
+        "chest_clear_fraction": 0.7462006079027356,
+        "chest_mean": 36.25313465045595
+      },
+      "sha256": "973479ae668be818562f9940c0f784dccb29da9bd657e3006b4e697c0ef41b4b",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 17,
+      "file": "Images/17.png",
+      "skin": "Cyan",
+      "expression": "Chill",
+      "clothing": "Hoodie_Black",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (8).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 330,
+        "top": 138,
+        "width": 597,
+        "height": 318
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Blue.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 32.32597524216605,
+        "chest_clear_fraction": 0.6915137614678899,
+        "chest_mean": 31.620297706421976
+      },
+      "sha256": "7b06de3399f04a3e56f439783031a45d5e2e1c16ca90673403104a6590790b33",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 18,
+      "file": "Images/18.png",
+      "skin": "Cyan",
+      "expression": "Sour",
+      "clothing": "Hoodie_White",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Light-Blue.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 37.71044764205604,
+        "chest_clear_fraction": 0.7357293868921776,
+        "chest_mean": 33.882101479915384
+      },
+      "sha256": "381a95037308092aa4ec29107035fa374528ce37b16bf4ae45452893865d72e7",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 19,
+      "file": "Images/19.png",
+      "skin": "Cyan",
+      "expression": "Curious",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 272,
+        "top": 70,
+        "width": 705,
+        "height": 510
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_White.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 28.163233126095534,
+        "chest_clear_fraction": 0.49063670411985016,
+        "chest_mean": 20.657938202247166
+      },
+      "sha256": "ca3eaa42783d61657010aee58e343a263d9bafb1f19d8fa5425d44bd253af810",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 20,
+      "file": "Images/20.png",
+      "skin": "Cyan",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "underlayer": null,
+      "headwear": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "registered": true
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Light_Blue.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 2,
+      "contrast": {
+        "score": 44.45667318527963,
+        "chest_clear_fraction": 0.8645533141210374,
+        "chest_mean": 41.48214639769451
+      },
+      "sha256": "3383fc066c525ed98c1ca1195cfc8bc495360a4cf1446704e220a8cef6afce6d",
+      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+    },
+    {
+      "id": 21,
+      "file": "Images/21.png",
+      "skin": "Violet",
+      "expression": "Chill",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (12).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 58,
+        "top": 93,
+        "width": 1146,
+        "height": 1077
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Blue.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 32.9643569908805,
+        "chest_clear_fraction": 0.5803108808290155,
+        "chest_mean": 27.48196442141624
+      },
+      "sha256": "a2474c9487dff91b273429f5a15a15e992d565ed272c501a1443a55be463cfce",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 22,
+      "file": "Images/22.png",
+      "skin": "Violet",
+      "expression": "Curious",
+      "clothing": "Tech_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 272,
+        "top": 70,
+        "width": 705,
+        "height": 510
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 32.59002358531629,
+        "chest_clear_fraction": 0.6382978723404256,
+        "chest_mean": 27.491652887538013
+      },
+      "sha256": "f6673247dea5ed3750913ff3ac7b43a1b08444f74bce4ca630722e81ec3209f9",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 23,
+      "file": "Images/23.png",
+      "skin": "Violet",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_white.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 24.888264916627378,
+        "chest_clear_fraction": 0.40825688073394495,
+        "chest_mean": 18.26464541284404
+      },
+      "sha256": "70bc8e3e0cc0421806b4a7d49831a142f8bf2055a9be704b5793952b5aa42680",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 24,
+      "file": "Images/24.png",
+      "skin": "Violet",
+      "expression": "Sad",
+      "clothing": "Hoodie_White",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 312,
+        "top": 56,
+        "width": 611,
+        "height": 471
+      },
+      "background": "Assets/Enhanced_Backgrounds/Terra.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 47.24375843761659,
+        "chest_clear_fraction": 0.9907120743034056,
+        "chest_mean": 54.06575541795666
+      },
+      "sha256": "86765ecbbd416c982a1d35905760850e6b87ac7fc8f5db902c2b07daf9586ffe",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 25,
+      "file": "Images/25.png",
+      "skin": "Violet",
+      "expression": "Confused",
+      "clothing": "Spacesuit",
+      "underlayer": null,
+      "headwear": "headwear-fitted/Confused/original/original-Astronaut_Helmet.png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "registered": true
+      },
+      "background": "Assets/Enhanced_Backgrounds/Portal.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 2,
+      "contrast": {
+        "score": 43.881936116183994,
+        "chest_clear_fraction": 0.8357348703170029,
+        "chest_mean": 41.59965821325649
+      },
+      "sha256": "8c6ae67979716489a5f230856f41912b0ad188f5e8d4bd396cbb9e906f60e33e",
+      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+    },
+    {
+      "id": 26,
+      "file": "Images/26.png",
+      "skin": "Lime",
+      "expression": "Angry",
+      "clothing": "Camo_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (13).png",
+      "headwear_placement": {
+        "left": 265,
+        "top": 112,
+        "width": 750,
+        "height": 423,
+        "canvas": 1254
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 3,
+      "contrast": {
+        "score": 31.35985711797948,
+        "chest_clear_fraction": 0.5795454545454546,
+        "chest_mean": 27.410445454545442
+      },
+      "sha256": "b06124172b358d2115e0ae36223945c23fc9656c7da4afc3b170607429971dbf",
+      "review_action": "Circle: narrower, lower camo bucket fit for Angry"
+    },
+    {
+      "id": 27,
+      "file": "Images/27.png",
+      "skin": "Lime",
+      "expression": "Curious",
+      "clothing": "Military_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (6).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 228,
+        "top": 23,
+        "width": 777,
+        "height": 538
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Green.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 31.718886608986487,
+        "chest_clear_fraction": 0.5792163543441227,
+        "chest_mean": 26.4509730834753
+      },
+      "sha256": "e3a4e21f686ff723242c33baebac9dc05bbdbe7daea1b6a6f499c90ca334ec58",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 28,
+      "file": "Images/28.png",
+      "skin": "Lime",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (7).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 271,
+        "top": 107,
+        "width": 712,
+        "height": 382
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Green.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 50.03270720971628,
+        "chest_clear_fraction": 0.9938080495356038,
+        "chest_mean": 54.38970897832817
+      },
+      "sha256": "964387816e4564813d1e96ed9d198b787e0f77730ac5f22423ef8af01bcfe3b0",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 29,
+      "file": "Images/29.png",
+      "skin": "Lime",
+      "expression": "Sad",
+      "clothing": "Safari_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (22).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 332,
+        "top": 66,
+        "width": 586,
+        "height": 512
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 41.37091577044865,
+        "chest_clear_fraction": 0.9,
+        "chest_mean": 46.337028000000004
+      },
+      "sha256": "14ed748bafc1046eefcc8eae7180ef77cbdf33baf0a45b3f4980041c56ea7bab",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 30,
+      "file": "Images/30.png",
+      "skin": "Lime",
+      "expression": "Happy",
+      "clothing": "Winter_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (15).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 174,
+        "top": 52,
+        "width": 907,
+        "height": 380
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 29.473383630568044,
+        "chest_clear_fraction": 0.5889908256880734,
+        "chest_mean": 23.37458605504584
+      },
+      "sha256": "e580c63cd649f8d5437e5cff66da11c823b8025dfd4c5f2561d6609c6daa8339",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 31,
+      "file": "Images/31.png",
+      "skin": "Forest_Green",
+      "expression": "Sour",
+      "clothing": "Camo_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (13).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 190,
+        "top": 57,
+        "width": 862,
+        "height": 486
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Green.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 3,
+      "contrast": {
+        "score": 33.66216620554385,
+        "chest_clear_fraction": 0.7169421487603306,
+        "chest_mean": 32.32088574380163
+      },
+      "sha256": "e0c35fd028b14861255095d8eab5861a209c06ecfee580ccf6e6e5c30a4eac79",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 32,
+      "file": "Images/32.png",
+      "skin": "Forest_Green",
+      "expression": "Confused",
+      "clothing": "Military_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (6).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 241,
+        "top": 51,
+        "width": 756,
+        "height": 524
+      },
+      "background": "Assets/Enhanced_Backgrounds/Celestial.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 30.592994859303943,
+        "chest_clear_fraction": 0.5724020442930153,
+        "chest_mean": 26.695485519591166
+      },
+      "sha256": "841a0288d7860355ee94367819dcd2fe0c193998ffdf18420ad0fa0dc7163de3",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 33,
+      "file": "Images/33.png",
+      "skin": "Forest_Green",
+      "expression": "Angry",
+      "clothing": "Safari_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (22).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 356,
+        "top": 66,
+        "width": 579,
+        "height": 505
+      },
+      "background": "Assets/Enhanced_Backgrounds/Terra.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 40.57756754588662,
+        "chest_clear_fraction": 0.88,
+        "chest_mean": 44.231074500000005
+      },
+      "sha256": "388e44081db46a7f4b171000f0df50409581b80c582bcaafa239f519450347f2",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 34,
+      "file": "Images/34.png",
+      "skin": "Forest_Green",
+      "expression": "Sad",
+      "clothing": "Military_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Portal.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 32.010003645437614,
+        "chest_clear_fraction": 0.6600790513833992,
+        "chest_mean": 30.472131225296415
+      },
+      "sha256": "51b77793dad78da6c414c5772d1f7c22aae043de969573fb26d5853af08faad6",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 35,
+      "file": "Images/35.png",
+      "skin": "Forest_Green",
+      "expression": "Chill",
+      "clothing": "Winter_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (15).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 170,
+        "top": 65,
+        "width": 934,
+        "height": 392
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Green.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 30.677015911050233,
+        "chest_clear_fraction": 0.5724770642201835,
+        "chest_mean": 22.9783790825688
+      },
+      "sha256": "57b430f67036c92f40c06bbc1782c1384188570c11ad2afdaf3fd1960e938435",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 36,
+      "file": "Images/36.png",
+      "skin": "Honey_Gold",
+      "expression": "Amused",
+      "clothing": "Safari_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (19).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 248,
+        "top": 23,
+        "width": 634,
+        "height": 402
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Red.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 44.479551650478186,
+        "chest_clear_fraction": 0.8875,
+        "chest_mean": 44.45508800000002
+      },
+      "sha256": "7669195903408dc5628faa5c866eaa6f5a834fbc19de8fdfa5546688a5d29cf2",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 37,
+      "file": "Images/37.png",
+      "skin": "Honey_Gold",
+      "expression": "Angry",
+      "clothing": "Bomber_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Red.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 33.35522348023906,
+        "chest_clear_fraction": 0.752895752895753,
+        "chest_mean": 28.5665463320463
+      },
+      "sha256": "cb18048b9b2bd951f4daa084c532592ccf7b52509d6cd41259e9bd6486fc74ed",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 38,
+      "file": "Images/38.png",
+      "skin": "Honey_Gold",
+      "expression": "Chill",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (17).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 289,
+        "top": 109,
+        "width": 691,
+        "height": 600
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Orange.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 34.159619834305374,
+        "chest_clear_fraction": 0.7397003745318352,
+        "chest_mean": 33.21616554307116
+      },
+      "sha256": "4a220f0386ad9f2fae4f0b71696822e4ce13dbccb493c51d731b3a2ffc66c047",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 39,
+      "file": "Images/39.png",
+      "skin": "Honey_Gold",
+      "expression": "Chill",
+      "clothing": "Safari_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Neon_Orange.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 33.92635499601259,
+        "chest_clear_fraction": 0.6420454545454546,
+        "chest_mean": 30.367015530303
+      },
+      "sha256": "82b09eb2d04b244c875344fcfa4ca0683eac5522e913f647d083d8c78bda5889",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 40,
+      "file": "Images/40.png",
+      "skin": "Honey_Gold",
+      "expression": "Surprised",
+      "clothing": "Hoodie_White",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (19).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 253,
+        "top": 44,
+        "width": 611,
+        "height": 387
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Red.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 49.75070893845678,
+        "chest_clear_fraction": 0.9938080495356038,
+        "chest_mean": 54.350471826625395
+      },
+      "sha256": "f4af0638f9df016fd8d673676a38dd26ee6c10ac35489440fe95b3dfe3257a11",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 41,
+      "file": "Images/41.png",
+      "skin": "Coral_Red",
+      "expression": "Happy",
+      "clothing": "Bomber_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 34.22606819247049,
+        "chest_clear_fraction": 0.6920849420849421,
+        "chest_mean": 30.707097876447914
+      },
+      "sha256": "df291c4bb8d83759411442dba0d3bc49e0ad9f29c26ac9481e71f99bd6f670c7",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 42,
+      "file": "Images/42.png",
+      "skin": "Coral_Red",
+      "expression": "Angry",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (23).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 260,
+        "top": 169,
+        "width": 737,
+        "height": 366
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Red.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 34.52613208007239,
+        "chest_clear_fraction": 0.7359550561797753,
+        "chest_mean": 32.939731835206004
+      },
+      "sha256": "3cedd5e9f0f855afcea8c60e91996338c3f2493201f71d0ba5a6b222e9284339",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 43,
+      "file": "Images/43.png",
+      "skin": "Coral_Red",
+      "expression": "Sour",
+      "clothing": "Safari_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Celestial.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 43.78834430389468,
+        "chest_clear_fraction": 0.885,
+        "chest_mean": 44.00180300000002
+      },
+      "sha256": "89593e898b8eb3b43a8529016eaa382d240dff838baa6bfdc0d9e3be43d07c65",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 44,
+      "file": "Images/44.png",
+      "skin": "Coral_Red",
+      "expression": "Chill",
+      "clothing": "Bomber_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Cove.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 30.071662399764776,
+        "chest_clear_fraction": 0.49122807017543857,
+        "chest_mean": 21.332549707602364
+      },
+      "sha256": "f573e4af995ab73c713bbd11d623676f6f70c398f3a362ffa3ab789092851368",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 45,
+      "file": "Images/45.png",
+      "skin": "Coral_Red",
+      "expression": "Confused",
+      "clothing": "Winter_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 326,
+        "top": 78,
+        "width": 583,
+        "height": 450
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 29.560294955161996,
+        "chest_clear_fraction": 0.5192660550458715,
+        "chest_mean": 22.015242201834827
+      },
+      "sha256": "02521211df5c0507da8e04b4f1f834e29ab41b31b32cb7e1bf3802c19e983823",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 46,
+      "file": "Images/46.png",
+      "skin": "Hot_Pink",
+      "expression": "Sad",
+      "clothing": "Leather_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 268,
+        "top": 74,
+        "width": 719,
+        "height": 520
+      },
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Pink.png",
+      "caption": "Assets/Text/Pink_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 27.457156437498494,
+        "chest_clear_fraction": 0.4550561797752809,
+        "chest_mean": 20.485579400749067
+      },
+      "sha256": "ea1167b3922afd1c75dc7b3b3a060c36d6c05ae1747b24b0ace8b636f2191fac",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 47,
+      "file": "Images/47.png",
+      "skin": "Hot_Pink",
+      "expression": "Amused",
+      "clothing": "Hoodie_Black",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Pink.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 33.09002462917917,
+        "chest_clear_fraction": 0.6995412844036697,
+        "chest_mean": 31.812696330275216
+      },
+      "sha256": "1dae095d25a0bf78c4e9ccb0060a9c6e932b310fc8b550f0a87811785d4dac4a",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 48,
+      "file": "Images/48.png",
+      "skin": "Hot_Pink",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/UFO_Pink.png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 1,
+      "contrast": {
+        "score": 33.45502352788921,
+        "chest_clear_fraction": 0.673469387755102,
+        "chest_mean": 32.11111725417435
+      },
+      "sha256": "db7a066f7a4ff6a41bd4eb1950db962a93ff9bc3edbdacdb2cb185d0a0ea4651",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    },
+    {
+      "id": 49,
+      "file": "Images/49.png",
+      "skin": "Hot_Pink",
+      "expression": "Sour",
+      "clothing": "Winter_Jacket",
+      "underlayer": null,
+      "headwear": "Assets/Headwear/art-by-mattrick (12).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 66,
+        "top": 99,
+        "width": 1105,
+        "height": 1038
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
+      "caption": null,
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Headwear"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 36.85217862453248,
+        "chest_clear_fraction": 0.7974683544303798,
+        "chest_mean": 35.678041229656415
+      },
+      "sha256": "3c20fbfd58e540c0b72a083a6498bfea22d376a7eebe67d77b890c998d5ba2eb",
+      "review_action": "Unmarked: preserve the approved look"
+    },
+    {
+      "id": 50,
+      "file": "Images/50.png",
+      "skin": "Hot_Pink",
+      "expression": "Surprised",
+      "clothing": "Winter_Jacket",
+      "underlayer": null,
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "caption": "Assets/Text/Pink_Opaque.png",
+      "layer_order": [
+        "Background",
+        "Clothing",
+        "Expression",
+        "Text"
+      ],
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      },
+      "neck_gap_rows_max": 0,
+      "contrast": {
+        "score": 30.05830317703704,
+        "chest_clear_fraction": 0.6201834862385321,
+        "chest_mean": 26.354978715596317
+      },
+      "sha256": "2dbffb492a202aa95dcd2c37c38ead0b106b29147394db0e0a1c2e7343a92385",
+      "review_action": "X: remove rejected item; retain the remaining look"
+    }
+  ]
+}

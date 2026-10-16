@@ -1,6 +1,6 @@
 # Headwear overlays
 
-This folder contains 21 original visual reference PNGs and 82 aligned additions. All overlays use a transparent 1254 × 1254 RGBA canvas. The original `art-by-mattrick (6).png` through `(26).png` files are unchanged.
+This folder contains 19 remaining original visual reference PNGs and 82 aligned additions. Overlays use a transparent 1254 × 1254 RGBA canvas. The user rejected original items 10 and 16; those files are removed. The Angry expression has a reviewed override for the camo bucket hat (13).
 
 The 87 source images are preserved byte for byte in [Headwear-notprocessedyet](../../Headwear-notprocessedyet). Five unsuitable traits are excluded from the active additions and remain there for artwork rework.
 
@@ -18,12 +18,14 @@ The existing overlays in this folder are the visual reference. Match the part th
 | Bandanas | 9 |
 | Hoods / veils | 12 |
 | Bucket, top, and cowboy hats | 13, 14, 15 |
-| Backwards caps | 16 |
+| Backwards caps | 26 (replacement reference after item 16 was rejected) |
 | Aviator caps | 17 |
 | Helmets | 21 |
 | Baseball caps / knit caps | 26 |
 
 The PNGs fit the canonical Amused head. The supplied renderer applies a small uniform scale and translation for each of the other eight expressions, using skull width and a forehead anchor. Use it when mixing expressions; do not trim and independently stretch the head or headwear.
+
+`scripts/headwear-review.json` records the annotated user review. Rejected source items and the nine fitted beanie variants are removed from the active repository. The generator filters the rejection list even if a deleted file is accidentally restored. Reviewed helmet fits are retained per expression, and helmets always have a Spacesuit torso. The existing bronze hood is held out of generation because its opening obstructs the face.
 
 Composite whole canvases at 1254 × 1254: background → clothing → colored expression head → headwear. Avoid clothing that already includes a raised hood or another hat. The optional aligned generator mode applies those exclusions.
 

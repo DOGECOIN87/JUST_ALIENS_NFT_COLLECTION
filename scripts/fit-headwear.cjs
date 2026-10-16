@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Deterministic expression-specific fitting. Source artwork is preserved.
 const fs=require('node:fs'),path=require('node:path'),sharp=require('sharp');
+const review=require('./headwear-review.cjs');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'headwear-fitted');
 const expressionDir=path.join(root,'Assets/Expression_Colors/Platinum');
 const names=fs.readdirSync(expressionDir).filter(f=>f.endsWith('.png')).sort();
@@ -16,7 +17,7 @@ function category(desc){if(/cowboy|top hat|conical/.test(desc))return 'brim';if(
 const assets=[];
 for(const set of ['american','cultural'])for(const a of JSON.parse(fs.readFileSync(path.join(root,'Headwear-notprocessedyet',set,'manifest.json')))){assets.push({id:set+'-'+a.filename.slice(0,2),set,file:path.join('Headwear-notprocessedyet',set,a.filename),description:a.description,category:category(a.description)});}
 for(const file of fs.readdirSync(path.join(root,'headwear-sized')).filter(f=>f.endsWith('.png')).sort())assets.push({id:'supplied-'+path.parse(file).name,set:'supplied',file:path.join('headwear-sized',file),description:path.parse(file).name.replaceAll('_',' '),category:'supplied'});
-for(const name of ['Astronaut_Helmet','Beanie','Goggles','Spiky_Hair'])assets.push({id:'original-'+name,set:'original',file:'Assets/Clothing/'+name+'.png',description:name.replaceAll('_',' '),category:'original'});
+for(const name of ['Astronaut_Helmet','Goggles','Spiky_Hair'])assets.push({id:'original-'+name,set:'original',file:'Assets/Clothing/'+name+'.png',description:name.replaceAll('_',' '),category:'original'});
 (async()=>{
  fs.mkdirSync(out,{recursive:true});const heads={};
  for(const name of names){const m=await mask(path.join(expressionDir,name)),b=silhouette(m,true),k=1254/m.info.width;
@@ -27,10 +28,16 @@ for(const name of ['Astronaut_Helmet','Beanie','Goggles','Spiky_Hair'])assets.pu
  const reference=heads.Amused;
  const selected=process.env.FIT_ASSETS ? new Set(process.env.FIT_ASSETS.split(',')) : null;
  const previous=selected ? JSON.parse(fs.readFileSync(path.join(out,'manifest.json'))) : null;
- const records=previous ? previous.placements.filter(r=>!selected.has(r.asset)) : [];
+ const approvedHelmet=JSON.parse(fs.readFileSync(path.join(out,'manifest.json'))).placements.filter(r=>r.asset==='original-Astronaut_Helmet');
+ const records=previous ? previous.placements.filter(r=>!selected.has(r.asset)&&!review.review.removed_fitted_asset_ids.includes(r.asset)) : [];
  if(previous)for(const a of assets){const old=previous.assets.find(x=>x.id===a.id);if(old){a.sourceBounds=old.sourceBounds;a.contact=old.contact;}}
  for(const a of assets){if(selected&&!selected.has(a.id))continue;const m=await mask(path.join(root,a.file)),b=silhouette(m),contact=crownContact(m,b);a.sourceBounds={left:b.left,top:b.top,width:b.width,height:b.height};a.contact=contact;
  for(const [expression,head] of Object.entries(heads)){
+ if(a.id==='original-Astronaut_Helmet'){
+  const approved=approvedHelmet.find(r=>r.expression===expression&&r.reviewed);
+  if(!approved||!fs.existsSync(review.helmetFile(expression)))throw new Error('Missing reviewed helmet variant: '+expression);
+  records.push(approved);continue;
+ }
  let sx,sy,sourceX=(b.left+b.right)/2,sourceY=contact,targetX=head.cx,targetY=head.top+head.height*.37;
  if(a.category==='supplied'||a.category==='original'){
   const k=1254/m.info.width;const factor=a.category==='supplied'?(a.id.includes('Pharaoh')?1.05:1.10):1;

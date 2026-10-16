@@ -13,7 +13,7 @@
  *
  * The alien is one of the recoloured heads in Assets/Expression_Colors/:
  * Skin picks the colour folder, Expression picks the head inside it, and the
- * new Clothing layer dresses it (headwear like the beanie and goggles goes
+ * new Clothing layer dresses it (headwear like the helmet and goggles goes
  * over the head, jackets and hoodies go under it). The old grey
  * Assets/Expression heads are retired and are not used by the generator.
  *
@@ -34,6 +34,7 @@
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
+const review = require('./scripts/headwear-review.cjs');
 
 const SUPPLY = 1000;
 const SEED = 'just-aliens-1k';
@@ -51,8 +52,7 @@ const DARK_BACKGROUNDS = ['Abyss', 'UFO Inverted'];
 const SHOWS_ON_DARK = [
   'Android', 'OG',
   'Coral Red', 'Cyan', 'Forest Green', 'Honey Gold', 'Hot Pink', 'Lime', 'Platinum', 'Sky Blue', 'Violet',
-  'Beanie', 'Astronaut Helmet', 'Goggles', 'Hooded Jacket Grey', 'Hooded Jacket White',
-  'Hooded Jacket Gold', 'Hooded Jacket Camo', 'Hooded Jacket Bronze', 'Safari Jacket',
+  'Astronaut Helmet', 'Goggles', 'Safari Jacket',
   'Military Jacket', 'Camo Jacket', 'Spacesuit', 'Hoodie White',
 ];
 // (Graphite heads, the Infantry rare, and the dark garments stay off near-black.)
@@ -92,7 +92,7 @@ const SKINS = [
 ];
 
 // Headwear composites over the alien's head; everything else goes under it.
-const HEADWEAR = new Set(['Beanie', 'Astronaut Helmet', 'Spiky Hair', 'Goggles']);
+const HEADWEAR = new Set(['Astronaut Helmet', 'Spiky Hair', 'Goggles']);
 
 // Friendly names for the goats_contest_mattrick backgrounds (the halftone
 // copies keep their scene name plus a "Halftone" suffix for uniqueness).
@@ -118,12 +118,12 @@ const USE_ALIGNED_HEADWEAR = args.includes('--headwear-aligned');
 if (USE_FITTED_HEADWEAR && USE_ALIGNED_HEADWEAR) throw new Error('Choose only one headwear mode.');
 const USE_HEADWEAR = USE_FITTED_HEADWEAR || USE_ALIGNED_HEADWEAR;
 const ALIGNED_HEADWEAR = USE_ALIGNED_HEADWEAR
-  ? JSON.parse(fs.readFileSync(path.join(ASSETS, 'Headwear/alignment-manifest.json'))).assets : [];
+  ? JSON.parse(fs.readFileSync(path.join(ASSETS, 'Headwear/alignment-manifest.json'))).assets.filter(a => !review.excludedAsset(a)) : [];
 const ALIGNED_FILES = new Map(ALIGNED_HEADWEAR.map(a => [path.join(__dirname, a.file), a]));
 const alignedHeadwear = USE_ALIGNED_HEADWEAR ? require('./scripts/render-aligned-headwear.cjs').alignedHeadwear : null;
 const FITTED_HEADWEAR_DIR = path.join(__dirname, 'headwear-fitted');
 const FITTED_HEADWEAR = USE_FITTED_HEADWEAR
-  ? JSON.parse(fs.readFileSync(path.join(FITTED_HEADWEAR_DIR, 'manifest.json'))).assets
+  ? JSON.parse(fs.readFileSync(path.join(FITTED_HEADWEAR_DIR, 'manifest.json'))).assets.filter(a => !review.excludedAsset(a))
   : [];
 function fittedHeadwearFile(asset, expression) {
   return path.join(FITTED_HEADWEAR_DIR, path.parse(expression.file).name, asset.set, asset.id + '.png');
@@ -165,7 +165,7 @@ function displayName(file) {
 const IMG_EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
 function layer(dir) {
   return fs.readdirSync(path.join(ASSETS, dir))
-    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()))
+    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()) && !review.excludedFile(path.join(ASSETS, dir, f)))
     .sort()
     .map((f) => ({ file: path.join(ASSETS, dir, f), name: displayName(f) }));
 }
@@ -236,15 +236,24 @@ function plan() {
         traits.Skin = skin;
         traits.Expression = expression;
         // Headwear sits on the head; jackets and hoodies sit behind it.
-        if (clothing.headwear) files.push(head, clothing.file);
+        if (clothing.headwear) {
+          const bodies = LAYERS.Clothing.filter(c => !c.headwear && usable(background, c) && (clothing.name !== 'Astronaut Helmet' || c.name === 'Spacesuit'));
+          if (!bodies.length) throw new Error('No compatible torso for ' + clothing.name);
+          const torso = pick(bodies);
+          traits.Clothing = torso;
+          traits.Headwear = clothing;
+          files.push(torso.file, head, clothing.name === 'Astronaut Helmet' ? review.helmetFile(expression.name) : clothing.file);
+        }
         else files.push(clothing.file, head);
         if (USE_FITTED_HEADWEAR) {
-          const asset = pick(FITTED_HEADWEAR);
+          const asset = pick(FITTED_HEADWEAR.filter(a => a.id !== 'original-Astronaut_Helmet' || clothing.name === 'Spacesuit'));
           traits.Headwear = { name: asset.id };
           files.push(fittedHeadwearFile(asset, expression));
         }
         if (USE_ALIGNED_HEADWEAR) {
-          const asset = pick(ALIGNED_HEADWEAR);
+          const pool = ALIGNED_HEADWEAR.filter(a => (!a.allowedSkins || a.allowedSkins.includes(skin.name)) && (!a.allowedClothing || a.allowedClothing.includes(clothing.name)));
+          if (!pool.length) throw new Error('No compatible reviewed headwear');
+          const asset = pick(pool);
           traits.Headwear = { name: asset.id };
           files.push(path.join(__dirname, asset.file));
         }
@@ -284,7 +293,7 @@ function dna(traits) {
 const blurredBackgrounds = new Map();
 function blurredBackground(file) {
   if (!blurredBackgrounds.has(file)) {
-    blurredBackgrounds.set(file, sharp(file).blur(BACKGROUND_BLUR_SIGMA).png().toBuffer());
+    blurredBackgrounds.set(file, sharp(file).resize(960, 960, { fit: 'cover' }).blur(BACKGROUND_BLUR_SIGMA).png().toBuffer());
   }
   return blurredBackgrounds.get(file);
 }
@@ -300,7 +309,7 @@ async function render(piece) {
     ? await Promise.all(overlays.map(async (input) => ({ input: ALIGNED_FILES.has(input)
       ? await alignedHeadwear(ALIGNED_FILES.get(input), expression)
       : await sharp(input).resize(1254, 1254).png().toBuffer() })))
-    : overlays.map((input) => ({ input }));
+    : await Promise.all(overlays.map(async (input) => ({ input: await sharp(input).resize(960, 960).png().toBuffer() })));
   const flat = await sharp(backgroundBuffer)
     .composite(overlayLayers)
     .png()
@@ -339,7 +348,7 @@ async function contactSheet(pieces, file) {
 }
 
 // The pairing rules are shared with scripts/best-pairings.cjs.
-module.exports = { LAYERS, bodyFits, captionsFor, headFile, fittedHeadwearFile };
+module.exports = { LAYERS, bodyFits, captionsFor, headFile, fittedHeadwearFile, plan, render, metadata };
 
 if (require.main === module) (async () => {
   const pieces = plan();

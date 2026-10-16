@@ -1,0 +1,8 @@
+{
+  "mode": "aligned",
+  "passed": true,
+  "planned_pieces_checked": 10000,
+  "rendered_pieces": 2,
+  "rejected_sources_absent": true,
+  "helmet_requires_spacesuit": true
+}
