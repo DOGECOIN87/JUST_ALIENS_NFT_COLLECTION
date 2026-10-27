@@ -1,0 +1,196 @@
+{
+  "schema_version": 2,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "manifest": "trait-manifest.json",
+  "registration": "registration.json",
+  "description": "Just Aliens is a curated collection of 420 distinct extraterrestrials, featuring original alien artwork, coordinated materials, and cinematic or disclosure-inspired backgrounds. Bruh, it's just aliens. Dude relax.",
+  "skins": {
+    "Platinum": {
+      "name": "Platinum"
+    },
+    "Sky_Blue": {
+      "name": "Sky Blue"
+    },
+    "Cyan": {
+      "name": "Sea Glass"
+    },
+    "Lime": {
+      "name": "Lime"
+    },
+    "Forest_Green": {
+      "name": "Forest Jade"
+    },
+    "Coral_Red": {
+      "name": "Coral"
+    },
+    "Violet": {
+      "name": "Nebula Violet"
+    },
+    "Graphite": {
+      "name": "Slate"
+    },
+    "Hot_Pink": {
+      "name": "Orchid"
+    },
+    "Honey_Gold": {
+      "name": "Solar Gold"
+    }
+  },
+  "outfits": {
+    "Hoodie_Black": {
+      "name": "Obsidian Hoodie",
+      "file": "Assets/Clothing/Hoodie_Black.png"
+    },
+    "Tech_Jacket": {
+      "name": "Ion Tech Jacket",
+      "file": "Assets/Clothing/Tech_Jacket.png"
+    },
+    "Bomber_Jacket": {
+      "name": "Orbital Bomber",
+      "file": "Assets/Clothing/Bomber_Jacket.png"
+    },
+    "Military_Jacket": {
+      "name": "Recon Field Jacket",
+      "file": "Assets/Clothing/Military_Jacket.png"
+    },
+    "Hoodie_White": {
+      "name": "Ivory Hoodie",
+      "file": "Assets/Clothing/Hoodie_White.png"
+    },
+    "Leather_Jacket": {
+      "name": "Midnight Leather Jacket",
+      "file": "Assets/Clothing/Leather_Jacket.png"
+    },
+    "Safari_Jacket": {
+      "name": "Sandstone Field Jacket",
+      "file": "Assets/Clothing/Safari_Jacket.png"
+    },
+    "Camo_Jacket": {
+      "name": "Woodland Camo Jacket",
+      "file": "Assets/Clothing/Camo_Jacket.png"
+    },
+    "Winter_Jacket": {
+      "name": "Expedition Shearling Jacket",
+      "file": "Assets/Clothing/Winter_Jacket.png"
+    },
+    "Spacesuit": {
+      "name": "Orbital Suit",
+      "file": "Assets/Clothing/Spacesuit.png"
+    }
+  },
+  "backgrounds": {
+    "Cubes": {
+      "name": "Cinematic Cubes",
+      "file": "Assets/Backgrounds/Cubes.png",
+      "people": false
+    },
+    "Spheres": {
+      "name": "Spotlight Spheres",
+      "file": "Assets/Backgrounds/Spheres.png",
+      "people": false
+    },
+    "Pyramids": {
+      "name": "Pyramid Dunes",
+      "file": "Assets/Backgrounds/Pyramids.png",
+      "people": false
+    },
+    "Cavern": {
+      "name": "Cavern of Light",
+      "file": "Assets/Backgrounds/Cavern.png",
+      "people": false
+    },
+    "Forest": {
+      "name": "Moonlit Encounter",
+      "file": "Assets/Backgrounds/Forest.png",
+      "people": false
+    },
+    "StormCockpit": {
+      "name": "Stormfront Cockpit",
+      "file": "Assets/Backgrounds/StormCockpit.png",
+      "people": false
+    },
+    "SunsetCockpit": {
+      "name": "Sunset Runway",
+      "file": "Assets/Backgrounds/SunsetCockpit.png",
+      "people": false
+    },
+    "Corridor": {
+      "name": "Amber Corridor",
+      "file": "Assets/Backgrounds/Corridor.png",
+      "people": false
+    },
+    "Wormhole": {
+      "name": "Wormhole Vortex",
+      "file": "Assets/Backgrounds/Wormhole.png",
+      "people": false
+    },
+    "Spiral": {
+      "name": "Cosmic Spiral",
+      "file": "Assets/Backgrounds/Spiral.png",
+      "people": false
+    },
+    "Witness": {
+      "name": "DeLonge",
+      "file": "Assets/Backgrounds/Witness.png",
+      "people": true
+    },
+    "Broadcaster": {
+      "name": "Bledsoe",
+      "file": "Assets/Backgrounds/Broadcaster.png",
+      "people": true
+    },
+    "Analyst": {
+      "name": "Lazar",
+      "file": "Assets/Backgrounds/Analyst.png",
+      "people": true
+    },
+    "Disclosure": {
+      "name": "Burchett",
+      "file": "Assets/Backgrounds/Disclosure.png",
+      "people": true
+    },
+    "LiveSignal": {
+      "name": "Elizondo",
+      "file": "Assets/Backgrounds/LiveSignal.png",
+      "people": true
+    },
+    "Whiteboard": {
+      "name": "Roder",
+      "file": "Assets/Backgrounds/Whiteboard.png",
+      "people": true
+    },
+    "Headset": {
+      "name": "Quirk",
+      "file": "Assets/Backgrounds/Headset.png",
+      "people": true
+    },
+    "Hearing": {
+      "name": "Grusch",
+      "file": "Assets/Backgrounds/Hearing.png",
+      "people": true
+    }
+  },
+  "excluded_background_files": [
+    "Warzone_Meme.jpeg",
+    "Warzone_Meme.png"
+  ],
+  "excluded_outfits": [
+    "Hooded_Jacket_Bronze",
+    "Hooded_Jacket_Grey",
+    "Hooded_Jacket_White",
+    "Hooded_Jacket_Camo",
+    "Hooded_Jacket_Gold",
+    "Hooded_Jacket_Black_Red"
+  ],
+  "excluded_headwear": [
+    "Astronaut_Helmet",
+    "Space_Helmet",
+    "original-Beanie",
+    "art-by-mattrick (10)",
+    "art-by-mattrick (16)"
+  ],
+  "captions": "None"
+}

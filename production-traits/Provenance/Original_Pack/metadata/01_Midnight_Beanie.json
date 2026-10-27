@@ -1,0 +1,100 @@
+{
+  "id": 1,
+  "trait_type": "Headwear",
+  "value": "Midnight Beanie",
+  "native_asset": "Headwear/01_Midnight_Beanie.png",
+  "front_layer": "Fitted/Front/01_Midnight_Beanie.png",
+  "back_layer": null,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "baseline_expression": "Chill",
+  "character_offset": [
+    147,
+    294
+  ],
+  "native_sha256": "08c3cce7d5e5ce0c53ea69a495a767269e54fff0ef7a048398ddb75c63bdca0e",
+  "front_sha256": "87aeb7b753d1aab3f20adb43e5928f898911fc38c63e7e5b6f289ef819496486",
+  "back_sha256": null,
+  "source_design_sheet": 1,
+  "source_design_position": [
+    1,
+    1
+  ],
+  "uniform_registration": {
+    "left": 302,
+    "top": 187,
+    "width": 650,
+    "height": 545,
+    "source_crop": {
+      "left": 23,
+      "top": 122,
+      "width": 1208,
+      "height": 1012,
+      "frontY": 804,
+      "centerX": 627,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "transparentPixels": 838856,
+      "visiblePixels": 719763
+    },
+    "scale": 0.5380794701986755
+  },
+  "expressions": {
+    "Chill": {
+      "translate_x": 0,
+      "translate_y": 0,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Amused": {
+      "translate_x": 0,
+      "translate_y": -2,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Angry": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Confused": {
+      "translate_x": 0,
+      "translate_y": -5,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Curious": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Happy": {
+      "translate_x": 0,
+      "translate_y": -12,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sad": {
+      "translate_x": 0,
+      "translate_y": -17,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sour": {
+      "translate_x": 0,
+      "translate_y": 1,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Surprised": {
+      "translate_x": 0,
+      "translate_y": 4,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    }
+  }
+}

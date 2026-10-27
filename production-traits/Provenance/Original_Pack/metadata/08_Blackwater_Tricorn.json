@@ -1,0 +1,100 @@
+{
+  "id": 8,
+  "trait_type": "Headwear",
+  "value": "Blackwater Tricorn",
+  "native_asset": "Headwear/08_Blackwater_Tricorn.png",
+  "front_layer": "Fitted/Front/08_Blackwater_Tricorn.png",
+  "back_layer": null,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "baseline_expression": "Chill",
+  "character_offset": [
+    147,
+    294
+  ],
+  "native_sha256": "8234c455e15b0271b828da06feb8099d6edaf268f640a8e602d5dabb5fa7e097",
+  "front_sha256": "17bf7e4daa4b9cc075aabf3c32de06feb99ae8d04be0ad4ce26039c9fc91ebfd",
+  "back_sha256": null,
+  "source_design_sheet": 1,
+  "source_design_position": [
+    2,
+    4
+  ],
+  "uniform_registration": {
+    "left": 227,
+    "top": 176,
+    "width": 800,
+    "height": 486,
+    "source_crop": {
+      "left": 18,
+      "top": 256,
+      "width": 1218,
+      "height": 740,
+      "frontY": 714,
+      "centerX": 627,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "transparentPixels": 1073741,
+      "visiblePixels": 489003
+    },
+    "scale": 0.6568144499178982
+  },
+  "expressions": {
+    "Chill": {
+      "translate_x": 0,
+      "translate_y": 0,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Amused": {
+      "translate_x": 0,
+      "translate_y": -6,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Angry": {
+      "translate_x": 0,
+      "translate_y": 34,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Confused": {
+      "translate_x": 0,
+      "translate_y": 47,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Curious": {
+      "translate_x": 0,
+      "translate_y": 34,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Happy": {
+      "translate_x": 0,
+      "translate_y": 40,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sad": {
+      "translate_x": 0,
+      "translate_y": 35,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sour": {
+      "translate_x": 0,
+      "translate_y": 53,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Surprised": {
+      "translate_x": 0,
+      "translate_y": 56,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": 9,
+  "trait_type": "Headwear",
+  "value": "Orbital Officer",
+  "native_asset": "Headwear/09_Orbital_Officer.png",
+  "front_layer": "Fitted/Front/09_Orbital_Officer.png",
+  "back_layer": null,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "baseline_expression": "Chill",
+  "character_offset": [
+    147,
+    294
+  ],
+  "native_sha256": "113256a3bc2558095988ebcdd94764e0aa9ba830d63f5e553892f8f457a81ff9",
+  "front_sha256": "e24dfae1ff0e559cbb9c8202682837467d61a8fbe5574eb0cdb25259ebc5576c",
+  "back_sha256": null,
+  "source_design_sheet": 1,
+  "source_design_position": [
+    3,
+    1
+  ],
+  "uniform_registration": {
+    "left": 272,
+    "top": 160,
+    "width": 710,
+    "height": 452,
+    "source_crop": {
+      "left": 34,
+      "top": 250,
+      "width": 1186,
+      "height": 755,
+      "frontY": 900,
+      "centerX": 627,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "transparentPixels": 946097,
+      "visiblePixels": 616492
+    },
+    "scale": 0.5986509274873525
+  },
+  "expressions": {
+    "Chill": {
+      "translate_x": 0,
+      "translate_y": 0,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Amused": {
+      "translate_x": 0,
+      "translate_y": -2,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Angry": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Confused": {
+      "translate_x": 0,
+      "translate_y": -5,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Curious": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Happy": {
+      "translate_x": 0,
+      "translate_y": -12,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sad": {
+      "translate_x": 0,
+      "translate_y": -17,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sour": {
+      "translate_x": 0,
+      "translate_y": 1,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Surprised": {
+      "translate_x": 0,
+      "translate_y": 4,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    }
+  }
+}

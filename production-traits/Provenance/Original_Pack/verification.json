@@ -1,0 +1,289 @@
+{
+  "status": "passed",
+  "logical_headwear_traits": 24,
+  "transparent_native_masters": [
+    {
+      "id": 1,
+      "name": "Midnight Beanie",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 2,
+      "name": "Signal Blocker",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 3,
+      "name": "Contact Beret",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 4,
+      "name": "High Plains",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 5,
+      "name": "Lunar Ushanka",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 6,
+      "name": "Field Surveyor",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 7,
+      "name": "Bamboo Wanderer",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 8,
+      "name": "Blackwater Tricorn",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 9,
+      "name": "Orbital Officer",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 10,
+      "name": "Roswell Hardhat",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 11,
+      "name": "Static Newsboy",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 12,
+      "name": "Sundown Boater",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 13,
+      "name": "Acid Rain",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 14,
+      "name": "Blackout Bowler",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 15,
+      "name": "Redshift Fez",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 16,
+      "name": "Night Drive",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 17,
+      "name": "Zero-G Audio",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 18,
+      "name": "Void Scholar",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 19,
+      "name": "Deepwater Sailor",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 20,
+      "name": "Galley Chief",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 21,
+      "name": "Midnight Jester",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 22,
+      "name": "Desert Fiesta",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 23,
+      "name": "Skyline Crest",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    },
+    {
+      "id": 24,
+      "name": "First Contact",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "copy_exact": true,
+      "expressions_checked": 9
+    }
+  ],
+  "expression_registrations_checked": 216,
+  "inspection_images": 50,
+  "inspection_json": 50,
+  "all_images_lossless_pixels_exact": true,
+  "all_inspection_images_unique": true,
+  "headwear_visibility_counts": {
+    "Midnight Beanie": 2,
+    "Signal Blocker": 2,
+    "Contact Beret": 2,
+    "High Plains": 2,
+    "Lunar Ushanka": 2,
+    "Field Surveyor": 2,
+    "Bamboo Wanderer": 2,
+    "Blackwater Tricorn": 2,
+    "Orbital Officer": 2,
+    "Roswell Hardhat": 2,
+    "Static Newsboy": 2,
+    "Sundown Boater": 2,
+    "Acid Rain": 2,
+    "Blackout Bowler": 2,
+    "Redshift Fez": 2,
+    "Night Drive": 2,
+    "Zero-G Audio": 3,
+    "Void Scholar": 2,
+    "Deepwater Sailor": 2,
+    "Galley Chief": 2,
+    "Midnight Jester": 2,
+    "Desert Fiesta": 2,
+    "Skyline Crest": 3,
+    "First Contact": 2
+  },
+  "backgrounds_used": [
+    "Stormfront Cockpit",
+    "Spotlight Spheres",
+    "Wormhole Vortex",
+    "Cosmic Spiral",
+    "Cinematic Cubes",
+    "DeLonge",
+    "Sunset Runway",
+    "Cavern of Light",
+    "Moonlit Encounter",
+    "Burchett",
+    "Pyramid Dunes",
+    "Bledsoe",
+    "Lazar",
+    "Amber Corridor",
+    "Grusch",
+    "Quirk",
+    "Roder",
+    "Elizondo"
+  ],
+  "original_sources_verified": 113,
+  "sheet": {
+    "path": "/workspace/scratch/81fbc782112b/just_aliens_24_traits/deliverables/Just_Aliens_New_Headwear_50_Inspection.png",
+    "width": 2500,
+    "height": 6012,
+    "bytes": 27184233
+  },
+  "original_source_color_or_geometry_edits": 0,
+  "portable_renderer_pixels_match_samples": [
+    1,
+    9,
+    25,
+    31,
+    33,
+    43
+  ]
+}

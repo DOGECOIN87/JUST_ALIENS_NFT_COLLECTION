@@ -1,0 +1,100 @@
+{
+  "id": 22,
+  "trait_type": "Headwear",
+  "value": "Desert Fiesta",
+  "native_asset": "Headwear/22_Desert_Fiesta.png",
+  "front_layer": "Fitted/Front/22_Desert_Fiesta.png",
+  "back_layer": null,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "baseline_expression": "Chill",
+  "character_offset": [
+    147,
+    294
+  ],
+  "native_sha256": "24351b650fa938692cdb4f54ab58a238cb7a7b508421ee14300a59b4873a8808",
+  "front_sha256": "5b5540d4cf3dba7f0e80631988c67bb4d71f3fa6e4906b43003213fdaed053e0",
+  "back_sha256": null,
+  "source_design_sheet": 2,
+  "source_design_position": [
+    3,
+    2
+  ],
+  "uniform_registration": {
+    "left": 171,
+    "top": 34,
+    "width": 913,
+    "height": 530,
+    "source_crop": {
+      "left": 11,
+      "top": 269,
+      "width": 1232,
+      "height": 716,
+      "frontY": 944,
+      "centerX": 627,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "transparentPixels": 997867,
+      "visiblePixels": 562743
+    },
+    "scale": 0.7407407407407407
+  },
+  "expressions": {
+    "Chill": {
+      "translate_x": 0,
+      "translate_y": 0,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Amused": {
+      "translate_x": 0,
+      "translate_y": -2,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Angry": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Confused": {
+      "translate_x": 0,
+      "translate_y": -5,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Curious": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Happy": {
+      "translate_x": 0,
+      "translate_y": -12,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sad": {
+      "translate_x": 0,
+      "translate_y": -17,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sour": {
+      "translate_x": 0,
+      "translate_y": 1,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Surprised": {
+      "translate_x": 0,
+      "translate_y": 4,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    }
+  }
+}

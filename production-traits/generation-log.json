@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Midnight Beanie",
+    "source": "Source_Masters/Edited/01_Midnight_Beanie.png",
+    "original": "Source_Masters/Originals/01_Midnight_Beanie.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Edit target image 1 is the approved NFT headwear master. Image 2 is a SHAPE reference for the alien's domed forehead only, do not draw it. Perform only the following fit-related construction changes while preserving original identity, materials, colors, upper-left lighting and detailed art style. Keep charcoal ribbed knit, folded cuff, and four-point silver star at viewer right. Reconstruct a snug short-crown fisherman beanie rather than a tall baggy dome. Crown above cuff should be about the cuff height; use real knit curvature with undistorted stitches. Overall silhouette 1.85 times wider than tall, including tiny temple returns. Forehead front lip gently arches upward at image center. Open underside, no long curled mannequin-like side prongs. Output ONE complete isolated hat alone on genuine transparent alpha, large and fully inside frame with clear margins. No alien, no head, no skin, no mannequin, no opaque opening fill, no scene, no text, no grid. No extreme pixel stretching: reconstruct the changed geometry artistically.",
+    "source_bbox": [
+      39,
+      116,
+      1570,
+      885
+    ],
+    "source_contact_y": 702
+  },
+  {
+    "id": 2,
+    "name": "Signal Blocker",
+    "source": "Source_Masters/Edited/02_Signal_Blocker.png",
+    "original": "Source_Masters/Originals/02_Signal_Blocker.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Edit target image 1 is the approved NFT headwear master. Image 2 is a SHAPE reference for the alien's domed forehead only, do not draw it. Perform only the following fit-related construction changes while preserving original identity, materials, colors, upper-left lighting and detailed art style. Keep bright crumpled faceted aluminum foil, irregular pointed tip, and hand-folded angular silhouette. Reconstruct as a low dome with a short bent foil peak; overall silhouette 1.9 times wider than tall. Its forehead opening must be broad enough for the referenced alien, with a curved front edge. Fold the peak lower naturally, do not squash foil facets. No long sharp prongs dropping beside the eyes. Output ONE complete isolated hat alone on genuine transparent alpha, large and fully inside frame with clear margins. No alien, no head, no skin, no mannequin, no opaque opening fill, no scene, no text, no grid. No extreme pixel stretching: reconstruct the changed geometry artistically.",
+    "source_bbox": [
+      51,
+      92,
+      1683,
+      887
+    ],
+    "source_contact_y": 695
+  },
+  {
+    "id": 3,
+    "name": "Contact Beret",
+    "source": "Source_Masters/Edited/03_Contact_Beret.png",
+    "original": "Source_Masters/Originals/03_Contact_Beret.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Edit target image 1 is the approved NFT headwear master. Image 2 is a SHAPE reference for the alien's domed forehead only, do not draw it. Perform only the following fit-related construction changes while preserving original identity, materials, colors, upper-left lighting and detailed art style. Keep exact crimson felt beret, black leather edge band, and silver UFO pin at viewer right. Lower the crown slightly to a believable soft slouch and widen the wearable band opening without widening the cloth irregularly. Short temple returns instead of long pointed prongs; front band arches upward in image center naturally around a convex forehead. Overall silhouette roughly 2.2 times wider than tall. Detailed felt and metal remain. Output ONE complete isolated hat alone on genuine transparent alpha, large and fully inside frame with clear margins. No alien, no head, no skin, no mannequin, no opaque opening fill, no scene, no text, no grid. No extreme pixel stretching: reconstruct the changed geometry artistically.",
+    "source_bbox": [
+      89,
+      112,
+      1791,
+      777
+    ],
+    "source_contact_y": 598
+  },
+  {
+    "id": 4,
+    "name": "High Plains",
+    "source": "Source_Masters/Edited/04_High_Plains.png",
+    "original": "Source_Masters/Originals/04_High_Plains.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Edit target image 1 is the approved NFT headwear master. Image 2 is a SHAPE reference for the alien's domed forehead only, do not draw it. Perform only the following fit-related construction changes while preserving original identity, materials, colors, upper-left lighting and detailed art style. Keep this exact dark weathered leather wide-brim flat-topped hat, rust-brown band and silver four-point compass medallion at viewer right. Rebuild its crown about 30 percent lower and broader at the base for a large alien skull. Broaden the crown opening relative to brim: crown width should be 70 percent of total brim width. Keep a broad horizontal continuous curved brim in coherent near-frontal perspective. Overall total hat silhouette around 2.7 times wider than tall. Do not flatten the brim into a straight cutoff. Output ONE complete isolated hat alone on genuine transparent alpha, large and fully inside frame with clear margins. No alien, no head, no skin, no mannequin, no opaque opening fill, no scene, no text, no grid. No extreme pixel stretching: reconstruct the changed geometry artistically.",
+    "source_bbox": [
+      22,
+      145,
+      1962,
+      745
+    ],
+    "source_contact_y": 744
+  },
+  {
+    "id": 5,
+    "name": "Lunar Ushanka",
+    "source": "Source_Masters/Edited/05_Lunar_Ushanka.png",
+    "original": "Source_Masters/Originals/05_Lunar_Ushanka.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is the approved navy leather, cream shearling, cyan-stitched ushanka with brown top bow. Image 2 shows a FITTING ERROR: the alien face is correct and fixed, but the foreground fur has an ugly straight cut at its lower edge. Rebuild the HAT ONLY to fit that exact wide alien skull naturally. Preserve original hat identity, materials, colors, cyan seams, bow, lighting, details. Crucial construction correction: make the FOREHEAD FUR CUFF THIN and almost horizontal, with a continuous gently arched naturally scalloped fur edge, NOT a deep inverted U. The front forehead cuff is a distinct wide strip, only one sixth of the crown height. Make the face opening very broad: clear inner distance between hanging flaps is 78 percent of total hat width. Fur flaps are narrow, hang outside the temples, no inward curling into eye sockets. Crown low and broad. Do not put any straight cut line through fur. Output ONE complete hat alone on genuine transparent alpha, no alien/head/mannequin/skin, no image of the bad composite, no text. Fully inside image with clear margins. Native detailed painting, no squash/stretch.",
+    "source_bbox": [
+      18,
+      113,
+      1236,
+      1161
+    ],
+    "source_contact_y": 607
+  },
+  {
+    "id": 6,
+    "name": "Field Surveyor",
+    "source": "Source_Masters/Edited/06_Field_Surveyor.png",
+    "original": "Source_Masters/Originals/06_Field_Surveyor.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is the exact approved hat edit target; image 2 is alien forehead shape reference only, MUST NOT appear in output. Make only necessary fit-related construction changes. Keep weathered sand canvas safari/pith helmet, olive woven band, brass ventilation grommets and small crown button. Make the dome about 35 percent lower with a broader wearable crown base, retaining natural curved panels. Overall hat silhouette 2.4 times wider than tall. Broad shallow front brim, short curved rear brim returns, natural complete underside opening. No long pointed prongs. Preserve original identity, colors, materials, upper-left illumination and detailed painting style. Output ONE large complete isolated hat on real transparent alpha with clear margins. No alien, no head, no skin, no mannequin, no opaque filler, no labels, no scene, no grid. Reconstruct geometry artistically rather than stretching existing pixels.",
+    "source_bbox": [
+      19,
+      110,
+      1923,
+      766
+    ],
+    "source_contact_y": 660
+  },
+  {
+    "id": 7,
+    "name": "Bamboo Wanderer",
+    "source": "Source_Masters/Edited/07_Bamboo_Wanderer.png",
+    "original": "Source_Masters/Originals/07_Bamboo_Wanderer.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is the exact approved hat edit target; image 2 is alien forehead shape reference only, MUST NOT appear in output. Make only necessary fit-related construction changes. Keep warm gold woven bamboo conical hat with dark brown radial ribs, bound rim and top cap. Rebuild a shallower cone, overall hat width-to-height 2.55:1. True conical construction with detailed undistorted basket weave and slightly domed elliptical brim. Rear underside rim complete, open wearable underside, no long mannequin-head prongs. Preserve original identity, colors, materials, upper-left illumination and detailed painting style. Output ONE large complete isolated hat on real transparent alpha with clear margins. No alien, no head, no skin, no mannequin, no opaque filler, no labels, no scene, no grid. Reconstruct geometry artistically rather than stretching existing pixels.",
+    "source_bbox": [
+      17,
+      75,
+      1987,
+      758
+    ],
+    "source_contact_y": 560
+  },
+  {
+    "id": 8,
+    "name": "Blackwater Tricorn",
+    "source": "Source_Masters/Edited/08_Blackwater_Tricorn.png",
+    "original": "Source_Masters/Originals/08_Blackwater_Tricorn.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target; image 2 is the alien skull reference for fitting only, DO NOT DRAW THE ALIEN. Keep exact aged black leather tricorn, brass edge binding and two brass buttons on viewer right. Make a lower, broader crown and shorten the long pointed rear returns to modest curves. Open underside, broad forehead-facing opening. Total silhouette 2.2 times wider than tall. Preserve all three curled brim points and worn leather texture. Preserve design identity, original colors, upper-left lighting and detailed painted material. Make construction changes artistically, no pixel squash. Output ONE complete isolated accessory alone on genuine transparent alpha, with generous clear margins. No head, no mannequin, no skin, no labels, no scene, no extra object, no drawn checkerboard.",
+    "source_bbox": [
+      35,
+      110,
+      1826,
+      792
+    ],
+    "source_contact_y": 573
+  },
+  {
+    "id": 9,
+    "name": "Orbital Officer",
+    "source": "Source_Masters/Edited/09_Orbital_Officer.png",
+    "original": "Source_Masters/Originals/09_Orbital_Officer.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is the exact approved hat edit target; image 2 is alien forehead shape reference only, MUST NOT appear in output. Make only necessary fit-related construction changes. Keep midnight navy peaked officer cap, thin ivory piping, silver Saturn badge, black patent leather bill and silver temple buttons. Reconstruct a crown about 35 percent lower and a broader wearable band. Overall hat silhouette about 2.2 times wider than tall. Natural near-frontal perspective with front lip arcing upward at center, patent bill projecting forward, short temple returns instead of long dangling prongs. Preserve elegant detailed material. Preserve original identity, colors, materials, upper-left illumination and detailed painting style. Output ONE large complete isolated hat on real transparent alpha with clear margins. No alien, no head, no skin, no mannequin, no opaque filler, no labels, no scene, no grid. Reconstruct geometry artistically rather than stretching existing pixels.",
+    "source_bbox": [
+      52,
+      126,
+      1808,
+      785
+    ],
+    "source_contact_y": 784
+  },
+  {
+    "id": 10,
+    "name": "Roswell Hardhat",
+    "source": "Source_Masters/Edited/10_Roswell_Hardhat.png",
+    "original": "Source_Masters/Originals/10_Roswell_Hardhat.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target, image 2 is the fixed alien skull SHAPE reference only and must not appear in output. Keep exact battered yellow miner hardhat, chipped paint, ribbed reinforced center ridge, circular silver headlamp and side ventilation slots. Artistically rebuild the crown 30 percent LOWER and a little BROADER with the same materials. Widen the wearable opening relative to total silhouette; target overall width-to-height 2.2:1. Keep a shallow continuous yellow front brim with natural upward arch in image center. Remove the long black suspension prongs from the front view; they belong INSIDE and BEHIND the skull, with only short inner temple mounts visible. Short rear brim returns, no pointed shapes dangling beside eyes. Preserve original colors, weathering, details, upper-left lighting and design identity. Output ONE complete isolated hat on genuine transparent alpha, with clear margin, no head/mannequin/skin, no filler, no text, no scene. Near-frontal view matching source. Make the fit changes artistically.",
+    "source_bbox": [
+      34,
+      76,
+      1824,
+      782
+    ],
+    "source_contact_y": 658
+  },
+  {
+    "id": 11,
+    "name": "Static Newsboy",
+    "source": "Source_Masters/Edited/11_Static_Newsboy.png",
+    "original": "Source_Masters/Originals/11_Static_Newsboy.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target, image 2 is the fixed alien skull SHAPE reference only and must not appear in output. Keep this exact charcoal herringbone tweed eight-panel newsboy cap, stitched seams, top button and short rounded bill. Reconstruct it as a lower, broader crown: total silhouette width-to-height 2.3:1. Preserve crisp undistorted herringbone texture and natural cloth folds, do not squash pixels. Broaden the forehead opening; front bill is thin, shallow and arches upward gently at image center. Remove long downward rear band prongs; only short natural temple returns remain. Crown less tall so the cap can sit above the brows while enclosing the alien dome. Preserve original colors, weathering, details, upper-left lighting and design identity. Output ONE complete isolated hat on genuine transparent alpha, with clear margin, no head/mannequin/skin, no filler, no text, no scene. Near-frontal view matching source. Make the fit changes artistically.",
+    "source_bbox": [
+      21,
+      346,
+      1234,
+      928
+    ],
+    "source_contact_y": 866
+  },
+  {
+    "id": 12,
+    "name": "Sundown Boater",
+    "source": "Source_Masters/Edited/12_Sundown_Boater.png",
+    "original": "Source_Masters/Originals/12_Sundown_Boater.png",
+    "edited": false,
+    "prompt": "",
+    "source_bbox": [
+      14,
+      326,
+      1240,
+      907
+    ],
+    "source_contact_y": 906
+  },
+  {
+    "id": 13,
+    "name": "Acid Rain",
+    "source": "Source_Masters/Edited/13_Acid_Rain.png",
+    "original": "Source_Masters/Originals/13_Acid_Rain.png",
+    "edited": false,
+    "prompt": "",
+    "source_bbox": [
+      16,
+      192,
+      1238,
+      1065
+    ],
+    "source_contact_y": 1008
+  },
+  {
+    "id": 14,
+    "name": "Blackout Bowler",
+    "source": "Source_Masters/Edited/14_Blackout_Bowler.png",
+    "original": "Source_Masters/Originals/14_Blackout_Bowler.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target; image 2 is the alien skull reference for fitting only, DO NOT DRAW THE ALIEN. Keep charcoal worn felt bowler, black ribbed grosgrain band, curved brim and silver ringed planet pin at viewer right. Rebuild a lower rounded crown like a real compact derby hat, broaden the crown base relative to brim. Overall silhouette 2.0 times wider than tall. Tiny rear returns, large open underside, no pointed eye-length prongs. Preserve design identity, original colors, upper-left lighting and detailed painted material. Make construction changes artistically, no pixel squash. Output ONE complete isolated accessory alone on genuine transparent alpha, with generous clear margins. No head, no mannequin, no skin, no labels, no scene, no extra object, no drawn checkerboard.",
+    "source_bbox": [
+      46,
+      96,
+      1728,
+      818
+    ],
+    "source_contact_y": 793
+  },
+  {
+    "id": 15,
+    "name": "Redshift Fez",
+    "source": "Source_Masters/Edited/15_Redshift_Fez.png",
+    "original": "Source_Masters/Originals/15_Redshift_Fez.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target; image 2 is the alien skull reference for fitting only, DO NOT DRAW THE ALIEN. Keep exact red embroidered felt fez, black tassel at viewer right and small brass Saturn pin. Make the truncated-cone crown SHORTER and wider, maintaining fabric pattern and gravity of tassel. Overall silhouette about 1.9 times wider than tall. Broad gently arched open wearable underside, short rear lip; no long pointed ends. Preserve design identity, original colors, upper-left lighting and detailed painted material. Make construction changes artistically, no pixel squash. Output ONE complete isolated accessory alone on genuine transparent alpha, with generous clear margins. No head, no mannequin, no skin, no labels, no scene, no extra object, no drawn checkerboard.",
+    "source_bbox": [
+      81,
+      128,
+      1667,
+      831
+    ],
+    "source_contact_y": 651
+  },
+  {
+    "id": 16,
+    "name": "Night Drive",
+    "source": "Source_Masters/Edited/16_Night_Drive.png",
+    "original": "Source_Masters/Originals/16_Night_Drive.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Edit the exact approved navy-and-ivory visor shown. Preserve navy cloth, thin cyan accent at viewer left, ivory bill, stitching and lighting. Rebuild as a THIN LOW PROFILE sports visor for an alien: forehead band only about 4 percent of bill width tall; bill's visible vertical depth only about 7 percent of bill width. The total silhouette including the shallow rear strap should be about 5.5 times wider than tall. Band curves upward at image center, follows convex forehead. Remove the two upright ivory lining tabs at the temples; fold the lining inward and out of view. Band outer width about 78 percent of bill width. Rear strap forms a complete shallow ellipse behind the opening. Top fully OPEN, no dome, no skull silhouette, real transparent hole. ONE visor alone on genuine transparent alpha, with clear margins, no head, no mannequin, no filler, no labels. Preserve detailed materials without pixel compression.",
+    "source_bbox": [
+      16,
+      136,
+      2089,
+      657
+    ],
+    "source_contact_y": 585
+  },
+  {
+    "id": 17,
+    "name": "Zero-G Audio",
+    "source": "Source_Masters/Edited/17_Zero_G_Audio.png",
+    "original": "Source_Masters/Originals/17_Zero_G_Audio.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target; image 2 is the alien skull reference for fitting only, DO NOT DRAW THE ALIEN. Keep exact retro-futuristic headphones, brushed silver and copper shells, black stitched leather headband/cushions, cyan round lights. Correct earcups to a narrower visible SIDE-ON orientation so they sit OUTSIDE a wide alien head, rather than facing viewer as giant flat discs. Widen the open interior: clear distance between inner cushions equals about 62 percent of total external width at earcup level; each visible earcup about 18 percent external width. Reconstruct longer adjustable rails and coherent domed band. Overall external width-to-height about 1.3:1. Band must fit the long rounded alien cranium, with real empty transparent interior, no black filler. Both earcups retained, natural symmetric mounting. Preserve design identity, original colors, upper-left lighting and detailed painted material. Make construction changes artistically, no pixel squash. Output ONE complete isolated accessory alone on genuine transparent alpha, with generous clear margins. No head, no mannequin, no skin, no labels, no scene, no extra object, no drawn checkerboard.",
+    "source_bbox": [
+      32,
+      49,
+      1394,
+      1040
+    ],
+    "source_contact_y": 239
+  },
+  {
+    "id": 18,
+    "name": "Void Scholar",
+    "source": "Source_Masters/Edited/18_Void_Scholar.png",
+    "original": "Source_Masters/Originals/18_Void_Scholar.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Edit target image 1: this exact navy wizard hat with gold embroidered stars and gold stitching. Image 2 is an alien head shape reference only, MUST NOT appear in output. Reconstruct the hat into a LOWER PROFILE wearable version that fits limited headroom while preserving its identity, cloth material, navy color, gold stars, left-side highlights and the crooked point bending to viewer right. Artistically fold the tall cone sideways and down into soft believable cloth folds rather than vertically stretching/squashing pixels. Target total hat silhouette width-to-height about 2.5:1, with the crown height above forehead lip about half the brim width. Make a complete broad curved brim with continuous edges and a natural near-frontal 3D perspective; preserve rear brim for subsequent splitting. No head-shaped cutout or mannequin filler is needed: genuine transparent background, ONE hat alone with a natural underside opening. Preserve unaffected design details and detailed fabric grain. Large hat with generous clear margin all around. No alien, no head, no skin, no text, no labels, no checkerboard painted in.",
+    "source_bbox": [
+      66,
+      107,
+      1923,
+      758
+    ],
+    "source_contact_y": 653
+  },
+  {
+    "id": 19,
+    "name": "Deepwater Sailor",
+    "source": "Source_Masters/Edited/19_Deepwater_Sailor.png",
+    "original": "Source_Masters/Originals/19_Deepwater_Sailor.png",
+    "edited": false,
+    "prompt": "",
+    "source_bbox": [
+      24,
+      315,
+      1232,
+      1002
+    ],
+    "source_contact_y": 942
+  },
+  {
+    "id": 20,
+    "name": "Galley Chief",
+    "source": "Source_Masters/Edited/20_Galley_Chief.png",
+    "original": "Source_Masters/Originals/20_Galley_Chief.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is the exact approved hat edit target; image 2 is alien forehead shape reference only, MUST NOT appear in output. Make only necessary fit-related construction changes. Keep ivory cotton chef toque with rich folded fabric, gathered crown, pleated mid-band and stitched cuff. Rebuild a lower mushroom silhouette using believable soft folds. Wider and less tall, overall silhouette 1.9 times wider than tall. Crown above cuff is about one cuff height; large wearable opening follows convex alien forehead. Short hidden rear returns instead of pointed side prongs. Preserve original identity, colors, materials, upper-left illumination and detailed painting style. Output ONE large complete isolated hat on real transparent alpha with clear margins. No alien, no head, no skin, no mannequin, no opaque filler, no labels, no scene, no grid. Reconstruct geometry artistically rather than stretching existing pixels.",
+    "source_bbox": [
+      40,
+      95,
+      1703,
+      864
+    ],
+    "source_contact_y": 729
+  },
+  {
+    "id": 21,
+    "name": "Midnight Jester",
+    "source": "Source_Masters/Edited/21_Midnight_Jester.png",
+    "original": "Source_Masters/Originals/21_Midnight_Jester.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target; image 2 is the alien skull reference for fitting only, DO NOT DRAW THE ALIEN. Keep crimson/navy brocade jester cap, dark leather forehead band and three brass bells. Lower the center point and spread the two side horns sideways in believable fabric folds, so total silhouette is 2.35 times wider than tall. Crown opening width about 63 percent total width. Preserve brocade texture, seams, all three bells, colors and near-frontal view; no long curled prongs below band. Preserve design identity, original colors, upper-left lighting and detailed painted material. Make construction changes artistically, no pixel squash. Output ONE complete isolated accessory alone on genuine transparent alpha, with generous clear margins. No head, no mannequin, no skin, no labels, no scene, no extra object, no drawn checkerboard.",
+    "source_bbox": [
+      35,
+      113,
+      1887,
+      735
+    ],
+    "source_contact_y": 602
+  },
+  {
+    "id": 22,
+    "name": "Desert Fiesta",
+    "source": "Source_Masters/Edited/22_Desert_Fiesta.png",
+    "original": "Source_Masters/Originals/22_Desert_Fiesta.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is approved accessory edit target; image 2 is the alien skull reference for fitting only, DO NOT DRAW THE ALIEN. Keep gold woven straw sombrero with dark geometric patterned rim, dark leather studded band and conical crown. Rebuild with a lower broader crown: crown base width 60 percent total brim width. Total hat silhouette 2.8 times wider than tall. Preserve broad upturned elliptical brim and continuous natural straw weave. Complete object, no head or filler. Preserve design identity, original colors, upper-left lighting and detailed painted material. Make construction changes artistically, no pixel squash. Output ONE complete isolated accessory alone on genuine transparent alpha, with generous clear margins. No head, no mannequin, no skin, no labels, no scene, no extra object, no drawn checkerboard.",
+    "source_bbox": [
+      53,
+      58,
+      2051,
+      709
+    ],
+    "source_contact_y": 685
+  },
+  {
+    "id": 23,
+    "name": "Skyline Crest",
+    "source": "Source_Masters/Edited/23_Skyline_Crest.png",
+    "original": "Source_Masters/Originals/23_Skyline_Crest.png",
+    "edited": true,
+    "prompt": "Use case: precise-object-edit. Image 1 is the exact approved hat edit target; image 2 is alien forehead shape reference only, MUST NOT appear in output. Make only necessary fit-related construction changes. Keep distressed steel blade crest, dark leather band and copper rivets. Preserve the exact arrangement of individual steel blades, stepped ascending toward center then descending, including central angled blade. Reconstruct the blades SHORTER relative to the band, with believable forged shapes and the same engraving/scratches, not pixel squashing. Overall silhouette 1.95 times wider than tall. Broad smooth forehead band arches upward in image center; shorten rear side returns so they do not hang over eyes. Fully transparent underside. Preserve original identity, colors, materials, upper-left illumination and detailed painting style. Output ONE large complete isolated hat on real transparent alpha with clear margins. No alien, no head, no skin, no mannequin, no opaque filler, no labels, no scene, no grid. Reconstruct geometry artistically rather than stretching existing pixels.",
+    "source_bbox": [
+      35,
+      96,
+      1718,
+      854
+    ],
+    "source_contact_y": 644
+  },
+  {
+    "id": 24,
+    "name": "First Contact",
+    "source": "Source_Masters/Edited/24_First_Contact.png",
+    "original": "Source_Masters/Originals/24_First_Contact.png",
+    "edited": false,
+    "prompt": "",
+    "source_bbox": [
+      21,
+      317,
+      1235,
+      958
+    ],
+    "source_contact_y": 762
+  }
+]

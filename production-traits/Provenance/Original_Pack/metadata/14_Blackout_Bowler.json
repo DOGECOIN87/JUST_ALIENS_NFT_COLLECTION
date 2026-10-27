@@ -1,0 +1,100 @@
+{
+  "id": 14,
+  "trait_type": "Headwear",
+  "value": "Blackout Bowler",
+  "native_asset": "Headwear/14_Blackout_Bowler.png",
+  "front_layer": "Fitted/Front/14_Blackout_Bowler.png",
+  "back_layer": null,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "baseline_expression": "Chill",
+  "character_offset": [
+    147,
+    294
+  ],
+  "native_sha256": "a42964fc1be79712adbfea1a9b4749b1dff5298ce9664958400d1232fdaddf4f",
+  "front_sha256": "661ec17e1c805873ccb1085ee8a907adda56652c7eda39aba352571f8fd2522b",
+  "back_sha256": null,
+  "source_design_sheet": 2,
+  "source_design_position": [
+    1,
+    2
+  ],
+  "uniform_registration": {
+    "left": 297,
+    "top": 198,
+    "width": 660,
+    "height": 433,
+    "source_crop": {
+      "left": 21,
+      "top": 234,
+      "width": 1212,
+      "height": 795,
+      "frontY": 879,
+      "centerX": 627,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "transparentPixels": 953564,
+      "visiblePixels": 609966
+    },
+    "scale": 0.5445544554455446
+  },
+  "expressions": {
+    "Chill": {
+      "translate_x": 0,
+      "translate_y": 0,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Amused": {
+      "translate_x": 0,
+      "translate_y": -2,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Angry": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Confused": {
+      "translate_x": 0,
+      "translate_y": -5,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Curious": {
+      "translate_x": 0,
+      "translate_y": -18,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Happy": {
+      "translate_x": 0,
+      "translate_y": -12,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sad": {
+      "translate_x": 0,
+      "translate_y": -17,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Sour": {
+      "translate_x": 0,
+      "translate_y": 1,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    },
+    "Surprised": {
+      "translate_x": 0,
+      "translate_y": 4,
+      "protected_eye_pixels_occluded": 0,
+      "protected_mouth_pixels_occluded": 0
+    }
+  }
+}

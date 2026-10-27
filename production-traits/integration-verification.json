@@ -1,0 +1,15 @@
+{
+  "root_wrapper_exact_pixels_and_metadata": true,
+  "standalone_cli_exact_pixels": true,
+  "invalid_and_excluded_selections_rejected": 5,
+  "all_kit_png_crc_verified": 768,
+  "complex_trait_rebuilds_byte_identical": [
+    5,
+    16,
+    17,
+    23
+  ],
+  "unique_inspection_recipes": 50,
+  "python_version": "3.12.14",
+  "git_base_commit": "f1dac81"
+}

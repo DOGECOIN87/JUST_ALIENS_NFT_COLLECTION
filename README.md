@@ -2,6 +2,10 @@
 
 A unique NFT collection featuring generated alien characters with diverse traits, expressions, and backgrounds. Each alien is a one-of-a-kind, created through a combination of carefully crafted assets and algorithmic generation.
 
+## Verified 1254px production traits
+
+The [production kit](production-traits/README.md) contains the 24 reviewed new headwear designs, all nine expression variants, coordinated front/rear layers, preserved source masters, and the exact compositor used for inspection. Install its Python requirements, then run `npm run inspect-production` to export the numbered 50 PNG/JSON samples and all 216 fit proofs. `npm run verify-production` checks the exports and current visual-review hashes. This explicit production mode uses the approved allowlists and loads before the historical generator modes below.
+
 ## Collection Highlights
 
 - 10K Unique Generated Aliens
