@@ -31,6 +31,23 @@
  *   node generate_collection.js --out dir       # different output folder
  */
 
+// The verified 1254px production kit uses full-canvas expression variants and
+// coordinated front/rear pieces. Route before loading any legacy asset pool.
+if (process.argv.includes('--production-traits')) {
+  const path = require('node:path');
+  const { spawnSync } = require('node:child_process');
+  const args = process.argv.slice(2);
+  const value = (flag, fallback) => { const i = args.indexOf(flag); return i < 0 ? fallback : args[i + 1]; };
+  const result = spawnSync(process.env.PYTHON || 'python3', [
+    path.join(__dirname, 'production-traits/tools/generate_inspection.py'),
+    '--out', value('--out', path.join(__dirname, 'production-traits/inspection')),
+    '--count', value('--limit', '50'),
+    ...(args.includes('--proofs') ? ['--proofs'] : []),
+  ], { stdio: 'inherit' });
+  if (result.error) { console.error(result.error.message); process.exit(1); }
+  process.exit(result.status === null ? 1 : result.status);
+}
+
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
