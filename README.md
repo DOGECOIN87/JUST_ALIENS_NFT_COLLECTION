@@ -21,6 +21,10 @@ A unique NFT collection featuring generated alien characters with diverse traits
   - New scenes and photo backgrounds (Wormhole Vortex, Cavern of Light,
     Earthrise, plus portrait and press photos)
 
+Backgrounds containing people use a black-and-white pencil-and-ink treatment.
+See [all eleven before/after comparisons](docs/people-backgrounds/README.md).
+Run `npm run people-background-review` to verify the assets and rebuild the review sheets.
+
 ### Character Traits
 - **Clothing**
   - Reviewed hoodies, bomber, leather, military and camo jackets,

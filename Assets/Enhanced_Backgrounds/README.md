@@ -1,6 +1,6 @@
 # Enhanced Backgrounds — Just Aliens
 
-This folder contains 26 backgrounds composited from `Assets/Background/` and six pre-existing enhanced images. The source backgrounds and all six existing enhanced files remain unchanged. These files are not automatically wired into the collection generator.
+This folder contains 26 backgrounds composited from `Assets/Background/` and six pre-existing enhanced images. The collection generator reads both background folders. The people backgrounds now use a black-and-white pencil-and-ink treatment; see [the before/after review](../../docs/people-backgrounds/README.md).
 
 ## Applied settings
 
@@ -19,7 +19,7 @@ These existing enhanced counterparts are retained instead of creating duplicates
 | `Cubes.png` | `goats_contest_mattrick (18).png` |
 | `Pyramids.png` | `goats_contest_mattrick (19).png` |
 
-The existing portrait backgrounds `(20)`, `(21)`, and `(22)` are also retained byte-for-byte, with their original dimensions.
+The portrait backgrounds `(20)`, `(21)`, and `(22)` retain their filenames, original dimensions, and alpha channels. Their black-and-white drawn versions use the supplied halftone at 30% opacity and the smooth corner vignette reaching 45%. The original color images are preserved in Git history at the commit recorded in `Assets/people-backgrounds-manifest.json`.
 
 ## Reproduce or add new backgrounds
 

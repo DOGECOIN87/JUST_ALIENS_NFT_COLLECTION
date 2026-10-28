@@ -1,0 +1,94 @@
+{
+  "people_backgrounds_verified": 11,
+  "other_backgrounds_unchanged": 64,
+  "checks": [
+    {
+      "file": "Assets/Background/Beanie_Portrait.png",
+      "width": 784,
+      "height": 784,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/Black_Shirt_Portrait.png",
+      "width": 1720,
+      "height": 1720,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/Man_At_Desk.png",
+      "width": 504,
+      "height": 504,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/Press_Conference.jpg",
+      "width": 1920,
+      "height": 1080,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/TV_Interview.png",
+      "width": 1692,
+      "height": 1690,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (20).png",
+      "width": 1254,
+      "height": 1254,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (21).png",
+      "width": 1516,
+      "height": 1504,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (22).png",
+      "width": 1516,
+      "height": 1504,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/Warzone_Meme.jpeg",
+      "width": 1080,
+      "height": 1079,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/art-by-mattrick.png",
+      "width": 1080,
+      "height": 1080,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    },
+    {
+      "file": "Assets/Background/art-by-mattrick (5).png",
+      "width": 1080,
+      "height": 1080,
+      "grayscale": true,
+      "original_alpha_preserved": true,
+      "hashes_verified": true
+    }
+  ]
+}
