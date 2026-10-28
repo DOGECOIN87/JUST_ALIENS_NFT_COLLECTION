@@ -1,3 +1,19 @@
+# Current art generation: curated 420
+
+The approved production set is in `production-traits/`. It enforces the 18 exact unmarked V3 headwear/skin/expression fits across 13 designs; 32 marked samples and 11 rejected designs are excluded. The fixed plan has 420 unique compositions before text, including 210 coordinated captions and 210 uncaptioned pieces.
+
+```sh
+python3 -m pip install -r production-traits/requirements.txt
+python3 generate_curated_420.py
+python3 production-traits/tools/verify_collection.py
+```
+
+Outputs are full-size lossless PNGs in `production-traits/images/`, matching JSON in `production-traits/json/`, and actual-export proof sheets in `production-traits/proofs/`. See `production-traits/README.md`, `selection-policy.json`, and `VERIFICATION.md` for the approval boundaries, rendering instructions, and QA scope. Original art archives and historical Git revisions preserve the untouched sources.
+
+The historical project notes below describe earlier generators and collection sizes.
+
+---
+
 # JUST ALIENS NFT COLLECTION
 
 A unique NFT collection featuring generated alien characters with diverse traits, expressions, and backgrounds. Each alien is a one-of-a-kind, created through a combination of carefully crafted assets and algorithmic generation.

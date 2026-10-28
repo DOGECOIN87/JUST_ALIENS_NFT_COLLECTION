@@ -1,0 +1,424 @@
+{
+  "revision": "curated-420-v4",
+  "supply": 420,
+  "approved_sample_numbers": [
+    1,
+    2,
+    5,
+    9,
+    13,
+    14,
+    15,
+    16,
+    18,
+    22,
+    25,
+    26,
+    27,
+    35,
+    39,
+    42,
+    43,
+    44
+  ],
+  "rejected_sample_numbers": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    17,
+    19,
+    20,
+    21,
+    23,
+    24,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    40,
+    41,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "scope": "Approval is tied to exact headwear+skin+expression. Surrounding outfits, backgrounds and text may vary within the supplied curated recipes. No random head substitutions.",
+  "approved_fits": [
+    {
+      "headwear_id": 1,
+      "skin": "Platinum",
+      "expression": "Amused",
+      "outfit": "Hoodie_Black",
+      "background": "Cubes",
+      "approval_sample": 1,
+      "allowed_outfits": [
+        "Hoodie_Black",
+        "Leather_Jacket",
+        "Bomber_Jacket",
+        "Tech_Jacket",
+        "Military_Jacket",
+        "Hoodie_White",
+        "Spacesuit"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 1,
+      "skin": "Lime",
+      "expression": "Chill",
+      "outfit": "Military_Jacket",
+      "background": "Spheres",
+      "approval_sample": 2,
+      "allowed_outfits": [
+        "Military_Jacket",
+        "Camo_Jacket",
+        "Leather_Jacket",
+        "Tech_Jacket",
+        "Hoodie_Black",
+        "Hoodie_White"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 3,
+      "skin": "Cyan",
+      "expression": "Surprised",
+      "outfit": "Bomber_Jacket",
+      "background": "Forest",
+      "approval_sample": 5,
+      "allowed_outfits": [
+        "Bomber_Jacket",
+        "Leather_Jacket",
+        "Spacesuit",
+        "Tech_Jacket",
+        "Hoodie_White",
+        "Military_Jacket"
+      ],
+      "target_count": 33
+    },
+    {
+      "headwear_id": 5,
+      "skin": "Forest_Green",
+      "expression": "Sour",
+      "outfit": "Hoodie_White",
+      "background": "Wormhole",
+      "approval_sample": 9,
+      "allowed_outfits": [
+        "Hoodie_White",
+        "Winter_Jacket",
+        "Military_Jacket",
+        "Camo_Jacket",
+        "Tech_Jacket"
+      ],
+      "target_count": 32
+    },
+    {
+      "headwear_id": 7,
+      "skin": "Graphite",
+      "expression": "Sour",
+      "outfit": "Camo_Jacket",
+      "background": "Analyst",
+      "approval_sample": 13,
+      "allowed_outfits": [
+        "Camo_Jacket",
+        "Military_Jacket",
+        "Safari_Jacket",
+        "Hoodie_White",
+        "Tech_Jacket",
+        "Leather_Jacket"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 7,
+      "skin": "Platinum",
+      "expression": "Amused",
+      "outfit": "Hoodie_Black",
+      "background": "Disclosure",
+      "approval_sample": 14,
+      "allowed_outfits": [
+        "Hoodie_Black",
+        "Hoodie_White",
+        "Military_Jacket",
+        "Camo_Jacket",
+        "Safari_Jacket",
+        "Tech_Jacket"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 8,
+      "skin": "Lime",
+      "expression": "Chill",
+      "outfit": "Military_Jacket",
+      "background": "LiveSignal",
+      "approval_sample": 15,
+      "allowed_outfits": [
+        "Military_Jacket",
+        "Leather_Jacket",
+        "Winter_Jacket",
+        "Hoodie_Black",
+        "Tech_Jacket"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 8,
+      "skin": "Violet",
+      "expression": "Curious",
+      "outfit": "Safari_Jacket",
+      "background": "Whiteboard",
+      "approval_sample": 16,
+      "allowed_outfits": [
+        "Safari_Jacket",
+        "Winter_Jacket",
+        "Leather_Jacket",
+        "Bomber_Jacket",
+        "Hoodie_White",
+        "Spacesuit"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 9,
+      "skin": "Cyan",
+      "expression": "Surprised",
+      "outfit": "Bomber_Jacket",
+      "background": "Hearing",
+      "approval_sample": 18,
+      "allowed_outfits": [
+        "Bomber_Jacket",
+        "Spacesuit",
+        "Tech_Jacket",
+        "Leather_Jacket",
+        "Hoodie_White",
+        "Military_Jacket"
+      ],
+      "target_count": 33
+    },
+    {
+      "headwear_id": 11,
+      "skin": "Coral_Red",
+      "expression": "Surprised",
+      "outfit": "Leather_Jacket",
+      "background": "Cavern",
+      "approval_sample": 22,
+      "allowed_outfits": [
+        "Leather_Jacket",
+        "Bomber_Jacket",
+        "Winter_Jacket",
+        "Hoodie_Black",
+        "Hoodie_White",
+        "Tech_Jacket"
+      ],
+      "target_count": 32
+    },
+    {
+      "headwear_id": 13,
+      "skin": "Forest_Green",
+      "expression": "Happy",
+      "outfit": "Hoodie_White",
+      "background": "SunsetCockpit",
+      "approval_sample": 25,
+      "allowed_outfits": [
+        "Hoodie_White",
+        "Military_Jacket",
+        "Camo_Jacket",
+        "Tech_Jacket",
+        "Bomber_Jacket",
+        "Safari_Jacket"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 13,
+      "skin": "Graphite",
+      "expression": "Sour",
+      "outfit": "Camo_Jacket",
+      "background": "Corridor",
+      "approval_sample": 26,
+      "allowed_outfits": [
+        "Camo_Jacket",
+        "Military_Jacket",
+        "Safari_Jacket",
+        "Tech_Jacket",
+        "Hoodie_White",
+        "Bomber_Jacket"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 14,
+      "skin": "Platinum",
+      "expression": "Amused",
+      "outfit": "Hoodie_Black",
+      "background": "Wormhole",
+      "approval_sample": 27,
+      "allowed_outfits": [
+        "Hoodie_Black",
+        "Leather_Jacket",
+        "Hoodie_White",
+        "Bomber_Jacket",
+        "Spacesuit",
+        "Military_Jacket"
+      ],
+      "target_count": 33
+    },
+    {
+      "headwear_id": 18,
+      "skin": "Coral_Red",
+      "expression": "Surprised",
+      "outfit": "Leather_Jacket",
+      "background": "Headset",
+      "approval_sample": 35,
+      "allowed_outfits": [
+        "Leather_Jacket",
+        "Hoodie_Black",
+        "Winter_Jacket",
+        "Bomber_Jacket",
+        "Hoodie_White",
+        "Spacesuit"
+      ],
+      "target_count": 33
+    },
+    {
+      "headwear_id": 20,
+      "skin": "Graphite",
+      "expression": "Surprised",
+      "outfit": "Camo_Jacket",
+      "background": "Pyramids",
+      "approval_sample": 39,
+      "allowed_outfits": [
+        "Camo_Jacket",
+        "Hoodie_White",
+        "Military_Jacket",
+        "Leather_Jacket",
+        "Bomber_Jacket",
+        "Tech_Jacket"
+      ],
+      "target_count": 32
+    },
+    {
+      "headwear_id": 21,
+      "skin": "Graphite",
+      "expression": "Happy",
+      "outfit": "Camo_Jacket",
+      "background": "StormCockpit",
+      "approval_sample": 42,
+      "allowed_outfits": [
+        "Camo_Jacket",
+        "Hoodie_White",
+        "Leather_Jacket",
+        "Bomber_Jacket",
+        "Military_Jacket",
+        "Tech_Jacket"
+      ],
+      "target_count": 32
+    },
+    {
+      "headwear_id": 22,
+      "skin": "Platinum",
+      "expression": "Sour",
+      "outfit": "Hoodie_Black",
+      "background": "SunsetCockpit",
+      "approval_sample": 43,
+      "allowed_outfits": [
+        "Hoodie_Black",
+        "Safari_Jacket",
+        "Leather_Jacket",
+        "Military_Jacket",
+        "Hoodie_White",
+        "Tech_Jacket"
+      ],
+      "target_count": 16
+    },
+    {
+      "headwear_id": 22,
+      "skin": "Lime",
+      "expression": "Amused",
+      "outfit": "Military_Jacket",
+      "background": "Corridor",
+      "approval_sample": 44,
+      "allowed_outfits": [
+        "Military_Jacket",
+        "Camo_Jacket",
+        "Hoodie_Black",
+        "Leather_Jacket",
+        "Safari_Jacket",
+        "Hoodie_White"
+      ],
+      "target_count": 16
+    }
+  ],
+  "removed_designs": [
+    {
+      "id": 2,
+      "name": "Signal Blocker"
+    },
+    {
+      "id": 4,
+      "name": "High Plains"
+    },
+    {
+      "id": 6,
+      "name": "Field Surveyor"
+    },
+    {
+      "id": 10,
+      "name": "Roswell Hardhat"
+    },
+    {
+      "id": 12,
+      "name": "Sundown Boater"
+    },
+    {
+      "id": 15,
+      "name": "Redshift Fez"
+    },
+    {
+      "id": 16,
+      "name": "Night Drive"
+    },
+    {
+      "id": 17,
+      "name": "Zero-G Audio"
+    },
+    {
+      "id": 19,
+      "name": "Deepwater Sailor"
+    },
+    {
+      "id": 23,
+      "name": "Skyline Crest"
+    },
+    {
+      "id": 24,
+      "name": "First Contact"
+    }
+  ],
+  "uniqueness": "Every selected headwear/skin/expression/outfit/background tuple is unique before adding text. Captions do not create otherwise duplicate NFTs.",
+  "text": "210 with text, 210 without; six existing color variants selected for readable accents. Deep Blue is not selected because its dark accent has weaker contrast.",
+  "source_archives": [
+    {
+      "name": "Just_Aliens_Production_v2.zip",
+      "sha256": "ac8b51c3beeffd9066785d2ea467d53175e11140a03ef09901ec13c843d04472"
+    },
+    {
+      "name": "Just_Aliens_V3_Review_Update.zip",
+      "sha256": "53bb9f2cbfe200cafd41c737f066902c4fca865002a03358f02acc65eb04abd0"
+    }
+  ]
+}

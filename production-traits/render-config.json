@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 4,
   "canvas": [
     1254,
     1254
@@ -10,9 +10,6 @@
   "skins": {
     "Platinum": {
       "name": "Platinum"
-    },
-    "Sky_Blue": {
-      "name": "Sky Blue"
     },
     "Cyan": {
       "name": "Sea Glass"
@@ -31,12 +28,6 @@
     },
     "Graphite": {
       "name": "Slate"
-    },
-    "Hot_Pink": {
-      "name": "Orchid"
-    },
-    "Honey_Gold": {
-      "name": "Solar Gold"
     }
   },
   "outfits": {
@@ -192,5 +183,55 @@
     "art-by-mattrick (10)",
     "art-by-mattrick (16)"
   ],
-  "captions": "None"
+  "captions": {
+    "Cyan": {
+      "name": "Electric Cyan",
+      "file": "Assets/Text/Cyan.png",
+      "source_name": "White_Opaque.png",
+      "source_sha256": "a587809cac8024635528d6a8db55cad069fadc65b1ec7ecd7a1f1886e526bff3",
+      "sha256": "add9200e6154ca6311a105a66e0d3ee9b21464b0f80c303bbd08200625fa12a4"
+    },
+    "Sky_Blue": {
+      "name": "Sky Blue",
+      "file": "Assets/Text/Sky_Blue.png",
+      "source_name": "Light-Blue_Opaque.png",
+      "source_sha256": "b353fab113417dc3fa633e6133eee698b1d07bd86883f9f80e68c845b2034bc2",
+      "sha256": "d40db761512f4f68265297f9e88aa1ffcd845589a461adc3997ccdbf810cc373"
+    },
+    "Lime": {
+      "name": "Lime",
+      "file": "Assets/Text/Lime.png",
+      "source_name": "Green_Opaque.png",
+      "source_sha256": "de8035c6fb013aa41ad1ca44530d83343f42908a44217d6dd4b1161184fa4517",
+      "sha256": "1a150bf4db87dfa599701e4834c7a072832cd26c43c642e452726f6848a887f4"
+    },
+    "Magenta": {
+      "name": "Magenta",
+      "file": "Assets/Text/Magenta.png",
+      "source_name": "Pink_Opaque.png",
+      "source_sha256": "040f321a5e8361865615ca3d3ec743ee62df1483e6382a49a03897cfb743bc8e",
+      "sha256": "c2c646fe9684fd63b5b42ffb59766c0b6dace390598e074422e72ec061d5bee1"
+    },
+    "Red": {
+      "name": "Signal Red",
+      "file": "Assets/Text/Red.png",
+      "source_name": "Red_Solid.png",
+      "source_sha256": "26f800369429ae3f668392279fb8a1590c5c6762f9a666fa84ee6b2193309cf5",
+      "sha256": "319c10ce5cdb44921649f0793e4c451c87ff5aab92e62a1379017e3fc753c1a5"
+    },
+    "Vermilion": {
+      "name": "Vermilion",
+      "file": "Assets/Text/Vermilion.png",
+      "source_name": "Orange_Solid.png",
+      "source_sha256": "2d454952cf525794216b2a3da32377f11bb7cc9fbc0633d7b6a7ca5a1395d5b0",
+      "sha256": "4de9f764db2217f84e2d016d3a88bed2ebd8b82d04b3bc07b44f7474d8b21eec"
+    }
+  },
+  "supply": 420,
+  "collection_name": "Just Aliens",
+  "symbol": "JSTA",
+  "text_share": 0.5,
+  "selection_policy": "selection-policy.json",
+  "recipes": "recipes.json",
+  "seed": "just-aliens-approved-420-v4"
 }
