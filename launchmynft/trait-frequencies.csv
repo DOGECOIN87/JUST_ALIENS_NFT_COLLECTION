@@ -1,0 +1,75 @@
+trait_type,value,count,percentage_of_420
+Background,Amber Corridor,37,8.809524
+Background,Bledsoe,5,1.190476
+Background,Burchett,5,1.190476
+Background,Cavern of Light,47,11.190476
+Background,Cinematic Cubes,28,6.666667
+Background,Comic Cover,4,0.952381
+Background,Cosmic Spiral,34,8.095238
+Background,DeLonge,5,1.190476
+Background,Elizondo,5,1.190476
+Background,Grusch,5,1.190476
+Background,Lazar,5,1.190476
+Background,Moonlit Encounter,37,8.809524
+Background,Nighttime Photo,5,1.190476
+Background,Pyramid Dunes,25,5.952381
+Background,Quirk,5,1.190476
+Background,Roder,5,1.190476
+Background,Secret Rare Portrait,1,0.238095
+Background,Spotlight Spheres,34,8.095238
+Background,Stormfront Cockpit,46,10.952381
+Background,Sunset Runway,44,10.47619
+Background,Wormhole Vortex,38,9.047619
+Expression,(not applicable),16,3.809524
+Expression,Amused,78,18.571429
+Expression,Chill,31,7.380952
+Expression,Curious,15,3.571429
+Expression,Happy,46,10.952381
+Expression,Sour,79,18.809524
+Expression,Surprised,155,36.904762
+Headwear,(not applicable),16,3.809524
+Headwear,Acid Rain,31,7.380952
+Headwear,Bamboo Wanderer,31,7.380952
+Headwear,Blackout Bowler,31,7.380952
+Headwear,Blackwater Tricorn,31,7.380952
+Headwear,Contact Beret,31,7.380952
+Headwear,Desert Fiesta,32,7.619048
+Headwear,Galley Chief,31,7.380952
+Headwear,Lunar Ushanka,31,7.380952
+Headwear,Midnight Beanie,31,7.380952
+Headwear,Midnight Jester,31,7.380952
+Headwear,Orbital Officer,31,7.380952
+Headwear,Static Newsboy,31,7.380952
+Headwear,Void Scholar,31,7.380952
+Outfit,(not applicable),16,3.809524
+Outfit,Expedition Shearling Jacket,29,6.904762
+Outfit,Ion Tech Jacket,51,12.142857
+Outfit,Ivory Hoodie,58,13.809524
+Outfit,Midnight Leather Jacket,47,11.190476
+Outfit,Obsidian Hoodie,32,7.619048
+Outfit,Orbital Bomber,42,10.0
+Outfit,Orbital Suit,35,8.333333
+Outfit,Recon Field Jacket,47,11.190476
+Outfit,Sandstone Field Jacket,27,6.428571
+Outfit,Woodland Camo Jacket,36,8.571429
+Rare Type,(not applicable),404,96.190476
+Rare Type,Android,5,1.190476
+Rare Type,Close-Up,1,0.238095
+Rare Type,Infantry,5,1.190476
+Rare Type,OG,5,1.190476
+Skin,(not applicable),16,3.809524
+Skin,Coral,62,14.761905
+Skin,Forest Jade,46,10.952381
+Skin,Lime,47,11.190476
+Skin,Nebula Violet,15,3.571429
+Skin,Platinum,78,18.571429
+Skin,Sea Glass,62,14.761905
+Skin,Slate,94,22.380952
+Text,Electric Cyan,105,25.0
+Text,None,210,50.0
+Text,Signal Red,74,17.619048
+Text,Sky Blue,4,0.952381
+Text,Vermilion,27,6.428571
+Type,Normal,404,96.190476
+Type,Rare,15,3.571429
+Type,Secret Rare,1,0.238095

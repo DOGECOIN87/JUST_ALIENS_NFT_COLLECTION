@@ -1,0 +1,61 @@
+{
+  "supply": 420,
+  "normal": {
+    "count": 404,
+    "percent": 96.19047619047619
+  },
+  "rare": {
+    "count": 15,
+    "percent": 3.571428571428571,
+    "variants": {
+      "Android": 5,
+      "Infantry": 5,
+      "OG": 5
+    }
+  },
+  "secret_rare": {
+    "count": 1,
+    "percent": 0.2380952380952381
+  },
+  "captioned": 210,
+  "uncaptioned": 210,
+  "people_background_editions": 49,
+  "unique_images": 420,
+  "unique_normal_base_combinations": 404,
+  "headwear_designs": 13,
+  "approved_head_fits_used": 18,
+  "headwear_design_counts": {
+    "9": 31,
+    "8": 31,
+    "21": 31,
+    "3": 31,
+    "18": 31,
+    "14": 31,
+    "22": 32,
+    "5": 31,
+    "1": 31,
+    "11": 31,
+    "20": 31,
+    "7": 31,
+    "13": 31
+  },
+  "canvas": [
+    1254,
+    1254
+  ],
+  "format": "lossless RGB PNG",
+  "background_blur_sigma_at_960px": 1.2,
+  "foreground_layers_blurred": false,
+  "gorlock_backgrounds": 0,
+  "space_helmets": 0,
+  "purple_gold_hoods": 0,
+  "json_pairs_verified": 420,
+  "invalid_placeholder_gifs_used": 0,
+  "royalty_basis_points": 500,
+  "creator_address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+  "source_main_commit": "a4ecaa2c6c3be2bbacbd578ab605e92bd398b5dc",
+  "strict_approval_commit": "0f6dbef59270d6591dbd02366ec733e472bef137",
+  "seed": "just-aliens-lmnft-420-approved-final-v1",
+  "launchpad_live_import_tested": false,
+  "frequency_rank_method": "Sum of inverse attribute frequencies across all categories; missing attributes counted as not applicable; deterministic edition order breaks ties. Declared Type tier is separate."
+}

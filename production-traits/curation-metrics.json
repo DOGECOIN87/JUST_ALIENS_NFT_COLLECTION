@@ -1,0 +1,6347 @@
+{
+  "description": "Color/separation scores guide selection; these are not a claim of aesthetic objectivity. Final contact sheets require visual inspection.",
+  "selected": [
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Leather_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 1
+      },
+      "score": 1.944111,
+      "head_separation": 0.24173,
+      "outline_clear_fraction": 0.84316
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Bomber_Jacket",
+        "background": "Whiteboard",
+        "text": "Cyan",
+        "id": 2
+      },
+      "score": 1.862115,
+      "head_separation": 0.26532,
+      "outline_clear_fraction": 0.67689
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_Black",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 3
+      },
+      "score": 1.827326,
+      "head_separation": 0.25447,
+      "outline_clear_fraction": 0.78738
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Leather_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 4
+      },
+      "score": 1.926576,
+      "head_separation": 0.26781,
+      "outline_clear_fraction": 0.81003
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Tech_Jacket",
+        "background": "Hearing",
+        "text": "Sky_Blue",
+        "id": 5
+      },
+      "score": 1.794286,
+      "head_separation": 0.25591,
+      "outline_clear_fraction": 0.71357
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Military_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 6
+      },
+      "score": 1.998762,
+      "head_separation": 0.27072,
+      "outline_clear_fraction": 0.88301
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Leather_Jacket",
+        "background": "Cavern",
+        "text": "Cyan",
+        "id": 7
+      },
+      "score": 2.776664,
+      "head_separation": 0.42468,
+      "outline_clear_fraction": 0.92802
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "LiveSignal",
+        "text": "Red",
+        "id": 8
+      },
+      "score": 1.904028,
+      "head_separation": 0.26117,
+      "outline_clear_fraction": 0.8094
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Tech_Jacket",
+        "background": "Analyst",
+        "text": "None",
+        "id": 9
+      },
+      "score": 1.720413,
+      "head_separation": 0.22743,
+      "outline_clear_fraction": 0.81811
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Leather_Jacket",
+        "background": "StormCockpit",
+        "text": "Magenta",
+        "id": 10
+      },
+      "score": 2.142768,
+      "head_separation": 0.30307,
+      "outline_clear_fraction": 0.86939
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Hoodie_White",
+        "background": "Forest",
+        "text": "Vermilion",
+        "id": 11
+      },
+      "score": 2.124132,
+      "head_separation": 0.2893,
+      "outline_clear_fraction": 0.79172
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Hoodie_White",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 12
+      },
+      "score": 2.318749,
+      "head_separation": 0.30479,
+      "outline_clear_fraction": 0.84829
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Hoodie_White",
+        "background": "Cubes",
+        "text": "Vermilion",
+        "id": 13
+      },
+      "score": 2.390343,
+      "head_separation": 0.33798,
+      "outline_clear_fraction": 0.83146
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "Disclosure",
+        "text": "Red",
+        "id": 14
+      },
+      "score": 1.973333,
+      "head_separation": 0.27476,
+      "outline_clear_fraction": 0.84933
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Safari_Jacket",
+        "background": "Wormhole",
+        "text": "Lime",
+        "id": 15
+      },
+      "score": 2.077558,
+      "head_separation": 0.28397,
+      "outline_clear_fraction": 0.83619
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Leather_Jacket",
+        "background": "Whiteboard",
+        "text": "Red",
+        "id": 16
+      },
+      "score": 1.996805,
+      "head_separation": 0.26333,
+      "outline_clear_fraction": 0.88315
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Hoodie_White",
+        "background": "Cubes",
+        "text": "None",
+        "id": 17
+      },
+      "score": 2.658311,
+      "head_separation": 0.38274,
+      "outline_clear_fraction": 0.9042
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Hoodie_White",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 18
+      },
+      "score": 2.216212,
+      "head_separation": 0.29964,
+      "outline_clear_fraction": 0.7809
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Hoodie_White",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 19
+      },
+      "score": 2.172685,
+      "head_separation": 0.25863,
+      "outline_clear_fraction": 0.83611
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Camo_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 20
+      },
+      "score": 1.789566,
+      "head_separation": 0.23844,
+      "outline_clear_fraction": 0.78319
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_Black",
+        "background": "LiveSignal",
+        "text": "Cyan",
+        "id": 21
+      },
+      "score": 2.017784,
+      "head_separation": 0.29006,
+      "outline_clear_fraction": 0.83044
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Tech_Jacket",
+        "background": "Cubes",
+        "text": "None",
+        "id": 22
+      },
+      "score": 2.227416,
+      "head_separation": 0.32452,
+      "outline_clear_fraction": 0.83106
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Military_Jacket",
+        "background": "Cavern",
+        "text": "Red",
+        "id": 23
+      },
+      "score": 2.069183,
+      "head_separation": 0.27847,
+      "outline_clear_fraction": 0.93036
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Bomber_Jacket",
+        "background": "Headset",
+        "text": "Red",
+        "id": 24
+      },
+      "score": 1.790736,
+      "head_separation": 0.23681,
+      "outline_clear_fraction": 0.783
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Analyst",
+        "text": "Vermilion",
+        "id": 25
+      },
+      "score": 1.965193,
+      "head_separation": 0.28507,
+      "outline_clear_fraction": 0.76518
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Hoodie_Black",
+        "background": "Spheres",
+        "text": "None",
+        "id": 26
+      },
+      "score": 1.651436,
+      "head_separation": 0.22296,
+      "outline_clear_fraction": 0.6978
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Hoodie_White",
+        "background": "Pyramids",
+        "text": "None",
+        "id": 27
+      },
+      "score": 2.052457,
+      "head_separation": 0.25787,
+      "outline_clear_fraction": 0.88889
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Bomber_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 28
+      },
+      "score": 1.840817,
+      "head_separation": 0.25858,
+      "outline_clear_fraction": 0.77166
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 29
+      },
+      "score": 2.740537,
+      "head_separation": 0.42646,
+      "outline_clear_fraction": 0.92839
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Bomber_Jacket",
+        "background": "Headset",
+        "text": "Cyan",
+        "id": 30
+      },
+      "score": 1.869006,
+      "head_separation": 0.24676,
+      "outline_clear_fraction": 0.81209
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_Black",
+        "background": "Headset",
+        "text": "None",
+        "id": 31
+      },
+      "score": 1.698578,
+      "head_separation": 0.22813,
+      "outline_clear_fraction": 0.76296
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Bomber_Jacket",
+        "background": "Headset",
+        "text": "Magenta",
+        "id": 32
+      },
+      "score": 1.908664,
+      "head_separation": 0.25467,
+      "outline_clear_fraction": 0.8172
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Military_Jacket",
+        "background": "Forest",
+        "text": "None",
+        "id": 33
+      },
+      "score": 1.914985,
+      "head_separation": 0.2698,
+      "outline_clear_fraction": 0.75883
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Hoodie_White",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 34
+      },
+      "score": 1.958503,
+      "head_separation": 0.27825,
+      "outline_clear_fraction": 0.72911
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Hoodie_White",
+        "background": "Forest",
+        "text": "None",
+        "id": 35
+      },
+      "score": 2.427765,
+      "head_separation": 0.34304,
+      "outline_clear_fraction": 0.8427
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Winter_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 36
+      },
+      "score": 1.96342,
+      "head_separation": 0.27967,
+      "outline_clear_fraction": 0.79597
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_White",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 37
+      },
+      "score": 2.218447,
+      "head_separation": 0.29318,
+      "outline_clear_fraction": 0.88514
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 38
+      },
+      "score": 2.267837,
+      "head_separation": 0.29156,
+      "outline_clear_fraction": 0.84097
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Tech_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 39
+      },
+      "score": 1.651886,
+      "head_separation": 0.23227,
+      "outline_clear_fraction": 0.64337
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Camo_Jacket",
+        "background": "Broadcaster",
+        "text": "Lime",
+        "id": 40
+      },
+      "score": 1.643714,
+      "head_separation": 0.23517,
+      "outline_clear_fraction": 0.64986
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Leather_Jacket",
+        "background": "Hearing",
+        "text": "Cyan",
+        "id": 41
+      },
+      "score": 1.864072,
+      "head_separation": 0.25939,
+      "outline_clear_fraction": 0.80153
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Tech_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 42
+      },
+      "score": 1.972537,
+      "head_separation": 0.27003,
+      "outline_clear_fraction": 0.84302
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Tech_Jacket",
+        "background": "Broadcaster",
+        "text": "Cyan",
+        "id": 43
+      },
+      "score": 1.792678,
+      "head_separation": 0.25008,
+      "outline_clear_fraction": 0.72507
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Tech_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 44
+      },
+      "score": 1.988835,
+      "head_separation": 0.28143,
+      "outline_clear_fraction": 0.80975
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Hoodie_White",
+        "background": "Pyramids",
+        "text": "Vermilion",
+        "id": 45
+      },
+      "score": 2.016481,
+      "head_separation": 0.26883,
+      "outline_clear_fraction": 0.76127
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Bomber_Jacket",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 46
+      },
+      "score": 2.334095,
+      "head_separation": 0.30686,
+      "outline_clear_fraction": 0.92757
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "Sky_Blue",
+        "id": 47
+      },
+      "score": 2.776307,
+      "head_separation": 0.39317,
+      "outline_clear_fraction": 0.84821
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "Hearing",
+        "text": "None",
+        "id": 48
+      },
+      "score": 1.852783,
+      "head_separation": 0.25509,
+      "outline_clear_fraction": 0.77853
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Hoodie_White",
+        "background": "Cubes",
+        "text": "Vermilion",
+        "id": 49
+      },
+      "score": 2.127849,
+      "head_separation": 0.28451,
+      "outline_clear_fraction": 0.82643
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Hoodie_White",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 50
+      },
+      "score": 2.361976,
+      "head_separation": 0.33435,
+      "outline_clear_fraction": 0.89976
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 51
+      },
+      "score": 2.096591,
+      "head_separation": 0.30332,
+      "outline_clear_fraction": 0.74899
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Safari_Jacket",
+        "background": "Forest",
+        "text": "None",
+        "id": 52
+      },
+      "score": 1.815811,
+      "head_separation": 0.24535,
+      "outline_clear_fraction": 0.72747
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Tech_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 53
+      },
+      "score": 1.991758,
+      "head_separation": 0.27055,
+      "outline_clear_fraction": 0.82884
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Spheres",
+        "text": "None",
+        "id": 54
+      },
+      "score": 2.424524,
+      "head_separation": 0.36163,
+      "outline_clear_fraction": 0.8502
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Spiral",
+        "text": "Vermilion",
+        "id": 55
+      },
+      "score": 2.105859,
+      "head_separation": 0.30252,
+      "outline_clear_fraction": 0.78003
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Bomber_Jacket",
+        "background": "Witness",
+        "text": "Sky_Blue",
+        "id": 56
+      },
+      "score": 2.44295,
+      "head_separation": 0.36963,
+      "outline_clear_fraction": 0.87575
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 57
+      },
+      "score": 2.147644,
+      "head_separation": 0.26464,
+      "outline_clear_fraction": 0.83863
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Leather_Jacket",
+        "background": "Hearing",
+        "text": "Red",
+        "id": 58
+      },
+      "score": 1.858358,
+      "head_separation": 0.2597,
+      "outline_clear_fraction": 0.78125
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Tech_Jacket",
+        "background": "Spheres",
+        "text": "Sky_Blue",
+        "id": 59
+      },
+      "score": 2.036,
+      "head_separation": 0.2815,
+      "outline_clear_fraction": 0.82308
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Spacesuit",
+        "background": "Corridor",
+        "text": "None",
+        "id": 60
+      },
+      "score": 1.849143,
+      "head_separation": 0.23124,
+      "outline_clear_fraction": 0.70481
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Military_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 61
+      },
+      "score": 1.816876,
+      "head_separation": 0.24957,
+      "outline_clear_fraction": 0.76252
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Leather_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 62
+      },
+      "score": 2.295011,
+      "head_separation": 0.29596,
+      "outline_clear_fraction": 0.91304
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Bomber_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 63
+      },
+      "score": 1.852162,
+      "head_separation": 0.25282,
+      "outline_clear_fraction": 0.80274
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Bomber_Jacket",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 64
+      },
+      "score": 2.06952,
+      "head_separation": 0.2977,
+      "outline_clear_fraction": 0.83482
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Bomber_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 65
+      },
+      "score": 2.376092,
+      "head_separation": 0.36425,
+      "outline_clear_fraction": 0.85766
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Safari_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 66
+      },
+      "score": 2.160009,
+      "head_separation": 0.29894,
+      "outline_clear_fraction": 0.85959
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Leather_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 67
+      },
+      "score": 1.798344,
+      "head_separation": 0.2544,
+      "outline_clear_fraction": 0.71103
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Hoodie_White",
+        "background": "Pyramids",
+        "text": "None",
+        "id": 68
+      },
+      "score": 2.421657,
+      "head_separation": 0.33919,
+      "outline_clear_fraction": 0.83848
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Leather_Jacket",
+        "background": "Hearing",
+        "text": "Cyan",
+        "id": 69
+      },
+      "score": 1.870436,
+      "head_separation": 0.26832,
+      "outline_clear_fraction": 0.75421
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Safari_Jacket",
+        "background": "LiveSignal",
+        "text": "Vermilion",
+        "id": 70
+      },
+      "score": 2.262341,
+      "head_separation": 0.32361,
+      "outline_clear_fraction": 0.88849
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Bomber_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 71
+      },
+      "score": 1.965111,
+      "head_separation": 0.28122,
+      "outline_clear_fraction": 0.82846
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Safari_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 72
+      },
+      "score": 2.345963,
+      "head_separation": 0.30379,
+      "outline_clear_fraction": 0.87654
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Bomber_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 73
+      },
+      "score": 2.132524,
+      "head_separation": 0.27611,
+      "outline_clear_fraction": 0.8408
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Leather_Jacket",
+        "background": "Forest",
+        "text": "Magenta",
+        "id": 74
+      },
+      "score": 1.784051,
+      "head_separation": 0.24785,
+      "outline_clear_fraction": 0.73391
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Winter_Jacket",
+        "background": "LiveSignal",
+        "text": "Vermilion",
+        "id": 75
+      },
+      "score": 2.042357,
+      "head_separation": 0.29269,
+      "outline_clear_fraction": 0.83501
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "Broadcaster",
+        "text": "Red",
+        "id": 76
+      },
+      "score": 1.814373,
+      "head_separation": 0.24689,
+      "outline_clear_fraction": 0.7446
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Bomber_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 77
+      },
+      "score": 2.054491,
+      "head_separation": 0.26807,
+      "outline_clear_fraction": 0.80617
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Leather_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 78
+      },
+      "score": 2.04476,
+      "head_separation": 0.2968,
+      "outline_clear_fraction": 0.83509
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 79
+      },
+      "score": 1.70099,
+      "head_separation": 0.22558,
+      "outline_clear_fraction": 0.76023
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Safari_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 80
+      },
+      "score": 2.075079,
+      "head_separation": 0.28194,
+      "outline_clear_fraction": 0.84711
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Bomber_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 81
+      },
+      "score": 1.882226,
+      "head_separation": 0.26653,
+      "outline_clear_fraction": 0.80793
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Bomber_Jacket",
+        "background": "Broadcaster",
+        "text": "Red",
+        "id": 82
+      },
+      "score": 1.719098,
+      "head_separation": 0.2437,
+      "outline_clear_fraction": 0.71578
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Hoodie_White",
+        "background": "Spiral",
+        "text": "Red",
+        "id": 83
+      },
+      "score": 1.650909,
+      "head_separation": 0.20523,
+      "outline_clear_fraction": 0.65557
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Hoodie_Black",
+        "background": "Broadcaster",
+        "text": "Lime",
+        "id": 84
+      },
+      "score": 1.7494,
+      "head_separation": 0.24582,
+      "outline_clear_fraction": 0.70077
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Hoodie_White",
+        "background": "Corridor",
+        "text": "None",
+        "id": 85
+      },
+      "score": 2.633895,
+      "head_separation": 0.38992,
+      "outline_clear_fraction": 0.86877
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Safari_Jacket",
+        "background": "LiveSignal",
+        "text": "Vermilion",
+        "id": 86
+      },
+      "score": 2.338939,
+      "head_separation": 0.33705,
+      "outline_clear_fraction": 0.9033
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "Cubes",
+        "text": "None",
+        "id": 87
+      },
+      "score": 2.411801,
+      "head_separation": 0.36959,
+      "outline_clear_fraction": 0.88542
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Military_Jacket",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 88
+      },
+      "score": 1.824553,
+      "head_separation": 0.2397,
+      "outline_clear_fraction": 0.83705
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "Whiteboard",
+        "text": "Vermilion",
+        "id": 89
+      },
+      "score": 1.758438,
+      "head_separation": 0.23579,
+      "outline_clear_fraction": 0.75188
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Leather_Jacket",
+        "background": "LiveSignal",
+        "text": "Sky_Blue",
+        "id": 90
+      },
+      "score": 1.856706,
+      "head_separation": 0.26219,
+      "outline_clear_fraction": 0.80427
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Military_Jacket",
+        "background": "Pyramids",
+        "text": "None",
+        "id": 91
+      },
+      "score": 2.167761,
+      "head_separation": 0.31097,
+      "outline_clear_fraction": 0.82254
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Tech_Jacket",
+        "background": "Witness",
+        "text": "Sky_Blue",
+        "id": 92
+      },
+      "score": 2.106832,
+      "head_separation": 0.30021,
+      "outline_clear_fraction": 0.84706
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Military_Jacket",
+        "background": "Disclosure",
+        "text": "Lime",
+        "id": 93
+      },
+      "score": 1.946705,
+      "head_separation": 0.27729,
+      "outline_clear_fraction": 0.80699
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "Headset",
+        "text": "None",
+        "id": 94
+      },
+      "score": 1.932047,
+      "head_separation": 0.25723,
+      "outline_clear_fraction": 0.9146
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Tech_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 95
+      },
+      "score": 2.41928,
+      "head_separation": 0.35668,
+      "outline_clear_fraction": 0.82143
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Military_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 96
+      },
+      "score": 1.743553,
+      "head_separation": 0.25079,
+      "outline_clear_fraction": 0.69971
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Military_Jacket",
+        "background": "StormCockpit",
+        "text": "Sky_Blue",
+        "id": 97
+      },
+      "score": 2.06277,
+      "head_separation": 0.25774,
+      "outline_clear_fraction": 0.83184
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Leather_Jacket",
+        "background": "Cavern",
+        "text": "Red",
+        "id": 98
+      },
+      "score": 2.014471,
+      "head_separation": 0.28326,
+      "outline_clear_fraction": 0.83016
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 99
+      },
+      "score": 1.880307,
+      "head_separation": 0.25413,
+      "outline_clear_fraction": 0.81621
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Military_Jacket",
+        "background": "Spheres",
+        "text": "Lime",
+        "id": 100
+      },
+      "score": 2.52134,
+      "head_separation": 0.37827,
+      "outline_clear_fraction": 0.84605
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Bomber_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 101
+      },
+      "score": 1.77254,
+      "head_separation": 0.25468,
+      "outline_clear_fraction": 0.71108
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Military_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 102
+      },
+      "score": 2.06824,
+      "head_separation": 0.28749,
+      "outline_clear_fraction": 0.84665
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Hoodie_White",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 103
+      },
+      "score": 2.237119,
+      "head_separation": 0.30874,
+      "outline_clear_fraction": 0.92639
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Military_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 104
+      },
+      "score": 1.942599,
+      "head_separation": 0.26826,
+      "outline_clear_fraction": 0.83932
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Hoodie_White",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 105
+      },
+      "score": 1.932135,
+      "head_separation": 0.27389,
+      "outline_clear_fraction": 0.72166
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Bomber_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 106
+      },
+      "score": 1.938159,
+      "head_separation": 0.27469,
+      "outline_clear_fraction": 0.72273
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Leather_Jacket",
+        "background": "Spheres",
+        "text": "Sky_Blue",
+        "id": 107
+      },
+      "score": 1.749209,
+      "head_separation": 0.2404,
+      "outline_clear_fraction": 0.71933
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Bomber_Jacket",
+        "background": "Forest",
+        "text": "Red",
+        "id": 108
+      },
+      "score": 1.597212,
+      "head_separation": 0.21856,
+      "outline_clear_fraction": 0.71156
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 109
+      },
+      "score": 1.985381,
+      "head_separation": 0.27573,
+      "outline_clear_fraction": 0.82911
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Military_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 110
+      },
+      "score": 2.047468,
+      "head_separation": 0.26843,
+      "outline_clear_fraction": 0.76614
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Hoodie_White",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 111
+      },
+      "score": 2.181367,
+      "head_separation": 0.31031,
+      "outline_clear_fraction": 0.82812
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 112
+      },
+      "score": 2.083023,
+      "head_separation": 0.27819,
+      "outline_clear_fraction": 0.86595
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_Black",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 113
+      },
+      "score": 1.65654,
+      "head_separation": 0.22954,
+      "outline_clear_fraction": 0.70348
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Military_Jacket",
+        "background": "Forest",
+        "text": "Lime",
+        "id": 114
+      },
+      "score": 2.444702,
+      "head_separation": 0.39968,
+      "outline_clear_fraction": 0.90132
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Military_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 115
+      },
+      "score": 2.148639,
+      "head_separation": 0.30974,
+      "outline_clear_fraction": 0.81972
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Military_Jacket",
+        "background": "LiveSignal",
+        "text": "Sky_Blue",
+        "id": 116
+      },
+      "score": 2.084573,
+      "head_separation": 0.29723,
+      "outline_clear_fraction": 0.84359
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "Whiteboard",
+        "text": "Red",
+        "id": 117
+      },
+      "score": 2.036632,
+      "head_separation": 0.27897,
+      "outline_clear_fraction": 0.84091
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "Hearing",
+        "text": "Sky_Blue",
+        "id": 118
+      },
+      "score": 2.001543,
+      "head_separation": 0.27772,
+      "outline_clear_fraction": 0.85101
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Tech_Jacket",
+        "background": "Spheres",
+        "text": "Sky_Blue",
+        "id": 119
+      },
+      "score": 2.559062,
+      "head_separation": 0.38166,
+      "outline_clear_fraction": 0.86097
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Camo_Jacket",
+        "background": "Disclosure",
+        "text": "Lime",
+        "id": 120
+      },
+      "score": 2.087585,
+      "head_separation": 0.30303,
+      "outline_clear_fraction": 0.83294
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Hoodie_White",
+        "background": "Witness",
+        "text": "None",
+        "id": 121
+      },
+      "score": 1.842821,
+      "head_separation": 0.2494,
+      "outline_clear_fraction": 0.79642
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Leather_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 122
+      },
+      "score": 1.77494,
+      "head_separation": 0.24628,
+      "outline_clear_fraction": 0.73651
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 123
+      },
+      "score": 1.561213,
+      "head_separation": 0.19719,
+      "outline_clear_fraction": 0.69886
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Military_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 124
+      },
+      "score": 2.279859,
+      "head_separation": 0.28989,
+      "outline_clear_fraction": 0.92618
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "Disclosure",
+        "text": "Red",
+        "id": 125
+      },
+      "score": 1.683121,
+      "head_separation": 0.22911,
+      "outline_clear_fraction": 0.70613
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "LiveSignal",
+        "text": "Vermilion",
+        "id": 126
+      },
+      "score": 2.159491,
+      "head_separation": 0.29918,
+      "outline_clear_fraction": 0.91598
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Hoodie_White",
+        "background": "Broadcaster",
+        "text": "Vermilion",
+        "id": 127
+      },
+      "score": 1.898702,
+      "head_separation": 0.26266,
+      "outline_clear_fraction": 0.69256
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 128
+      },
+      "score": 2.107339,
+      "head_separation": 0.31258,
+      "outline_clear_fraction": 0.80194
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Leather_Jacket",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 129
+      },
+      "score": 2.230645,
+      "head_separation": 0.31703,
+      "outline_clear_fraction": 0.86975
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Military_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 130
+      },
+      "score": 2.123382,
+      "head_separation": 0.29637,
+      "outline_clear_fraction": 0.88108
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Camo_Jacket",
+        "background": "Spiral",
+        "text": "Lime",
+        "id": 131
+      },
+      "score": 2.080748,
+      "head_separation": 0.28937,
+      "outline_clear_fraction": 0.83856
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Tech_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Red",
+        "id": 132
+      },
+      "score": 2.266218,
+      "head_separation": 0.28552,
+      "outline_clear_fraction": 0.95283
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Safari_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 133
+      },
+      "score": 2.2264,
+      "head_separation": 0.30187,
+      "outline_clear_fraction": 0.89387
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Military_Jacket",
+        "background": "Hearing",
+        "text": "Lime",
+        "id": 134
+      },
+      "score": 1.775788,
+      "head_separation": 0.2507,
+      "outline_clear_fraction": 0.7342
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_Black",
+        "background": "Broadcaster",
+        "text": "Red",
+        "id": 135
+      },
+      "score": 1.707063,
+      "head_separation": 0.23788,
+      "outline_clear_fraction": 0.69822
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Tech_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 136
+      },
+      "score": 1.914558,
+      "head_separation": 0.26699,
+      "outline_clear_fraction": 0.82814
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Military_Jacket",
+        "background": "LiveSignal",
+        "text": "Cyan",
+        "id": 137
+      },
+      "score": 2.015169,
+      "head_separation": 0.29132,
+      "outline_clear_fraction": 0.80946
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Hoodie_White",
+        "background": "Wormhole",
+        "text": "Vermilion",
+        "id": 138
+      },
+      "score": 1.892816,
+      "head_separation": 0.23982,
+      "outline_clear_fraction": 0.75444
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Hoodie_White",
+        "background": "LiveSignal",
+        "text": "Red",
+        "id": 139
+      },
+      "score": 2.310182,
+      "head_separation": 0.31641,
+      "outline_clear_fraction": 0.95694
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 140
+      },
+      "score": 2.071897,
+      "head_separation": 0.28217,
+      "outline_clear_fraction": 0.83731
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Hoodie_Black",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 141
+      },
+      "score": 1.753022,
+      "head_separation": 0.23909,
+      "outline_clear_fraction": 0.75604
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Camo_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 142
+      },
+      "score": 1.917446,
+      "head_separation": 0.26808,
+      "outline_clear_fraction": 0.80088
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Military_Jacket",
+        "background": "Wormhole",
+        "text": "Lime",
+        "id": 143
+      },
+      "score": 1.95699,
+      "head_separation": 0.2722,
+      "outline_clear_fraction": 0.80032
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Camo_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 144
+      },
+      "score": 1.996162,
+      "head_separation": 0.28056,
+      "outline_clear_fraction": 0.8511
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_Black",
+        "background": "Spiral",
+        "text": "None",
+        "id": 145
+      },
+      "score": 1.663191,
+      "head_separation": 0.22495,
+      "outline_clear_fraction": 0.69684
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "Broadcaster",
+        "text": "Vermilion",
+        "id": 146
+      },
+      "score": 1.698848,
+      "head_separation": 0.23826,
+      "outline_clear_fraction": 0.70227
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Military_Jacket",
+        "background": "Headset",
+        "text": "Magenta",
+        "id": 147
+      },
+      "score": 1.734898,
+      "head_separation": 0.23457,
+      "outline_clear_fraction": 0.78198
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Tech_Jacket",
+        "background": "Corridor",
+        "text": "Sky_Blue",
+        "id": 148
+      },
+      "score": 2.25154,
+      "head_separation": 0.29354,
+      "outline_clear_fraction": 0.86154
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Leather_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 149
+      },
+      "score": 1.984228,
+      "head_separation": 0.27579,
+      "outline_clear_fraction": 0.84958
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Leather_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 150
+      },
+      "score": 1.733832,
+      "head_separation": 0.23014,
+      "outline_clear_fraction": 0.77534
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Bomber_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 151
+      },
+      "score": 1.544901,
+      "head_separation": 0.18197,
+      "outline_clear_fraction": 0.65802
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 152
+      },
+      "score": 1.86296,
+      "head_separation": 0.25975,
+      "outline_clear_fraction": 0.79573
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Tech_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 153
+      },
+      "score": 2.043191,
+      "head_separation": 0.25069,
+      "outline_clear_fraction": 0.87422
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Leather_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 154
+      },
+      "score": 1.729432,
+      "head_separation": 0.22768,
+      "outline_clear_fraction": 0.7784
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Safari_Jacket",
+        "background": "LiveSignal",
+        "text": "Vermilion",
+        "id": 155
+      },
+      "score": 2.299477,
+      "head_separation": 0.33319,
+      "outline_clear_fraction": 0.8858
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Hoodie_Black",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 156
+      },
+      "score": 1.837457,
+      "head_separation": 0.24788,
+      "outline_clear_fraction": 0.80284
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Hoodie_Black",
+        "background": "Pyramids",
+        "text": "Lime",
+        "id": 157
+      },
+      "score": 1.600505,
+      "head_separation": 0.21684,
+      "outline_clear_fraction": 0.66557
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Tech_Jacket",
+        "background": "Cavern",
+        "text": "Sky_Blue",
+        "id": 158
+      },
+      "score": 2.011469,
+      "head_separation": 0.2799,
+      "outline_clear_fraction": 0.81312
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Hoodie_White",
+        "background": "Analyst",
+        "text": "Red",
+        "id": 159
+      },
+      "score": 1.800051,
+      "head_separation": 0.23628,
+      "outline_clear_fraction": 0.82624
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_Black",
+        "background": "Spiral",
+        "text": "None",
+        "id": 160
+      },
+      "score": 1.604397,
+      "head_separation": 0.21215,
+      "outline_clear_fraction": 0.7036
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 161
+      },
+      "score": 1.997294,
+      "head_separation": 0.28122,
+      "outline_clear_fraction": 0.81566
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Spacesuit",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 162
+      },
+      "score": 1.785192,
+      "head_separation": 0.25056,
+      "outline_clear_fraction": 0.69286
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Bomber_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 163
+      },
+      "score": 2.055168,
+      "head_separation": 0.28985,
+      "outline_clear_fraction": 0.83887
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 164
+      },
+      "score": 2.44558,
+      "head_separation": 0.31985,
+      "outline_clear_fraction": 0.88704
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Winter_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 165
+      },
+      "score": 1.93006,
+      "head_separation": 0.2486,
+      "outline_clear_fraction": 0.72418
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Leather_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Red",
+        "id": 166
+      },
+      "score": 2.13023,
+      "head_separation": 0.29528,
+      "outline_clear_fraction": 0.88571
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Camo_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 167
+      },
+      "score": 2.027171,
+      "head_separation": 0.26584,
+      "outline_clear_fraction": 0.83273
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "StormCockpit",
+        "text": "Vermilion",
+        "id": 168
+      },
+      "score": 2.206971,
+      "head_separation": 0.3025,
+      "outline_clear_fraction": 0.88874
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Tech_Jacket",
+        "background": "Forest",
+        "text": "None",
+        "id": 169
+      },
+      "score": 1.763392,
+      "head_separation": 0.23808,
+      "outline_clear_fraction": 0.7426
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Bomber_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 170
+      },
+      "score": 2.082573,
+      "head_separation": 0.29807,
+      "outline_clear_fraction": 0.85137
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Safari_Jacket",
+        "background": "Forest",
+        "text": "Magenta",
+        "id": 171
+      },
+      "score": 1.851925,
+      "head_separation": 0.25055,
+      "outline_clear_fraction": 0.74028
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Safari_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 172
+      },
+      "score": 2.301536,
+      "head_separation": 0.29591,
+      "outline_clear_fraction": 0.87264
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Leather_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 173
+      },
+      "score": 1.935971,
+      "head_separation": 0.27116,
+      "outline_clear_fraction": 0.82293
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Camo_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 174
+      },
+      "score": 2.107162,
+      "head_separation": 0.27753,
+      "outline_clear_fraction": 0.7903
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "Pyramids",
+        "text": "Red",
+        "id": 175
+      },
+      "score": 1.823288,
+      "head_separation": 0.22753,
+      "outline_clear_fraction": 0.84848
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "Hearing",
+        "text": "Red",
+        "id": 176
+      },
+      "score": 1.786176,
+      "head_separation": 0.25016,
+      "outline_clear_fraction": 0.71665
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Bomber_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 177
+      },
+      "score": 1.612302,
+      "head_separation": 0.21679,
+      "outline_clear_fraction": 0.73854
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Military_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 178
+      },
+      "score": 1.868221,
+      "head_separation": 0.25976,
+      "outline_clear_fraction": 0.75528
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Pyramids",
+        "text": "None",
+        "id": 179
+      },
+      "score": 2.159953,
+      "head_separation": 0.31318,
+      "outline_clear_fraction": 0.81107
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Military_Jacket",
+        "background": "Cubes",
+        "text": "None",
+        "id": 180
+      },
+      "score": 2.202741,
+      "head_separation": 0.31777,
+      "outline_clear_fraction": 0.83239
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Hoodie_White",
+        "background": "Spheres",
+        "text": "None",
+        "id": 181
+      },
+      "score": 2.695535,
+      "head_separation": 0.3931,
+      "outline_clear_fraction": 0.86352
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 182
+      },
+      "score": 1.660578,
+      "head_separation": 0.22147,
+      "outline_clear_fraction": 0.71162
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Military_Jacket",
+        "background": "Spheres",
+        "text": "None",
+        "id": 183
+      },
+      "score": 2.474287,
+      "head_separation": 0.36783,
+      "outline_clear_fraction": 0.85775
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Leather_Jacket",
+        "background": "Hearing",
+        "text": "Sky_Blue",
+        "id": 184
+      },
+      "score": 1.792786,
+      "head_separation": 0.25621,
+      "outline_clear_fraction": 0.72146
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Tech_Jacket",
+        "background": "Headset",
+        "text": "Red",
+        "id": 185
+      },
+      "score": 1.926493,
+      "head_separation": 0.25592,
+      "outline_clear_fraction": 0.90836
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Military_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 186
+      },
+      "score": 2.039882,
+      "head_separation": 0.2997,
+      "outline_clear_fraction": 0.79296
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Tech_Jacket",
+        "background": "Witness",
+        "text": "Sky_Blue",
+        "id": 187
+      },
+      "score": 2.144901,
+      "head_separation": 0.31276,
+      "outline_clear_fraction": 0.81744
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Wormhole",
+        "text": "Vermilion",
+        "id": 188
+      },
+      "score": 1.978543,
+      "head_separation": 0.28221,
+      "outline_clear_fraction": 0.75439
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Tech_Jacket",
+        "background": "Cavern",
+        "text": "Sky_Blue",
+        "id": 189
+      },
+      "score": 1.968551,
+      "head_separation": 0.27437,
+      "outline_clear_fraction": 0.80695
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Tech_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 190
+      },
+      "score": 1.836637,
+      "head_separation": 0.25551,
+      "outline_clear_fraction": 0.75093
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Camo_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 191
+      },
+      "score": 2.007551,
+      "head_separation": 0.27654,
+      "outline_clear_fraction": 0.80702
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Hoodie_White",
+        "background": "Cavern",
+        "text": "Vermilion",
+        "id": 192
+      },
+      "score": 2.292655,
+      "head_separation": 0.30333,
+      "outline_clear_fraction": 0.87333
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Tech_Jacket",
+        "background": "Cubes",
+        "text": "Cyan",
+        "id": 193
+      },
+      "score": 1.785778,
+      "head_separation": 0.24154,
+      "outline_clear_fraction": 0.76827
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Hoodie_Black",
+        "background": "Cavern",
+        "text": "None",
+        "id": 194
+      },
+      "score": 1.891614,
+      "head_separation": 0.26279,
+      "outline_clear_fraction": 0.78233
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Tech_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 195
+      },
+      "score": 1.86939,
+      "head_separation": 0.25978,
+      "outline_clear_fraction": 0.79523
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Tech_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 196
+      },
+      "score": 2.253996,
+      "head_separation": 0.32729,
+      "outline_clear_fraction": 0.88588
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Military_Jacket",
+        "background": "Cavern",
+        "text": "Lime",
+        "id": 197
+      },
+      "score": 2.77286,
+      "head_separation": 0.42203,
+      "outline_clear_fraction": 0.92368
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Hoodie_White",
+        "background": "Headset",
+        "text": "None",
+        "id": 198
+      },
+      "score": 1.903548,
+      "head_separation": 0.25886,
+      "outline_clear_fraction": 0.84753
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Safari_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 199
+      },
+      "score": 2.188751,
+      "head_separation": 0.29666,
+      "outline_clear_fraction": 0.87453
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Safari_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 200
+      },
+      "score": 2.184001,
+      "head_separation": 0.28668,
+      "outline_clear_fraction": 0.80546
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Tech_Jacket",
+        "background": "Forest",
+        "text": "Sky_Blue",
+        "id": 201
+      },
+      "score": 2.244792,
+      "head_separation": 0.32536,
+      "outline_clear_fraction": 0.82153
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Hoodie_Black",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 202
+      },
+      "score": 1.735173,
+      "head_separation": 0.23369,
+      "outline_clear_fraction": 0.75035
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Leather_Jacket",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 203
+      },
+      "score": 1.949295,
+      "head_separation": 0.26663,
+      "outline_clear_fraction": 0.8519
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Bomber_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 204
+      },
+      "score": 2.052515,
+      "head_separation": 0.2952,
+      "outline_clear_fraction": 0.8591
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 205
+      },
+      "score": 1.789098,
+      "head_separation": 0.24542,
+      "outline_clear_fraction": 0.76235
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Camo_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 206
+      },
+      "score": 2.197952,
+      "head_separation": 0.31908,
+      "outline_clear_fraction": 0.86754
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_Black",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 207
+      },
+      "score": 1.856952,
+      "head_separation": 0.25088,
+      "outline_clear_fraction": 0.79609
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 208
+      },
+      "score": 1.882156,
+      "head_separation": 0.27211,
+      "outline_clear_fraction": 0.70777
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_White",
+        "background": "Hearing",
+        "text": "None",
+        "id": 209
+      },
+      "score": 1.90615,
+      "head_separation": 0.26028,
+      "outline_clear_fraction": 0.77654
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Military_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 210
+      },
+      "score": 1.976302,
+      "head_separation": 0.28442,
+      "outline_clear_fraction": 0.79922
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 211
+      },
+      "score": 2.470171,
+      "head_separation": 0.37146,
+      "outline_clear_fraction": 0.85156
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "Broadcaster",
+        "text": "Vermilion",
+        "id": 212
+      },
+      "score": 1.764844,
+      "head_separation": 0.24169,
+      "outline_clear_fraction": 0.70643
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Bomber_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 213
+      },
+      "score": 1.663794,
+      "head_separation": 0.23736,
+      "outline_clear_fraction": 0.70526
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "Analyst",
+        "text": "None",
+        "id": 214
+      },
+      "score": 2.363446,
+      "head_separation": 0.3535,
+      "outline_clear_fraction": 0.91406
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "StormCockpit",
+        "text": "Sky_Blue",
+        "id": 215
+      },
+      "score": 2.213806,
+      "head_separation": 0.31944,
+      "outline_clear_fraction": 0.88215
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Leather_Jacket",
+        "background": "Spheres",
+        "text": "Cyan",
+        "id": 216
+      },
+      "score": 2.52887,
+      "head_separation": 0.38195,
+      "outline_clear_fraction": 0.85604
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Bomber_Jacket",
+        "background": "Whiteboard",
+        "text": "Magenta",
+        "id": 217
+      },
+      "score": 2.002392,
+      "head_separation": 0.28609,
+      "outline_clear_fraction": 0.7373
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Tech_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 218
+      },
+      "score": 2.682973,
+      "head_separation": 0.41681,
+      "outline_clear_fraction": 0.8699
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Tech_Jacket",
+        "background": "Corridor",
+        "text": "Cyan",
+        "id": 219
+      },
+      "score": 2.202896,
+      "head_separation": 0.2867,
+      "outline_clear_fraction": 0.83826
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Bomber_Jacket",
+        "background": "Witness",
+        "text": "Red",
+        "id": 220
+      },
+      "score": 1.916147,
+      "head_separation": 0.25892,
+      "outline_clear_fraction": 0.89327
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Military_Jacket",
+        "background": "Whiteboard",
+        "text": "Cyan",
+        "id": 221
+      },
+      "score": 1.872517,
+      "head_separation": 0.27213,
+      "outline_clear_fraction": 0.70405
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Hoodie_Black",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 222
+      },
+      "score": 1.799314,
+      "head_separation": 0.25135,
+      "outline_clear_fraction": 0.76044
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_Black",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 223
+      },
+      "score": 1.983573,
+      "head_separation": 0.27278,
+      "outline_clear_fraction": 0.82158
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Safari_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 224
+      },
+      "score": 2.266032,
+      "head_separation": 0.29621,
+      "outline_clear_fraction": 0.86265
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 225
+      },
+      "score": 2.106239,
+      "head_separation": 0.26172,
+      "outline_clear_fraction": 0.81883
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "Cavern",
+        "text": "Magenta",
+        "id": 226
+      },
+      "score": 1.968191,
+      "head_separation": 0.27469,
+      "outline_clear_fraction": 0.81041
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Winter_Jacket",
+        "background": "Witness",
+        "text": "Magenta",
+        "id": 227
+      },
+      "score": 1.822695,
+      "head_separation": 0.24997,
+      "outline_clear_fraction": 0.7925
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Military_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 228
+      },
+      "score": 1.793711,
+      "head_separation": 0.25871,
+      "outline_clear_fraction": 0.68588
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "Hearing",
+        "text": "Magenta",
+        "id": 229
+      },
+      "score": 1.803526,
+      "head_separation": 0.25119,
+      "outline_clear_fraction": 0.75773
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Hoodie_White",
+        "background": "Analyst",
+        "text": "None",
+        "id": 230
+      },
+      "score": 2.142964,
+      "head_separation": 0.30837,
+      "outline_clear_fraction": 0.79775
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Hoodie_White",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 231
+      },
+      "score": 2.208205,
+      "head_separation": 0.29117,
+      "outline_clear_fraction": 0.82643
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_White",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 232
+      },
+      "score": 2.212733,
+      "head_separation": 0.30794,
+      "outline_clear_fraction": 0.87162
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Military_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Magenta",
+        "id": 233
+      },
+      "score": 2.011376,
+      "head_separation": 0.27425,
+      "outline_clear_fraction": 0.85676
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Cubes",
+        "text": "Lime",
+        "id": 234
+      },
+      "score": 2.149638,
+      "head_separation": 0.32381,
+      "outline_clear_fraction": 0.82271
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_Black",
+        "background": "Broadcaster",
+        "text": "Red",
+        "id": 235
+      },
+      "score": 1.550416,
+      "head_separation": 0.21479,
+      "outline_clear_fraction": 0.63466
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Military_Jacket",
+        "background": "Broadcaster",
+        "text": "Cyan",
+        "id": 236
+      },
+      "score": 1.770993,
+      "head_separation": 0.24529,
+      "outline_clear_fraction": 0.72432
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Tech_Jacket",
+        "background": "Disclosure",
+        "text": "Cyan",
+        "id": 237
+      },
+      "score": 1.898292,
+      "head_separation": 0.26368,
+      "outline_clear_fraction": 0.81671
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Cubes",
+        "text": "Vermilion",
+        "id": 238
+      },
+      "score": 2.147089,
+      "head_separation": 0.31333,
+      "outline_clear_fraction": 0.80837
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_Black",
+        "background": "Headset",
+        "text": "Cyan",
+        "id": 239
+      },
+      "score": 1.532819,
+      "head_separation": 0.20979,
+      "outline_clear_fraction": 0.6502
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Safari_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 240
+      },
+      "score": 2.219056,
+      "head_separation": 0.28049,
+      "outline_clear_fraction": 0.86198
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Leather_Jacket",
+        "background": "Disclosure",
+        "text": "Lime",
+        "id": 241
+      },
+      "score": 1.759084,
+      "head_separation": 0.25188,
+      "outline_clear_fraction": 0.68724
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "Sky_Blue",
+        "id": 242
+      },
+      "score": 2.132591,
+      "head_separation": 0.26797,
+      "outline_clear_fraction": 0.81148
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Bomber_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Magenta",
+        "id": 243
+      },
+      "score": 2.034695,
+      "head_separation": 0.26728,
+      "outline_clear_fraction": 0.83632
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Military_Jacket",
+        "background": "Cubes",
+        "text": "Lime",
+        "id": 244
+      },
+      "score": 2.474691,
+      "head_separation": 0.36375,
+      "outline_clear_fraction": 0.89868
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Hoodie_White",
+        "background": "Cavern",
+        "text": "None",
+        "id": 245
+      },
+      "score": 2.939954,
+      "head_separation": 0.42477,
+      "outline_clear_fraction": 0.93963
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Camo_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 246
+      },
+      "score": 2.164225,
+      "head_separation": 0.28673,
+      "outline_clear_fraction": 0.81026
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Hoodie_Black",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 247
+      },
+      "score": 1.67303,
+      "head_separation": 0.23765,
+      "outline_clear_fraction": 0.64539
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Hoodie_White",
+        "background": "Forest",
+        "text": "Vermilion",
+        "id": 248
+      },
+      "score": 2.24375,
+      "head_separation": 0.30398,
+      "outline_clear_fraction": 0.84829
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Leather_Jacket",
+        "background": "Spiral",
+        "text": "Lime",
+        "id": 249
+      },
+      "score": 1.755149,
+      "head_separation": 0.23779,
+      "outline_clear_fraction": 0.74525
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "StormCockpit",
+        "text": "Magenta",
+        "id": 250
+      },
+      "score": 2.003085,
+      "head_separation": 0.27586,
+      "outline_clear_fraction": 0.83542
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Leather_Jacket",
+        "background": "Disclosure",
+        "text": "Lime",
+        "id": 251
+      },
+      "score": 1.956966,
+      "head_separation": 0.2777,
+      "outline_clear_fraction": 0.79341
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Forest",
+        "text": "Lime",
+        "id": 252
+      },
+      "score": 2.182691,
+      "head_separation": 0.32696,
+      "outline_clear_fraction": 0.81579
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_White",
+        "background": "Pyramids",
+        "text": "Red",
+        "id": 253
+      },
+      "score": 1.795821,
+      "head_separation": 0.22931,
+      "outline_clear_fraction": 0.71111
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 254
+      },
+      "score": 2.115019,
+      "head_separation": 0.29755,
+      "outline_clear_fraction": 0.89057
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Bomber_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 255
+      },
+      "score": 2.137591,
+      "head_separation": 0.28897,
+      "outline_clear_fraction": 0.92376
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Leather_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 256
+      },
+      "score": 1.835938,
+      "head_separation": 0.25719,
+      "outline_clear_fraction": 0.76385
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Safari_Jacket",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 257
+      },
+      "score": 1.916448,
+      "head_separation": 0.26486,
+      "outline_clear_fraction": 0.79935
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 258
+      },
+      "score": 1.742808,
+      "head_separation": 0.23654,
+      "outline_clear_fraction": 0.70761
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "Spiral",
+        "text": "None",
+        "id": 259
+      },
+      "score": 1.922695,
+      "head_separation": 0.24869,
+      "outline_clear_fraction": 0.84711
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Military_Jacket",
+        "background": "Whiteboard",
+        "text": "Lime",
+        "id": 260
+      },
+      "score": 1.82326,
+      "head_separation": 0.25529,
+      "outline_clear_fraction": 0.75111
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Leather_Jacket",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 261
+      },
+      "score": 1.608756,
+      "head_separation": 0.21262,
+      "outline_clear_fraction": 0.72147
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "Forest",
+        "text": "Red",
+        "id": 262
+      },
+      "score": 1.881045,
+      "head_separation": 0.23835,
+      "outline_clear_fraction": 0.87603
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Camo_Jacket",
+        "background": "Headset",
+        "text": "Lime",
+        "id": 263
+      },
+      "score": 1.714605,
+      "head_separation": 0.22388,
+      "outline_clear_fraction": 0.76801
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_White",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 264
+      },
+      "score": 2.05579,
+      "head_separation": 0.26544,
+      "outline_clear_fraction": 0.81389
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Military_Jacket",
+        "background": "Headset",
+        "text": "Red",
+        "id": 265
+      },
+      "score": 1.91241,
+      "head_separation": 0.25847,
+      "outline_clear_fraction": 0.86496
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_White",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 266
+      },
+      "score": 1.965955,
+      "head_separation": 0.25378,
+      "outline_clear_fraction": 0.81164
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Winter_Jacket",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 267
+      },
+      "score": 1.736802,
+      "head_separation": 0.23664,
+      "outline_clear_fraction": 0.72796
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_White",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 268
+      },
+      "score": 2.089207,
+      "head_separation": 0.2776,
+      "outline_clear_fraction": 0.83562
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Leather_Jacket",
+        "background": "Whiteboard",
+        "text": "Red",
+        "id": 269
+      },
+      "score": 1.77374,
+      "head_separation": 0.23775,
+      "outline_clear_fraction": 0.75084
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Bomber_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 270
+      },
+      "score": 1.644971,
+      "head_separation": 0.22174,
+      "outline_clear_fraction": 0.65802
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Hoodie_White",
+        "background": "Spiral",
+        "text": "Red",
+        "id": 271
+      },
+      "score": 1.940752,
+      "head_separation": 0.24889,
+      "outline_clear_fraction": 0.7879
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 272
+      },
+      "score": 2.566673,
+      "head_separation": 0.41492,
+      "outline_clear_fraction": 0.84375
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Hoodie_White",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 273
+      },
+      "score": 2.112021,
+      "head_separation": 0.24726,
+      "outline_clear_fraction": 0.863
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Hoodie_White",
+        "background": "Cavern",
+        "text": "Vermilion",
+        "id": 274
+      },
+      "score": 2.065497,
+      "head_separation": 0.27031,
+      "outline_clear_fraction": 0.78222
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Leather_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 275
+      },
+      "score": 1.910322,
+      "head_separation": 0.23554,
+      "outline_clear_fraction": 0.80027
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Leather_Jacket",
+        "background": "Witness",
+        "text": "Red",
+        "id": 276
+      },
+      "score": 2.01563,
+      "head_separation": 0.27421,
+      "outline_clear_fraction": 0.92527
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Hoodie_White",
+        "background": "Forest",
+        "text": "Vermilion",
+        "id": 277
+      },
+      "score": 2.670418,
+      "head_separation": 0.42058,
+      "outline_clear_fraction": 0.93438
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Military_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 278
+      },
+      "score": 1.729994,
+      "head_separation": 0.23114,
+      "outline_clear_fraction": 0.75
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "Spiral",
+        "text": "Lime",
+        "id": 279
+      },
+      "score": 2.405342,
+      "head_separation": 0.36045,
+      "outline_clear_fraction": 0.81641
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Tech_Jacket",
+        "background": "Corridor",
+        "text": "Red",
+        "id": 280
+      },
+      "score": 2.01316,
+      "head_separation": 0.24805,
+      "outline_clear_fraction": 0.83827
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Winter_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 281
+      },
+      "score": 2.053061,
+      "head_separation": 0.26401,
+      "outline_clear_fraction": 0.83501
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Safari_Jacket",
+        "background": "Pyramids",
+        "text": "Vermilion",
+        "id": 282
+      },
+      "score": 1.880412,
+      "head_separation": 0.25235,
+      "outline_clear_fraction": 0.75208
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Pyramids",
+        "text": "Lime",
+        "id": 283
+      },
+      "score": 2.136876,
+      "head_separation": 0.31573,
+      "outline_clear_fraction": 0.82548
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_Black",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 284
+      },
+      "score": 1.997999,
+      "head_separation": 0.27338,
+      "outline_clear_fraction": 0.8518
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Tech_Jacket",
+        "background": "Spheres",
+        "text": "Sky_Blue",
+        "id": 285
+      },
+      "score": 2.523516,
+      "head_separation": 0.3738,
+      "outline_clear_fraction": 0.87057
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Bomber_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 286
+      },
+      "score": 1.925499,
+      "head_separation": 0.2696,
+      "outline_clear_fraction": 0.843
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Bomber_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 287
+      },
+      "score": 2.162986,
+      "head_separation": 0.28065,
+      "outline_clear_fraction": 0.93901
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Tech_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 288
+      },
+      "score": 1.752426,
+      "head_separation": 0.23731,
+      "outline_clear_fraction": 0.77898
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Winter_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 289
+      },
+      "score": 2.031572,
+      "head_separation": 0.29226,
+      "outline_clear_fraction": 0.82125
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Military_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 290
+      },
+      "score": 2.132904,
+      "head_separation": 0.29317,
+      "outline_clear_fraction": 0.88462
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Camo_Jacket",
+        "background": "Forest",
+        "text": "Lime",
+        "id": 291
+      },
+      "score": 2.010687,
+      "head_separation": 0.29099,
+      "outline_clear_fraction": 0.82297
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Winter_Jacket",
+        "background": "Forest",
+        "text": "None",
+        "id": 292
+      },
+      "score": 2.197137,
+      "head_separation": 0.32253,
+      "outline_clear_fraction": 0.80837
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Leather_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 293
+      },
+      "score": 2.091967,
+      "head_separation": 0.29971,
+      "outline_clear_fraction": 0.84242
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Military_Jacket",
+        "background": "Spiral",
+        "text": "Lime",
+        "id": 294
+      },
+      "score": 2.118644,
+      "head_separation": 0.30544,
+      "outline_clear_fraction": 0.78451
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Military_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 295
+      },
+      "score": 2.012441,
+      "head_separation": 0.28811,
+      "outline_clear_fraction": 0.82809
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Military_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 296
+      },
+      "score": 2.209098,
+      "head_separation": 0.31098,
+      "outline_clear_fraction": 0.87692
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Hoodie_Black",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 297
+      },
+      "score": 2.093178,
+      "head_separation": 0.30243,
+      "outline_clear_fraction": 0.84458
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Winter_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 298
+      },
+      "score": 2.138727,
+      "head_separation": 0.30853,
+      "outline_clear_fraction": 0.86649
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Leather_Jacket",
+        "background": "Headset",
+        "text": "Cyan",
+        "id": 299
+      },
+      "score": 1.78836,
+      "head_separation": 0.23696,
+      "outline_clear_fraction": 0.79916
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 300
+      },
+      "score": 2.161112,
+      "head_separation": 0.26913,
+      "outline_clear_fraction": 0.84682
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Military_Jacket",
+        "background": "Cavern",
+        "text": "Lime",
+        "id": 301
+      },
+      "score": 2.204036,
+      "head_separation": 0.31394,
+      "outline_clear_fraction": 0.86199
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Safari_Jacket",
+        "background": "StormCockpit",
+        "text": "Vermilion",
+        "id": 302
+      },
+      "score": 2.034196,
+      "head_separation": 0.2746,
+      "outline_clear_fraction": 0.80911
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Hoodie_White",
+        "background": "Broadcaster",
+        "text": "Red",
+        "id": 303
+      },
+      "score": 2.172398,
+      "head_separation": 0.29349,
+      "outline_clear_fraction": 0.86389
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_White",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 304
+      },
+      "score": 1.943975,
+      "head_separation": 0.26657,
+      "outline_clear_fraction": 0.71892
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Spacesuit",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 305
+      },
+      "score": 1.993157,
+      "head_separation": 0.28046,
+      "outline_clear_fraction": 0.78674
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Bomber_Jacket",
+        "background": "Spiral",
+        "text": "Lime",
+        "id": 306
+      },
+      "score": 2.017626,
+      "head_separation": 0.28621,
+      "outline_clear_fraction": 0.83994
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Bomber_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 307
+      },
+      "score": 1.876757,
+      "head_separation": 0.25521,
+      "outline_clear_fraction": 0.78219
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Hoodie_White",
+        "background": "Corridor",
+        "text": "None",
+        "id": 308
+      },
+      "score": 2.292372,
+      "head_separation": 0.30182,
+      "outline_clear_fraction": 0.83092
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Tech_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Sky_Blue",
+        "id": 309
+      },
+      "score": 2.094171,
+      "head_separation": 0.26661,
+      "outline_clear_fraction": 0.8314
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_Black",
+        "background": "Witness",
+        "text": "None",
+        "id": 310
+      },
+      "score": 1.657883,
+      "head_separation": 0.22507,
+      "outline_clear_fraction": 0.76543
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Bomber_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 311
+      },
+      "score": 2.109509,
+      "head_separation": 0.31036,
+      "outline_clear_fraction": 0.84848
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Leather_Jacket",
+        "background": "Cubes",
+        "text": "Red",
+        "id": 312
+      },
+      "score": 1.698915,
+      "head_separation": 0.23017,
+      "outline_clear_fraction": 0.75126
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Spacesuit",
+        "background": "Cavern",
+        "text": "None",
+        "id": 313
+      },
+      "score": 2.042359,
+      "head_separation": 0.27838,
+      "outline_clear_fraction": 0.81795
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_Black",
+        "background": "LiveSignal",
+        "text": "Red",
+        "id": 314
+      },
+      "score": 2.077791,
+      "head_separation": 0.30002,
+      "outline_clear_fraction": 0.84911
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Leather_Jacket",
+        "background": "Whiteboard",
+        "text": "Lime",
+        "id": 315
+      },
+      "score": 1.693036,
+      "head_separation": 0.23313,
+      "outline_clear_fraction": 0.64236
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Hoodie_Black",
+        "background": "Cavern",
+        "text": "None",
+        "id": 316
+      },
+      "score": 1.839075,
+      "head_separation": 0.25654,
+      "outline_clear_fraction": 0.74367
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "Spiral",
+        "text": "None",
+        "id": 317
+      },
+      "score": 1.690536,
+      "head_separation": 0.21666,
+      "outline_clear_fraction": 0.73324
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Leather_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 318
+      },
+      "score": 2.081596,
+      "head_separation": 0.26408,
+      "outline_clear_fraction": 0.82183
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Tech_Jacket",
+        "background": "LiveSignal",
+        "text": "Sky_Blue",
+        "id": 319
+      },
+      "score": 2.149862,
+      "head_separation": 0.30921,
+      "outline_clear_fraction": 0.87332
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Hoodie_White",
+        "background": "Hearing",
+        "text": "None",
+        "id": 320
+      },
+      "score": 1.889663,
+      "head_separation": 0.25869,
+      "outline_clear_fraction": 0.74749
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Camo_Jacket",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 321
+      },
+      "score": 1.829517,
+      "head_separation": 0.25518,
+      "outline_clear_fraction": 0.75152
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Military_Jacket",
+        "background": "Hearing",
+        "text": "Cyan",
+        "id": 322
+      },
+      "score": 1.81146,
+      "head_separation": 0.25754,
+      "outline_clear_fraction": 0.73775
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Leather_Jacket",
+        "background": "Witness",
+        "text": "Red",
+        "id": 323
+      },
+      "score": 1.818774,
+      "head_separation": 0.25028,
+      "outline_clear_fraction": 0.80299
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Safari_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 324
+      },
+      "score": 1.9308,
+      "head_separation": 0.26925,
+      "outline_clear_fraction": 0.79826
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Leather_Jacket",
+        "background": "Cavern",
+        "text": "Cyan",
+        "id": 325
+      },
+      "score": 2.217758,
+      "head_separation": 0.31886,
+      "outline_clear_fraction": 0.86374
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Hoodie_White",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 326
+      },
+      "score": 1.978706,
+      "head_separation": 0.27062,
+      "outline_clear_fraction": 0.7452
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Safari_Jacket",
+        "background": "Wormhole",
+        "text": "Vermilion",
+        "id": 327
+      },
+      "score": 1.754077,
+      "head_separation": 0.23126,
+      "outline_clear_fraction": 0.74376
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Military_Jacket",
+        "background": "Pyramids",
+        "text": "Lime",
+        "id": 328
+      },
+      "score": 2.349409,
+      "head_separation": 0.37941,
+      "outline_clear_fraction": 0.88816
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Tech_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 329
+      },
+      "score": 2.772163,
+      "head_separation": 0.42129,
+      "outline_clear_fraction": 0.92347
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_White",
+        "background": "Spheres",
+        "text": "Red",
+        "id": 330
+      },
+      "score": 1.693064,
+      "head_separation": 0.21154,
+      "outline_clear_fraction": 0.7
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Winter_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Magenta",
+        "id": 331
+      },
+      "score": 2.081932,
+      "head_separation": 0.2688,
+      "outline_clear_fraction": 0.8425
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Safari_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 332
+      },
+      "score": 2.200025,
+      "head_separation": 0.31344,
+      "outline_clear_fraction": 0.88144
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Hoodie_White",
+        "background": "Cavern",
+        "text": "Vermilion",
+        "id": 333
+      },
+      "score": 2.176102,
+      "head_separation": 0.28469,
+      "outline_clear_fraction": 0.83333
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Tech_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 334
+      },
+      "score": 2.214467,
+      "head_separation": 0.29134,
+      "outline_clear_fraction": 0.81765
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Camo_Jacket",
+        "background": "Disclosure",
+        "text": "Lime",
+        "id": 335
+      },
+      "score": 2.06651,
+      "head_separation": 0.29733,
+      "outline_clear_fraction": 0.85893
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Bomber_Jacket",
+        "background": "Headset",
+        "text": "None",
+        "id": 336
+      },
+      "score": 1.981338,
+      "head_separation": 0.26429,
+      "outline_clear_fraction": 0.86554
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "Cubes",
+        "text": "Red",
+        "id": 337
+      },
+      "score": 1.37851,
+      "head_separation": 0.17393,
+      "outline_clear_fraction": 0.61158
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Bomber_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 338
+      },
+      "score": 1.923195,
+      "head_separation": 0.26699,
+      "outline_clear_fraction": 0.75731
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Leather_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 339
+      },
+      "score": 2.087637,
+      "head_separation": 0.30418,
+      "outline_clear_fraction": 0.84783
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "Cavern",
+        "text": "None",
+        "id": 340
+      },
+      "score": 1.737332,
+      "head_separation": 0.22796,
+      "outline_clear_fraction": 0.73189
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Hoodie_Black",
+        "background": "Headset",
+        "text": "Cyan",
+        "id": 341
+      },
+      "score": 1.697402,
+      "head_separation": 0.22725,
+      "outline_clear_fraction": 0.77098
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Hoodie_White",
+        "background": "Spheres",
+        "text": "Vermilion",
+        "id": 342
+      },
+      "score": 2.638276,
+      "head_separation": 0.37987,
+      "outline_clear_fraction": 0.875
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Bomber_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 343
+      },
+      "score": 2.022718,
+      "head_separation": 0.28363,
+      "outline_clear_fraction": 0.88352
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 344
+      },
+      "score": 1.729011,
+      "head_separation": 0.24382,
+      "outline_clear_fraction": 0.71178
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Camo_Jacket",
+        "background": "Witness",
+        "text": "Lime",
+        "id": 345
+      },
+      "score": 2.495957,
+      "head_separation": 0.37922,
+      "outline_clear_fraction": 0.89453
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Tech_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 346
+      },
+      "score": 1.715973,
+      "head_separation": 0.2439,
+      "outline_clear_fraction": 0.65255
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Safari_Jacket",
+        "background": "Cavern",
+        "text": "Vermilion",
+        "id": 347
+      },
+      "score": 2.228064,
+      "head_separation": 0.31134,
+      "outline_clear_fraction": 0.86595
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "Spheres",
+        "text": "None",
+        "id": 348
+      },
+      "score": 1.823506,
+      "head_separation": 0.22799,
+      "outline_clear_fraction": 0.83747
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Hoodie_Black",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 349
+      },
+      "score": 1.981109,
+      "head_separation": 0.28247,
+      "outline_clear_fraction": 0.80482
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Tech_Jacket",
+        "background": "Wormhole",
+        "text": "Sky_Blue",
+        "id": 350
+      },
+      "score": 2.057033,
+      "head_separation": 0.28495,
+      "outline_clear_fraction": 0.82737
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_Black",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 351
+      },
+      "score": 2.062306,
+      "head_separation": 0.28531,
+      "outline_clear_fraction": 0.86248
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Leather_Jacket",
+        "background": "Spiral",
+        "text": "None",
+        "id": 352
+      },
+      "score": 1.714985,
+      "head_separation": 0.2333,
+      "outline_clear_fraction": 0.71569
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Military_Jacket",
+        "background": "Whiteboard",
+        "text": "Sky_Blue",
+        "id": 353
+      },
+      "score": 1.726415,
+      "head_separation": 0.25098,
+      "outline_clear_fraction": 0.638
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 354
+      },
+      "score": 1.906635,
+      "head_separation": 0.25231,
+      "outline_clear_fraction": 0.80409
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Spiral",
+        "text": "Lime",
+        "id": 355
+      },
+      "score": 2.125841,
+      "head_separation": 0.30668,
+      "outline_clear_fraction": 0.77978
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 14,
+        "outfit": "Tech_Jacket",
+        "background": "Disclosure",
+        "text": "Sky_Blue",
+        "id": 356
+      },
+      "score": 2.062476,
+      "head_separation": 0.29392,
+      "outline_clear_fraction": 0.83353
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Bomber_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 357
+      },
+      "score": 1.887703,
+      "head_separation": 0.25956,
+      "outline_clear_fraction": 0.85515
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Hoodie_Black",
+        "background": "Hearing",
+        "text": "Lime",
+        "id": 358
+      },
+      "score": 1.759663,
+      "head_separation": 0.24924,
+      "outline_clear_fraction": 0.73826
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Spheres",
+        "text": "Cyan",
+        "id": 359
+      },
+      "score": 2.412186,
+      "head_separation": 0.36874,
+      "outline_clear_fraction": 0.85734
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Bomber_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 360
+      },
+      "score": 2.177259,
+      "head_separation": 0.31281,
+      "outline_clear_fraction": 0.886
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Camo_Jacket",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 361
+      },
+      "score": 2.069107,
+      "head_separation": 0.30131,
+      "outline_clear_fraction": 0.85859
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Safari_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 362
+      },
+      "score": 2.070788,
+      "head_separation": 0.29527,
+      "outline_clear_fraction": 0.80678
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Tech_Jacket",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 363
+      },
+      "score": 1.901715,
+      "head_separation": 0.2497,
+      "outline_clear_fraction": 0.8531
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Hoodie_White",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 364
+      },
+      "score": 2.352649,
+      "head_separation": 0.30743,
+      "outline_clear_fraction": 0.88057
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_Black",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 365
+      },
+      "score": 1.618347,
+      "head_separation": 0.20935,
+      "outline_clear_fraction": 0.74348
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_White",
+        "background": "Cavern",
+        "text": "None",
+        "id": 366
+      },
+      "score": 2.168572,
+      "head_separation": 0.28179,
+      "outline_clear_fraction": 0.84028
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Camo_Jacket",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 367
+      },
+      "score": 1.879475,
+      "head_separation": 0.25741,
+      "outline_clear_fraction": 0.75553
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Spacesuit",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 368
+      },
+      "score": 1.804402,
+      "head_separation": 0.2588,
+      "outline_clear_fraction": 0.69
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Tech_Jacket",
+        "background": "Pyramids",
+        "text": "None",
+        "id": 369
+      },
+      "score": 2.203833,
+      "head_separation": 0.3145,
+      "outline_clear_fraction": 0.82153
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Hoodie_White",
+        "background": "Cubes",
+        "text": "None",
+        "id": 370
+      },
+      "score": 1.83067,
+      "head_separation": 0.24092,
+      "outline_clear_fraction": 0.72475
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Hoodie_Black",
+        "background": "Hearing",
+        "text": "None",
+        "id": 371
+      },
+      "score": 1.802798,
+      "head_separation": 0.25063,
+      "outline_clear_fraction": 0.77315
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Tech_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 372
+      },
+      "score": 2.017991,
+      "head_separation": 0.28606,
+      "outline_clear_fraction": 0.83048
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 373
+      },
+      "score": 2.368404,
+      "head_separation": 0.29701,
+      "outline_clear_fraction": 0.93251
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_Black",
+        "background": "Whiteboard",
+        "text": "None",
+        "id": 374
+      },
+      "score": 1.820221,
+      "head_separation": 0.26165,
+      "outline_clear_fraction": 0.68892
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Tech_Jacket",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 375
+      },
+      "score": 2.218154,
+      "head_separation": 0.28384,
+      "outline_clear_fraction": 0.82353
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Hoodie_Black",
+        "background": "Corridor",
+        "text": "None",
+        "id": 376
+      },
+      "score": 1.892483,
+      "head_separation": 0.2426,
+      "outline_clear_fraction": 0.72727
+    },
+    {
+      "recipe": {
+        "headwear_id": 21,
+        "skin": "Graphite",
+        "expression": "Happy",
+        "approval_sample": 42,
+        "outfit": "Bomber_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 377
+      },
+      "score": 2.121301,
+      "head_separation": 0.29722,
+      "outline_clear_fraction": 0.89694
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Military_Jacket",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 378
+      },
+      "score": 1.948534,
+      "head_separation": 0.23889,
+      "outline_clear_fraction": 0.84211
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Leather_Jacket",
+        "background": "Witness",
+        "text": "None",
+        "id": 379
+      },
+      "score": 2.580074,
+      "head_separation": 0.39119,
+      "outline_clear_fraction": 0.90488
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Safari_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Magenta",
+        "id": 380
+      },
+      "score": 2.026696,
+      "head_separation": 0.25319,
+      "outline_clear_fraction": 0.77959
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Leather_Jacket",
+        "background": "Broadcaster",
+        "text": "Red",
+        "id": 381
+      },
+      "score": 1.563553,
+      "head_separation": 0.21618,
+      "outline_clear_fraction": 0.64189
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Safari_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 382
+      },
+      "score": 2.079828,
+      "head_separation": 0.26253,
+      "outline_clear_fraction": 0.78959
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Military_Jacket",
+        "background": "Witness",
+        "text": "Red",
+        "id": 383
+      },
+      "score": 1.932425,
+      "head_separation": 0.26259,
+      "outline_clear_fraction": 0.90669
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 15,
+        "outfit": "Hoodie_Black",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 384
+      },
+      "score": 2.01896,
+      "head_separation": 0.25913,
+      "outline_clear_fraction": 0.80666
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Bomber_Jacket",
+        "background": "LiveSignal",
+        "text": "Cyan",
+        "id": 385
+      },
+      "score": 2.51576,
+      "head_separation": 0.39758,
+      "outline_clear_fraction": 0.8468
+    },
+    {
+      "recipe": {
+        "headwear_id": 5,
+        "skin": "Forest_Green",
+        "expression": "Sour",
+        "approval_sample": 9,
+        "outfit": "Camo_Jacket",
+        "background": "Analyst",
+        "text": "None",
+        "id": 386
+      },
+      "score": 1.963258,
+      "head_separation": 0.28753,
+      "outline_clear_fraction": 0.78255
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Hoodie_White",
+        "background": "LiveSignal",
+        "text": "None",
+        "id": 387
+      },
+      "score": 2.041151,
+      "head_separation": 0.27676,
+      "outline_clear_fraction": 0.84635
+    },
+    {
+      "recipe": {
+        "headwear_id": 7,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 13,
+        "outfit": "Safari_Jacket",
+        "background": "Corridor",
+        "text": "Vermilion",
+        "id": 388
+      },
+      "score": 2.225691,
+      "head_separation": 0.29337,
+      "outline_clear_fraction": 0.8184
+    },
+    {
+      "recipe": {
+        "headwear_id": 8,
+        "skin": "Violet",
+        "expression": "Curious",
+        "approval_sample": 16,
+        "outfit": "Winter_Jacket",
+        "background": "Corridor",
+        "text": "None",
+        "id": 389
+      },
+      "score": 1.870391,
+      "head_separation": 0.23763,
+      "outline_clear_fraction": 0.71625
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "LiveSignal",
+        "text": "Vermilion",
+        "id": 390
+      },
+      "score": 2.083194,
+      "head_separation": 0.29443,
+      "outline_clear_fraction": 0.83378
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Platinum",
+        "expression": "Sour",
+        "approval_sample": 43,
+        "outfit": "Safari_Jacket",
+        "background": "Witness",
+        "text": "Magenta",
+        "id": 391
+      },
+      "score": 1.735073,
+      "head_separation": 0.2373,
+      "outline_clear_fraction": 0.75787
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Bomber_Jacket",
+        "background": "Analyst",
+        "text": "Sky_Blue",
+        "id": 392
+      },
+      "score": 2.317054,
+      "head_separation": 0.34143,
+      "outline_clear_fraction": 0.89867
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Military_Jacket",
+        "background": "Cubes",
+        "text": "Lime",
+        "id": 393
+      },
+      "score": 1.678395,
+      "head_separation": 0.2242,
+      "outline_clear_fraction": 0.72889
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Bomber_Jacket",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 394
+      },
+      "score": 1.622366,
+      "head_separation": 0.21533,
+      "outline_clear_fraction": 0.72935
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Spacesuit",
+        "background": "StormCockpit",
+        "text": "None",
+        "id": 395
+      },
+      "score": 2.03592,
+      "head_separation": 0.2773,
+      "outline_clear_fraction": 0.81571
+    },
+    {
+      "recipe": {
+        "headwear_id": 11,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 22,
+        "outfit": "Hoodie_White",
+        "background": "LiveSignal",
+        "text": "Red",
+        "id": 396
+      },
+      "score": 2.280639,
+      "head_separation": 0.31902,
+      "outline_clear_fraction": 0.89167
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Lime",
+        "expression": "Chill",
+        "approval_sample": 2,
+        "outfit": "Camo_Jacket",
+        "background": "Hearing",
+        "text": "Lime",
+        "id": 397
+      },
+      "score": 1.826218,
+      "head_separation": 0.25735,
+      "outline_clear_fraction": 0.74496
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Winter_Jacket",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 398
+      },
+      "score": 1.682304,
+      "head_separation": 0.23326,
+      "outline_clear_fraction": 0.71011
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Tech_Jacket",
+        "background": "Disclosure",
+        "text": "None",
+        "id": 399
+      },
+      "score": 2.067361,
+      "head_separation": 0.28658,
+      "outline_clear_fraction": 0.90296
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Leather_Jacket",
+        "background": "Forest",
+        "text": "Cyan",
+        "id": 400
+      },
+      "score": 2.509448,
+      "head_separation": 0.41232,
+      "outline_clear_fraction": 0.91774
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Hoodie_White",
+        "background": "Pyramids",
+        "text": "None",
+        "id": 401
+      },
+      "score": 2.157823,
+      "head_separation": 0.28672,
+      "outline_clear_fraction": 0.81892
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Hoodie_White",
+        "background": "StormCockpit",
+        "text": "Vermilion",
+        "id": 402
+      },
+      "score": 2.045039,
+      "head_separation": 0.26715,
+      "outline_clear_fraction": 0.81124
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Spacesuit",
+        "background": "Cavern",
+        "text": "Red",
+        "id": 403
+      },
+      "score": 2.116712,
+      "head_separation": 0.27812,
+      "outline_clear_fraction": 0.93388
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Bomber_Jacket",
+        "background": "Wormhole",
+        "text": "Sky_Blue",
+        "id": 404
+      },
+      "score": 1.521266,
+      "head_separation": 0.19839,
+      "outline_clear_fraction": 0.69929
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Tech_Jacket",
+        "background": "Hearing",
+        "text": "None",
+        "id": 405
+      },
+      "score": 1.867905,
+      "head_separation": 0.26755,
+      "outline_clear_fraction": 0.7423
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Graphite",
+        "expression": "Sour",
+        "approval_sample": 26,
+        "outfit": "Safari_Jacket",
+        "background": "Cavern",
+        "text": "None",
+        "id": 406
+      },
+      "score": 2.25945,
+      "head_separation": 0.31952,
+      "outline_clear_fraction": 0.85802
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Leather_Jacket",
+        "background": "StormCockpit",
+        "text": "Red",
+        "id": 407
+      },
+      "score": 2.026326,
+      "head_separation": 0.28227,
+      "outline_clear_fraction": 0.82601
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Leather_Jacket",
+        "background": "SunsetCockpit",
+        "text": "Vermilion",
+        "id": 408
+      },
+      "score": 2.015776,
+      "head_separation": 0.27905,
+      "outline_clear_fraction": 0.85752
+    },
+    {
+      "recipe": {
+        "headwear_id": 22,
+        "skin": "Lime",
+        "expression": "Amused",
+        "approval_sample": 44,
+        "outfit": "Leather_Jacket",
+        "background": "Forest",
+        "text": "Lime",
+        "id": 409
+      },
+      "score": 1.792194,
+      "head_separation": 0.25043,
+      "outline_clear_fraction": 0.72658
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Hoodie_White",
+        "background": "Wormhole",
+        "text": "None",
+        "id": 410
+      },
+      "score": 2.569209,
+      "head_separation": 0.36264,
+      "outline_clear_fraction": 0.84646
+    },
+    {
+      "recipe": {
+        "headwear_id": 3,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 5,
+        "outfit": "Hoodie_White",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 411
+      },
+      "score": 2.34582,
+      "head_separation": 0.28287,
+      "outline_clear_fraction": 0.94306
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Hoodie_White",
+        "background": "Broadcaster",
+        "text": "None",
+        "id": 412
+      },
+      "score": 2.211829,
+      "head_separation": 0.30823,
+      "outline_clear_fraction": 0.80424
+    },
+    {
+      "recipe": {
+        "headwear_id": 20,
+        "skin": "Graphite",
+        "expression": "Surprised",
+        "approval_sample": 39,
+        "outfit": "Leather_Jacket",
+        "background": "Analyst",
+        "text": "None",
+        "id": 413
+      },
+      "score": 2.348325,
+      "head_separation": 0.34901,
+      "outline_clear_fraction": 0.89589
+    },
+    {
+      "recipe": {
+        "headwear_id": 18,
+        "skin": "Coral_Red",
+        "expression": "Surprised",
+        "approval_sample": 35,
+        "outfit": "Spacesuit",
+        "background": "Headset",
+        "text": "None",
+        "id": 414
+      },
+      "score": 1.716462,
+      "head_separation": 0.23116,
+      "outline_clear_fraction": 0.77342
+    },
+    {
+      "recipe": {
+        "headwear_id": 9,
+        "skin": "Cyan",
+        "expression": "Surprised",
+        "approval_sample": 18,
+        "outfit": "Spacesuit",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 415
+      },
+      "score": 2.024858,
+      "head_separation": 0.24434,
+      "outline_clear_fraction": 0.85006
+    },
+    {
+      "recipe": {
+        "headwear_id": 1,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 1,
+        "outfit": "Spacesuit",
+        "background": "SunsetCockpit",
+        "text": "None",
+        "id": 416
+      },
+      "score": 1.858598,
+      "head_separation": 0.24417,
+      "outline_clear_fraction": 0.77571
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_White",
+        "background": "Disclosure",
+        "text": "Vermilion",
+        "id": 417
+      },
+      "score": 2.002789,
+      "head_separation": 0.27902,
+      "outline_clear_fraction": 0.79189
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Hoodie_White",
+        "background": "Cavern",
+        "text": "Vermilion",
+        "id": 418
+      },
+      "score": 2.055726,
+      "head_separation": 0.26217,
+      "outline_clear_fraction": 0.81757
+    },
+    {
+      "recipe": {
+        "headwear_id": 13,
+        "skin": "Forest_Green",
+        "expression": "Happy",
+        "approval_sample": 25,
+        "outfit": "Military_Jacket",
+        "background": "Spheres",
+        "text": "None",
+        "id": 419
+      },
+      "score": 1.95222,
+      "head_separation": 0.2716,
+      "outline_clear_fraction": 0.78325
+    },
+    {
+      "recipe": {
+        "headwear_id": 14,
+        "skin": "Platinum",
+        "expression": "Amused",
+        "approval_sample": 27,
+        "outfit": "Spacesuit",
+        "background": "Cavern",
+        "text": "None",
+        "id": 420
+      },
+      "score": 1.939418,
+      "head_separation": 0.25888,
+      "outline_clear_fraction": 0.80697
+    }
+  ],
+  "counts": {
+    "outfits": {
+      "Hoodie_White": 61,
+      "Safari_Jacket": 28,
+      "Tech_Jacket": 51,
+      "Spacesuit": 36,
+      "Bomber_Jacket": 44,
+      "Winter_Jacket": 31,
+      "Leather_Jacket": 49,
+      "Military_Jacket": 48,
+      "Camo_Jacket": 38,
+      "Hoodie_Black": 34
+    },
+    "backgrounds": {
+      "StormCockpit": 39,
+      "SunsetCockpit": 37,
+      "Cavern": 33,
+      "Spheres": 15,
+      "LiveSignal": 34,
+      "Corridor": 24,
+      "Disclosure": 30,
+      "Whiteboard": 26,
+      "Forest": 18,
+      "Hearing": 25,
+      "Broadcaster": 25,
+      "Headset": 21,
+      "Pyramids": 13,
+      "Witness": 21,
+      "Spiral": 20,
+      "Wormhole": 17,
+      "Cubes": 14,
+      "Analyst": 8
+    },
+    "text": {
+      "Vermilion": 61,
+      "Cyan": 22,
+      "Sky_Blue": 27,
+      "Red": 50,
+      "Magenta": 15,
+      "Lime": 35
+    }
+  }
+}

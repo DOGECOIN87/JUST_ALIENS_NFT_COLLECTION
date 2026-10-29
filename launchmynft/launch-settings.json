@@ -1,0 +1,15 @@
+{
+  "network": "Solana mainnet",
+  "collection_name": "Just Aliens",
+  "symbol": "JSTA",
+  "supply": 420,
+  "mint_price_sol": 0.005,
+  "mint_price_lamports": 5000000,
+  "royalty_percent": 5,
+  "creator_address": "Hn1i7bLb7oHpAL5AoyGvkn7YgwmWrVTbVsjXA1LYnELo",
+  "creator_share_percent": 100,
+  "upload_folder": "upload",
+  "numbering": "1 through 420; matching PNG and JSON basenames",
+  "mint_order": "Randomized recommended; token filenames are already shuffled across tiers",
+  "action_performed": "Files generated only; no upload, wallet signing, mint or deployment"
+}

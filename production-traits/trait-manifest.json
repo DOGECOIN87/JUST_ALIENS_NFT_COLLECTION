@@ -1,0 +1,1447 @@
+{
+  "schema_version": 2,
+  "collection": "Just Aliens",
+  "revision": "curated-420-v4",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "registration": "registration.json",
+  "layer_order": [
+    "background",
+    "headwear_rear",
+    "clothing",
+    "skin_expression",
+    "headwear_front",
+    "text"
+  ],
+  "expression_keys": [
+    "Amused",
+    "Chill",
+    "Curious",
+    "Happy",
+    "Sour",
+    "Surprised"
+  ],
+  "traits": [
+    {
+      "id": 1,
+      "trait_type": "Headwear",
+      "value": "Midnight Beanie",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 7705,
+        "edge_rgb_pixels_decontaminated": 11
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            0.95
+          ],
+          [
+            0.06,
+            0.93
+          ],
+          [
+            0.15,
+            0.86
+          ],
+          [
+            0.25,
+            0.8
+          ],
+          [
+            0.5,
+            0.758
+          ],
+          [
+            0.75,
+            0.8
+          ],
+          [
+            0.85,
+            0.86
+          ],
+          [
+            0.94,
+            0.93
+          ],
+          [
+            1,
+            0.95
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Amused": {
+          "front": "Layers/Amused/Front/01_Midnight_Beanie.png",
+          "rear": "Layers/Amused/Rear/01_Midnight_Beanie.png",
+          "placement": {
+            "left": 327,
+            "top": 92,
+            "width": 627,
+            "height": 316,
+            "scale": 0.40855472025784806,
+            "scale_x": 0.40855472025784806,
+            "scale_y": 0.40855472025784806,
+            "vertical_fit_factor": 1,
+            "contact": [
+              640.06,
+              332.07
+            ]
+          },
+          "front_sha256": "b6fc6bccdbe2ca55289bc4bb153d54bd91fc3b57039d5f2b621e9cb85345410b",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "246b23a0743c47a846399bb4aa1cb820a8d5be4f957b02d4bcb9e419ddb6bec6",
+          "complete_rgba_sha256": "bf7b83c1a2fe4e57607a78052ac61858e241f0a89b24be07cfcd6a5b34d0960a",
+          "discarded_interior_pixels": 5923,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        },
+        "Chill": {
+          "front": "Layers/Chill/Front/01_Midnight_Beanie.png",
+          "rear": "Layers/Chill/Rear/01_Midnight_Beanie.png",
+          "placement": {
+            "left": 314,
+            "top": 91,
+            "width": 650,
+            "height": 328,
+            "scale": 0.423728813559322,
+            "scale_x": 0.423728813559322,
+            "scale_y": 0.423728813559322,
+            "vertical_fit_factor": 1,
+            "contact": [
+              639.41,
+              339.91
+            ]
+          },
+          "front_sha256": "65b8dc950f1f62f323cf77a72eefc37c3fa80096527625030e42eef1b10409d4",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "f15c30b9e7e6ba8fd96e3102c62ad507a0cd22950b661564d286c4bede4957aa",
+          "complete_rgba_sha256": "f5fb39cf566002ff4355e223733c64074e975c89e62c1238284337f782597f6c",
+          "discarded_interior_pixels": 6467,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Platinum",
+          "expression": "Amused",
+          "approval_sample": 1
+        },
+        {
+          "skin": "Lime",
+          "expression": "Chill",
+          "approval_sample": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "trait_type": "Headwear",
+      "value": "Contact Beret",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 6512,
+        "edge_rgb_pixels_decontaminated": 304
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.16,
+            1.03
+          ],
+          [
+            0.23,
+            0.91
+          ],
+          [
+            0.32,
+            0.8
+          ],
+          [
+            0.5,
+            0.731
+          ],
+          [
+            0.68,
+            0.81
+          ],
+          [
+            0.8,
+            0.91
+          ],
+          [
+            0.9,
+            1.04
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Surprised": {
+          "front": "Layers/Surprised/Front/03_Contact_Beret.png",
+          "rear": "Layers/Surprised/Rear/03_Contact_Beret.png",
+          "placement": {
+            "left": 257,
+            "top": 132,
+            "width": 748,
+            "height": 292,
+            "scale": 0.4387145240339392,
+            "scale_x": 0.4387145240339392,
+            "scale_y": 0.4387145240339392,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.91,
+              344.91
+            ]
+          },
+          "front_sha256": "c83ed8a715fdf64ae001805f64a232c3ce50c4c96da2c0c7de021dba7b7dc99c",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "0b54ff524e65f90eafc467799c99c684707215422fc407940e3432bc0f02ea2e",
+          "complete_rgba_sha256": "5a821b776764913fb4af574ba960406d9108e1c006fe06a2cb4dbdc9a97a5ac7",
+          "discarded_interior_pixels": 591,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Cyan",
+          "expression": "Surprised",
+          "approval_sample": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "trait_type": "Headwear",
+      "value": "Lunar Ushanka",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 17943,
+        "edge_rgb_pixels_decontaminated": 348
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            0.64
+          ],
+          [
+            0.12,
+            0.58
+          ],
+          [
+            0.24,
+            0.52
+          ],
+          [
+            0.38,
+            0.49
+          ],
+          [
+            0.5,
+            0.48
+          ],
+          [
+            0.62,
+            0.49
+          ],
+          [
+            0.76,
+            0.52
+          ],
+          [
+            0.88,
+            0.58
+          ],
+          [
+            1,
+            0.64
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character.",
+        "disposition": "rear"
+      },
+      "variants": {
+        "Sour": {
+          "front": "Layers/Sour/Front/05_Lunar_Ushanka.png",
+          "rear": "Layers/Sour/Rear/05_Lunar_Ushanka.png",
+          "placement": {
+            "left": 232,
+            "top": 22,
+            "width": 793,
+            "height": 629,
+            "scale": 0.6496809191254433,
+            "scale_x": 0.6496809191254433,
+            "scale_y": 0.5977064455954079,
+            "vertical_fit_factor": 0.92,
+            "contact": [
+              628.31,
+              318.07
+            ]
+          },
+          "front_sha256": "f8d74c4bcc5006dc62b62e9ec64ae97e657baed48644d6a6d3be2901e0c05120",
+          "rear_sha256": "de2bd8cac81976c46a2303a64158880924a38b46226bda1148f88fe4c4435dba",
+          "untrimmed_rgba_sha256": "f4b97471a6cb2ff10bcc29f17639219fcd8a474e3ce6b2c8403cf8c96c007cac",
+          "complete_rgba_sha256": "f4b97471a6cb2ff10bcc29f17639219fcd8a474e3ce6b2c8403cf8c96c007cac",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Forest_Green",
+          "expression": "Sour",
+          "approval_sample": 9
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "trait_type": "Headwear",
+      "value": "Bamboo Wanderer",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 9041,
+        "edge_rgb_pixels_decontaminated": 3817
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            0.86
+          ],
+          [
+            0.1,
+            0.78
+          ],
+          [
+            0.25,
+            0.73
+          ],
+          [
+            0.5,
+            0.71
+          ],
+          [
+            0.75,
+            0.73
+          ],
+          [
+            0.9,
+            0.79
+          ],
+          [
+            1,
+            0.86
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character.",
+        "disposition": "rear"
+      },
+      "variants": {
+        "Sour": {
+          "front": "Layers/Sour/Front/07_Bamboo_Wanderer.png",
+          "rear": "Layers/Sour/Rear/07_Bamboo_Wanderer.png",
+          "placement": {
+            "left": 164,
+            "top": 97,
+            "width": 930,
+            "height": 324,
+            "scale": 0.4718807954292091,
+            "scale_x": 0.4718807954292091,
+            "scale_y": 0.4718807954292091,
+            "vertical_fit_factor": 1,
+            "contact": [
+              628.31,
+              327.07
+            ]
+          },
+          "front_sha256": "72e5e97ac253d0061c5693cbcc0929fa4f490f283e41bfc9518964caff59c275",
+          "rear_sha256": "15f4c37214c9f198e4d8c91bfdccf047aae22d1ba91f90b1e5635d699f21d802",
+          "untrimmed_rgba_sha256": "dc673e876fd90534a8aa3b37971c45910884245c07ed7ec1a3cf68b45f46faea",
+          "complete_rgba_sha256": "dc673e876fd90534a8aa3b37971c45910884245c07ed7ec1a3cf68b45f46faea",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        },
+        "Amused": {
+          "front": "Layers/Amused/Front/07_Bamboo_Wanderer.png",
+          "rear": "Layers/Amused/Rear/07_Bamboo_Wanderer.png",
+          "placement": {
+            "left": 182,
+            "top": 101,
+            "width": 916,
+            "height": 319,
+            "scale": 0.4649643059990332,
+            "scale_x": 0.4649643059990332,
+            "scale_y": 0.4649643059990332,
+            "vertical_fit_factor": 1,
+            "contact": [
+              640.06,
+              327.07
+            ]
+          },
+          "front_sha256": "4b118fffb0945e11227bad112d9f1939ae07e2563a247c733af02ac75eb06cee",
+          "rear_sha256": "b26d356f92338c7eb0b6fa3243e324e687fff9bc49bfea1cdaecc07be25e2f2b",
+          "untrimmed_rgba_sha256": "b078157590e20b7e69d05ffe443df20c5348d5877dad6a85559beaa23e1b72d5",
+          "complete_rgba_sha256": "b078157590e20b7e69d05ffe443df20c5348d5877dad6a85559beaa23e1b72d5",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Graphite",
+          "expression": "Sour",
+          "approval_sample": 13
+        },
+        {
+          "skin": "Platinum",
+          "expression": "Amused",
+          "approval_sample": 14
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "trait_type": "Headwear",
+      "value": "Blackwater Tricorn",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 7115,
+        "edge_rgb_pixels_decontaminated": 3300
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.12,
+            1.05
+          ],
+          [
+            0.22,
+            0.87
+          ],
+          [
+            0.32,
+            0.76
+          ],
+          [
+            0.5,
+            0.68
+          ],
+          [
+            0.68,
+            0.76
+          ],
+          [
+            0.78,
+            0.87
+          ],
+          [
+            0.88,
+            1.05
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Chill": {
+          "front": "Layers/Chill/Front/08_Blackwater_Tricorn.png",
+          "rear": "Layers/Chill/Rear/08_Blackwater_Tricorn.png",
+          "placement": {
+            "left": 214,
+            "top": 124,
+            "width": 850,
+            "height": 324,
+            "scale": 0.4738015607580825,
+            "scale_x": 0.4738015607580825,
+            "scale_y": 0.4738015607580825,
+            "vertical_fit_factor": 1,
+            "contact": [
+              639.41,
+              342.91
+            ]
+          },
+          "front_sha256": "e5582f6ce2db29ff7889e186d4649f3acea6efdfe500703f9b20873b4ece8682",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "f069842a6c74300c8dcb683ef3fdf0d59dfef7b62e0976c8ed405f9445da0d9a",
+          "complete_rgba_sha256": "ed70ae6c6ece5aa294f63b722f0ee64407a805b511bf497481362b7bd3d23902",
+          "discarded_interior_pixels": 6240,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        },
+        "Curious": {
+          "front": "Layers/Curious/Front/08_Blackwater_Tricorn.png",
+          "rear": "Layers/Curious/Rear/08_Blackwater_Tricorn.png",
+          "placement": {
+            "left": 225,
+            "top": 121,
+            "width": 795,
+            "height": 303,
+            "scale": 0.4432691829024631,
+            "scale_x": 0.4432691829024631,
+            "scale_y": 0.4432691829024631,
+            "vertical_fit_factor": 1,
+            "contact": [
+              623.09,
+              326.17
+            ]
+          },
+          "front_sha256": "5f0bf5c5d2ff1a3a55c3c4ccf2b572fdab7dfea2f9025a58bb53122fc9b3a643",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "e8df86001a8850236b2d594d9cf1f68ee293d9cda392acdb628aa6a413c4b112",
+          "complete_rgba_sha256": "3aa8eadfd2ea9b319e36161522749198ebb6173dc238d369394a1939f6bb4973",
+          "discarded_interior_pixels": 5474,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Lime",
+          "expression": "Chill",
+          "approval_sample": 15
+        },
+        {
+          "skin": "Violet",
+          "expression": "Curious",
+          "approval_sample": 16
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "trait_type": "Headwear",
+      "value": "Orbital Officer",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 7383,
+        "edge_rgb_pixels_decontaminated": 117
+      },
+      "foreground_construction": {
+        "strategy": "retain_v2",
+        "method": "Approved complete patent bill and band retained.",
+        "disposition": "rear"
+      },
+      "variants": {
+        "Surprised": {
+          "front": "Layers/Surprised/Front/09_Orbital_Officer.png",
+          "rear": "Layers/Surprised/Rear/09_Orbital_Officer.png",
+          "placement": {
+            "left": 275,
+            "top": 88,
+            "width": 711,
+            "height": 268,
+            "scale": 0.4039912665351166,
+            "scale_x": 0.4039912665351166,
+            "scale_y": 0.4039912665351166,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.91,
+              354.91
+            ]
+          },
+          "front_sha256": "64de6352675d6ac6acc7437205fa3e5796b199bcd0ae9f5c640eb6e6c07ca3bb",
+          "rear_sha256": "25d39a5a1e76345e883ca5f83b87cc7e618badafd61654296e00585f4e8c75e3",
+          "untrimmed_rgba_sha256": "6c9a7c5a6952c42b43acf4254ad011a42c99aa6f897c258cad62b1ba5f051b62",
+          "complete_rgba_sha256": "6c9a7c5a6952c42b43acf4254ad011a42c99aa6f897c258cad62b1ba5f051b62",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Cyan",
+          "expression": "Surprised",
+          "approval_sample": 18
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "trait_type": "Headwear",
+      "value": "Static Newsboy",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 5672,
+        "edge_rgb_pixels_decontaminated": 29
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.12,
+            0.94
+          ],
+          [
+            0.2,
+            0.96
+          ],
+          [
+            0.5,
+            0.89
+          ],
+          [
+            0.8,
+            0.96
+          ],
+          [
+            0.88,
+            0.94
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Surprised": {
+          "front": "Layers/Surprised/Front/11_Static_Newsboy.png",
+          "rear": "Layers/Surprised/Rear/11_Static_Newsboy.png",
+          "placement": {
+            "left": 299,
+            "top": 61,
+            "width": 664,
+            "height": 319,
+            "scale": 0.5458066499397588,
+            "scale_x": 0.5458066499397588,
+            "scale_y": 0.5458066499397588,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.91,
+              344.91
+            ]
+          },
+          "front_sha256": "421ff57685579f2f3574e017a307a78f2183323673c28c220d0480653320f57b",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "6e0162130e36baa3b9381cdd41a9ae403b2987e55357b1fdaf36c9ec5afa4fb7",
+          "complete_rgba_sha256": "d2de59bec201c423999321ae3eac8f1bfb4aabc6cea24d216c50be392f90206d",
+          "discarded_interior_pixels": 1963,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Coral_Red",
+          "expression": "Surprised",
+          "approval_sample": 22
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "trait_type": "Headwear",
+      "value": "Acid Rain",
+      "status": "approved_restricted",
+      "artwork_redrawn": false,
+      "cleanup": {
+        "dust_pixels_removed": 14709,
+        "edge_rgb_pixels_decontaminated": 2056
+      },
+      "foreground_construction": {
+        "strategy": "retain_v2",
+        "method": "Approved rain front brim and rear return retained.",
+        "disposition": "rear"
+      },
+      "variants": {
+        "Happy": {
+          "front": "Layers/Happy/Front/13_Acid_Rain.png",
+          "rear": "Layers/Happy/Rear/13_Acid_Rain.png",
+          "placement": {
+            "left": 297,
+            "top": 20,
+            "width": 668,
+            "height": 477,
+            "scale": 0.5455152900888485,
+            "scale_x": 0.5455152900888485,
+            "scale_y": 0.5455152900888485,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.92,
+              331.4
+            ]
+          },
+          "front_sha256": "54376b0472c74deffd98db73ab9dc9973cba421780ba85365651f2ea168804c8",
+          "rear_sha256": "56319d0cfa8a4719dffb296643b695f21338e0e4719b1e50e1d240a6fcc303e8",
+          "untrimmed_rgba_sha256": "f9db770712c3b37bffcebbabe4468cead18358076475bd83f9b5ee26042ab542",
+          "complete_rgba_sha256": "f9db770712c3b37bffcebbabe4468cead18358076475bd83f9b5ee26042ab542",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        },
+        "Sour": {
+          "front": "Layers/Sour/Front/13_Acid_Rain.png",
+          "rear": "Layers/Sour/Rear/13_Acid_Rain.png",
+          "placement": {
+            "left": 286,
+            "top": 28,
+            "width": 685,
+            "height": 489,
+            "scale": 0.5591610027040853,
+            "scale_x": 0.5591610027040853,
+            "scale_y": 0.5591610027040853,
+            "vertical_fit_factor": 1,
+            "contact": [
+              628.31,
+              347.07
+            ]
+          },
+          "front_sha256": "e1c978d16ac54d2cd86c27fc2f6acb17a1dd3c9c0a9cb86c1bee643c520ccdd7",
+          "rear_sha256": "17a38d3d5400c2ff5f1ebe7899320c9e79d999f7bf1b91ef3582b263150557a2",
+          "untrimmed_rgba_sha256": "b61395d3b67148effc6affcb893d75b15cb6a4ae0eb3468f6a62abdefe286fb9",
+          "complete_rgba_sha256": "b61395d3b67148effc6affcb893d75b15cb6a4ae0eb3468f6a62abdefe286fb9",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Forest_Green",
+          "expression": "Happy",
+          "approval_sample": 25
+        },
+        {
+          "skin": "Graphite",
+          "expression": "Sour",
+          "approval_sample": 26
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "trait_type": "Headwear",
+      "value": "Blackout Bowler",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 9744,
+        "edge_rgb_pixels_decontaminated": 35
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0.0,
+            1.1
+          ],
+          [
+            0.025,
+            1.1
+          ],
+          [
+            0.05,
+            1.1
+          ],
+          [
+            0.075,
+            0.91549
+          ],
+          [
+            0.1,
+            0.89772
+          ],
+          [
+            0.125,
+            0.87994
+          ],
+          [
+            0.15,
+            0.87105
+          ],
+          [
+            0.175,
+            0.87105
+          ],
+          [
+            0.2,
+            0.87105
+          ],
+          [
+            0.225,
+            0.85327
+          ],
+          [
+            0.25,
+            0.85327
+          ],
+          [
+            0.275,
+            0.85327
+          ],
+          [
+            0.3,
+            0.86216
+          ],
+          [
+            0.325,
+            0.86216
+          ],
+          [
+            0.35,
+            0.85327
+          ],
+          [
+            0.375,
+            0.85327
+          ],
+          [
+            0.4,
+            0.85327
+          ],
+          [
+            0.425,
+            0.85327
+          ],
+          [
+            0.45,
+            0.85327
+          ],
+          [
+            0.475,
+            0.85327
+          ],
+          [
+            0.5,
+            0.85327
+          ],
+          [
+            0.525,
+            0.85327
+          ],
+          [
+            0.55,
+            0.85327
+          ],
+          [
+            0.575,
+            0.86216
+          ],
+          [
+            0.6,
+            0.86216
+          ],
+          [
+            0.625,
+            0.86216
+          ],
+          [
+            0.65,
+            0.86216
+          ],
+          [
+            0.675,
+            0.86216
+          ],
+          [
+            0.7,
+            0.86216
+          ],
+          [
+            0.725,
+            0.85327
+          ],
+          [
+            0.75,
+            0.85327
+          ],
+          [
+            0.775,
+            0.85327
+          ],
+          [
+            0.8,
+            0.85327
+          ],
+          [
+            0.825,
+            0.86216
+          ],
+          [
+            0.85,
+            0.86216
+          ],
+          [
+            0.875,
+            0.87105
+          ],
+          [
+            0.9,
+            0.88883
+          ],
+          [
+            0.925,
+            0.89772
+          ],
+          [
+            0.95,
+            1.1
+          ],
+          [
+            0.975,
+            1.1
+          ],
+          [
+            1.0,
+            1.1
+          ]
+        ],
+        "guide": "Source_Masters/User_Corrections/14_User_Correction.png",
+        "method": "User-trimmed silhouette transferred to existing high-resolution RGB; no 500px artwork enlargement. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Amused": {
+          "front": "Layers/Amused/Front/14_Blackout_Bowler.png",
+          "rear": "Layers/Amused/Rear/14_Blackout_Bowler.png",
+          "placement": {
+            "left": 312,
+            "top": 102,
+            "width": 656,
+            "height": 282,
+            "scale": 0.3888781821291783,
+            "scale_x": 0.3888781821291783,
+            "scale_y": 0.3888781821291783,
+            "vertical_fit_factor": 1,
+            "contact": [
+              640.06,
+              342.07
+            ]
+          },
+          "front_sha256": "65a7af5d015c136d3241a6f34aa9a7576f882af701e3973aecb631c2f2c8a8e5",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "820709c945c7ac63bf8875eb104916eb2b43e735307d31bc9f3b62ebc6f3fca9",
+          "complete_rgba_sha256": "61fcc4f9b88d1d61afb58d26263f0d70a9f96e4bbf5605e3a32f230dd7c391ff",
+          "discarded_interior_pixels": 17566,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Platinum",
+          "expression": "Amused",
+          "approval_sample": 27
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "trait_type": "Headwear",
+      "value": "Void Scholar",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 9429,
+        "edge_rgb_pixels_decontaminated": 302
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            0.94
+          ],
+          [
+            0.1,
+            0.9
+          ],
+          [
+            0.25,
+            0.85
+          ],
+          [
+            0.5,
+            0.835
+          ],
+          [
+            0.7,
+            0.85
+          ],
+          [
+            0.85,
+            0.9
+          ],
+          [
+            1,
+            0.94
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character.",
+        "disposition": "rear"
+      },
+      "variants": {
+        "Surprised": {
+          "front": "Layers/Surprised/Front/18_Void_Scholar.png",
+          "rear": "Layers/Surprised/Rear/18_Void_Scholar.png",
+          "placement": {
+            "left": 140,
+            "top": 60,
+            "width": 982,
+            "height": 346,
+            "scale": 0.5281379885094054,
+            "scale_x": 0.5281379885094054,
+            "scale_y": 0.5281379885094054,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.91,
+              349.91
+            ]
+          },
+          "front_sha256": "7db2f804aa4c8490522c6d7bfb088b883f911e7f206df1057cd4c14efae4ef3f",
+          "rear_sha256": "ce95ca3a622bc487204fc9e7504eb35f23f56adaea0be50c1f3b2d8c0645948b",
+          "untrimmed_rgba_sha256": "4f14b7186b5e7a30d979d50c1bb59cd780acc4eda20decca69207a260a8f7da2",
+          "complete_rgba_sha256": "4f14b7186b5e7a30d979d50c1bb59cd780acc4eda20decca69207a260a8f7da2",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Coral_Red",
+          "expression": "Surprised",
+          "approval_sample": 35
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "trait_type": "Headwear",
+      "value": "Galley Chief",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 10686,
+        "edge_rgb_pixels_decontaminated": 74
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0.0,
+            1.1
+          ],
+          [
+            0.025,
+            1.1
+          ],
+          [
+            0.05,
+            1.1
+          ],
+          [
+            0.075,
+            1.1
+          ],
+          [
+            0.1,
+            1.1
+          ],
+          [
+            0.125,
+            1.1
+          ],
+          [
+            0.15,
+            1.1
+          ],
+          [
+            0.175,
+            0.78632
+          ],
+          [
+            0.2,
+            0.92253
+          ],
+          [
+            0.225,
+            0.90396
+          ],
+          [
+            0.25,
+            0.89777
+          ],
+          [
+            0.275,
+            0.873
+          ],
+          [
+            0.3,
+            0.86062
+          ],
+          [
+            0.325,
+            0.84823
+          ],
+          [
+            0.35,
+            0.84204
+          ],
+          [
+            0.375,
+            0.83585
+          ],
+          [
+            0.4,
+            0.82966
+          ],
+          [
+            0.425,
+            0.82347
+          ],
+          [
+            0.45,
+            0.82347
+          ],
+          [
+            0.475,
+            0.81728
+          ],
+          [
+            0.5,
+            0.81728
+          ],
+          [
+            0.525,
+            0.81728
+          ],
+          [
+            0.55,
+            0.82347
+          ],
+          [
+            0.575,
+            0.82347
+          ],
+          [
+            0.6,
+            0.82966
+          ],
+          [
+            0.625,
+            0.83585
+          ],
+          [
+            0.65,
+            0.84823
+          ],
+          [
+            0.675,
+            0.85443
+          ],
+          [
+            0.7,
+            0.873
+          ],
+          [
+            0.725,
+            0.88538
+          ],
+          [
+            0.75,
+            0.89777
+          ],
+          [
+            0.775,
+            0.92253
+          ],
+          [
+            0.8,
+            0.95349
+          ],
+          [
+            0.825,
+            0.7987
+          ],
+          [
+            0.85,
+            1.1
+          ],
+          [
+            0.875,
+            1.1
+          ],
+          [
+            0.9,
+            1.1
+          ],
+          [
+            0.925,
+            1.1
+          ],
+          [
+            0.95,
+            1.1
+          ],
+          [
+            0.975,
+            1.1
+          ],
+          [
+            1.0,
+            1.1
+          ]
+        ],
+        "guide": "Source_Masters/User_Corrections/20_User_Correction.png",
+        "method": "User-trimmed silhouette transferred to existing high-resolution RGB; no 500px artwork enlargement. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Surprised": {
+          "front": "Layers/Surprised/Front/20_Galley_Chief.png",
+          "rear": "Layers/Surprised/Rear/20_Galley_Chief.png",
+          "placement": {
+            "left": 219,
+            "top": 44,
+            "width": 823,
+            "height": 381,
+            "scale": 0.4941726745510746,
+            "scale_x": 0.4941726745510746,
+            "scale_y": 0.4941726745510746,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.91,
+              354.91
+            ]
+          },
+          "front_sha256": "7906eedf454b902f32707de8c387a99d67226139b196412041ab9f4f69e30dc6",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "d65e06ed3db5c18b7deceb13260e1a51b83ab7b6bb1245393f4284bad221cfb0",
+          "complete_rgba_sha256": "9caa7145bbb421a28d5d4addc6baa6c1f1ea011cc343029ba650c2514ceddde5",
+          "discarded_interior_pixels": 6969,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Graphite",
+          "expression": "Surprised",
+          "approval_sample": 39
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "trait_type": "Headwear",
+      "value": "Midnight Jester",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 9266,
+        "edge_rgb_pixels_decontaminated": 2566
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.2,
+            1.1
+          ],
+          [
+            0.25,
+            0.92
+          ],
+          [
+            0.35,
+            0.82
+          ],
+          [
+            0.5,
+            0.782
+          ],
+          [
+            0.65,
+            0.82
+          ],
+          [
+            0.75,
+            0.92
+          ],
+          [
+            0.8,
+            1.1
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character. Cut-away interior returns are absent from both production layers.",
+        "disposition": "trim"
+      },
+      "variants": {
+        "Happy": {
+          "front": "Layers/Happy/Front/21_Midnight_Jester.png",
+          "rear": "Layers/Happy/Rear/21_Midnight_Jester.png",
+          "placement": {
+            "left": 68,
+            "top": 33,
+            "width": 1126,
+            "height": 380,
+            "scale": 0.607599284807698,
+            "scale_x": 0.607599284807698,
+            "scale_y": 0.607599284807698,
+            "vertical_fit_factor": 1,
+            "contact": [
+              630.92,
+              331.4
+            ]
+          },
+          "front_sha256": "24b3c41d7b5c30a11a9669be2a2c3180de0b8cf4f352cab94432909961e5280c",
+          "rear_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "untrimmed_rgba_sha256": "f8757280d11d6c65876e630320ec2cff707beb73769a469f3a25106d806993df",
+          "complete_rgba_sha256": "871acd30af2ee87bf09501fa68aa771db554a6f0dcc793de55e69a5472f4749a",
+          "discarded_interior_pixels": 7694,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Graphite",
+          "expression": "Happy",
+          "approval_sample": 42
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "trait_type": "Headwear",
+      "value": "Desert Fiesta",
+      "status": "approved_restricted",
+      "artwork_redrawn": true,
+      "cleanup": {
+        "dust_pixels_removed": 19188,
+        "edge_rgb_pixels_decontaminated": 2277
+      },
+      "foreground_construction": {
+        "strategy": "front_contour",
+        "points": [
+          [
+            0,
+            1.03
+          ],
+          [
+            0.2,
+            1.0
+          ],
+          [
+            0.5,
+            0.985
+          ],
+          [
+            0.8,
+            1.0
+          ],
+          [
+            1,
+            1.03
+          ]
+        ],
+        "method": "Individually traced foreground lip; lower returns reassigned behind character.",
+        "disposition": "rear"
+      },
+      "variants": {
+        "Sour": {
+          "front": "Layers/Sour/Front/22_Desert_Fiesta.png",
+          "rear": "Layers/Sour/Rear/22_Desert_Fiesta.png",
+          "placement": {
+            "left": 129,
+            "top": 45,
+            "width": 998,
+            "height": 313,
+            "scale": 0.4640178474322605,
+            "scale_x": 0.4640178474322605,
+            "scale_y": 0.4640178474322605,
+            "vertical_fit_factor": 1,
+            "contact": [
+              628.31,
+              347.07
+            ]
+          },
+          "front_sha256": "e7a0f4332470db0f5933f8d0f1dd25b58329bfe662cfd79de57ea905cc28f55c",
+          "rear_sha256": "da01d93bd79d4bfebf606aca070d9b42d4d2581c9e4ed1e85e4b79c05d591e11",
+          "untrimmed_rgba_sha256": "7660a6e09d2be641106b59ff1ed34aa034a3304cbb01b44100802626688a7edc",
+          "complete_rgba_sha256": "7660a6e09d2be641106b59ff1ed34aa034a3304cbb01b44100802626688a7edc",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        },
+        "Amused": {
+          "front": "Layers/Amused/Front/22_Desert_Fiesta.png",
+          "rear": "Layers/Amused/Rear/22_Desert_Fiesta.png",
+          "placement": {
+            "left": 148,
+            "top": 49,
+            "width": 983,
+            "height": 308,
+            "scale": 0.457216607440582,
+            "scale_x": 0.457216607440582,
+            "scale_y": 0.457216607440582,
+            "vertical_fit_factor": 1,
+            "contact": [
+              640.06,
+              347.07
+            ]
+          },
+          "front_sha256": "c8361f4586c510ae908c58bee9b975703df873a5a5c24e7a060779bbd9d2f15c",
+          "rear_sha256": "316cd12364adc932b83140b857ea913fa675c46e6327957e26bc89a5633fabae",
+          "untrimmed_rgba_sha256": "8db95aa9cf8631fc7e00e2b4692da4630a9b954e968c4464dbc6420045920be1",
+          "complete_rgba_sha256": "8db95aa9cf8631fc7e00e2b4692da4630a9b954e968c4464dbc6420045920be1",
+          "discarded_interior_pixels": 0,
+          "split": "Front-only trim or coordinated source-over rear components as specified per design; one logical metadata trait."
+        }
+      },
+      "approved_heads": [
+        {
+          "skin": "Platinum",
+          "expression": "Sour",
+          "approval_sample": 43
+        },
+        {
+          "skin": "Lime",
+          "expression": "Amused",
+          "approval_sample": 44
+        }
+      ]
+    }
+  ],
+  "selection_policy": "Only the exact 18 unmarked headwear/skin/expression fits are approved. No approval extends to other skins or expressions. Outfits/backgrounds/text are curated around those fixed heads."
+}

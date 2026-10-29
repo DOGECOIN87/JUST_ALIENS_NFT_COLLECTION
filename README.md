@@ -1,5 +1,9 @@
 # JUST ALIENS NFT COLLECTION
 
+## Final 420-item LaunchMyNFT release
+
+Use [the production release instructions](launchmynft/README.md) and `npm run build-launchmynft`. The final supply is 404 Normal, 15 Rare and 1 Secret Rare, with the current exclusions and faint background blur. The older 1,000-item generator is legacy.
+
 A unique NFT collection featuring generated alien characters with diverse traits, expressions, and backgrounds. Each alien is a one-of-a-kind, created through a combination of carefully crafted assets and algorithmic generation.
 
 ## Collection Highlights

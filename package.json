@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare-assets": "node prepare_assets.js",
-    "generate": "node generate_collection.js",
+    "generate": "python3 scripts/build-launchmynft-420.py",
     "best-pairings": "node scripts/best-pairings.cjs",
     "dev": "python -m http.server 8080",
     "align-headwear": "node scripts/align-headwear.cjs",
     "headwear-sheets": "node scripts/headwear-alignment-sheets.cjs",
-    "people-background-review": "node scripts/review-people-backgrounds.cjs"
+    "people-background-review": "node scripts/review-people-backgrounds.cjs",
+    "build-launchmynft": "python3 scripts/build-launchmynft-420.py",
+    "generate-legacy": "node generate_collection.js"
   },
   "keywords": [
     "nft",
