@@ -10,7 +10,8 @@
     "best-pairings": "node scripts/best-pairings.cjs",
     "dev": "python -m http.server 8080",
     "align-headwear": "node scripts/align-headwear.cjs",
-    "headwear-sheets": "node scripts/headwear-alignment-sheets.cjs"
+    "headwear-sheets": "node scripts/headwear-alignment-sheets.cjs",
+    "people-background-review": "node scripts/review-people-backgrounds.cjs"
   },
   "keywords": [
     "nft",
