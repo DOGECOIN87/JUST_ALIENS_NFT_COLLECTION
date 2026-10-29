@@ -1,0 +1,881 @@
+{
+  "seed": "a016a7008bed672b39c918a8",
+  "unique_combinations": 50,
+  "drawn_backgrounds_covered": 11,
+  "combinations": [
+    {
+      "number": 1,
+      "skin": "Graphite",
+      "expression": "Happy",
+      "clothing": "Spacesuit",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Warzone_Meme.jpeg",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 2,
+      "skin": "Lime",
+      "expression": "Happy",
+      "clothing": "Winter_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (15).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 174,
+        "top": 52,
+        "width": 907,
+        "height": 380
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (21).png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 3,
+      "skin": "Cyan",
+      "expression": "Curious",
+      "clothing": "Leather_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 272,
+        "top": 70,
+        "width": 705,
+        "height": 510
+      },
+      "background": "Assets/Background/Beanie_Portrait.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 4,
+      "skin": "Coral_Red",
+      "expression": "Angry",
+      "clothing": "Leather_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (23).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 260,
+        "top": 169,
+        "width": 737,
+        "height": 366
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (20).png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 5,
+      "skin": "Lime",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "headwear": "Assets/Headwear/art-by-mattrick (7).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 271,
+        "top": 107,
+        "width": 712,
+        "height": 382
+      },
+      "background": "Assets/Background/art-by-mattrick.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 6,
+      "skin": "Cyan",
+      "expression": "Sour",
+      "clothing": "Hoodie_White",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/TV_Interview.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 7,
+      "skin": "Platinum",
+      "expression": "Curious",
+      "clothing": "Military_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (6).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 228,
+        "top": 23,
+        "width": 777,
+        "height": 538
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (22).png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 8,
+      "skin": "Graphite",
+      "expression": "Confused",
+      "clothing": "Bomber_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 326,
+        "top": 78,
+        "width": 583,
+        "height": 450
+      },
+      "background": "Assets/Background/art-by-mattrick (5).png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 9,
+      "skin": "Sky_Blue",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Press_Conference.jpg",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 10,
+      "skin": "Lime",
+      "expression": "Sad",
+      "clothing": "Safari_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (22).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 332,
+        "top": 66,
+        "width": 586,
+        "height": 512
+      },
+      "background": "Assets/Background/Black_Shirt_Portrait.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 11,
+      "skin": "Platinum",
+      "expression": "Angry",
+      "clothing": "Tech_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 292,
+        "top": 74,
+        "width": 710,
+        "height": 514
+      },
+      "background": "Assets/Background/Man_At_Desk.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 12,
+      "skin": "Forest_Green",
+      "expression": "Sour",
+      "clothing": "Camo_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (13).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 190,
+        "top": 57,
+        "width": 862,
+        "height": 486
+      },
+      "background": "Assets/Enhanced_Backgrounds/UFO_Red.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 13,
+      "skin": "Lime",
+      "expression": "Angry",
+      "clothing": "Camo_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (13).png",
+      "headwear_placement": {
+        "left": 265,
+        "top": 112,
+        "width": 750,
+        "height": 423,
+        "canvas": 1254
+      },
+      "background": "Assets/Background/Beanie_Portrait.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 14,
+      "skin": "Cyan",
+      "expression": "Confused",
+      "clothing": "Tech_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 326,
+        "top": 78,
+        "width": 583,
+        "height": 450
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (18).png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 15,
+      "skin": "Violet",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Blue.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 16,
+      "skin": "Forest_Green",
+      "expression": "Angry",
+      "clothing": "Safari_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (22).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 356,
+        "top": 66,
+        "width": 579,
+        "height": 505
+      },
+      "background": "Assets/Background/UFO_Blue.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 17,
+      "skin": "Cyan",
+      "expression": "Chill",
+      "clothing": "Hoodie_Black",
+      "headwear": "Assets/Headwear/art-by-mattrick (8).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 330,
+        "top": 138,
+        "width": 597,
+        "height": 318
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (22).png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 18,
+      "skin": "Hot_Pink",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Cockpit_Light-Blue.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 19,
+      "skin": "Coral_Red",
+      "expression": "Sour",
+      "clothing": "Safari_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Pink.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 20,
+      "skin": "Forest_Green",
+      "expression": "Sad",
+      "clothing": "Military_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Green.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 21,
+      "skin": "Lime",
+      "expression": "Curious",
+      "clothing": "Military_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (6).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 228,
+        "top": 23,
+        "width": 777,
+        "height": 538
+      },
+      "background": "Assets/Background/Cockpit_Blue.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 22,
+      "skin": "Honey_Gold",
+      "expression": "Surprised",
+      "clothing": "Hoodie_White",
+      "headwear": "Assets/Headwear/art-by-mattrick (19).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 253,
+        "top": 44,
+        "width": 611,
+        "height": 387
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Orange.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 23,
+      "skin": "Sky_Blue",
+      "expression": "Curious",
+      "clothing": "Leather_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 315,
+        "top": 52,
+        "width": 599,
+        "height": 462
+      },
+      "background": "Assets/Background/Portal.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 24,
+      "skin": "Violet",
+      "expression": "Curious",
+      "clothing": "Tech_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 272,
+        "top": 70,
+        "width": 705,
+        "height": 510
+      },
+      "background": "Assets/Background/Cockpit_Light-Blue.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 25,
+      "skin": "Forest_Green",
+      "expression": "Chill",
+      "clothing": "Winter_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (15).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 170,
+        "top": 65,
+        "width": 934,
+        "height": 392
+      },
+      "background": "Assets/Background/Spheres.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 26,
+      "skin": "Sky_Blue",
+      "expression": "Happy",
+      "clothing": "Hoodie_Black",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/art-by-mattrick (4).png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 27,
+      "skin": "Graphite",
+      "expression": "Happy",
+      "clothing": "Safari_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (17).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 290,
+        "top": 95,
+        "width": 671,
+        "height": 583
+      },
+      "background": "Assets/Background/Black_Shirt_Portrait.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 28,
+      "skin": "Violet",
+      "expression": "Chill",
+      "clothing": "Leather_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Cavern_of_Light.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 29,
+      "skin": "Coral_Red",
+      "expression": "Confused",
+      "clothing": "Winter_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 326,
+        "top": 78,
+        "width": 583,
+        "height": 450
+      },
+      "background": "Assets/Enhanced_Backgrounds/Neon_Orange.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 30,
+      "skin": "Platinum",
+      "expression": "Chill",
+      "clothing": "Bomber_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (9).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 194,
+        "top": 125,
+        "width": 858,
+        "height": 803
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_Orange.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 31,
+      "skin": "Honey_Gold",
+      "expression": "Chill",
+      "clothing": "Leather_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (17).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 289,
+        "top": 109,
+        "width": 691,
+        "height": 600
+      },
+      "background": "Assets/Background/UFO.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 32,
+      "skin": "Graphite",
+      "expression": "Angry",
+      "clothing": "Leather_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Cubes.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 33,
+      "skin": "Coral_Red",
+      "expression": "Chill",
+      "clothing": "Bomber_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Terra.png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 34,
+      "skin": "Platinum",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "headwear": "Assets/Headwear/art-by-mattrick (8).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 339,
+        "top": 136,
+        "width": 585,
+        "height": 312
+      },
+      "background": "Assets/Background/UFO.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 35,
+      "skin": "Hot_Pink",
+      "expression": "Sour",
+      "clothing": "Winter_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Cockpit_Pink.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 36,
+      "skin": "Hot_Pink",
+      "expression": "Amused",
+      "clothing": "Hoodie_Black",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Spaceship_Corridor_White.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 37,
+      "skin": "Coral_Red",
+      "expression": "Happy",
+      "clothing": "Bomber_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Cockpit_Blue.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 38,
+      "skin": "Violet",
+      "expression": "Confused",
+      "clothing": "Spacesuit",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Wormhole_Vortex.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 39,
+      "skin": "Honey_Gold",
+      "expression": "Amused",
+      "clothing": "Safari_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (19).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 248,
+        "top": 23,
+        "width": 634,
+        "height": 402
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "caption": "Assets/Text/Orange_Solid.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 40,
+      "skin": "Sky_Blue",
+      "expression": "Amused",
+      "clothing": "Hoodie_White",
+      "headwear": "Assets/Headwear/art-by-mattrick (8).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 339,
+        "top": 136,
+        "width": 585,
+        "height": 312
+      },
+      "background": "Assets/Background/Celestial.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 41,
+      "skin": "Cyan",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Terra.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 42,
+      "skin": "Honey_Gold",
+      "expression": "Angry",
+      "clothing": "Bomber_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/art-by-mattrick (4).png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 43,
+      "skin": "Hot_Pink",
+      "expression": "Surprised",
+      "clothing": "Winter_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/art-by-mattrick.png",
+      "caption": "Assets/Text/Pink_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 44,
+      "skin": "Forest_Green",
+      "expression": "Confused",
+      "clothing": "Military_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (6).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 241,
+        "top": 51,
+        "width": 756,
+        "height": 524
+      },
+      "background": "Assets/Enhanced_Backgrounds/Spaceship_Corridor_White.png",
+      "caption": "Assets/Text/Green_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 45,
+      "skin": "Graphite",
+      "expression": "Amused",
+      "clothing": "Hoodie_Black",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Neon_Orange.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 46,
+      "skin": "Violet",
+      "expression": "Sad",
+      "clothing": "Hoodie_White",
+      "headwear": "Assets/Headwear/art-by-mattrick (26).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 312,
+        "top": 56,
+        "width": 611,
+        "height": 471
+      },
+      "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (19).png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 47,
+      "skin": "Sky_Blue",
+      "expression": "Sad",
+      "clothing": "Tech_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 268,
+        "top": 74,
+        "width": 719,
+        "height": 520
+      },
+      "background": "Assets/Background/UFO_Light_Blue.png",
+      "caption": "Assets/Text/Light-Blue_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 48,
+      "skin": "Honey_Gold",
+      "expression": "Chill",
+      "clothing": "Safari_Jacket",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Background/Spaceship_Corridor_Blue.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 49,
+      "skin": "Hot_Pink",
+      "expression": "Sad",
+      "clothing": "Leather_Jacket",
+      "headwear": "Assets/Headwear/art-by-mattrick (20).png",
+      "headwear_placement": {
+        "canvas": 1254,
+        "left": 268,
+        "top": 74,
+        "width": 719,
+        "height": 520
+      },
+      "background": "Assets/Background/Beanie_Portrait.png",
+      "caption": "Assets/Text/Pink_Opaque.png",
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    },
+    {
+      "number": 50,
+      "skin": "Platinum",
+      "expression": "Surprised",
+      "clothing": "Spacesuit",
+      "headwear": null,
+      "headwear_placement": null,
+      "background": "Assets/Enhanced_Backgrounds/Celestial.png",
+      "caption": null,
+      "protected_face_pixels": {
+        "eyes": 0,
+        "mouth": 0
+      }
+    }
+  ]
+}

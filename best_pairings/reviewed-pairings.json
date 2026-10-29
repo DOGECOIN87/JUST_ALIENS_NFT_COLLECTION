@@ -119,18 +119,14 @@
       "expression": "Surprised",
       "clothing": "Spacesuit",
       "underlayer": null,
-      "headwear": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "registered": true
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/UFO_Blue.png",
       "caption": null,
       "layer_order": [
         "Background",
         "Clothing",
-        "Expression",
-        "Headwear"
+        "Expression"
       ],
       "protected_face_pixels": {
         "eyes": 0,
@@ -142,8 +138,7 @@
         "chest_clear_fraction": 0.8645533141210374,
         "chest_mean": 41.50910720461093
       },
-      "sha256": "862148d9f1555cf7f4a9a9628d76d4c486e1b862e55c326bd2b2e989760182c3",
-      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 5,
@@ -322,18 +317,14 @@
       "expression": "Happy",
       "clothing": "Spacesuit",
       "underlayer": null,
-      "headwear": "headwear-fitted/Happy/original/original-Astronaut_Helmet.png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "registered": true
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/UFO_Light_Blue.png",
       "caption": null,
       "layer_order": [
         "Background",
         "Clothing",
-        "Expression",
-        "Headwear"
+        "Expression"
       ],
       "protected_face_pixels": {
         "eyes": 0,
@@ -345,8 +336,7 @@
         "chest_clear_fraction": 0.8645533141210374,
         "chest_mean": 41.48214639769451
       },
-      "sha256": "6787f4f10e82b83403f487c1332ee6da86b88d8283ced2d4aa8b5b1d3227682f",
-      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 11,
@@ -465,18 +455,14 @@
       "expression": "Surprised",
       "clothing": "Spacesuit",
       "underlayer": null,
-      "headwear": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "registered": true
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/UFO_Blue.png",
       "caption": null,
       "layer_order": [
         "Background",
         "Clothing",
-        "Expression",
-        "Headwear"
+        "Expression"
       ],
       "protected_face_pixels": {
         "eyes": 0,
@@ -488,8 +474,7 @@
         "chest_clear_fraction": 0.8645533141210374,
         "chest_mean": 41.50910720461093
       },
-      "sha256": "d4796b2496a6d911bd3fbacafef82ed2e51763e8cf76531f535ffe6ab4796cbe",
-      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 15,
@@ -668,18 +653,14 @@
       "expression": "Surprised",
       "clothing": "Spacesuit",
       "underlayer": null,
-      "headwear": "headwear-fitted/Surprised/original/original-Astronaut_Helmet.png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "registered": true
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/UFO_Light_Blue.png",
       "caption": null,
       "layer_order": [
         "Background",
         "Clothing",
-        "Expression",
-        "Headwear"
+        "Expression"
       ],
       "protected_face_pixels": {
         "eyes": 0,
@@ -691,8 +672,7 @@
         "chest_clear_fraction": 0.8645533141210374,
         "chest_mean": 41.48214639769451
       },
-      "sha256": "3383fc066c525ed98c1ca1195cfc8bc495360a4cf1446704e220a8cef6afce6d",
-      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 21,
@@ -701,21 +681,14 @@
       "expression": "Chill",
       "clothing": "Leather_Jacket",
       "underlayer": null,
-      "headwear": "Assets/Headwear/art-by-mattrick (12).png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "left": 58,
-        "top": 93,
-        "width": 1146,
-        "height": 1077
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/Cockpit_Blue.png",
       "caption": "Assets/Text/Light-Blue_Opaque.png",
       "layer_order": [
         "Background",
         "Clothing",
         "Expression",
-        "Headwear",
         "Text"
       ],
       "protected_face_pixels": {
@@ -728,8 +701,7 @@
         "chest_clear_fraction": 0.5803108808290155,
         "chest_mean": 27.48196442141624
       },
-      "sha256": "a2474c9487dff91b273429f5a15a15e992d565ed272c501a1443a55be463cfce",
-      "review_action": "Unmarked: preserve the approved look"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 22,
@@ -840,18 +812,14 @@
       "expression": "Confused",
       "clothing": "Spacesuit",
       "underlayer": null,
-      "headwear": "headwear-fitted/Confused/original/original-Astronaut_Helmet.png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "registered": true
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/Portal.png",
       "caption": null,
       "layer_order": [
         "Background",
         "Clothing",
-        "Expression",
-        "Headwear"
+        "Expression"
       ],
       "protected_face_pixels": {
         "eyes": 0,
@@ -863,8 +831,7 @@
         "chest_clear_fraction": 0.8357348703170029,
         "chest_mean": 41.59965821325649
       },
-      "sha256": "8c6ae67979716489a5f230856f41912b0ad188f5e8d4bd396cbb9e906f60e33e",
-      "review_action": "Circle: taller transparent visor and slim frame fitted to expression"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 26,
@@ -1655,21 +1622,14 @@
       "expression": "Sour",
       "clothing": "Winter_Jacket",
       "underlayer": null,
-      "headwear": "Assets/Headwear/art-by-mattrick (12).png",
-      "headwear_placement": {
-        "canvas": 1254,
-        "left": 66,
-        "top": 99,
-        "width": 1105,
-        "height": 1038
-      },
+      "headwear": null,
+      "headwear_placement": null,
       "background": "Assets/Enhanced_Backgrounds/goats_contest_mattrick (17).png",
       "caption": null,
       "layer_order": [
         "Background",
         "Clothing",
-        "Expression",
-        "Headwear"
+        "Expression"
       ],
       "protected_face_pixels": {
         "eyes": 0,
@@ -1681,8 +1641,7 @@
         "chest_clear_fraction": 0.7974683544303798,
         "chest_mean": 35.678041229656415
       },
-      "sha256": "3c20fbfd58e540c0b72a083a6498bfea22d376a7eebe67d77b890c998d5ba2eb",
-      "review_action": "Unmarked: preserve the approved look"
+      "review_action": "Headwear removed by user; keep approved clothing and expression."
     },
     {
       "id": 50,

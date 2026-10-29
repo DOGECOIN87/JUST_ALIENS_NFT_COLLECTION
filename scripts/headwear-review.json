@@ -34,10 +34,15 @@
     "Assets/Clothing/Hooded_Jacket_Gold.png",
     "Assets/Clothing/Hooded_Jacket_Black_Red.png",
     "Assets/Headwear/art-by-mattrick (10).png",
-    "Assets/Headwear/art-by-mattrick (16).png"
+    "Assets/Headwear/art-by-mattrick (16).png",
+    "Assets/Headwear/art-by-mattrick (12).png",
+    "Assets/Clothing/Astronaut_Helmet.png",
+    "Assets/Headwear/american-28_r6c4_navy_blue_space_flight_helmet.png"
   ],
   "removed_fitted_asset_ids": [
-    "original-Beanie"
+    "original-Beanie",
+    "original-Astronaut_Helmet",
+    "art-by-mattrick (12)"
   ],
   "held_source_files": [
     "Assets/Clothing/Hooded_Jacket_Bronze.png"
@@ -70,5 +75,6 @@
       }
     }
   },
-  "notes": "X removes a source item and selectable fitted copies. Circle fixes fit. Unmarked review-sheet images remain unchanged."
+  "notes": "X removes a source item and selectable fitted copies. Circle fixes fit. Unmarked review-sheet images remain unchanged.",
+  "latest_review": "Remove purple/gold hood from inspection #21 and the space helmet; exclude their selectable copies."
 }
