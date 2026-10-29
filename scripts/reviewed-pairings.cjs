@@ -2,6 +2,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),sharp=require('sharp');
 const root=path.resolve(__dirname,'..'),review=require('./headwear-review.cjs');
+const {backgroundBlurSigma}=require('./background-style.cjs');
 const argv=process.argv.slice(2),arg=(flag,fallback)=>argv.includes(flag)?argv[argv.indexOf(flag)+1]:fallback;
 const out=path.resolve(arg('--out',path.join(root,'best_pairings'))),count=Number(arg('--count',50));
 const baseline=JSON.parse(fs.readFileSync(path.join(root,'best_pairings/reviewed-pairings.json')));
@@ -27,7 +28,7 @@ async function render(p){
  if(review.excludedFile('Assets/Clothing/'+p.clothing+'.png'))throw Error('Rejected clothing in recipe '+p.id);
  const hat=await registeredHat(p),check=await faceCheck(hat,p.expression),layers=[{input:path.join(root,'Assets/Clothing',p.clothing+'.png')},{input:path.join(root,'Assets/Expression_Colors',p.skin,p.expression+'.png')}];
  if(hat)layers.push({input:hat});const foreground=await clear().composite(layers).png().toBuffer();
- const background=await sharp(path.join(root,p.background)).resize(960,960,{fit:'cover'}).removeAlpha().png().toBuffer(),overlays=[{input:foreground}];if(p.caption)overlays.push({input:path.join(root,p.caption)});
+ const background=await sharp(path.join(root,p.background)).resize(960,960,{fit:'cover'}).removeAlpha().blur(backgroundBlurSigma).png().toBuffer(),overlays=[{input:foreground}];if(p.caption)overlays.push({input:path.join(root,p.caption)});
  return{png:await sharp(background).composite(overlays).png().toBuffer(),check};
 }
 async function main(){

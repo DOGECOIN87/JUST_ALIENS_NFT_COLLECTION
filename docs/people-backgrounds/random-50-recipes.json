@@ -1,5 +1,6 @@
 {
   "seed": "13caf27d3c07f1807156d2b6",
+  "background_blur_sigma": 1.2,
   "unique_combinations": 50,
   "drawn_backgrounds_covered": 10,
   "combinations": [

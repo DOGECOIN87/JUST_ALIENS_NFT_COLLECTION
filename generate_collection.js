@@ -40,7 +40,7 @@ const SUPPLY = 1000;
 const SEED = 'just-aliens-1k';
 const RARE_SHARE = 0.0357;
 const TEXT_SHARE = 0.5;
-const BACKGROUND_BLUR_SIGMA = 3;
+const { backgroundBlurSigma: BACKGROUND_BLUR_SIGMA } = require('./scripts/background-style.cjs');
 const WEBP = { quality: 90, effort: 6, smartSubsample: true };
 
 // Pairing rules, so every combination looks intentional (each was checked
