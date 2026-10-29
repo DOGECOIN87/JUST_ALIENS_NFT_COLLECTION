@@ -37,7 +37,8 @@
     "Assets/Headwear/art-by-mattrick (16).png",
     "Assets/Headwear/art-by-mattrick (12).png",
     "Assets/Clothing/Astronaut_Helmet.png",
-    "Assets/Headwear/american-28_r6c4_navy_blue_space_flight_helmet.png"
+    "Assets/Headwear/american-28_r6c4_navy_blue_space_flight_helmet.png",
+    "Assets/Background/Warzone_Meme.jpeg"
   ],
   "removed_fitted_asset_ids": [
     "original-Beanie",
@@ -76,5 +77,5 @@
     }
   },
   "notes": "X removes a source item and selectable fitted copies. Circle fixes fit. Unmarked review-sheet images remain unchanged.",
-  "latest_review": "Remove purple/gold hood from inspection #21 and the space helmet; exclude their selectable copies."
+  "latest_review": "Exclude Gorlock/Warzone background, purple/gold hood from inspection #21, and space helmets from generation."
 }

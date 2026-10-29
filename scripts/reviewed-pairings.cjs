@@ -23,6 +23,7 @@ async function faceCheck(hat,expression){if(!hat)return{eyes:0,mouth:0};const r=
  if(eyes||mouth)throw Error('Obstructed face: '+expression+' '+JSON.stringify({eyes,mouth}));return{eyes,mouth};
 }
 async function render(p){
+ if(review.excludedFile(p.background))throw Error('Rejected background in recipe '+p.id);
  if(review.excludedFile('Assets/Clothing/'+p.clothing+'.png'))throw Error('Rejected clothing in recipe '+p.id);
  const hat=await registeredHat(p),check=await faceCheck(hat,p.expression),layers=[{input:path.join(root,'Assets/Clothing',p.clothing+'.png')},{input:path.join(root,'Assets/Expression_Colors',p.skin,p.expression+'.png')}];
  if(hat)layers.push({input:hat});const foreground=await clear().composite(layers).png().toBuffer();

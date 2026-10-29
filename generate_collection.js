@@ -175,7 +175,7 @@ function layer(dir) {
 function backgroundLayers() {
   const base = layer('Background');
   const enhanced = fs.readdirSync(path.join(ASSETS, 'Enhanced_Backgrounds'))
-    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()))
+    .filter((f) => IMG_EXTS.includes(path.extname(f).toLowerCase()) && !review.excludedFile(path.join(ASSETS, 'Enhanced_Backgrounds', f)))
     .sort()
     .map((f) => {
       const override = BACKGROUND_NAMES[f];
